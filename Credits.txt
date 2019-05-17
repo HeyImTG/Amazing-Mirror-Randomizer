@@ -1,0 +1,21 @@
+KIRBY AND THE AMAZING MIRROR (JP) RANDOMIZER
+============================================
+Created and developed by Geoffrey "TG" McCullough.
+I'd like to thank everyone who helped make this thing real:
+
+Thank you to Teawater and Xira of Yoshi's Lighthouse for all
+of the information about KatAM they've posted about. I
+probably could not have started this project without their
+shared knowledge.
+
+Lots of help from A12Helton, since I was able to trick him
+into doing work for me by having him mess around with
+different objects. He also helped with getting all the
+information I needed for the mirror locations.
+
+Thank you Snipr_SR for helping playtest the ROMs for bugs I
+need to fix. Sorry for all the white screen crashes!
+
+And lastly, thank *YOU* for downloading this randomizer! My
+main goal for any of my free time projects is to make
+someting people love and enjoy. <3

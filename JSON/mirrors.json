@@ -1,0 +1,3296 @@
+{
+	"Rbr1_Rbr2": {
+		"location": [ 1694499591 ],
+		"eightrom": [ 8664540 ],
+		"ninerom": [ 9441168 ],
+		"type": [ 0 ]
+	},
+	"Rbr1_AbilityRoom": {
+		"location": [ 3389198086 ],
+		"eightrom": [ 8663668 ],
+		"ninerom": [ 9441176 ],
+		"type": [ 1 ]
+	},
+	"Rbr1_Rbr27": {
+		"location": [ 1308755976 ],
+		"eightrom": [ 8663736 ],
+		"ninerom": [ 9441184 ],
+		"type": [ 1 ]
+	},
+	"Rbr1_Can10": {
+		"location": [ 3925936136 ],
+		"eightrom": [ 8663804 ],
+		"ninerom": [ 9441192 ],
+		"type": [ 1 ]
+	},
+	"Rbr1_Pep5": {
+		"location": [ 570494211 ],
+		"eightrom": [ 8664196 ],
+		"ninerom": [ 9441200 ],
+		"type": [ 1 ]
+	},
+	"Rbr1_Mnl4": {
+		"location": [ 369297667 ],
+		"eightrom": [ 8664372 ],
+		"ninerom": [ 9441208 ],
+		"type": [ 1 ]
+	},
+	"Rbr1_Rbr21": {
+		"location": [ 3221228803 ],
+		"eightrom": [ 8664440 ],
+		"ninerom": [ 9441216 ],
+		"type": [ 1 ]
+	},
+	"Rbr1_Rbr8": {
+		"location": [ 3187673347 ],
+		"eightrom": [ 8664508 ],
+		"ninerom": [ 9441224 ],
+		"type": [ 1 ]
+	},
+	"Rbr1_Cab8": {
+		"location": [ 1342310659 ],
+		"eightrom": [ 8664860 ],
+		"ninerom": [ 9441232 ],
+		"type": [ 1 ]
+	},
+	"Rbr1_Cab19": {
+		"location": [ 3204450563 ],
+		"eightrom": [ 8664982 ],
+		"ninerom": [ 9441240 ],
+		"type": [ 1 ]
+	},
+	"Rbr1_Rbr15": {
+		"location": [ 3254782211 ],
+		"eightrom": [ 8665050 ],
+		"ninerom": [ 9441248 ],
+		"type": [ 1 ]
+	},
+	"Int1_Int2": {
+		"location": [ 604176901 ],
+		"eightrom": [ 8665244 ],
+		"ninerom": [ 9441268 ],
+		"type": [ 0 ]
+	},
+	"Int2_Int3": {
+		"location": [ 620954631 ],
+		"eightrom": [ 8665472 ],
+		"ninerom": [ 9441288 ],
+		"type": [ 1 ]
+	},
+	"Int3_Int2": {
+		"location": [ 604190723 ],
+		"eightrom": [ 8666288 ],
+		"ninerom": [ 9441316 ],
+		"type": [ 1 ]
+	},
+	"Rbr24_Rbr49": {
+		"location": [ 2315267079 ],
+		"eightrom": [ 8672528 ],
+		"ninerom": [ 9441440 ],
+		"type": [ 1 ]
+	},
+	"Rbr24_Rbr25": {
+		"location": [ 989987593 ],
+		"eightrom": [ 8672542 ],
+		"ninerom": [ 9441448 ],
+		"type": [ 1 ]
+	},
+	"Rbr24_Rbr23": {
+		"location": [ 2332040195 ],
+		"eightrom": [ 8673438 ],
+		"ninerom": [ 9441456 ],
+		"type": [ 1 ]
+	},
+	"Rbr28_Mus8": {
+		"location": [ 906036233 ],
+		"eightrom": [ 8674016 ],
+		"ninerom": [ 9441476 ],
+		"type": [ 1 ]
+	},
+	"Rbr28_Rbr27": {
+		"location": [ 1308757511 ],
+		"eightrom": [ 8674246 ],
+		"ninerom": [ 9441484 ],
+		"type": [ 1 ]
+	},
+	"Rbr28_Rbr29": {
+		"location": [ 386008326 ],
+		"eightrom": [ 8674260 ],
+		"ninerom": [ 9441492 ],
+		"type": [ 1 ]
+	},
+	"Rbr28_Mus1": {
+		"location": [ 352462609 ],
+		"eightrom": [ 8673822 ],
+		"ninerom": [ 9441500 ],
+		"type": [ 1 ]
+	},
+	"Rbr29_Rbr28": {
+		"location": [ 369245715 ],
+		"eightrom": [ 8674472 ],
+		"ninerom": [ 9441520 ],
+		"type": [ 1 ]
+	},
+	"Rbr29_Rbr30": {
+		"location": [ 436340488 ],
+		"eightrom": [ 8674702 ],
+		"ninerom": [ 9441528 ],
+		"type": [ 1 ]
+	},
+	"Rbr32_Rbr31": {
+		"location": [ 419562249 ],
+		"eightrom": [ 8675032 ],
+		"ninerom": [ 9441548 ],
+		"type": [ 1 ]
+	},
+	"Rbr32_Rbr33": {
+		"location": [ 503450114 ],
+		"eightrom": [ 8675046 ],
+		"ninerom": [ 9441556 ],
+		"type": [ 1 ]
+	},
+	"Rbr31_Rbr30": {
+		"location": [ 436339468 ],
+		"eightrom": [ 8675196 ],
+		"ninerom": [ 9441584 ],
+		"type": [ 1 ]
+	},
+	"Rbr31_Rbr32": {
+		"location": [ 402789379 ],
+		"eightrom": [ 8675282 ],
+		"ninerom": [ 9441592 ],
+		"type": [ 1 ]
+	},
+	"Rbr30_Mus9": {
+		"location": [ 453116675 ],
+		"eightrom": [ 8675532 ],
+		"ninerom": [ 9441612 ],
+		"type": [ 1 ]
+	},
+	"Rbr30_Rbr29": {
+		"location": [ 386017052 ],
+		"eightrom": [ 8675546 ],
+		"ninerom": [ 9441620 ],
+		"type": [ 1 ]
+	},
+	"Rbr30_Rbr31": {
+		"location": [ 419572739 ],
+		"eightrom": [ 8675776 ],
+		"ninerom": [ 9441628 ],
+		"type": [ 1 ]
+	},
+	"Rbr30_Rbr33": {
+		"location": [ 503452937 ],
+		"eightrom": [ 8676186 ],
+		"ninerom": [ 9441636 ],
+		"type": [ 1 ]
+	},
+	"Rbr33_Rbr30": {
+		"location": [ 436342547 ],
+		"eightrom": [ 8677154 ],
+		"ninerom": [ 9441656 ],
+		"type": [ 1 ]
+	},
+	"Rbr33_Rbr34": {
+		"location": [ 520225541 ],
+		"eightrom": [ 8677366 ],
+		"ninerom": [ 9441664 ],
+		"type": [ 1 ]
+	},
+	"Rbr33_Rbr32": {
+		"location": [ 402795022 ],
+		"eightrom": [ 8677050 ],
+		"ninerom": [ 9441672 ],
+		"type": [ 1 ]
+	},
+	"Rbr34_Rbr33": {
+		"location": [ 503455762 ],
+		"eightrom": [ 8677652 ],
+		"ninerom": [ 9441692 ],
+		"type": [ 1 ]
+	},
+	"Rbr34_Rbr35": {
+		"location": [ 2365588238 ],
+		"eightrom": [ 8677738 ],
+		"ninerom": [ 9441700 ],
+		"type": [ 1 ]
+	},
+	"Rbr26_Rbr27": {
+		"location": [ 1308754695 ],
+		"eightrom": [ 8679018 ],
+		"ninerom": [ 9441728 ],
+		"type": [ 1 ]
+	},
+	"Rbr26_Rbr25": {
+		"location": [ 990004486 ],
+		"eightrom": [ 8679914 ],
+		"ninerom": [ 9441736 ],
+		"type": [ 1 ]
+	},
+	"Rbr25_Rbr26": {
+		"location": [ 973210377 ],
+		"eightrom": [ 8681276 ],
+		"ninerom": [ 9441756 ],
+		"type": [ 1 ]
+	},
+	"Rbr25_Rbr24": {
+		"location": [ 335682565 ],
+		"eightrom": [ 8681290 ],
+		"ninerom": [ 9441764 ],
+		"type": [ 1 ]
+	},
+	"Rbr27_Rbr26": {
+		"location": [ 973228549 ],
+		"eightrom": [ 8681422 ],
+		"ninerom": [ 9441784 ],
+		"type": [ 1 ]
+	},
+	"Rbr27_Rbr28": {
+		"location": [ 369230611 ],
+		"eightrom": [ 8681436 ],
+		"ninerom": [ 9441792 ],
+		"type": [ 1 ]
+	},
+	"Rbr27_Mus12": {
+		"location": [ 2248214536 ],
+		"eightrom": [ 8681408 ],
+		"ninerom": [ 9441800 ],
+		"type": [ 1 ]
+	},
+	"Rbr27_Rbr1": {
+		"location": [ 553848580 ],
+		"eightrom": [ 8681468 ],
+		"ninerom": [ 9441808 ],
+		"type": [ 1 ]
+	},
+	"Rbr2_Rbr3": {
+		"location": [ 1778385417 ],
+		"eightrom": [ 8681624 ],
+		"ninerom": [ 9441828 ],
+		"type": [ 0 ]
+	},
+	"Rbr6_Rbr7": {
+		"location": [ 2382365971 ],
+		"eightrom": [ 8681894 ],
+		"ninerom": [ 9441848 ],
+		"type": [ 3 ]
+	},
+	"Rbr5_Rbr6": {
+		"location": [ 1728053799 ],
+		"eightrom": [ 8682264 ],
+		"ninerom": [ 9441868 ],
+		"type": [ 0 ]
+	},
+	"Rbr3_Rbr4Top": {
+		"location": [ 1795163140 ],
+		"eightrom": [ 8682496 ],
+		"ninerom": [ 9441896 ],
+		"type": [ 0 ]
+	},
+	"Rbr3_Rbr4Bottom": {
+		"location": [ 1795163145 ],
+		"eightrom": [ 8682510 ],
+		"ninerom": [ 9441904 ],
+		"type": [ 0 ]
+	},
+	"Rbr4Top_Rbr5": {
+		"location": [ 1744830985 ],
+		"eightrom": [ 8682904 ],
+		"ninerom": [ 9441924 ],
+		"type": [ 0 ]
+	},
+	"Rbr4Bottom_Rbr10Top": {
+		"location": [ 1811939848 ],
+		"eightrom": [ 8683062 ],
+		"ninerom": [ 9441932 ],
+		"type": [ 0 ]
+	},
+	"Rbr12_Rbr11": {
+		"location": [ 1845494853 ],
+		"eightrom": [ 8700148 ],
+		"ninerom": [ 9442452 ],
+		"type": [ 1 ]
+	},
+	"Rbr12_Rbr13": {
+		"location": [ 4211163651 ],
+		"eightrom": [ 8700720 ],
+		"ninerom": [ 9442460 ],
+		"type": [ 1 ]
+	},
+	"Rbr10Top_Rbr6": {
+		"location": [ 1728053799 ],
+		"eightrom": [ 8683440 ],
+		"ninerom": [ 9441960 ],
+		"type": [ 0 ]
+	},
+	"Rbr10_Rbr9": {
+		"location": [ 2348811017 ],
+		"eightrom": [ 8683778 ],
+		"ninerom": [ 9441968 ],
+		"type": [ 1 ]
+	},
+	"Rbr10_Rbr11": {
+		"location": [ 1845495560 ],
+		"eightrom": [ 8685070 ],
+		"ninerom": [ 9441976 ],
+		"type": [ 1 ]
+	},
+	"Rbr11_Rbr10": {
+		"location": [ 1811948051 ],
+		"eightrom": [ 8685840 ],
+		"ninerom": [ 9441996 ],
+		"type": [ 1 ]
+	},
+	"Rbr11_Rbr12": {
+		"location": [ 4144039683 ],
+		"eightrom": [ 8687816 ],
+		"ninerom": [ 9442004 ],
+		"type": [ 1 ]
+	},
+	"Rbr11_Rbr37": {
+		"location": [ 704775172 ],
+		"eightrom": [ 8687830 ],
+		"ninerom": [ 9442012 ],
+		"type": [ 1 ]
+	},
+	"Rbr9_Rbr10": {
+		"location": [ 1811954188 ],
+		"eightrom": [ 8688016 ],
+		"ninerom": [ 9442032 ],
+		"type": [ 1 ]
+	},
+	"Rbr9_Rbr8": {
+		"location": [ 3187671817 ],
+		"eightrom": [ 8688030 ],
+		"ninerom": [ 9442040 ],
+		"type": [ 1 ]
+	},
+	"Rbr35_Rbr34": {
+		"location": [ 520236041 ],
+		"eightrom": [ 8689188 ],
+		"ninerom": [ 9442060 ],
+		"type": [ 1 ]
+	},
+	"Rbr35_Rbr36": {
+		"location": [ 2399142659 ],
+		"eightrom": [ 8689724 ],
+		"ninerom": [ 9442068 ],
+		"type": [ 1 ]
+	},
+	"Rbr35_Mus14a": {
+		"location": [ 553780263 ],
+		"eightrom": [ 8688656 ],
+		"ninerom": [ 9442076 ],
+		"type": [ 1 ]
+	},
+	"Rbr35_Mnl21": {
+		"location": [ 2415920132 ],
+		"eightrom": [ 8689066 ],
+		"ninerom": [ 9442084 ],
+		"type": [ 1 ]
+	},
+	"Rbr36_Rbr35": {
+		"location": [ 2365598483 ],
+		"eightrom": [ 8690156 ],
+		"ninerom": [ 9442116 ],
+		"type": [ 1 ]
+	},
+	"Rbr36_Mnl22": {
+		"location": [ 2432697095 ],
+		"eightrom": [ 8690188 ],
+		"ninerom": [ 9442124 ],
+		"type": [ 1 ]
+	},
+	"Rbr36_Rbr8": {
+		"location": [ 3187674633 ],
+		"eightrom": [ 8691192 ],
+		"ninerom": [ 9442132 ],
+		"type": [ 1 ]
+	},
+	"Rbr8_Rbr9": {
+		"location": [ 2348821257 ],
+		"eightrom": [ 8691320 ],
+		"ninerom": [ 9442160 ],
+		"type": [ 1 ]
+	},
+	"Rbr8_Rbr36": {
+		"location": [ 2399142675 ],
+		"eightrom": [ 8691334 ],
+		"ninerom": [ 9442168 ],
+		"type": [ 1 ]
+	},
+	"Rbr8_Rbr1": {
+		"location": [ 553850892 ],
+		"eightrom": [ 8691306 ],
+		"ninerom": [ 9442176 ],
+		"type": [ 1 ]
+	},
+	"Rbr16_Rbr15": {
+		"location": [ 3254780679 ],
+		"eightrom": [ 8692156 ],
+		"ninerom": [ 9442196 ],
+		"type": [ 1 ]
+	},
+	"Rbr16_Rbr17": {
+		"location": [ 4160818489 ],
+		"eightrom": [ 8692170 ],
+		"ninerom": [ 9442204 ],
+		"type": [ 1 ]
+	},
+	"Rbr16_Cab2": {
+		"location": [ 4244706568 ],
+		"eightrom": [ 8692220 ],
+		"ninerom": [ 9442212 ],
+		"type": [ 1 ]
+	},
+	"Rbr41_Rbr42": {
+		"location": [ 2113929756 ],
+		"eightrom": [ 8692620 ],
+		"ninerom": [ 9442232 ],
+		"type": [ 0 ]
+	},
+	"Rbr14_Rbr41": {
+		"location": [ 2281712411 ],
+		"eightrom": [ 8693312 ],
+		"ninerom": [ 9442252 ],
+		"type": [ 0 ]
+	},
+	"Rbr14_Rbr15": {
+		"location": [ 3254783495 ],
+		"eightrom": [ 8694748 ],
+		"ninerom": [ 9442260 ],
+		"type": [ 1 ]
+	},
+	"Rbr14_Rbr13": {
+		"location": [ 4211147787 ],
+		"eightrom": [ 8694798 ],
+		"ninerom": [ 9442268 ],
+		"type": [ 1 ]
+	},
+	"Rbr15_Rbr16": {
+		"location": [ 2130717708 ],
+		"eightrom": [ 8694912 ],
+		"ninerom": [ 9442288 ],
+		"type": [ 1 ]
+	},
+	"Rbr15_Rbr14": {
+		"location": [ 2298479378 ],
+		"eightrom": [ 8694926 ],
+		"ninerom": [ 9442296 ],
+		"type": [ 1 ]
+	},
+	"Rbr15_Rbr1": {
+		"location": [ 553848594 ],
+		"eightrom": [ 8694898 ],
+		"ninerom": [ 9442304 ],
+		"type": [ 1 ]
+	},
+	"Rbr15_Cab17": {
+		"location": [ 1325533443 ],
+		"eightrom": [ 8694958 ],
+		"ninerom": [ 9442312 ],
+		"type": [ 1 ]
+	},
+	"Rbr17_Rbr18": {
+		"location": [ 1996492061 ],
+		"eightrom": [ 8695368 ],
+		"ninerom": [ 9442332 ],
+		"type": [ 1 ]
+	},
+	"Rbr17_Rbr16": {
+		"location": [ 2130707214 ],
+		"eightrom": [ 8695630 ],
+		"ninerom": [ 9442340 ],
+		"type": [ 1 ]
+	},
+	"Rbr17_Rbr43": {
+		"location": [ 2919250702 ],
+		"eightrom": [ 8695400 ],
+		"ninerom": [ 9442348 ],
+		"type": [ 1 ]
+	},
+	"Rbr13_Rbr12": {
+		"location": [ 4144041520 ],
+		"eightrom": [ 8695952 ],
+		"ninerom": [ 9442368 ],
+		"type": [ 1 ]
+	},
+	"Rbr13_Rbr14": {
+		"location": [ 2298495251 ],
+		"eightrom": [ 8696092 ],
+		"ninerom": [ 9442376 ],
+		"type": [ 1 ]
+	},
+	"Rbr13_Cab13": {
+		"location": [ 132103 ],
+		"eightrom": [ 8696106 ],
+		"ninerom": [ 9442384 ],
+		"type": [ 1 ]
+	},
+	"Rbr37_Rbr11": {
+		"location": [ 1845497413 ],
+		"eightrom": [ 8696528 ],
+		"ninerom": [ 9442404 ],
+		"type": [ 1 ]
+	},
+	"Rbr37_Rbr38": {
+		"location": [ 721553411 ],
+		"eightrom": [ 8696992 ],
+		"ninerom": [ 9442412 ],
+		"type": [ 0 ]
+	},
+	"Rbr38_Rbr39": {
+		"location": [ 738329094 ],
+		"eightrom": [ 8699778 ],
+		"ninerom": [ 9442432 ],
+		"type": [ 0 ]
+	},
+	"Rbr39_Rbr40": {
+		"location": [ 755106309 ],
+		"eightrom": [ 8701104 ],
+		"ninerom": [ 9442480 ],
+		"type": [ 0 ]
+	},
+	"Rbr22_Rbr23": {
+		"location": [ 2332033811 ],
+		"eightrom": [ 8706364 ],
+		"ninerom": [ 9442540 ],
+		"type": [ 1 ]
+	},
+	"Rbr22_Rbr21": {
+		"location": [ 3221229065 ],
+		"eightrom": [ 8706378 ],
+		"ninerom": [ 9442548 ],
+		"type": [ 1 ]
+	},
+	"Rbr20_Rbr21": {
+		"location": [ 3221226249 ],
+		"eightrom": [ 8706656 ],
+		"ninerom": [ 9442568 ],
+		"type": [ 1 ]
+	},
+	"Rbr20_Rbr19": {
+		"location": [ 1979712261 ],
+		"eightrom": [ 8706882 ],
+		"ninerom": [ 9442576 ],
+		"type": [ 1 ]
+	},
+	"Rbr20_Car1": {
+		"location": [ 2013273117 ],
+		"eightrom": [ 8706796 ],
+		"ninerom": [ 9442584 ],
+		"type": [ 1 ]
+	},
+	"Rbr19_Rbr20": {
+		"location": [ 1962945289 ],
+		"eightrom": [ 8707280 ],
+		"ninerom": [ 9442604 ],
+		"type": [ 1 ]
+	},
+	"Rbr19_Rbr18": {
+		"location": [ 1996489476 ],
+		"eightrom": [ 8710462 ],
+		"ninerom": [ 9442612 ],
+		"type": [ 1 ]
+	},
+	"Rbr18_Rbr19": {
+		"location": [ 1979714855 ],
+		"eightrom": [ 8710940 ],
+		"ninerom": [ 9442632 ],
+		"type": [ 1 ]
+	},
+	"Rbr18_Rbr17": {
+		"location": [ 4160816131 ],
+		"eightrom": [ 8712430 ],
+		"ninerom": [ 9442640 ],
+		"type": [ 1 ]
+	},
+	"Rbr49_Rbr24": {
+		"location": [ 335676420 ],
+		"eightrom": [ 8712760 ],
+		"ninerom": [ 9442668 ],
+		"type": [ 1 ]
+	},
+	"Rbr49_Rbr50": {
+		"location": [ 2986367497 ],
+		"eightrom": [ 8713638 ],
+		"ninerom": [ 9442676 ],
+		"type": [ 0 ]
+	},
+	"Rbr23_Rbr24": {
+		"location": [ 335677981 ],
+		"eightrom": [ 8713976 ],
+		"ninerom": [ 9442696 ],
+		"type": [ 1 ]
+	},
+	"Rbr23_Rbr22": {
+		"location": [ 1929398533 ],
+		"eightrom": [ 8713990 ],
+		"ninerom": [ 9442704 ],
+		"type": [ 1 ]
+	},
+	"Rbr48_Car2": {
+		"location": [ 2046823432 ],
+		"eightrom": [ 8714324 ],
+		"ninerom": [ 9442724 ],
+		"type": [ 1 ]
+	},
+	"Rbr48_Rbr47": {
+		"location": [ 2885682693 ],
+		"eightrom": [ 8716102 ],
+		"ninerom": [ 9442732 ],
+		"type": [ 1 ]
+	},
+	"Rbr47_Rbr48": {
+		"location": [ 2868907064 ],
+		"eightrom": [ 8716450 ],
+		"ninerom": [ 9442752 ],
+		"type": [ 1 ]
+	},
+	"Rbr47_Rbr44": {
+		"location": [ 2902459145 ],
+		"eightrom": [ 8716500 ],
+		"ninerom": [ 9442760 ],
+		"type": [ 1 ]
+	},
+	"Rbr44_Rbr47": {
+		"location": [ 2885703945 ],
+		"eightrom": [ 8716824 ],
+		"ninerom": [ 9442788 ],
+		"type": [ 1 ]
+	},
+	"Rbr44_Cab1": {
+		"location": [ 4227924485 ],
+		"eightrom": [ 8716964 ],
+		"ninerom": [ 9442796 ],
+		"type": [ 0 ]
+	},
+	"Rbr44Bottom_Rbr45": {
+		"location": [ 2936035078 ],
+		"eightrom": [ 8716978 ],
+		"ninerom": [ 9442804 ],
+		"type": [ 0 ]
+	},
+	"Rbr43_Rbr44Top": {
+		"location": [ 2902466059 ],
+		"eightrom": [ 8717310 ],
+		"ninerom": [ 9442824 ],
+		"type": [ 3 ]
+	},
+	"Rbr43_Rbr17": {
+		"location": [ 4160816147 ],
+		"eightrom": [ 8717324 ],
+		"ninerom": [ 9442832 ],
+		"type": [ 1 ]
+	},
+	"Rbr43_Rbr44Bottom": {
+		"location": [ 2902466064 ],
+		"eightrom": [ 8717338 ],
+		"ninerom": [ 9442840 ],
+		"type": [ 0 ]
+	},
+	"Rbr45_Rbr46Top": {
+		"location": [ 2952797443 ],
+		"eightrom": [ 8719048 ],
+		"ninerom": [ 9442860 ],
+		"type": [ 0 ]
+	},
+	"Rbr45_Rbr46Bottom": {
+		"location": [ 2952797449 ],
+		"eightrom": [ 8720754 ],
+		"ninerom": [ 9442868 ],
+		"type": [ 0 ]
+	},
+	"Rbr50_Rbr51": {
+		"location": [ 2969578756 ],
+		"eightrom": [ 8725198 ],
+		"ninerom": [ 9442944 ],
+		"type": [ 0 ]
+	},
+	"Rbr21_Rbr20": {
+		"location": [ 1962937347 ],
+		"eightrom": [ 8725340 ],
+		"ninerom": [ 9442964 ],
+		"type": [ 1 ]
+	},
+	"Rbr21_Rbr22": {
+		"location": [ 1929381128 ],
+		"eightrom": [ 8725354 ],
+		"ninerom": [ 9442972 ],
+		"type": [ 1 ]
+	},
+	"Rbr21_Car5": {
+		"location": [ 3238004995 ],
+		"eightrom": [ 8725294 ],
+		"ninerom": [ 9442980 ],
+		"type": [ 1 ]
+	},
+	"Rbr21_Rbr1": {
+		"location": [ 553846796 ],
+		"eightrom": [ 8725326 ],
+		"ninerom": [ 9442988 ],
+		"type": [ 1 ]
+	},
+	"Mnl21_Rbr35": {
+		"location": [ 2365598473 ],
+		"eightrom": [ 8725648 ],
+		"ninerom": [ 9443008 ],
+		"type": [ 1 ]
+	},
+	"Mnl21_Mnl23": {
+		"location": [ 2449474565 ],
+		"eightrom": [ 8725662 ],
+		"ninerom": [ 9443016 ],
+		"type": [ 1 ]
+	},
+	"Mnl22_Rbr36": {
+		"location": [ 2399148805 ],
+		"eightrom": [ 8726092 ],
+		"ninerom": [ 9443044 ],
+		"type": [ 1 ]
+	},
+	"Mnl22_Mnl23": {
+		"location": [ 2449474569 ],
+		"eightrom": [ 8726250 ],
+		"ninerom": [ 9443052 ],
+		"type": [ 1 ]
+	},
+	"Mnl23_Mnl21": {
+		"location": [ 2415938067 ],
+		"eightrom": [ 8726352 ],
+		"ninerom": [ 9443072 ],
+		"type": [ 1 ]
+	},
+	"Mnl23_Mnl24": {
+		"location": [ 2466251539 ],
+		"eightrom": [ 8726366 ],
+		"ninerom": [ 9443080 ],
+		"type": [ 0 ]
+	},
+	"Mnl23_Mnl22": {
+		"location": [ 2432715273 ],
+		"eightrom": [ 8726380 ],
+		"ninerom": [ 9443088 ],
+		"type": [ 1 ]
+	},
+	"Mnl23_Mnl25": {
+		"location": [ 2483028742 ],
+		"eightrom": [ 8726394 ],
+		"ninerom": [ 9443096 ],
+		"type": [ 1 ]
+	},
+	"Mnl24_Mnl25": {
+		"location": [ 2483032838 ],
+		"eightrom": [ 8727166 ],
+		"ninerom": [ 9443116 ],
+		"type": [ 3 ]
+	},
+	"Mnl25_Mnl26": {
+		"location": [ 2499805706 ],
+		"eightrom": [ 8727510 ],
+		"ninerom": [ 9443160 ],
+		"type": [ 0 ]
+	},
+	"Mnl26_Mnl1": {
+		"location": [ 3271557897 ],
+		"eightrom": [ 8728436 ],
+		"ninerom": [ 9443196 ],
+		"type": [ 0 ]
+	},
+	"Mnl26_Mnl25": {
+		"location": [ 2483043085 ],
+		"eightrom": [ 8728504 ],
+		"ninerom": [ 9443204 ],
+		"type": [ 0 ]
+	},
+	"Mnl26_Mnl25Water": {
+		"location": [ 2483043347 ],
+		"eightrom": [ 8728680, 8728694, 8728708, 8728722, 8728736, 8728750, 8728764, 8728778 ],
+		"ninerom": [ 9443212 ],
+		"type": [ 0 ]
+	},
+	"Mnl1_Mnl2": {
+		"location": [ 3288466200 ],
+		"eightrom": [ 8728832 ],
+		"ninerom": [ 9443240 ],
+		"type": [ 3 ]
+	},
+	"Mnl10_Mnl11": {
+		"location": [ 3322021125 ],
+		"eightrom": [ 8728936 ],
+		"ninerom": [ 9443260 ],
+		"type": [ 0 ]
+	},
+	"Mnl10_BigGolem": {
+		"location": [ 3322021125 ],
+		"eightrom": [ 8728936 ],
+		"ninerom": [ 9443260 ],
+		"type": [ 0 ]
+	},
+	"Mnl8_Mnl9": {
+		"location": [ 3338797830 ],
+		"eightrom": [ 8729612 ],
+		"ninerom": [ 9443280 ],
+		"type": [ 0 ]
+	},
+	"Mnl8_Mnl7RopRight": {
+		"location": [ 3305246212 ],
+		"eightrom": [ 8729580 ],
+		"ninerom": [ 9443288 ],
+		"type": [ 1 ]
+	},
+	"Mnl5_Mnl4": {
+		"location": [ 369298953 ],
+		"eightrom": [ 8730248 ],
+		"ninerom": [ 9443320 ],
+		"type": [ 1 ]
+	},
+	"Mnl5Bottom_Mnl2": {
+		"location": [ 3288476419 ],
+		"eightrom": [ 8730370 ],
+		"ninerom": [ 9443328 ],
+		"type": [ 1 ]
+	},
+	"Mnl5Bottom_Mnl14": {
+		"location": [ 3187803148 ],
+		"eightrom": [ 8730384 ],
+		"ninerom": [ 9443336 ],
+		"type": [ 1 ]
+	},
+	"Mnl5_Mnl6": {
+		"location": [ 3271688714 ],
+		"eightrom": [ 8730398 ],
+		"ninerom": [ 9443344 ],
+		"type": [ 3 ]
+	},
+	"Mnl6_Mnl17": {
+		"location": [ 3355574813 ],
+		"eightrom": [ 8730760 ],
+		"ninerom": [ 9443364 ],
+		"type": [ 0 ]
+	},
+	"Mnl6_Mnl7TopLeft": {
+		"location": [ 3305243396 ],
+		"eightrom": [ 8731224 ],
+		"ninerom": [ 9443372 ],
+		"type": [ 1 ]
+	},
+	"Mnl6_Mnl8": {
+		"location": [ 3221357064 ],
+		"eightrom": [ 8731544 ],
+		"ninerom": [ 9443380 ],
+		"type": [ 3 ]
+	},
+	"Mnl2_Mnl3": {
+		"location": [ 3825337097 ],
+		"eightrom": [ 8732152 ],
+		"ninerom": [ 9443400 ],
+		"type": [ 1 ]
+	},
+	"Mnl2_Mnl5Bottom": {
+		"location": [ 3254911763 ],
+		"eightrom": [ 8732166 ],
+		"ninerom": [ 9443408 ],
+		"type": [ 1 ]
+	},
+	"Mnl7TopLeft_Mnl6": {
+		"location": [ 3271691278 ],
+		"eightrom": [ 8733200 ],
+		"ninerom": [ 9443452 ],
+		"type": [ 1 ]
+	},
+	"Mnl7RopRight_Mnl8": {
+		"location": [ 3221360655 ],
+		"eightrom": [ 8733214 ],
+		"ninerom": [ 9443460 ],
+		"type": [ 1 ]
+	},
+	"Mnl7Bottom_Mnl14": {
+		"location": [ 3187813125 ],
+		"eightrom": [ 8733228 ],
+		"ninerom": [ 9443468 ],
+		"type": [ 1 ]
+	},
+	"Mnl9_Mnl10": {
+		"location": [ 3154248457 ],
+		"eightrom": [ 8734348 ],
+		"ninerom": [ 9443500 ],
+		"type": [ 0 ]
+	},
+	"Mnl17_Mnl18": {
+		"location": [ 3842114599 ],
+		"eightrom": [ 8734676 ],
+		"ninerom": [ 9443520 ],
+		"type": [ 3 ]
+	},
+	"Mnl3_Mnl4": {
+		"location": [ 369296137 ],
+		"eightrom": [ 8735230 ],
+		"ninerom": [ 9443540 ],
+		"type": [ 1 ]
+	},
+	"Mnl3_Mnl2": {
+		"location": [ 3288473603 ],
+		"eightrom": [ 8735244 ],
+		"ninerom": [ 9443548 ],
+		"type": [ 1 ]
+	},
+	"Mnl18Fire_Mnl19": {
+		"location": [ 3858895624 ],
+		"eightrom": [ 8735708 ],
+		"ninerom": [ 9443568 ],
+		"type": [ 0 ]
+	},
+	"Mnl18_Mnl19": {
+		"location": [ 3858898461 ],
+		"eightrom": [ 8736118 ],
+		"ninerom": [ 9443576 ],
+		"type": [ 0 ]
+	},
+	"Mnl19_Mnl20": {
+		"location": [ 3238134823 ],
+		"eightrom": [ 8738012 ],
+		"ninerom": [ 9443604 ],
+		"type": [ 3 ]
+	},
+	"Mnl19_Mnl18FireRoom": {
+		"location": [ 3842116360 ],
+		"eightrom": [ 8738530 ],
+		"ninerom": [ 9443612 ],
+		"type": [ 0 ]
+	},
+	"Mnl4_Mnl3": {
+		"location": [ 3825347590 ],
+		"eightrom": [ 8738784 ],
+		"ninerom": [ 9443632 ],
+		"type": [ 1 ]
+	},
+	"Mnl4_Mnl5": {
+		"location": [ 3254912003 ],
+		"eightrom": [ 8738798 ],
+		"ninerom": [ 9443640 ],
+		"type": [ 1 ]
+	},
+	"Mnl4_Rbr1": {
+		"location": [ 553851915 ],
+		"eightrom": [ 8738770 ],
+		"ninerom": [ 9443648 ],
+		"type": [ 1 ]
+	},
+	"Mnl14_Mnl7Bottom": {
+		"location": [ 3305243401 ],
+		"eightrom": [ 8739950 ],
+		"ninerom": [ 9443668 ],
+		"type": [ 1 ]
+	},
+	"Mnl14_Mnl5Bottom": {
+		"location": [ 3254917395 ],
+		"eightrom": [ 8739964 ],
+		"ninerom": [ 9443676 ],
+		"type": [ 1 ]
+	},
+	"Mnl14_Mnl15": {
+		"location": [ 3892445699 ],
+		"eightrom": [ 8739978 ],
+		"ninerom": [ 9443684 ],
+		"type": [ 0 ]
+	},
+	"Mnl15_Mnl16": {
+		"location": [ 3909224195 ],
+		"eightrom": [ 8743956 ],
+		"ninerom": [ 9443748 ],
+		"type": [ 0 ]
+	},
+	"Pep21_Wiz": {
+		"location": [ 3674211337 ],
+		"eightrom": [ 8744248 ],
+		"ninerom": [ 9443788 ],
+		"type": [ 0 ]
+	},
+	"Pep2_Pep3": {
+		"location": [ 3489662227 ],
+		"eightrom": [ 8744648 ],
+		"ninerom": [ 9443824 ],
+		"type": [ 1 ]
+	},
+	"Pep2_Pep1": {
+		"location": [ 3539993603 ],
+		"eightrom": [ 8744712 ],
+		"ninerom": [ 9443840 ],
+		"type": [ 1 ]
+	},
+	"Pep9_Pep8": {
+		"location": [ 3439330051 ],
+		"eightrom": [ 8745244 ],
+		"ninerom": [ 9443860 ],
+		"type": [ 1 ]
+	},
+	"Pep9_Pep10": {
+		"location": [ 3422570756 ],
+		"eightrom": [ 8745366 ],
+		"ninerom": [ 9443868 ],
+		"type": [ 1 ]
+	},
+	"Pep10_Pep9": {
+		"location": [ 3405775635 ],
+		"eightrom": [ 8745576 ],
+		"ninerom": [ 9443888 ],
+		"type": [ 1 ]
+	},
+	"Pep10_Pep11": {
+		"location": [ 3691002629 ],
+		"eightrom": [ 8745716 ],
+		"ninerom": [ 9443896 ],
+		"type": [ 1 ]
+	},
+	"Pep10_Pep7": {
+		"location": [ 3808432643 ],
+		"eightrom": [ 8745730 ],
+		"ninerom": [ 9443904 ],
+		"type": [ 1 ]
+	},
+	"Pep10_Pep7Stake": {
+		"location": [ 3808434946 ],
+		"eightrom": [ 8745744 ],
+		"ninerom": [ 9443912 ],
+		"type": [ 3 ]
+	},
+	"Pep8_Pep9": {
+		"location": [ 3405789957 ],
+		"eightrom": [ 8746124 ],
+		"ninerom": [ 9443932 ],
+		"type": [ 1 ]
+	},
+	"Pep8_Pep27": {
+		"location": [ 3825211933 ],
+		"eightrom": [ 8746138 ],
+		"ninerom": [ 9443940 ],
+		"type": [ 3 ]
+	},
+	"Pep8_Pep4": {
+		"location": [ 3506440963 ],
+		"eightrom": [ 8746440 ],
+		"ninerom": [ 9443948 ],
+		"type": [ 1 ]
+	},
+	"Pep8_Pep6": {
+		"location": [ 3523219715 ],
+		"eightrom": [ 8746454 ],
+		"ninerom": [ 9443956 ],
+		"type": [ 1 ]
+	},
+	"Pep8_Pep25": {
+		"location": [ 3456107529 ],
+		"eightrom": [ 8746468 ],
+		"ninerom": [ 9443964 ],
+		"type": [ 0 ]
+	},
+	"Pep25_Pep26": {
+		"location": [ 3590324740 ],
+		"eightrom": [ 8749456 ],
+		"ninerom": [ 9443992 ],
+		"type": [ 0 ]
+	},
+	"Pep3_Pep5": {
+		"location": [ 570494473 ],
+		"eightrom": [ 8749752 ],
+		"ninerom": [ 9444012 ],
+		"type": [ 1 ]
+	},
+	"Pep3_Pep4": {
+		"location": [ 3506438951 ],
+		"eightrom": [ 8749766 ],
+		"ninerom": [ 9444020 ],
+		"type": [ 1 ]
+	},
+	"Pep3_Pep2": {
+		"location": [ 3388998404 ],
+		"eightrom": [ 8749780 ],
+		"ninerom": [ 9444028 ],
+		"type": [ 1 ]
+	},
+	"Pep4_Pep8": {
+		"location": [ 3439336722 ],
+		"eightrom": [ 8750440 ],
+		"ninerom": [ 9444080 ],
+		"type": [ 1 ]
+	},
+	"Pep4_Pep3": {
+		"location": [ 3489668356 ],
+		"eightrom": [ 8752012 ],
+		"ninerom": [ 9444096 ],
+		"type": [ 1 ]
+	},
+	"Pep4Mirra_Pep6": {
+		"location": [ 3523223064 ],
+		"eightrom": [ 8750472 ],
+		"ninerom": [ 9444104 ],
+		"type": [ 0 ]
+	},
+	"Pep6_Pep8": {
+		"location": [ 3439331859 ],
+		"eightrom": [ 8752652 ],
+		"ninerom": [ 9444132 ],
+		"type": [ 1 ]
+	},
+	"Pep6_Pep7": {
+		"location": [ 3808442897 ],
+		"eightrom": [ 8752802 ],
+		"ninerom": [ 9444140 ],
+		"type": [ 1 ]
+	},
+	"Pep6chest_Pep4": {
+		"location": [ 3506438676 ],
+		"eightrom": [ 8752816 ],
+		"ninerom": [ 9444148 ],
+		"type": [ 0 ]
+	},
+	"Pep6_Pep5": {
+		"location": [ 570491657 ],
+		"eightrom": [ 8752848 ],
+		"ninerom": [ 9444156 ],
+		"type": [ 1 ]
+	},
+	"Pep6Boxer_Pep7": {
+		"location": [ 3808443146 ],
+		"eightrom": [ 8752756 ],
+		"ninerom": [ 9444164 ],
+		"type": [ 3 ]
+	},
+	"Pep6_Pep4": {
+		"location": [ 3506438665 ],
+		"eightrom": [ 8752788 ],
+		"ninerom": [ 9444172 ],
+		"type": [ 3 ]
+	},
+	"Pep1_Pep2": {
+		"location": [ 3388998927 ],
+		"eightrom": [ 8753376 ],
+		"ninerom": [ 9444192 ],
+		"type": [ 1 ]
+	},
+	"Pep1_Car4": {
+		"location": [ 3791653896 ],
+		"eightrom": [ 8754200 ],
+		"ninerom": [ 9444200 ],
+		"type": [ 1 ]
+	},
+	"Pep11_Pep12": {
+		"location": [ 3892348421 ],
+		"eightrom": [ 8757648 ],
+		"ninerom": [ 9444248 ],
+		"type": [ 1 ]
+	},
+	"Pep11_Pep10": {
+		"location": [ 3422552840 ],
+		"eightrom": [ 8757662 ],
+		"ninerom": [ 9444256 ],
+		"type": [ 1 ]
+	},
+	"Pep11_Pep12Water": {
+		"location": [ 3892348679 ],
+		"eightrom": [ 8757676, 8757690, 8757704, 8757718 ],
+		"ninerom": [ 9444264 ],
+		"type": [ 3 ]
+	},
+	"Car4_Pep1": {
+		"location": [ 3539994649 ],
+		"eightrom": [ 8757780, 8757794 ],
+		"ninerom": [ 9444284 ],
+		"type": [ 1 ]
+	},
+	"Car4_Pep23": {
+		"location": [ 3724568323 ],
+		"eightrom": [ 8757808 ],
+		"ninerom": [ 9444292 ],
+		"type": [ 1 ]
+	},
+	"Car4_Car3": {
+		"location": [ 2030044165 ],
+		"eightrom": [ 8757822 ],
+		"ninerom": [ 9444300 ],
+		"type": [ 1 ]
+	},
+	"Pep7_Pep10": {
+		"location": [ 3422566409 ],
+		"eightrom": [ 8758436 ],
+		"ninerom": [ 9444344 ],
+		"type": [ 1 ]
+	},
+	"Pep7_Pep6": {
+		"location": [ 3523216152 ],
+		"eightrom": [ 8758810 ],
+		"ninerom": [ 9444352 ],
+		"type": [ 1 ]
+	},
+	"Pep27_Pep28Left": {
+		"location": [ 3841986845 ],
+		"eightrom": [ 8759688 ],
+		"ninerom": [ 9444388 ],
+		"type": [ 0 ]
+	},
+	"Pep27_Pep28Middle": {
+		"location": [ 3841988381 ],
+		"eightrom": [ 8759702 ],
+		"ninerom": [ 9444396 ],
+		"type": [ 0 ]
+	},
+	"Pep27_Pep28Right": {
+		"location": [ 3841989917 ],
+		"eightrom": [ 8759734 ],
+		"ninerom": [ 9444404 ],
+		"type": [ 0 ]
+	},
+	"Pep28_Pep29": {
+		"location": [ 3858765587 ],
+		"eightrom": [ 8761324 ],
+		"ninerom": [ 9444448 ],
+		"type": [ 3 ]
+	},
+	"Pep13_Pep14": {
+		"location": [ 3607108867 ],
+		"eightrom": [ 8763064 ],
+		"ninerom": [ 9444480 ],
+		"type": [ 3 ]
+	},
+	"Pep12_Pep11": {
+		"location": [ 3690992389 ],
+		"eightrom": [ 8763786 ],
+		"ninerom": [ 9444508 ],
+		"type": [ 1 ]
+	},
+	"Pep12_Pep19": {
+		"location": [ 3774876935 ],
+		"eightrom": [ 8763800 ],
+		"ninerom": [ 9444516 ],
+		"type": [ 1 ]
+	},
+	"PepBombar_Pep12": {
+		"location": [ 3892333830 ],
+		"eightrom": [ 8763814 ],
+		"ninerom": [ 9444524 ],
+		"type": [ 3 ]
+	},
+	"Pep12_Pep13": {
+		"location": [ 3875540226 ],
+		"eightrom": [ 8763828, 8763884, 8763940, 8763996, 8763842, 8763898, 8763954, 8764010, 8763856, 8763912, 8763968, 8764024, 8763870, 8763926, 8763982, 8764038 ],
+		"ninerom": [ 9444532, 9444540, 9444548, 9444556 ],
+		"type": [ 0 ]
+	},
+	"Pep12_PepBombar": {
+		"location": [ 3892320265 ],
+		"eightrom": [ 8763736 ],
+		"ninerom": [ 9444564 ],
+		"type": [ 0 ]
+	},
+	"Pep5_Pep6": {
+		"location": [ 3523222321 ],
+		"eightrom": [ 8764180 ],
+		"ninerom": [ 9444584 ],
+		"type": [ 1 ]
+	},
+	"Pep5_Pep3": {
+		"location": [ 3489664771 ],
+		"eightrom": [ 8764194 ],
+		"ninerom": [ 9444592 ],
+		"type": [ 1 ]
+	},
+	"Pep5_Pep24": {
+		"location": [ 587270403 ],
+		"eightrom": [ 8764134 ],
+		"ninerom": [ 9444600 ],
+		"type": [ 1 ]
+	},
+	"Pep5_Rbr1": {
+		"location": [ 553845771 ],
+		"eightrom": [ 8764166 ],
+		"ninerom": [ 9444608 ],
+		"type": [ 1 ]
+	},
+	"Pep15_Pep16": {
+		"location": [ 3623889938 ],
+		"eightrom": [ 8764656 ],
+		"ninerom": [ 9444628 ],
+		"type": [ 1 ]
+	},
+	"Pep15_Pep14": {
+		"location": [ 3607102211 ],
+		"eightrom": [ 8764760 ],
+		"ninerom": [ 9444636 ],
+		"type": [ 1 ]
+	},
+	"Pep14_Pep15": {
+		"location": [ 3556788745 ],
+		"eightrom": [ 8765172 ],
+		"ninerom": [ 9444656 ],
+		"type": [ 1 ]
+	},
+	"Pep14_Pep24": {
+		"location": [ 587268873 ],
+		"eightrom": [ 8765186 ],
+		"ninerom": [ 9444664 ],
+		"type": [ 1 ]
+	},
+	"Pep16_Pep15": {
+		"location": [ 3556770563 ],
+		"eightrom": [ 8765700 ],
+		"ninerom": [ 9444692 ],
+		"type": [ 1 ]
+	},
+	"Pep16_Pep17": {
+		"location": [ 3640659465 ],
+		"eightrom": [ 8765714 ],
+		"ninerom": [ 9444700 ],
+		"type": [ 1 ]
+	},
+	"Pep17_Pep18": {
+		"location": [ 3707779347 ],
+		"eightrom": [ 8765920 ],
+		"ninerom": [ 9444720 ],
+		"type": [ 1 ]
+	},
+	"Pep17_Pep16": {
+		"location": [ 3623879443 ],
+		"eightrom": [ 8766056 ],
+		"ninerom": [ 9444736 ],
+		"type": [ 1 ]
+	},
+	"Pep17_Pep30": {
+		"location": [ 3741334277 ],
+		"eightrom": [ 8766042 ],
+		"ninerom": [ 9444728 ],
+		"type": [ 0 ]
+	},
+	"Pep20_Pep21": {
+		"location": [ 3355453705 ],
+		"eightrom": [ 8766818 ],
+		"ninerom": [ 9444756 ],
+		"type": [ 0 ]
+	},
+	"Pep18_Pep20": {
+		"location": [ 3657436931 ],
+		"eightrom": [ 8767680 ],
+		"ninerom": [ 9444796 ],
+		"type": [ 0 ]
+	},
+	"Pep18_Pep19": {
+		"location": [ 3774875225 ],
+		"eightrom": [ 8767874 ],
+		"ninerom": [ 9444804 ],
+		"type": [ 1 ]
+	},
+	"Pep18_Pep17": {
+		"location": [ 3640656644 ],
+		"eightrom": [ 8769364 ],
+		"ninerom": [ 9444812 ],
+		"type": [ 1 ]
+	},
+	"Pep23_Pep24": {
+		"location": [ 587271689 ],
+		"eightrom": [ 8770300 ],
+		"ninerom": [ 9444832 ],
+		"type": [ 1 ]
+	},
+	"Pep23_Car4": {
+		"location": [ 3791651593 ],
+		"eightrom": [ 8770314 ],
+		"ninerom": [ 9444840 ],
+		"type": [ 1 ]
+	},
+	"Pep30_Pep31": {
+		"location": [ 3758130953 ],
+		"eightrom": [ 8770784 ],
+		"ninerom": [ 9444860 ],
+		"type": [ 0 ]
+	},
+	"Pep19_Pep12": {
+		"location": [ 3892323079 ],
+		"eightrom": [ 8773372 ],
+		"ninerom": [ 9444908 ],
+		"type": [ 1 ]
+	},
+	"Pep19_Pep18": {
+		"location": [ 3707779589 ],
+		"eightrom": [ 8773386 ],
+		"ninerom": [ 9444916 ],
+		"type": [ 1 ]
+	},
+	"Pep24_Pep14": {
+		"location": [ 3607108381 ],
+		"eightrom": [ 8773496 ],
+		"ninerom": [ 9444936 ],
+		"type": [ 1 ]
+	},
+	"Pep24_Pep23": {
+		"location": [ 3724546307 ],
+		"eightrom": [ 8773510 ],
+		"ninerom": [ 9444944 ],
+		"type": [ 1 ]
+	},
+	"Pep24_Pep5": {
+		"location": [ 570491907 ],
+		"eightrom": [ 8773482 ],
+		"ninerom": [ 9444952 ],
+		"type": [ 1 ]
+	},
+	"Mus1_Mus3": {
+		"location": [ 1023477026 ],
+		"eightrom": [ 8773930 ],
+		"ninerom": [ 9444972 ],
+		"type": [ 0 ]
+	},
+	"Mus1_Mus2": {
+		"location": [ 1157694484 ],
+		"eightrom": [ 8773944 ],
+		"ninerom": [ 9444980 ],
+		"type": [ 0 ]
+	},
+	"Mus1_Rbr28": {
+		"location": [ 369231109 ],
+		"eightrom": [ 8774516 ],
+		"ninerom": [ 9444988 ],
+		"type": [ 1 ]
+	},
+	"Mus9_Rbr30": {
+		"location": [ 436345859 ],
+		"eightrom": [ 8774948 ],
+		"ninerom": [ 9445008 ],
+		"type": [ 1 ]
+	},
+	"Mus9_Mus10": {
+		"location": [ 469893927 ],
+		"eightrom": [ 8774962 ],
+		"ninerom": [ 9445016 ],
+		"type": [ 1 ]
+	},
+	"Mus9Bombar_Mus9": {
+		"location": [ 453124099 ],
+		"eightrom": [ 8774976 ],
+		"ninerom": [ 9445024 ],
+		"type": [ 3 ]
+	},
+	"Mus9_Mus9Bombar": {
+		"location": [ 453142276 ],
+		"eightrom": [ 8775170 ],
+		"ninerom": [ 9445032 ],
+		"type": [ 0 ]
+	},
+	"Mus10_Mus11": {
+		"location": [ 486684947 ],
+		"eightrom": [ 8775532 ],
+		"ninerom": [ 9445052 ],
+		"type": [ 1 ]
+	},
+	"Mus10_Mus9": {
+		"location": [ 453139715 ],
+		"eightrom": [ 8776122 ],
+		"ninerom": [ 9445060 ],
+		"type": [ 1 ]
+	},
+	"Mus11_Mus12": {
+		"location": [ 2248216070 ],
+		"eightrom": [ 8776500 ],
+		"ninerom": [ 9445080 ],
+		"type": [ 1 ]
+	},
+	"Mus11_Mus10": {
+		"location": [ 469894147 ],
+		"eightrom": [ 8777504 ],
+		"ninerom": [ 9445088 ],
+		"type": [ 1 ]
+	},
+	"Mus18_Rbr34": {
+		"location": [ 520232706 ],
+		"eightrom": [ 8778864 ],
+		"ninerom": [ 9445108 ],
+		"type": [ 0 ]
+	},
+	"Mus14a_Rbr35": {
+		"location": [ 2365596164 ],
+		"eightrom": [ 8779370 ],
+		"ninerom": [ 9445128 ],
+		"type": [ 1 ]
+	},
+	"Mus14b_Mus15left": {
+		"location": [ 570558031 ],
+		"eightrom": [ 8779274 ],
+		"ninerom": [ 9445136 ],
+		"type": [ 3 ]
+	},
+	"Mus14c_Mus15Right": {
+		"location": [ 570559311 ],
+		"eightrom": [ 8779306 ],
+		"ninerom": [ 9445144 ],
+		"type": [ 3 ]
+	},
+	"Mus14a_Mus14b": {
+		"location": [ 553780247 ],
+		"eightrom": [ 8779356 ],
+		"ninerom": [ 9445152 ],
+		"type": [ 0 ]
+	},
+	"Mus15_Mus17": {
+		"location": [ 1090592275 ],
+		"eightrom": [ 8779844 ],
+		"ninerom": [ 9445172 ],
+		"type": [ 3 ]
+	},
+	"Mus15_Mus16": {
+		"location": [ 587334147 ],
+		"eightrom": [ 8779858 ],
+		"ninerom": [ 9445180 ],
+		"type": [ 0 ]
+	},
+	"Mus23L_Kracko": {
+		"location": [ 1140917267 ],
+		"eightrom": [ 8780448 ],
+		"ninerom": [ 9445220 ],
+		"type": [ 0 ]
+	},
+	"Mus23R_Kracko": {
+		"location": [ 1140919059 ],
+		"eightrom": [ 8780462 ],
+		"ninerom": [ 9445228 ],
+		"type": [ 0 ]
+	},
+	"Mus13_Mus17": {
+		"location": [ 1090585110 ],
+		"eightrom": [ 8780966 ],
+		"ninerom": [ 9445248 ],
+		"type": [ 3 ]
+	},
+	"Mus13_Mus12": {
+		"location": [ 2248213254 ],
+		"eightrom": [ 8781070 ],
+		"ninerom": [ 9445256 ],
+		"type": [ 1 ]
+	},
+	"Mus19_Mus20": {
+		"location": [ 1006713860 ],
+		"eightrom": [ 8781600 ],
+		"ninerom": [ 9445276 ],
+		"type": [ 0 ]
+	},
+	"Mus8_Rbr28": {
+		"location": [ 369245702 ],
+		"eightrom": [ 8782738 ],
+		"ninerom": [ 9445304 ],
+		"type": [ 1 ]
+	},
+	"Mus4_Mus5": {
+		"location": [ 956367371 ],
+		"eightrom": [ 8783494 ],
+		"ninerom": [ 9445324 ],
+		"type": [ 0 ]
+	},
+	"Mus4_Mus7": {
+		"location": [ 1040253735 ],
+		"eightrom": [ 8783508 ],
+		"ninerom": [ 9445332 ],
+		"type": [ 3 ]
+	},
+	"Mus5_Mus6": {
+		"location": [ 1174470914 ],
+		"eightrom": [ 8784024, 8784038, 8784052, 8784066, 8784080, 8784094, 8784108, 8784122, 8784136, 8784150, 8784236, 8784250, 8784264, 8784278, 8784418, 8784432, 8784518, 8784532, 8784582, 8784596, 8784664, 8784678 ],
+		"ninerom": [ 9445352 ],
+		"type": [ 0 ]
+	},
+	"Mus22_Mus23L": {
+		"location": [ 1124142372 ],
+		"eightrom": [ 8785610 ],
+		"ninerom": [ 9445372 ],
+		"type": [ 0 ]
+	},
+	"Mus22_Mus23R": {
+		"location": [ 1124146727 ],
+		"eightrom": [ 8785660 ],
+		"ninerom": [ 9445380 ],
+		"type": [ 0 ]
+	},
+	"Mus20_Mus21": {
+		"location": [ 1107370244 ],
+		"eightrom": [ 8786122 ],
+		"ninerom": [ 9445408 ],
+		"type": [ 0 ]
+	},
+	"Mus3_Mus4": {
+		"location": [ 939608594 ],
+		"eightrom": [ 8786648 ],
+		"ninerom": [ 9445428 ],
+		"type": [ 3 ]
+	},
+	"Mus17_Mus19": {
+		"location": [ 872490781 ],
+		"eightrom": [ 8787960 ],
+		"ninerom": [ 9445468 ],
+		"type": [ 0 ]
+	},
+	"Mus17mini_Mus19": {
+		"location": [ 872491805 ],
+		"eightrom": [ 8787974 ],
+		"ninerom": [ 9445476 ],
+		"type": [ 0 ]
+	},
+	"Mus17_Mus18": {
+		"location": [ 537002754 ],
+		"eightrom": [ 8788204 ],
+		"ninerom": [ 9445484 ],
+		"type": [ 0 ]
+	},
+	"Mus21_Mus22": {
+		"location": [ 989932562 ],
+		"eightrom": [ 8788778 ],
+		"ninerom": [ 9445512 ],
+		"type": [ 0 ]
+	},
+	"Mus23R_Mus24R": {
+		"location": [ 738266386 ],
+		"eightrom": [ 8789420 ],
+		"ninerom": [ 9445532 ],
+		"type": [ 0 ]
+	},
+	"Mus2_Mus3": {
+		"location": [ 1023476499 ],
+		"eightrom": [ 8792024 ],
+		"ninerom": [ 9445564 ],
+		"type": [ 0 ]
+	},
+	"Mus12_Mus13": {
+		"location": [ 805379111 ],
+		"eightrom": [ 8793478 ],
+		"ninerom": [ 9445612 ],
+		"type": [ 1 ]
+	},
+	"Mus12_Mus11": {
+		"location": [ 486671621 ],
+		"eightrom": [ 8793492 ],
+		"ninerom": [ 9445620 ],
+		"type": [ 1 ]
+	},
+	"Mus12_Rbr27": {
+		"location": [ 1308756227 ],
+		"eightrom": [ 8793524 ],
+		"ninerom": [ 9445628 ],
+		"type": [ 1 ]
+	},
+	"Can27_CrazyHand": {
+		"location": [ 2701198087 ],
+		"eightrom": [ 8793628 ],
+		"ninerom": [ 9445648 ],
+		"type": [ 0 ]
+	},
+	"Can7_Can9": {
+		"location": [ 2550203140 ],
+		"eightrom": [ 8794532 ],
+		"ninerom": [ 9445668 ],
+		"type": [ 1 ]
+	},
+	"Can7_Can6": {
+		"location": [ 2533435661 ],
+		"eightrom": [ 8795464 ],
+		"ninerom": [ 9445676 ],
+		"type": [ 1 ]
+	},
+	"Can7_Can8": {
+		"location": [ 2516649736 ],
+		"eightrom": [ 8795478 ],
+		"ninerom": [ 9445684 ],
+		"type": [ 1 ]
+	},
+	"Can16_Can17A": {
+		"location": [ 2734752516 ],
+		"eightrom": [ 8796594 ],
+		"ninerom": [ 9445712 ],
+		"type": [ 0 ]
+	},
+	"Can16_Can17B": {
+		"location": [ 2734752527 ],
+		"eightrom": [ 8798210 ],
+		"ninerom": [ 9445720 ],
+		"type": [ 0 ]
+	},
+	"Can5Vitality_Can12": {
+		"location": [ 2499871498 ],
+		"eightrom": [ 8798436 ],
+		"ninerom": [ 9445756 ],
+		"type": [ 1 ]
+	},
+	"Can5Carbon_Can4": {
+		"location": [ 2483098885 ],
+		"eightrom": [ 8798450 ],
+		"ninerom": [ 9445764 ],
+		"type": [ 1 ]
+	},
+	"Can4_Can6": {
+		"location": [ 2533426203 ],
+		"eightrom": [ 8799228 ],
+		"ninerom": [ 9445784 ],
+		"type": [ 1 ]
+	},
+	"Can4_Can2": {
+		"location": [ 2868980229 ],
+		"eightrom": [ 8799242 ],
+		"ninerom": [ 9445792 ],
+		"type": [ 1 ]
+	},
+	"Can4_Can5Carbon": {
+		"location": [ 2466318089 ],
+		"eightrom": [ 8798800 ],
+		"ninerom": [ 9445800 ],
+		"type": [ 1 ]
+	},
+	"Can12_Can11": {
+		"location": [ 2600534792 ],
+		"eightrom": [ 8800950 ],
+		"ninerom": [ 9445820 ],
+		"type": [ 1 ]
+	},
+	"Can12_Can5Vitality": {
+		"location": [ 2466330372 ],
+		"eightrom": [ 8800964 ],
+		"ninerom": [ 9445828 ],
+		"type": [ 1 ]
+	},
+	"Can8_Can7": {
+		"location": [ 2432769073 ],
+		"eightrom": [ 8801616 ],
+		"ninerom": [ 9445856 ],
+		"type": [ 1 ]
+	},
+	"Can6_Can10": {
+		"location": [ 3925934854 ],
+		"eightrom": [ 8802148 ],
+		"ninerom": [ 9445876 ],
+		"type": [ 1 ]
+	},
+	"Can6_Can7": {
+		"location": [ 2432762673 ],
+		"eightrom": [ 8802558 ],
+		"ninerom": [ 9445884 ],
+		"type": [ 1 ]
+	},
+	"Can6_Can4": {
+		"location": [ 2483116296 ],
+		"eightrom": [ 8803454 ],
+		"ninerom": [ 9445892 ],
+		"type": [ 1 ]
+	},
+	"Can9_Can7": {
+		"location": [ 2432769028 ],
+		"eightrom": [ 8804184 ],
+		"ninerom": [ 9445912 ],
+		"type": [ 1 ]
+	},
+	"Can9_Can1": {
+		"location": [ 2566980357 ],
+		"eightrom": [ 8804342 ],
+		"ninerom": [ 9445920 ],
+		"type": [ 1 ]
+	},
+	"Can1_Can9": {
+		"location": [ 2550221328 ],
+		"eightrom": [ 8804886 ],
+		"ninerom": [ 9445940 ],
+		"type": [ 1 ]
+	},
+	"Can1_Can2": {
+		"location": [ 2868970245 ],
+		"eightrom": [ 8804900 ],
+		"ninerom": [ 9445948 ],
+		"type": [ 1 ]
+	},
+	"Can11_Can13": {
+		"location": [ 2717975301 ],
+		"eightrom": [ 8805436 ],
+		"ninerom": [ 9445968 ],
+		"type": [ 1 ]
+	},
+	"Can11_Can10": {
+		"location": [ 3925937670 ],
+		"eightrom": [ 8805536 ],
+		"ninerom": [ 9445976 ],
+		"type": [ 1 ]
+	},
+	"Can11_Can12": {
+		"location": [ 2499889673 ],
+		"eightrom": [ 8805468 ],
+		"ninerom": [ 9445984 ],
+		"type": [ 1 ]
+	},
+	"Can14_Can15": {
+		"location": [ 2634099731 ],
+		"eightrom": [ 8811156 ],
+		"ninerom": [ 9446036 ],
+		"type": [ 0 ]
+	},
+	"Can21_Can22": {
+		"location": [ 2785084165 ],
+		"eightrom": [ 8814796 ],
+		"ninerom": [ 9446056 ],
+		"type": [ 3 ]
+	},
+	"Can26_Can27": {
+		"location": [ 2415986459 ],
+		"eightrom": [ 8816576 ],
+		"ninerom": [ 9446076 ],
+		"type": [ 0 ]
+	},
+	"Can12_Can14": {
+		"location": [ 2650884626 ],
+		"eightrom": [ 8819026 ],
+		"ninerom": [ 9446116 ],
+		"type": [ 0 ]
+	},
+	"Can13_Can16": {
+		"location": [ 2449540100 ],
+		"eightrom": [ 8819040 ],
+		"ninerom": [ 9446124 ],
+		"type": [ 3 ]
+	},
+	"Can13_Can11": {
+		"location": [ 2600541191 ],
+		"eightrom": [ 8819054 ],
+		"ninerom": [ 9446132 ],
+		"type": [ 1 ]
+	},
+	"Can17A_Can20": {
+		"location": [ 2617311773 ],
+		"eightrom": [ 8821076 ],
+		"ninerom": [ 9446152 ],
+		"type": [ 3 ]
+	},
+	"Can17B_Can18": {
+		"location": [ 2852193540 ],
+		"eightrom": [ 8821990 ],
+		"ninerom": [ 9446160 ],
+		"type": [ 0 ]
+	},
+	"Can25_Can26": {
+		"location": [ 2684422240 ],
+		"eightrom": [ 8823230 ],
+		"ninerom": [ 9446200 ],
+		"type": [ 0 ]
+	},
+	"Can22_Can24": {
+		"location": [ 2801861385 ],
+		"eightrom": [ 8824706 ],
+		"ninerom": [ 9446220 ],
+		"type": [ 0 ]
+	},
+	"Can22_Can23": {
+		"location": [ 2818638856 ],
+		"eightrom": [ 8825350 ],
+		"ninerom": [ 9446228 ],
+		"type": [ 1 ]
+	},
+	"Cab2_Rbr16": {
+		"location": [ 2130709522 ],
+		"eightrom": [ 8830044 ],
+		"ninerom": [ 9446488 ],
+		"type": [ 1 ]
+	},
+	"Can24_Can25": {
+		"location": [ 2768306949 ],
+		"eightrom": [ 8826244 ],
+		"ninerom": [ 9446248 ],
+		"type": [ 0 ]
+	},
+	"Can23_Can22": {
+		"location": [ 2785094664 ],
+		"eightrom": [ 8826748 ],
+		"ninerom": [ 9446276 ],
+		"type": [ 1 ]
+	},
+	"Can3_Can2": {
+		"location": [ 2868980499 ],
+		"eightrom": [ 8827148 ],
+		"ninerom": [ 9446304 ],
+		"type": [ 1 ]
+	},
+	"Can18_Can19": {
+		"location": [ 2751529747 ],
+		"eightrom": [ 8827476 ],
+		"ninerom": [ 9446332 ],
+		"type": [ 0 ]
+	},
+	"Can2_Can1": {
+		"location": [ 2567010053 ],
+		"eightrom": [ 8828114 ],
+		"ninerom": [ 9446360 ],
+		"type": [ 1 ]
+	},
+	"Can2_Can4": {
+		"location": [ 2483094281 ],
+		"eightrom": [ 8828128 ],
+		"ninerom": [ 9446368 ],
+		"type": [ 1 ]
+	},
+	"Oli13_Oli14": {
+		"location": [ 771949597 ],
+		"eightrom": [ 8872194 ],
+		"ninerom": [ 9447652 ],
+		"type": [ 1 ]
+	},
+	"Can2_Can3": {
+		"location": [ 2835417093 ],
+		"eightrom": [ 8828250 ],
+		"ninerom": [ 9446376 ],
+		"type": [ 1 ]
+	},
+	"Can10_Can6": {
+		"location": [ 2533428228 ],
+		"eightrom": [ 8828350 ],
+		"ninerom": [ 9446396 ],
+		"type": [ 1 ]
+	},
+	"Can10_Can11": {
+		"location": [ 2600534803 ],
+		"eightrom": [ 8828364 ],
+		"ninerom": [ 9446404 ],
+		"type": [ 1 ]
+	},
+	"Can10_Rbr1": {
+		"location": [ 553851652 ],
+		"eightrom": [ 8828396 ],
+		"ninerom": [ 9446412 ],
+		"type": [ 1 ]
+	},
+	"Cab11_Moley": {
+		"location": [ 67243777 ],
+		"eightrom": [ 8828488 ],
+		"ninerom": [ 9446432 ],
+		"type": [ 0 ]
+	},
+	"Cab1_Cab4": {
+		"location": [ 268572170 ],
+		"eightrom": [ 8829202 ],
+		"ninerom": [ 9446452 ],
+		"type": [ 0 ]
+	},
+	"Cab1_Cab2": {
+		"location": [ 4244702227 ],
+		"eightrom": [ 8829234 ],
+		"ninerom": [ 9446460 ],
+		"type": [ 1 ]
+	},
+	"Cab2_Cab3": {
+		"location": [ 4261479430 ],
+		"eightrom": [ 8829760 ],
+		"ninerom": [ 9446480 ],
+		"type": [ 1 ]
+	},
+	"Cab2_Cab1": {
+		"location": [ 4227935004 ],
+		"eightrom": [ 8830310 ],
+		"ninerom": [ 9446496 ],
+		"type": [ 1 ]
+	},
+	"Cab3_Cab2": {
+		"location": [ 4244711684 ],
+		"eightrom": [ 8830620 ],
+		"ninerom": [ 9446524 ],
+		"type": [ 1 ]
+	},
+	"Cab3_Cab6": {
+		"location": [ 4110487044 ],
+		"eightrom": [ 8833064 ],
+		"ninerom": [ 9446532 ],
+		"type": [ 1 ]
+	},
+	"Cab4_Cab1": {
+		"location": [ 4227933724 ],
+		"eightrom": [ 8834112, 8834126, 8834140, 8834154, 8834168, 8834182, 8834196, 8834210 ],
+		"ninerom": [ 9446572 ],
+		"type": [ 3 ]
+	},
+	"Cab4_Cab5": {
+		"location": [ 16909318 ],
+		"eightrom": [ 8834368 ],
+		"ninerom": [ 9446580 ],
+		"type": [ 1 ]
+	},
+	"Cab4_Cab8": {
+		"location": [ 1342311943 ],
+		"eightrom": [ 8834382 ],
+		"ninerom": [ 9446588 ],
+		"type": [ 1 ]
+	},
+	"Cab4_Cab9": {
+		"location": [ 251790097 ],
+		"eightrom": [ 8834396 ],
+		"ninerom": [ 9446596 ],
+		"type": [ 1 ]
+	},
+	"Cab6_Cab3": {
+		"location": [ 4261484573 ],
+		"eightrom": [ 8834716 ],
+		"ninerom": [ 9446616 ],
+		"type": [ 1 ]
+	},
+	"Cab6_Cab7": {
+		"location": [ 33686277 ],
+		"eightrom": [ 8834784 ],
+		"ninerom": [ 9446624 ],
+		"type": [ 1 ]
+	},
+	"Cab6_Cab5": {
+		"location": [ 16915205 ],
+		"eightrom": [ 8835212 ],
+		"ninerom": [ 9446632 ],
+		"type": [ 1 ]
+	},
+	"Cab20_Cab21": {
+		"location": [ 318907908 ],
+		"eightrom": [ 8835574 ],
+		"ninerom": [ 9446660 ],
+		"type": [ 0 ]
+	},
+	"Cab13_Rbr13": {
+		"location": [ 4211150354 ],
+		"eightrom": [ 8836140 ],
+		"ninerom": [ 9446680 ],
+		"type": [ 1 ]
+	},
+	"Cab13B_Cab20": {
+		"location": [ 4278267141 ],
+		"eightrom": [ 8836226 ],
+		"ninerom": [ 9446688 ],
+		"type": [ 0 ]
+	},
+	"Cab13B_Cab14": {
+		"location": [ 285345539 ],
+		"eightrom": [ 8836312 ],
+		"ninerom": [ 9446696 ],
+		"type": [ 1 ]
+	},
+	"Cab13_Cab14": {
+		"location": [ 285349891 ],
+		"eightrom": [ 8836344 ],
+		"ninerom": [ 9446704 ],
+		"type": [ 1 ]
+	},
+	"Cab5_Cab2": {
+		"location": [ 4244712209 ],
+		"eightrom": [ 8836588 ],
+		"ninerom": [ 9446724 ],
+		"type": [ 3 ]
+	},
+	"Cab5_Cab6": {
+		"location": [ 4110484765 ],
+		"eightrom": [ 8836602 ],
+		"ninerom": [ 9446732 ],
+		"type": [ 1 ]
+	},
+	"Cab5_Cab4": {
+		"location": [ 268571936 ],
+		"eightrom": [ 8836616 ],
+		"ninerom": [ 9446740 ],
+		"type": [ 1 ]
+	},
+	"Cab10DeadEnd_Cab5": {
+		"location": [ 50465795 ],
+		"eightrom": [ 8837494 ],
+		"ninerom": [ 9446748 ],
+		"type": [ 1 ]
+	},
+	"Cab7_Cab6": {
+		"location": [ 4110490636 ],
+		"eightrom": [ 8837744 ],
+		"ninerom": [ 9446768 ],
+		"type": [ 1 ]
+	},
+	"Cab5_Cab10DeadEnd": {
+		"location": [ 16915219 ],
+		"eightrom": [ 8838244 ],
+		"ninerom": [ 9446804 ],
+		"type": [ 1 ]
+	},
+	"Cab10_Cab11": {
+		"location": [ 4093707010 ],
+		"eightrom": [ 8838780, 8838794, 8838808, 8838822, 8838836, 8838850, 8838864, 8838878 ],
+		"ninerom": [ 9446812 ],
+		"type": [ 0 ]
+	},
+	"Cab18_Cab7": {
+		"location": [ 33692455 ],
+		"eightrom": [ 8839320 ],
+		"ninerom": [ 9446840 ],
+		"type": [ 1 ]
+	},
+	"Cab18_Cab17": {
+		"location": [ 1325531913 ],
+		"eightrom": [ 8840288 ],
+		"ninerom": [ 9446848 ],
+		"type": [ 1 ]
+	},
+	"Cab15_Cab14": {
+		"location": [ 285345053 ],
+		"eightrom": [ 8840588 ],
+		"ninerom": [ 9446868 ],
+		"type": [ 1 ]
+	},
+	"Cab15_Cab16": {
+		"location": [ 302132233 ],
+		"eightrom": [ 8840602 ],
+		"ninerom": [ 9446876 ],
+		"type": [ 1 ]
+	},
+	"Cab15_Cab19": {
+		"location": [ 3204449031 ],
+		"eightrom": [ 8840616 ],
+		"ninerom": [ 9446884 ],
+		"type": [ 1 ]
+	},
+	"Cab9_Cab10Lower": {
+		"location": [ 50463235 ],
+		"eightrom": [ 8841152 ],
+		"ninerom": [ 9446912 ],
+		"type": [ 3 ]
+	},
+	"Cab9_Cab4": {
+		"location": [ 268572208 ],
+		"eightrom": [ 8841652 ],
+		"ninerom": [ 9446920 ],
+		"type": [ 1 ]
+	},
+	"Cab9_Cab10Upper": {
+		"location": [ 50464024 ],
+		"eightrom": [ 8841900 ],
+		"ninerom": [ 9446928 ],
+		"type": [ 3 ]
+	},
+	"Cab14_Cab13B": {
+		"location": [ 133651 ],
+		"eightrom": [ 8842388 ],
+		"ninerom": [ 9446948 ],
+		"type": [ 1 ]
+	},
+	"Cab14_Cab13": {
+		"location": [ 136979 ],
+		"eightrom": [ 8842402 ],
+		"ninerom": [ 9446956 ],
+		"type": [ 1 ]
+	},
+	"Cab14_Cab15": {
+		"location": [ 184685315 ],
+		"eightrom": [ 8844234 ],
+		"ninerom": [ 9446964 ],
+		"type": [ 1 ]
+	},
+	"Cab16_Cab15": {
+		"location": [ 184681226 ],
+		"eightrom": [ 8845650 ],
+		"ninerom": [ 9446984 ],
+		"type": [ 1 ]
+	},
+	"Cab16_Cab17": {
+		"location": [ 1325534729 ],
+		"eightrom": [ 8846582 ],
+		"ninerom": [ 9446992 ],
+		"type": [ 1 ]
+	},
+	"Cab17_Cab18": {
+		"location": [ 84028435 ],
+		"eightrom": [ 8852184 ],
+		"ninerom": [ 9447048 ],
+		"type": [ 1 ]
+	},
+	"Cab17_Cab16": {
+		"location": [ 302121747 ],
+		"eightrom": [ 8852198 ],
+		"ninerom": [ 9447056 ],
+		"type": [ 1 ]
+	},
+	"Cab17_Rbr15": {
+		"location": [ 3254781960 ],
+		"eightrom": [ 8852170 ],
+		"ninerom": [ 9447064 ],
+		"type": [ 1 ]
+	},
+	"Cab19_Cab15": {
+		"location": [ 184691219 ],
+		"eightrom": [ 8852312 ],
+		"ninerom": [ 9447084 ],
+		"type": [ 1 ]
+	},
+	"Cab19_Oli1": {
+		"location": [ 2181038856 ],
+		"eightrom": [ 8852326 ],
+		"ninerom": [ 9447092 ],
+		"type": [ 1 ]
+	},
+	"Cab19_Rbr1": {
+		"location": [ 553851153 ],
+		"eightrom": [ 8852298 ],
+		"ninerom": [ 9447100 ],
+		"type": [ 1 ]
+	},
+	"Cab19_Oli11": {
+		"location": [ 2047019267 ],
+		"eightrom": [ 8852358 ],
+		"ninerom": [ 9447108 ],
+		"type": [ 1 ]
+	},
+	"Oli1_Cab19": {
+		"location": [ 3204451847 ],
+		"eightrom": [ 8852686 ],
+		"ninerom": [ 9447128 ],
+		"type": [ 1 ]
+	},
+	"Oli1_Oli2": {
+		"location": [ 2197816070 ],
+		"eightrom": [ 8852700 ],
+		"ninerom": [ 9447136 ],
+		"type": [ 1 ]
+	},
+	"Oli2_Oli4": {
+		"location": [ 2214593296 ],
+		"eightrom": [ 8852948 ],
+		"ninerom": [ 9447156 ],
+		"type": [ 3 ]
+	},
+	"Oli2_Oli1": {
+		"location": [ 2181056520 ],
+		"eightrom": [ 8853034 ],
+		"ninerom": [ 9447164 ],
+		"type": [ 1 ]
+	},
+	"Oli2_Oli3": {
+		"location": [ 973276164 ],
+		"eightrom": [ 8853102 ],
+		"ninerom": [ 9447172 ],
+		"type": [ 1 ]
+	},
+	"Oli4_Oli4Bottom": {
+		"location": [ 2214605066 ],
+		"eightrom": [ 8853432 ],
+		"ninerom": [ 9447192 ],
+		"type": [ 0 ]
+	},
+	"Oli4Top_Oli5Top": {
+		"location": [ 2231370246 ],
+		"eightrom": [ 8853446 ],
+		"ninerom": [ 9447200 ],
+		"type": [ 0 ]
+	},
+	"Oli4Bottom_Oli5Bottom": {
+		"location": [ 2231370514 ],
+		"eightrom": [ 8853460 ],
+		"ninerom": [ 9447208 ],
+		"type": [ 0 ]
+	},
+	"Oli5Bottom_Oli6": {
+		"location": [ 2248147463 ],
+		"eightrom": [ 8853724 ],
+		"ninerom": [ 9447228 ],
+		"type": [ 0 ]
+	},
+	"Oli5Top_Oli8": {
+		"location": [ 990053124 ],
+		"eightrom": [ 8853738 ],
+		"ninerom": [ 9447236 ],
+		"type": [ 0 ]
+	},
+	"Oli6_Oli7": {
+		"location": [ 2264924676 ],
+		"eightrom": [ 8854378 ],
+		"ninerom": [ 9447264 ],
+		"type": [ 0 ]
+	},
+	"Oli16_Oli17": {
+		"location": [ 788727049 ],
+		"eightrom": [ 8856634 ],
+		"ninerom": [ 9447304 ],
+		"type": [ 0 ]
+	},
+	"Oli18_Oli15": {
+		"location": [ 1073939225 ],
+		"eightrom": [ 8857886 ],
+		"ninerom": [ 9447332 ],
+		"type": [ 3 ]
+	},
+	"Oli12_Oli11": {
+		"location": [ 2047020553 ],
+		"eightrom": [ 8859028 ],
+		"ninerom": [ 9447352 ],
+		"type": [ 1 ]
+	},
+	"Oli12_Oli13": {
+		"location": [ 1023607557 ],
+		"eightrom": [ 8859110 ],
+		"ninerom": [ 9447360 ],
+		"type": [ 1 ]
+	},
+	"Oli12_Oli19": {
+		"location": [ 1040387074 ],
+		"eightrom": [ 8859592 ],
+		"ninerom": [ 9447368 ],
+		"type": [ 0 ]
+	},
+	"Oli12_Oli16": {
+		"location": [ 654443268 ],
+		"eightrom": [ 8859078 ],
+		"ninerom": [ 9447376 ],
+		"type": [ 0 ]
+	},
+	"Oli14_Oli27": {
+		"location": [ 939721736 ],
+		"eightrom": [ 8860056 ],
+		"ninerom": [ 9447396 ],
+		"type": [ 1 ]
+	},
+	"Oli14_Oli28": {
+		"location": [ 1057162002 ],
+		"eightrom": [ 8860070 ],
+		"ninerom": [ 9447404 ],
+		"type": [ 0 ]
+	},
+	"Oli14_Oli13": {
+		"location": [ 1023630342 ],
+		"eightrom": [ 8861218 ],
+		"ninerom": [ 9447412 ],
+		"type": [ 1 ]
+	},
+	"Oli14_Oli15": {
+		"location": [ 1073942020 ],
+		"eightrom": [ 8861484 ],
+		"ninerom": [ 9447420 ],
+		"type": [ 1 ]
+	},
+	"Oli17_Oli18": {
+		"location": [ 687997700 ],
+		"eightrom": [ 8862286 ],
+		"ninerom": [ 9447448 ],
+		"type": [ 0 ]
+	},
+	"Oli27_Oli14": {
+		"location": [ 771949315 ],
+		"eightrom": [ 8865644 ],
+		"ninerom": [ 9447520 ],
+		"type": [ 1 ]
+	},
+	"Oli10_Oli11": {
+		"location": [ 2047017737 ],
+		"eightrom": [ 8865476 ],
+		"ninerom": [ 9447476 ],
+		"type": [ 1 ]
+	},
+	"Oli10_Oli9": {
+		"location": [ 1006855942 ],
+		"eightrom": [ 8865490 ],
+		"ninerom": [ 9447484 ],
+		"type": [ 1 ]
+	},
+	"Oli3_Oli2": {
+		"location": [ 2197824521 ],
+		"eightrom": [ 8866028 ],
+		"ninerom": [ 9447576 ],
+		"type": [ 1 ]
+	},
+	"Oli8_Oli9": {
+		"location": [ 1006830340 ],
+		"eightrom": [ 8870896 ],
+		"ninerom": [ 9447596 ],
+		"type": [ 1 ]
+	},
+	"Oli9_Oli8": {
+		"location": [ 990063389 ],
+		"eightrom": [ 8871518 ],
+		"ninerom": [ 9447616 ],
+		"type": [ 1 ]
+	},
+	"Oli9_Oli10": {
+		"location": [ 922944541 ],
+		"eightrom": [ 8871568 ],
+		"ninerom": [ 9447624 ],
+		"type": [ 1 ]
+	},
+	"Oli13_Oli12": {
+		"location": [ 721631495 ],
+		"eightrom": [ 8871892 ],
+		"ninerom": [ 9447644 ],
+		"type": [ 1 ]
+	},
+	"Oli19_Oli20": {
+		"location": [ 704840450 ],
+		"eightrom": [ 8872842 ],
+		"ninerom": [ 9447672 ],
+		"type": [ 0 ]
+	},
+	"Oli28_Oli29": {
+		"location": [ 956502547 ],
+		"eightrom": [ 8873332 ],
+		"ninerom": [ 9447692 ],
+		"type": [ 0 ]
+	},
+	"Oli15_Oli14": {
+		"location": [ 771959837 ],
+		"eightrom": [ 8874314 ],
+		"ninerom": [ 9447712 ],
+		"type": [ 1 ]
+	},
+	"Oli15_Oli24": {
+		"location": [ 889389570 ],
+		"eightrom": [ 8874850 ],
+		"ninerom": [ 9447720 ],
+		"type": [ 0 ]
+	},
+	"Oli11_Oli10": {
+		"location": [ 922954268 ],
+		"eightrom": [ 8874960 ],
+		"ninerom": [ 9447740 ],
+		"type": [ 1 ]
+	},
+	"Oli11_Oli12": {
+		"location": [ 721617924 ],
+		"eightrom": [ 8874974 ],
+		"ninerom": [ 9447748 ],
+		"type": [ 1 ]
+	},
+	"Oli11_Cab19": {
+		"location": [ 3204450312 ],
+		"eightrom": [ 8874946 ],
+		"ninerom": [ 9447756 ],
+		"type": [ 1 ]
+	},
+	"Oli25_Gobbler": {
+		"location": [ 906169347 ],
+		"eightrom": [ 8875140 ],
+		"ninerom": [ 9447776 ],
+		"type": [ 0 ]
+	},
+	"Oli21_Oli22": {
+		"location": [ 805503492 ],
+		"eightrom": [ 8877134, 8877148, 8877162, 8877176, 8877190, 8877204 ],
+		"ninerom": [ 9447796 ],
+		"type": [ 0 ]
+	},
+	"Oli20_Oli21": {
+		"location": [ 570625283 ],
+		"eightrom": [ 8877452 ],
+		"ninerom": [ 9447816 ],
+		"type": [ 0 ]
+	},
+	"Oli22_Oli23": {
+		"location": [ 855835397 ],
+		"eightrom": [ 8878158 ],
+		"ninerom": [ 9447844 ],
+		"type": [ 0 ]
+	},
+	"Oli23_Oli24": {
+		"location": [ 889389573 ],
+		"eightrom": [ 8880548 ],
+		"ninerom": [ 9447864 ],
+		"type": [ 0 ]
+	},
+	"Oli24_Oli25": {
+		"location": [ 537070084 ],
+		"eightrom": [ 8882032 ],
+		"ninerom": [ 9447884 ],
+		"type": [ 0 ]
+	},
+	"Cab8_Rad1": {
+		"location": [ 1812081673 ],
+		"eightrom": [ 8882506 ],
+		"ninerom": [ 9447916 ],
+		"type": [ 1 ]
+	},
+	"Cab8_Cab4": {
+		"location": [ 268567600 ],
+		"eightrom": [ 8882520 ],
+		"ninerom": [ 9447924 ],
+		"type": [ 1 ]
+	},
+	"Cab8_Rbr1": {
+		"location": [ 553846545 ],
+		"eightrom": [ 8882492 ],
+		"ninerom": [ 9447932 ],
+		"type": [ 1 ]
+	},
+	"Cab8_Rad12": {
+		"location": [ 2986477827 ],
+		"eightrom": [ 8882552 ],
+		"ninerom": [ 9447940 ],
+		"type": [ 1 ]
+	},
+	"Rad4_Rad6": {
+		"location": [ 1661081608 ],
+		"eightrom": [ 8883090, 8884054 ],
+		"ninerom": [ 9447960, 9447976 ],
+		"type": [ 1 ]
+	},
+	"Rad4_Rad3Top": {
+		"location": [ 1560412946 ],
+		"eightrom": [ 8883140 ],
+		"ninerom": [ 9447968 ],
+		"type": [ 3 ]
+	},
+	"Rad4_Rad3": {
+		"location": [ 1560413209 ],
+		"eightrom": [ 8884338 ],
+		"ninerom": [ 9447984 ],
+		"type": [ 1 ]
+	},
+	"Rad4_Rad5Chest": {
+		"location": [ 1862403084 ],
+		"eightrom": [ 8883040 ],
+		"ninerom": [ 9447992 ],
+		"type": [ 1 ]
+	},
+	"Rad7_Rad8Top": {
+		"location": [ 1543635974 ],
+		"eightrom": [ 8884664 ],
+		"ninerom": [ 9448012 ],
+		"type": [ 1 ]
+	},
+	"Rad7_Rad6": {
+		"location": [ 1661079813 ],
+		"eightrom": [ 8885110 ],
+		"ninerom": [ 9448020 ],
+		"type": [ 1 ]
+	},
+	"Rad8Top_Rad11": {
+		"location": [ 1845625618 ],
+		"eightrom": [ 8886000 ],
+		"ninerom": [ 9448040 ],
+		"type": [ 0 ]
+	},
+	"Rad8Top_Rad7": {
+		"location": [ 1526860548 ],
+		"eightrom": [ 8886230 ],
+		"ninerom": [ 9448048 ],
+		"type": [ 1 ]
+	},
+	"Rad8Bottom_Rad9": {
+		"location": [ 1577190405 ],
+		"eightrom": [ 8886672 ],
+		"ninerom": [ 9448056 ],
+		"type": [ 1 ]
+	},
+	"Rad8Bottom_Rad5": {
+		"location": [ 1862402819 ],
+		"eightrom": [ 8886388 ],
+		"ninerom": [ 9448064 ],
+		"type": [ 0 ]
+	},
+	"Rad3Top_Rad9": {
+		"location": [ 1577193516 ],
+		"eightrom": [ 8887470 ],
+		"ninerom": [ 9448084 ],
+		"type": [ 1 ]
+	},
+	"Rad3_Rad4": {
+		"location": [ 1493331977 ],
+		"eightrom": [ 8888006 ],
+		"ninerom": [ 9448092 ],
+		"type": [ 1 ]
+	},
+	"Rad3_Rad10": {
+		"location": [ 1644308996 ],
+		"eightrom": [ 8888920 ],
+		"ninerom": [ 9448100 ],
+		"type": [ 0 ]
+	},
+	"Rad9_Rad8Bottom": {
+		"location": [ 1543654921 ],
+		"eightrom": [ 8889276 ],
+		"ninerom": [ 9448120 ],
+		"type": [ 1 ]
+	},
+	"Rad9_Rad3Top": {
+		"location": [ 1560413969 ],
+		"eightrom": [ 8889434 ],
+		"ninerom": [ 9448128 ],
+		"type": [ 1 ]
+	},
+	"Rad10_Rad6": {
+		"location": [ 1661079059 ],
+		"eightrom": [ 8889544 ],
+		"ninerom": [ 9448156 ],
+		"type": [ 3 ]
+	},
+	"Rad6_Rad7": {
+		"location": [ 1526859057 ],
+		"eightrom": [ 8889704 ],
+		"ninerom": [ 9448176 ],
+		"type": [ 1 ]
+	},
+	"Rad6_Rad4": {
+		"location": [ 1493304329 ],
+		"eightrom": [ 8889750 ],
+		"ninerom": [ 9448184 ],
+		"type": [ 1 ]
+	},
+	"Rad6_Rad12": {
+		"location": [ 2986479113 ],
+		"eightrom": [ 8889736 ],
+		"ninerom": [ 9448192 ],
+		"type": [ 1 ]
+	},
+	"Rad1_Cab8": {
+		"location": [ 1342309127 ],
+		"eightrom": [ 8893064 ],
+		"ninerom": [ 9448212 ],
+		"type": [ 1 ]
+	},
+	"Rad1_Rad2": {
+		"location": [ 1828866307 ],
+		"eightrom": [ 8892892, 8892924 ],
+		"ninerom": [ 9448220 ],
+		"type": [ 0 ]
+	},
+	"Rad2_Rad3": {
+		"location": [ 1560423429 ],
+		"eightrom": [ 8894588 ],
+		"ninerom": [ 9448240 ],
+		"type": [ 3 ]
+	},
+	"Rad5_Rad9": {
+		"location": [ 1577189916 ],
+		"eightrom": [ 8895236 ],
+		"ninerom": [ 9448296 ],
+		"type": [ 3 ]
+	},
+	"Rad5Chest_Rad4": {
+		"location": [ 1493315594 ],
+		"eightrom": [ 8895250 ],
+		"ninerom": [ 9448304 ],
+		"type": [ 1 ]
+	},
+	"Rad14_Rad15": {
+		"location": [ 1795296264 ],
+		"eightrom": [ 8895650 ],
+		"ninerom": [ 9448332 ],
+		"type": [ 1 ]
+	},
+	"Rad14_Rad16": {
+		"location": [ 1694633243 ],
+		"eightrom": [ 8895754 ],
+		"ninerom": [ 9448340 ],
+		"type": [ 3 ]
+	},
+	"Rad14_Rad13": {
+		"location": [ 1677853701 ],
+		"eightrom": [ 8896092 ],
+		"ninerom": [ 9448348 ],
+		"type": [ 1 ]
+	},
+	"Rad17_Rad18": {
+		"location": [ 1711418397 ],
+		"eightrom": [ 8897378 ],
+		"ninerom": [ 9448368 ],
+		"type": [ 0 ]
+	},
+	"Rad13_Rad14": {
+		"location": [ 1610762258 ],
+		"eightrom": [ 8900340 ],
+		"ninerom": [ 9448388 ],
+		"type": [ 1 ]
+	},
+	"Rad13_Rad12": {
+		"location": [ 2986476553 ],
+		"eightrom": [ 8900354 ],
+		"ninerom": [ 9448396 ],
+		"type": [ 1 ]
+	},
+	"Rad16_Rad17": {
+		"location": [ 1627547395 ],
+		"eightrom": [ 8901470 ],
+		"ninerom": [ 9448424 ],
+		"type": [ 0 ]
+	},
+	"Rad16_Rad24": {
+		"location": [ 1744971803 ],
+		"eightrom": [ 8900682 ],
+		"ninerom": [ 9448416 ],
+		"type": [ 0 ]
+	},
+	"Rad18_Rad19": {
+		"location": [ 1778518094 ],
+		"eightrom": [ 8901758 ],
+		"ninerom": [ 9448444 ],
+		"type": [ 0 ]
+	},
+	"Rad24_Rad25": {
+		"location": [ 201458440 ],
+		"eightrom": [ 8902124 ],
+		"ninerom": [ 9448464 ],
+		"type": [ 0 ]
+	},
+	"Rad27_Rad26": {
+		"location": [ 4127274513 ],
+		"eightrom": [ 8902532 ],
+		"ninerom": [ 9448492 ],
+		"type": [ 0 ]
+	},
+	"Rad19_Rad20": {
+		"location": [ 1895848199 ],
+		"eightrom": [ 8903560 ],
+		"ninerom": [ 9448512 ],
+		"type": [ 0 ]
+	},
+	"Rad15_Rad14": {
+		"location": [ 1610762244 ],
+		"eightrom": [ 8903716 ],
+		"ninerom": [ 9448548 ],
+		"type": [ 1 ]
+	},
+	"Rad12_Rad13": {
+		"location": [ 1677863694 ],
+		"eightrom": [ 8903828 ],
+		"ninerom": [ 9448568 ],
+		"type": [ 1 ]
+	},
+	"Rad12_Rad6": {
+		"location": [ 1661076489 ],
+		"eightrom": [ 8903842 ],
+		"ninerom": [ 9448576 ],
+		"type": [ 1 ]
+	},
+	"Rad12_Cab8": {
+		"location": [ 1342310408 ],
+		"eightrom": [ 8903814 ],
+		"ninerom": [ 9448584 ],
+		"type": [ 1 ]
+	},
+	"Rad26_Rad28": {
+		"location": [ 218235411 ],
+		"eightrom": [ 8904568 ],
+		"ninerom": [ 9448604 ],
+		"type": [ 0 ]
+	},
+	"Rad26_Rad27": {
+		"location": [ 1761739785 ],
+		"eightrom": [ 8907624 ],
+		"ninerom": [ 9448612 ],
+		"type": [ 0 ]
+	},
+	"Rad25_Rad26": {
+		"location": [ 4127261191 ],
+		"eightrom": [ 8908322 ],
+		"ninerom": [ 9448632 ],
+		"type": [ 3 ]
+	},
+	"Rad28_Rad29": {
+		"location": [ 235013128 ],
+		"eightrom": [ 8908778 ],
+		"ninerom": [ 9448652 ],
+		"type": [ 0 ]
+	},
+	"Rad21_Rad22": {
+		"location": [ 1912606216 ],
+		"eightrom": [ 8909416 ],
+		"ninerom": [ 9448708 ],
+		"type": [ 0 ]
+	},
+	"Rad20_Rad21": {
+		"location": [ 1711294984 ],
+		"eightrom": [ 8910258 ],
+		"ninerom": [ 9448728 ],
+		"type": [ 0 ]
+	},
+	"Rad22_DarkMetaKnight": {
+		"location": [ 2164261378 ],
+		"eightrom": [ 8910492 ],
+		"ninerom": [ 9448748 ],
+		"type": [ 0 ]
+	},
+	"Car1_Car3": {
+		"location": [ 2030069767 ],
+		"eightrom": [ 8910940 ],
+		"ninerom": [ 9448780 ],
+		"type": [ 3 ]
+	},
+	"Car1_Car2": {
+		"location": [ 2046846984 ],
+		"eightrom": [ 8910954 ],
+		"ninerom": [ 9448788 ],
+		"type": [ 3 ]
+	},
+	"Car1_Rbr20": {
+		"location": [ 1962935049 ],
+		"eightrom": [ 8910968 ],
+		"ninerom": [ 9448796 ],
+		"type": [ 1 ]
+	},
+	"Car3_Car4": {
+		"location": [ 3791658249 ],
+		"eightrom": [ 8911460 ],
+		"ninerom": [ 9448816 ],
+		"type": [ 1 ]
+	},
+	"Car3_Car2": {
+		"location": [ 2046821379 ],
+		"eightrom": [ 8911798 ],
+		"ninerom": [ 9448824 ],
+		"type": [ 1 ]
+	},
+	"Car2_Car5": {
+		"location": [ 3238006281 ],
+		"eightrom": [ 8912448 ],
+		"ninerom": [ 9448844 ],
+		"type": [ 1 ]
+	},
+	"Car2_Car3": {
+		"location": [ 2030045705 ],
+		"eightrom": [ 8912182 ],
+		"ninerom": [ 9448852 ],
+		"type": [ 1 ]
+	},
+	"Car2_Rbr48": {
+		"location": [ 2868904965 ],
+		"eightrom": [ 8912498 ],
+		"ninerom": [ 9448860 ],
+		"type": [ 1 ]
+	},
+	"Car6_Car8W": {
+		"location": [ 3473025821 ],
+		"eightrom": [ 8912596, 8912610 ],
+		"ninerom": [ 9448888 ],
+		"type": [ 3 ]
+	},
+	"Car6_Car5": {
+		"location": [ 3238003465 ],
+		"eightrom": [ 8912692 ],
+		"ninerom": [ 9448904 ],
+		"type": [ 1 ]
+	},
+	"Car5_Car6": {
+		"location": [ 2852137993 ],
+		"eightrom": [ 8912804 ],
+		"ninerom": [ 9448924 ],
+		"type": [ 1 ]
+	},
+	"Car5_Car2": {
+		"location": [ 2046821384 ],
+		"eightrom": [ 8912818 ],
+		"ninerom": [ 9448932 ],
+		"type": [ 1 ]
+	},
+	"Car5_Rbr21": {
+		"location": [ 3221226499 ],
+		"eightrom": [ 8912790 ],
+		"ninerom": [ 9448940 ],
+		"type": [ 1 ]
+	},
+	"Car22_MegaTitan": {
+		"location": [ 3791785479 ],
+		"eightrom": [ 8912928 ],
+		"ninerom": [ 9448960 ],
+		"type": [ 0 ]
+	},
+	"Car16_Car18": {
+		"location": [ 3741470471 ],
+		"eightrom": [ 8913524 ],
+		"ninerom": [ 9448980 ],
+		"type": [ 0 ]
+	},
+	"Car17_Car18": {
+		"location": [ 3741470471 ],
+		"eightrom": [ 8920270 ],
+		"ninerom": [ 9449144 ],
+		"type": [ 0 ]
+	},
+	"Car16_Car16": {
+		"location": [ 3389139972 ],
+		"eightrom": [ 8913538 ],
+		"ninerom": [ 9448988 ],
+		"type": [ 0 ]
+	},
+	"Car13_Car14": {
+		"location": [ 3674346525 ],
+		"eightrom": [ 8914180 ],
+		"ninerom": [ 9449008 ],
+		"type": [ 3 ]
+	},
+	"Car12_Car13": {
+		"location": [ 3422686769 ],
+		"eightrom": [ 8918108 ],
+		"ninerom": [ 9449028 ],
+		"type": [ 0 ]
+	},
+	"Car8_Car10": {
+		"location": [ 3489822472 ],
+		"eightrom": [ 8918674 ],
+		"ninerom": [ 9449056 ],
+		"type": [ 3 ]
+	},
+	"Car8W_Car8E": {
+		"location": [ 3473021449 ],
+		"eightrom": [ 8918706 ],
+		"ninerom": [ 9449064 ],
+		"type": [ 1 ]
+	},
+	"Car8E_Car8W": {
+		"location": [ 3473019657 ],
+		"eightrom": [ 8918720 ],
+		"ninerom": [ 9449072 ],
+		"type": [ 1 ]
+	},
+	"Car8W_Car9": {
+		"location": [ 3724676366 ],
+		"eightrom": [ 8919202 ],
+		"ninerom": [ 9449080 ],
+		"type": [ 1 ]
+	},
+	"Car8W_Car16": {
+		"location": [ 3389139716 ],
+		"eightrom": [ 8919378 ],
+		"ninerom": [ 9449088 ],
+		"type": [ 0 ]
+	},
+	"Car15_Car22": {
+		"location": [ 1476537348 ],
+		"eightrom": [ 8919584 ],
+		"ninerom": [ 9449116 ],
+		"type": [ 0 ]
+	},
+	"Car17_StupidassCar17": {
+		"location": [ 3707905288 ],
+		"eightrom": [ 8920284 ],
+		"ninerom": [ 9449152 ],
+		"type": [ 0 ]
+	},
+	"Car9_Car8W": {
+		"location": [ 3473016335 ],
+		"eightrom": [ 8920446 ],
+		"ninerom": [ 9449196 ],
+		"type": [ 1 ]
+	},
+	"Car9_Car10": {
+		"location": [ 3489794824 ],
+		"eightrom": [ 8920432 ],
+		"ninerom": [ 9449188 ],
+		"type": [ 3 ]
+	},
+	"Car18_Car19": {
+		"location": [ 3758233615 ],
+		"eightrom": [ 8920600 ],
+		"ninerom": [ 9449216 ],
+		"type": [ 0 ]
+	},
+	"Car19_Car21": {
+		"location": [ 3775015945 ],
+		"eightrom": [ 8921752 ],
+		"ninerom": [ 9449236 ],
+		"type": [ 0 ]
+	},
+	"Car21_Car22": {
+		"location": [ 1476537353 ],
+		"eightrom": [ 8923816, 8927124 ],
+		"ninerom": [ 9449336 ],
+		"type": [ 0 ]
+	},
+	"Car10_Car11A": {
+		"location": [ 3657571588 ],
+		"eightrom": [ 8927940 ],
+		"ninerom": [ 9449396 ],
+		"type": [ 3 ]
+	},
+	"Car10_Car9": {
+		"location": [ 3724676613 ],
+		"eightrom": [ 8928314, 8928328, 8928342, 8928356, 8928370, 8928384, 8928398, 8928412, 8928426, 8928440, 8928454 ],
+		"ninerom": [ 9449404 ],
+		"type": [ 0 ]
+	},
+	"Car11A_Car11B": {
+		"location": [ 3657565202 ],
+		"eightrom": [ 8929132, 8929146, 8929216, 8929230 ],
+		"ninerom": [ 9449424 ],
+		"type": [ 0 ]
+	},
+	"Car11A_Car11G": {
+		"location": [ 3657568531 ],
+		"eightrom": [ 8929160, 8929174, 8929244, 8929258 ],
+		"ninerom": [ 9449432 ],
+		"type": [ 0 ]
+	},
+	"Car11A_Car11E": {
+		"location": [ 3657569052 ],
+		"eightrom": [ 8929188, 8929202, 8929272, 8929286 ],
+		"ninerom": [ 9449440 ],
+		"type": [ 0 ]
+	},
+	"Car11X_Car12": {
+		"location": [ 3439478547 ],
+		"eightrom": [ 8929758 ],
+		"ninerom": [ 9449448 ],
+		"type": [ 0 ]
+	},
+	"Car11I_Car17": {
+		"location": [ 3707896584 ],
+		"eightrom": [ 8929772 ],
+		"ninerom": [ 9449456 ],
+		"type": [ 0 ]
+	},
+	"Car11B_Car11C": {
+		"location": [ 3657568536 ],
+		"eightrom": [ 8929318 ],
+		"ninerom": [ 9449464 ],
+		"type": [ 0 ]
+	},
+	"Car11C_Car11D": {
+		"location": [ 3657565219 ],
+		"eightrom": [ 8929350 ],
+		"ninerom": [ 9449472 ],
+		"type": [ 0 ]
+	},
+	"Car11E_Car11F": {
+		"location": [ 3657565225 ],
+		"eightrom": [ 8929400 ],
+		"ninerom": [ 9449480 ],
+		"type": [ 0 ]
+	},
+	"Carroe11G_Car11H": {
+		"location": [ 3657571365 ],
+		"eightrom": [ 8929450 ],
+		"ninerom": [ 9449488 ],
+		"type": [ 0 ]
+	},
+	"Car11DF_Car11X": {
+		"location": [ 3657568046 ],
+		"eightrom": [ 8929568, 8929536 ],
+		"ninerom": [ 9449496 ],
+		"type": [ 0 ]
+	},
+	"Car11H_Car11I": {
+		"location": [ 3657569326 ],
+		"eightrom": [ 8929600 ],
+		"ninerom": [ 9449504 ],
+		"type": [ 0 ]
+	},
+	"Car14_Car15": {
+		"location": [ 3691119620 ],
+		"eightrom": [ 8930204 ],
+		"ninerom": [ 9449524 ],
+		"type": [ 0 ]
+	},
+	"AbilityRoom_Rbr1": {
+		"location": [ 553846020 ],
+		"eightrom": [ 8932428 ],
+		"ninerom": [ 9449736 ],
+		"type": [ 1 ]
+	},
+	"Cab7_Cab18": {
+		"location": [ 84018179 ],
+		"eightrom": [ 8837830 ],
+		"ninerom": [ 9446776 ],
+		"type": [ 1 ]
+	},
+	"Car19_Car20": {
+		"location": [ 3808560132 ],
+		"eightrom": [ 8923078 ],
+		"ninerom": [ 9449316 ],
+		"type": [ 0 ]
+	},
+	"Car19_Reset": {
+		"location": [ 3758233614 ],
+		"eightrom": [ 8921892, 8922478, 8922700, 8922796, 8923036, 8923064, 8923092, 8927504 ],
+		"ninerom": [ 9449308, 9449376 ],
+		"type": [ 3 ]
+	},
+	"Car19_N":{
+		"location": [ 3758232072 ],
+		"eightrom": [ 8922446 ],
+		"ninerom": [ 9449244 ],
+		"type": [ 0 ]
+	},
+	"Car19_NE":{
+		"location": [ 3758238723 ],
+		"eightrom": [ 8922560 ],
+		"ninerom": [ 9449260 ],
+		"type": [ 0 ]
+	},
+	"Car19_E":{
+		"location": [ 3758235663 ],
+		"eightrom": [ 8922764 ],
+		"ninerom": [ 9449276 ],
+		"type": [ 0 ]
+	},
+	"Car19_SE":{
+		"location": [ 3758238742 ],
+		"eightrom": [ 8922950 ],
+		"ninerom": [ 9449292 ],
+		"type": [ 0 ]
+	},
+	"Car19_S":{
+		"location": [ 3758235415 ],
+		"eightrom": [ 8923050 ],
+		"ninerom": [ 9449300 ],
+		"type": [ 0 ]
+	},
+	"Car19_SW":{
+		"location": [ 3758231067 ],
+		"eightrom": [ 8922882 ],
+		"ninerom": [ 9449284 ],
+		"type": [ 0 ]
+	},
+	"Car19_W":{
+		"location": [ 3758231567 ],
+		"eightrom": [ 8922714 ],
+		"ninerom": [ 9449268 ],
+		"type": [ 0 ]
+	},
+	"Car19_NW":{
+		"location": [ 3758231563 ],
+		"eightrom": [ 8922492 ],
+		"ninerom": [ 9449252 ],
+		"type": [ 0 ]
+	},
+	"Rbr40_Goal":{
+		"location": [ 3556967242 ],
+		"eightrom": [ 8702562, 8702576 ],
+		"ninerom": [ 9442508 ],
+		"type": [ 2 ]
+	},
+	"Rbr46_Goal":{
+		"location": [ 3556967242 ],
+		"eightrom": [ 8721428, 8721442 ],
+		"ninerom": [ 9442896 ],
+		"type": [ 2 ]
+	},
+	"Rbr51_Goal":{
+		"location": [ 3556967242 ],
+		"eightrom": [ 8722920, 8722934 ],
+		"ninerom": [ 9442924 ],
+		"type": [ 2 ]
+	},
+	"Mnl25_Goal":{
+		"location": [ 3573744457 ],
+		"eightrom": [ 8727704, 8727718 ],
+		"ninerom": [ 9443168 ],
+		"type": [ 2 ]
+	},
+	"Oli7_Goal":{
+		"location": [ 3573744457 ],
+		"eightrom": [ 8854970, 8854984 ],
+		"ninerom": [ 9447284 ],
+		"type": [ 2 ]
+	},
+	"Rad11_Goal":{
+		"location": [ 3573744457 ],
+		"eightrom": [ 8895090, 8895104 ],
+		"ninerom": [ 9448268 ],
+		"type": [ 2 ]
+	},
+	"Pep26_Goal":{
+		"location": [ 3573744458 ],
+		"eightrom": [ 8754716, 8754730 ],
+		"ninerom": [ 9444220 ],
+		"type": [ 2 ]
+	},
+	"Mus16_Goal":{
+		"location": [ 3573744458 ],
+		"eightrom": [ 8780288, 8780302 ],
+		"ninerom": [ 9445200 ],
+		"type": [ 2 ]
+	},
+	"Mus6_Goal":{
+		"location": [ 3573744458 ],
+		"eightrom": [ 8793364, 8793378 ],
+		"ninerom": [ 9445592 ],
+		"type": [ 2 ]
+	},
+	"Cab21_Goal":{
+		"location": [ 3573744458 ],
+		"eightrom": [ 8851806, 8851820 ],
+		"ninerom": [ 9447028 ],
+		"type": [ 2 ]
+	},
+	"Mnl16_Goal":{
+		"location": [ 3590521673 ],
+		"eightrom": [ 8744064, 8744078, 8744092 ],
+		"ninerom": [ 9443768 ],
+		"type": [ 2 ]
+	},
+	"Can15_Goal":{
+		"location": [ 3590521673 ],
+		"eightrom": [ 8810448, 8810462 ],
+		"ninerom": [ 9446016 ],
+		"type": [ 2 ]
+	},
+	"Oli29_Goal":{
+		"location": [ 3590521673 ],
+		"eightrom": [ 8865868, 8865882 ],
+		"ninerom": [ 9447548 ],
+		"type": [ 2 ]
+	},
+	"Rad29_Goal":{
+		"location": [ 3590521673 ],
+		"eightrom": [ 8909012, 8909026 ],
+		"ninerom": [ 9448672 ],
+		"type": [ 2 ]
+	},
+	"Pep31_Goal":{
+		"location": [ 3590521674 ],
+		"eightrom": [ 8771596, 8771610 ],
+		"ninerom": [ 9444888 ],
+		"type": [ 2 ]
+	},
+	"Can19_Goal":{
+		"location": [ 3590521674 ],
+		"eightrom": [ 8822256, 8822270 ],
+		"ninerom": [ 9446180 ],
+		"type": [ 2 ]
+	},
+	"Mnl25_Mnl23":{
+		"location": [ 2449476873 ],
+		"eightrom": [ 8727496 ],
+		"ninerom": [ 9443152 ],
+		"type": [ 1 ]
+	},
+	"Mnl2_Mnl12L":{
+		"location": [ 3875669507 ],
+		"eightrom": [ 8732720 ],
+		"ninerom": [ 9443424 ],
+		"type": [ 1 ]
+	},
+	"Mnl12L_Mnl2":{
+		"location": [ 3288471325 ],
+		"eightrom": [ 8740412 ],
+		"ninerom": [ 9443712 ],
+		"type": [ 1 ]
+	},
+	"Mnl2_Mnl12R":{
+		"location": [ 3875671043 ],
+		"eightrom": [ 8732806 ],
+		"ninerom": [ 9443416 ],
+		"type": [ 1 ]
+	},
+	"Mnl12R_Mnl2":{
+		"location": [ 3288473117 ],
+		"eightrom": [ 8740426 ],
+		"ninerom": [ 9443720 ],
+		"type": [ 1 ]
+	},
+	"Pep4_Pep6":{
+		"location": [ 3523223084 ],
+		"eightrom": [ 8751998 ],
+		"ninerom": [ 9444088 ],
+		"type": [ 3 ]
+	},
+	"Mnl12L_Oli27":{
+		"location": [ 939723780 ],
+		"eightrom": [ 8740530 ],
+		"ninerom": [ 9443728 ],
+		"type": [ 1 ]
+	},
+	"Oli27_Mnl12L":{
+		"location": [ 3875670024 ],
+		"eightrom": [ 8865630 ],
+		"ninerom": [ 9447512 ],
+		"type": [ 1 ]
+	},
+	"Car6_Rad15":{
+		"location": [ 1795294212 ],
+		"eightrom": [ 8912660 ],
+		"ninerom": [ 9448896 ],
+		"type": [ 1 ]
+	},
+	"Rad15_Car6":{
+		"location": [ 2852127497 ],
+		"eightrom": [ 8903684 ],
+		"ninerom": [ 9448540 ],
+		"type": [ 1 ]
+	}
+}
