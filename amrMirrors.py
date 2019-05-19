@@ -135,11 +135,14 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 			for z in mirrors[onewaylist[x]]['ninerom']:
 				writeValueToRom(romFile,z,location,4)
 	else:
+		print("Randomizing mirrors...")
 		randomizedlist = mirrorlist.copy()
 		#Do a really basic shuffle.
 		random.shuffle(randomizedlist)
 		
-		print("Randomizing mirrors...")
+		print("Making sure the first hub mirror isn't bad...")
+		while removeBrackets(mirrors[randomizedlist[0]]['type']) != 3:
+			random.shuffle(randomizedlist)
 		
 		for x in range(len(randomizedlist)):
 			#Location warps in Amazing Mirror have two places in the ROM to change, else it softlocks.

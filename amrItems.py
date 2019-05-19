@@ -16,7 +16,7 @@ def chestlistAppend(list,room,value):
 		list[room].append(value)
 
 def randomizeItems(romFile):
-	print("Randomizing items...")
+	print("Randomizing chests and items...")
 	items = json.load(open('JSON\items.json'))
 	itemlist = []
 	itemadd = []

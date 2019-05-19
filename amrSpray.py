@@ -58,6 +58,7 @@ def randomizePalette():
 	return colourstring
 
 def randomizeSpray(romFile):
+	print("Randomizing spray colours...")
 	writeValueToRom(romFile,4846172,randomizePalette(),20)
 	for x in range(13):
 		writeValueToRom(romFile,4846300+(x*32),randomizePalette(),20)
@@ -77,8 +78,6 @@ if __name__ == '__main__':
 	except ValueError:
 		print("Error: Random seed is not a number.")
 		sys.exit()
-
-	print("Randomizing spray colours...")
 
 	katamrom = open(romFile,'rb+')
 	random.seed(randomSeed)

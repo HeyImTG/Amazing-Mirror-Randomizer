@@ -7,6 +7,7 @@ import random
 from amrShared import writeValueToRom, removeBrackets
 #==================================================
 def randomizeStands(romFile):
+	print("Randomizing ability stands...")
 	items = json.load(open('JSON\items.json'))
 	itemlist = []
 	itemadd = []
@@ -39,9 +40,7 @@ if __name__ == '__main__':
 
 	if os.path.isfile('JSON\items.json') == False:
 		print("Error: Could not find items.json in the JSON folder.")
-		sys.exit()
-
-	print("Randomizing ability stands...")
+		sys.exit()	
 
 	katamrom = open(romFile,'rb+')
 	random.seed(randomSeed)
