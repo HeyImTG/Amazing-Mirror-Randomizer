@@ -118,22 +118,18 @@ def generateROM(originalrom,randomizedrom):
 	
 	#Randomize the items?
 	if optionItems == 1:
-		print("Randomizing chests and items...")
 		randomizeItems(katamrom)
 	
 	#Randomize the ability stands?
 	if optionAbilityStands == 1:
-		print("Randomizing ability stands...")
 		randomizeStands(katamrom)
 	
 	#Randomize the spray palettes?
 	if optionColours == 1:
-		print("Randomizing spray colours...")
 		randomizeSpray(katamrom)
 
 	#Randomize the music?
 	if optionMusic == 1:
-		print("Randomizing music...")
 		randomizeMusic(katamrom)
 
 	print("Done.")
@@ -230,6 +226,6 @@ generate_button.grid(row=0, pady=6)
 warning_label = Label(frame_generate_rom, text="Please view the readme for info about the different settings.")
 warning_label.grid(row=1)
 
-Label(frame_generate_rom, text="KatAM Randomizer V.05-15-2019").grid(row=2)
+Label(frame_generate_rom, text="KatAM Randomizer V.05-17-2019").grid(row=2)
 
 randomizer_window.mainloop()
