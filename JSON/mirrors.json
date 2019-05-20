@@ -815,12 +815,6 @@
 		"ninerom": [ 9443240 ],
 		"type": [ 3 ]
 	},
-	"Mnl10_Mnl11": {
-		"location": [ 3322021125 ],
-		"eightrom": [ 8728936 ],
-		"ninerom": [ 9443260 ],
-		"type": [ 0 ]
-	},
 	"Mnl10_BigGolem": {
 		"location": [ 3322021125 ],
 		"eightrom": [ 8728936 ],
