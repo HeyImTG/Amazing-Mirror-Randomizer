@@ -319,7 +319,7 @@
 		"eightrom": [ 8681894 ],
 		"ninerom": [ 9441848 ],
 		"type": [ 0 ],
-		"exits": [ "DEADEND" ]
+		"exits": [ "WARPSTAR1" ]
 	},
 	"Rbr5_Rbr6": {
 		"location": [ 1728053799 ],
@@ -522,7 +522,7 @@
 		"eightrom": [ 8692620 ],
 		"ninerom": [ 9442232 ],
 		"type": [ 0 ],
-		"exits": [ "DEADEND" ]
+		"exits": [ "CANON1" ]
 	},
 	"Rbr14_Rbr41": {
 		"location": [ 2281712411 ],
@@ -1019,7 +1019,7 @@
 		"eightrom": [ 8731544 ],
 		"ninerom": [ 9443380 ],
 		"type": [ 0 ],
-		"exits": [ "Mnl8_Mnl9", "Mnl8_Mnl7RopRight" ]
+		"exits": [ "Mnl8_Mnl9", "Mnl8_Mnl7TopRight" ]
 	},
 	"Mnl2_Mnl3": {
 		"location": [ 3825337097 ],
@@ -1047,7 +1047,7 @@
 		"eightrom": [ 8733214 ],
 		"ninerom": [ 9443460 ],
 		"type": [ 1 ],
-		"exits": [ "Mnl8_Mnl9", "Mnl8_Mnl7RopRight" ]
+		"exits": [ "Mnl8_Mnl9", "Mnl8_Mnl7TopRight" ]
 	},
 	"Mnl7Bottom_Mnl14": {
 		"location": [ 3187813125 ],
@@ -1103,14 +1103,14 @@
 		"eightrom": [ 8738012 ],
 		"ninerom": [ 9443604 ],
 		"type": [ 0 ],
-		"exits": [ "DEADEND" ]
+		"exits": [ "WARPSTAR2" ]
 	},
 	"Mnl19_Mnl18Fire": {
 		"location": [ 3842116360 ],
 		"eightrom": [ 8738530 ],
 		"ninerom": [ 9443612 ],
 		"type": [ 0 ],
-		"exits": [ "Mnl8Fire_Mnl19" ]
+		"exits": [ "Mnl18Fire_Mnl19" ]
 	},
 	"Mnl4_Mnl3": {
 		"location": [ 3825347590 ],
@@ -1460,7 +1460,7 @@
 		"eightrom": [ 8761324 ],
 		"ninerom": [ 9444448 ],
 		"type": [ 0 ],
-		"exits": [ "DEADEND" ]
+		"exits": [ "WARPSTAR3" ]
 	},
 	"Pep13_Pep14": {
 		"location": [ 3607108867 ],
@@ -1777,7 +1777,7 @@
 		"type": [ 0 ],
 		"exits": [ "Mus15_Mus17", "Mus15_Mus16" ]
 	},
-	"Mus14c_Mus15Right": {
+	"Mus14b_Mus15Right": {
 		"location": [ 570559311 ],
 		"eightrom": [ 8779306 ],
 		"ninerom": [ 9445144 ],
@@ -1789,7 +1789,7 @@
 		"eightrom": [ 8779356 ],
 		"ninerom": [ 9445152 ],
 		"type": [ 0 ],
-		"exits": [ "Mus14b_Mus15left" ]
+		"exits": [ "Mus14b_Mus15Left", "Mus14b_Mus15Right" ]
 	},
 	"Mus15_Mus17": {
 		"location": [ 1090592275 ],
@@ -1859,7 +1859,7 @@
 		"eightrom": [ 8783508 ],
 		"ninerom": [ 9445332 ],
 		"type": [ 0 ],
-		"exits": [ "DEADEND" ]
+		"exits": [ "WARPSTAR4" ]
 	},
 	"Mus5_Mus6": {
 		"location": [ 1174470914 ],
@@ -1873,7 +1873,7 @@
 		"eightrom": [ 8785610 ],
 		"ninerom": [ 9445372 ],
 		"type": [ 0 ],
-		"exits": [ "DEADEND" ]
+		"exits": [ "CANON2" ]
 	},
 	"Mus22_Mus23R": {
 		"location": [ 1124146727 ],
@@ -2174,7 +2174,7 @@
 		"eightrom": [ 8821076 ],
 		"ninerom": [ 9446152 ],
 		"type": [ 0 ],
-		"exits": [ "DEADEND" ]
+		"exits": [ "WARPSTAR5" ]
 	},
 	"Can17B_Can18": {
 		"location": [ 2852193540 ],
@@ -2657,7 +2657,7 @@
 		"eightrom": [ 8853446 ],
 		"ninerom": [ 9447200 ],
 		"type": [ 0 ],
-		"exits": [ "Oli5Top_Oli8" ]
+		"exits": [ "Oli5Top_Oli6" ]
 	},
 	"Oli4Bottom_Oli5Bottom": {
 		"location": [ 2231370514 ],
@@ -2678,7 +2678,7 @@
 		"eightrom": [ 8853738 ],
 		"ninerom": [ 9447236 ],
 		"type": [ 0 ],
-		"exits": [ "Oli8_Oli9" ]
+		"exits": [ "Oli8_Oli9", "CANON3" ]
 	},
 	"Oli6_Oli7": {
 		"location": [ 2264924676 ],
@@ -3021,7 +3021,7 @@
 		"eightrom": [ 8888006 ],
 		"ninerom": [ 9448092 ],
 		"type": [ 1 ],
-		"exits": [ "Rad4_Rad6", "Rad4_Rad3Top", "Rad4_Rad5Chest" ]
+		"exits": [ "Rad4_Rad3", "Rad4_Rad6", "Rad4_Rad3Top", "Rad4_Rad5Chest" ]
 	},
 	"Rad3_Rad10": {
 		"location": [ 1644308996 ],
@@ -3224,7 +3224,7 @@
 		"eightrom": [ 8904568 ],
 		"ninerom": [ 9448604 ],
 		"type": [ 0 ],
-		"exits": [ "Rad28_Rad29" ]
+		"exits": [ "Rad28_Rad29", "CANON4" ]
 	},
 	"Rad26_Rad27": {
 		"location": [ 1761739785 ],
@@ -3392,7 +3392,7 @@
 		"eightrom": [ 8914180 ],
 		"ninerom": [ 9449008 ],
 		"type": [ 0 ],
-		"exits": [ "Car14_Car15" ]
+		"exits": [ "Car14_Car15", "WARPSTAR6" ]
 	},
 	"Car12_Car13": {
 		"location": [ 3422686769 ],
@@ -3644,7 +3644,7 @@
 		"eightrom": [ 8923050 ],
 		"ninerom": [ 9449300 ],
 		"type": [ 0 ],
-		"exits": [ "Car19_Reset" ]
+		"exits": [ "Car19_Reset", "Car19_Car20" ]
 	},
 	"Car19_SW":{
 		"location": [ 3758231067 ],

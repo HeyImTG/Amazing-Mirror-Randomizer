@@ -2,6 +2,7 @@
 import random
 import os
 import json
+import sys
 
 from amrShared import writeValueToRom, removeBrackets
 #==================================================
@@ -9,11 +10,16 @@ def findLinkedMirror(string):
 	underscore = string.find("_")
 	return string[underscore+1:len(string)] + "_" + string[0:underscore]
 
+def removeBrackets(value):
+	value = str(value)
+	value = value.strip("[")
+	value = value.strip("]")
+	return int(value)
+
 def randomizeMirrors(romFile,hubMirrors,totalRandom):
 	mirrors = json.load(open('JSON\mirrors.json'))
 	mirrorlist = list(mirrors.keys())
 
-	#Remove the some rooms from the randomizer.
 	mirrorlist.remove("Int1_Int2")
 	mirrorlist.remove("Int2_Int3")
 	mirrorlist.remove("Int3_Int2")
@@ -55,104 +61,271 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 		mirrorlist.remove("Pep24_Pep5")
 
 	#Randomize warp stars.
+	print("Randomizing warp stars...")
 	warpstaradds = [ [ 8944554, 8944566 ], [ 8964698, 8964710 ], [ 8981034, 8981046 ], [ 8998010, 8998022 ], [ 9006434, 9006446 ], [ 9065234, 9065246 ] ]
-	warpstarvalues = [ [ 0, 277076896629504 ], [ 4, 69269484247297 ], [ 1, 12094879601665 ], [ 2, 281471017324801 ], [ 3, 5497809837825 ], [ 5, 281470681800192 ] ]
-	
+	warpstarvalues = [ [ 0, 277076896629504, [ "Mnl1_Mnl2" ] ], [ 4, 69269484247297, [ "Can1_Can9", "Can1_Can2" ] ], [ 1, 12094879601665, [ "Can4_Can6", "Can4_Can2", "Can4_Can5Carbon" ] ], [ 2, 281471017324801, [ "Can7_Can9", "Can7_Can6", "Can7_Can8" ] ], [ 3, 5497809837825, [ "Can21_Can22" ] ], [ 5, 281470681800192, [ "Pep23_Pep24", "Pep23_Car4" ] ] ]
+
 	random.shuffle(warpstarvalues)
 	for x in range(len(warpstaradds)):
 		writeValueToRom(romFile,warpstaradds[x][0],warpstarvalues[x][0],1)
 		writeValueToRom(romFile,warpstaradds[x][1],warpstarvalues[x][1],6)
-		
-	#Randomize fused cannons.
-	cannonadds = [ 8951430, 8999618, 9033722, 9050022 ]
-	cannonvalues = [ 4179903404153243910, 3170817811668802562, 9583663305579299867, 937313871469740802 ]
 	
+	#Randomize fused cannons.
+	print("Randomizing canons stars...")
+	cannonadds = [ 8951430, 8999618, 9033722, 9050022 ]
+	cannonvalues = [ [ 4179903404153243910, [ "Rbr26_Rbr27", "Rbr26_Rbr25" ] ], [ 3170817811668802562, [ "Mus24L_Kracko" ] ], [ 9583663305579299867, [ "Oli5Top_Oli6" ] ], [ 937313871469740802, [ "Rad28_Rad29" ] ] ]
+
 	random.shuffle(cannonvalues)
 	for x in range(len(cannonadds)):
-		writeValueToRom(romFile,cannonadds[x],cannonvalues[x],8)
-	
-	#Randomize Mirrors
+		writeValueToRom(romFile,cannonadds[x],cannonvalues[x][0],8)
+
+	#We need to filter our mirror list into two other lists: a dead end list and a...not...dead end list.
+	#We're gonna check if the one-way mirror entry (Type 1) is labeled as 'DEADEND'.
+	#Then we're gonna check (if total random mode is off) if there's only one possible exit out of a two-way mirror.
+	mirrorListRandomized = []
+		
+	for x in range(len(mirrorlist)):
+		mirrorListRandomized.append('NULL')
+		
+	#Please note that these are the "Pre" random lists.
 	if totalRandom == 0:
-		onewaylist = mirrorlist.copy()
-		twowaylist = mirrorlist.copy()
-		
-		#Sort the mirrors by type.
-		for x in mirrorlist:
-			if mirrors[x]['type'] == [1]:
-				onewaylist.remove(x)
-			else:
-				twowaylist.remove(x)
-		
-		twowayrandom = twowaylist.copy()
-		onewayrandom = onewaylist.copy()
-
-		#Do a really basic shuffle.
-		print("Randomizing mirrors...")
-		random.shuffle(onewayrandom)
-		random.shuffle(twowayrandom)
-		onewaycount = 0
-		twowaycount = 0
-		
-		print("Making sure the first hub mirror isn't bad...")
-		while removeBrackets(mirrors[onewayrandom[0]]['type']) != 3:
-			random.shuffle(onewayrandom)
-		
-		print("Pairing two-way mirrors...")
-		#Make it so that two way mirrors "go back on each other".
-		#Randomize one two-way mirror as normal, then find it's "pair" but using findLinkedMirror.
-		#Then put the linked mirrors next to each other in the randomized lists.
-		for x in range(int(len(twowaylist) / 2)):
-			listvalue = findLinkedMirror(twowayrandom[x*2])
-			randomvalue = findLinkedMirror(twowaylist[x*2])
-			
-			listswap = twowaylist.index(listvalue)
-			randomswap = twowayrandom.index(randomvalue)
-			
-			twowayrandom[randomswap] = twowayrandom[(x*2)+1]
-			twowaylist[listswap] = twowaylist[(x*2)+1]
-			twowayrandom[(x*2)+1] = randomvalue
-			twowaylist[(x*2)+1] = listvalue
-			
-			#Make it so that a two-way mirror doesn't send you back to itself.
-			if twowaylist[x*2] == twowayrandom[x*2] and twowaylist[(x*2)+1] == twowayrandom[(x*2)+1]:
-				listswap = twowayrandom[(x*2)+1]
-				twowayrandom[(x*2)+1] = twowaylist[x*2]
-				twowaylist[x*2] = listswap
-		
-		print("Writing two-way mirrors to ROM...")
-		for x in range(len(twowaylist)):
-			location = removeBrackets(mirrors[twowayrandom[x]]['location'])
-			for y in mirrors[twowaylist[x]]['eightrom']:
-				writeValueToRom(romFile,y,location,4)
-			for z in mirrors[twowaylist[x]]['ninerom']:
-				writeValueToRom(romFile,z,location,4)
-
-		print("Writing one-way mirrors to ROM...")
-		for x in range(len(onewaylist)):
-			location = removeBrackets(mirrors[onewayrandom[x]]['location'])
-			for y in mirrors[onewaylist[x]]['eightrom']:
-				writeValueToRom(romFile,y,location,4)
-			for z in mirrors[onewaylist[x]]['ninerom']:
-				writeValueToRom(romFile,z,location,4)
+		twoWayPreRandomList = []
+		oneWayPreRandomList = []
+		deadEndTwoWayPreRandomList = []
+		deadEndOneWayPreRandomList = []
 	else:
-		print("Randomizing mirrors...")
-		randomizedlist = mirrorlist.copy()
-		#Do a really basic shuffle.
-		random.shuffle(randomizedlist)
+		mirrorPreRandomList = []
+		deadEndPreRandomList = []
+
+	print("Determining dead ends...")
+	for x in mirrorlist:
+		if mirrors[x]['type'][0] == 0:
+			if 'DEADEND' in mirrors[x]['exits']:
+				if totalRandom == 0:
+					deadEndOneWayPreRandomList.append(x)
+				else:
+					deadEndPreRandomList.append(x)
+			else:
+				if totalRandom == 0:
+					oneWayPreRandomList.append(x)
+				else:
+					mirrorPreRandomList.append(x)
+		else:
+			if totalRandom == 0:
+				if mirrors[x]['type'][0] == 1 and len(mirrors[x]['exits']) == 1:
+					deadEndTwoWayPreRandomList.append(x)
+				else:
+					twoWayPreRandomList.append(x)
+			else:
+				mirrorPreRandomList.append(x)
+
+	print("Randomizing mirrors...")
+	if totalRandom == 0:
+		random.shuffle(twoWayPreRandomList)
+		random.shuffle(oneWayPreRandomList)
+		random.shuffle(deadEndTwoWayPreRandomList)
+		random.shuffle(deadEndOneWayPreRandomList)
+	else:
+		random.shuffle(mirrorPreRandomList)
+		random.shuffle(deadEndPreRandomList)
 		
-		print("Making sure the first hub mirror isn't bad...")
-		while removeBrackets(mirrors[randomizedlist[0]]['type']) != 3:
-			random.shuffle(randomizedlist)
+	#The queue list. Once this runs out, the rest of the mirrors that aren't randomized get filled with dead ends.
+	#Once an entrance is randomized, its exits are added to the queue.
+	queueList = [ "Rbr1_Rbr2" ] #Start with the first mirror.
+	alreadyRandomized = []
+	devNotRandomized = []
+	mirrorlistRandomized = []
+	for x in range(len(mirrorlist)):
+		mirrorlistRandomized.append('NULL')
+
+	if totalRandom == 1:
+		while len(queueList) > 0:
+			currentPick = random.choice(queueList)
+
+			#If the exit is a CANON or a WARPSTAR, add the exits for that warpstar or canon to the list and move on.
+			if currentPick.startswith("WARPSTAR") and not ( currentPick in alreadyRandomized ):
+				alreadyRandomized.append(currentPick)
+				for x in warpstarvalues[int(currentPick[8])-1][2]:
+					if not x in alreadyRandomized:
+						queueList.append(x)
+			elif currentPick.startswith("CANON") and not ( currentPick in alreadyRandomized ):
+				alreadyRandomized.append(currentPick)
+				for x in cannonvalues[int(currentPick[5])-1][1]:
+					if not x in alreadyRandomized:
+						queueList.append(x)
+
+			#If it's not a CANON or a WARPSTAR, then it's probably something we can work with?
+			elif currentPick in mirrorlist:
+				currentPickId = mirrorlist.index(currentPick)
+				#Dead-end test. If a mirror's exits are all already randomized, add it to the dead-end list and re-random.
+				isGoodCheck = False
+				while isGoodCheck == False:
+					alreadyCheck = 0
+					if len(mirrorPreRandomList) == 0:
+						isGoodCheck = True
+					else:
+						for x in mirrors[mirrorPreRandomList[0]]['exits']:
+							if x in alreadyRandomized:
+								alreadyCheck += 1
+						if alreadyCheck == len(mirrors[mirrorPreRandomList[0]]['exits']):
+							deadEndPreRandomList.append(mirrorPreRandomList[0])
+							del mirrorPreRandomList[0]
+						else:
+							isGoodCheck = True
+				
+				if not currentPick in alreadyRandomized:
+					alreadyRandomized.append(currentPick)
+					if len(mirrorPreRandomList) > 0:
+						for x in mirrors[mirrorPreRandomList[0]]['exits']:
+							if not x in alreadyRandomized:
+								queueList.append(x)
+						mirrorlistRandomized[currentPickId] = mirrorPreRandomList[0]
+						del mirrorPreRandomList[0]
+					else:
+						mirrorlistRandomized[currentPickId] = deadEndPreRandomList[0]
+						del deadEndPreRandomList[0]
+
+			#This means the exit isn't scheduled to be randomized. Mark it as already randomized, but don't do anything with mirrorlistRandomized.
+			else:
+				if not currentPick in alreadyRandomized:
+					devNotRandomized.append(currentPick)
+					alreadyRandomized.append(currentPick)
+					for x in mirrors[currentPick]['exits']:
+						if not x in alreadyRandomized:
+							queueList.append(x)
+
+			queueList.remove(currentPick)
+	#Non-total random.
+	else:
+		while len(queueList) > 0:
+			currentPick = random.choice(queueList)
 		
-		for x in range(len(randomizedlist)):
-			#Location warps in Amazing Mirror have two places in the ROM to change, else it softlocks.
-			#We need to change both of them, and there could be any number of addresses to write to
-			#to change just one warp.
-			location = removeBrackets(mirrors[randomizedlist[x]]['location'])
-			for y in mirrors[mirrorlist[x]]['eightrom']:
-				writeValueToRom(romFile,y,location,4)
-			for z in mirrors[mirrorlist[x]]['ninerom']:
-				writeValueToRom(romFile,z,location,4)
+			#If the exit is a CANON or a WARPSTAR, add the exits for that warpstar or canon to the list and move on.
+			if currentPick.startswith("WARPSTAR") and not ( currentPick in alreadyRandomized ):
+				alreadyRandomized.append(currentPick)
+				for x in warpstarvalues[int(currentPick[8])-1][2]:
+					if not x in alreadyRandomized:
+						queueList.append(x)
+			elif currentPick.startswith("CANON") and not ( currentPick in alreadyRandomized ):
+				alreadyRandomized.append(currentPick)
+				for x in cannonvalues[int(currentPick[5])-1][1]:
+					if not x in alreadyRandomized:
+						queueList.append(x)
+
+			#If it's not a CANON or a WARPSTAR, then it's probably something we can work with?
+			elif currentPick in mirrorlist:
+				currentPickId = mirrorlist.index(currentPick)
+				#Dead-end test. If a mirror's exits are all already randomized, add it to the dead-end list and re-random.
+				isGoodCheck = False
+				while isGoodCheck == False:
+					alreadyCheck = 0
+					if mirrors[currentPick]['type'][0] == 0:
+						if len(oneWayPreRandomList) == 0:
+							isGoodCheck = True
+						else:
+							#If all a mirror's exits are already randomized, move it to the dead end list.
+							for x in mirrors[oneWayPreRandomList[0]]['exits']:
+								if x in alreadyRandomized:
+									alreadyCheck += 1
+							if alreadyCheck == len(mirrors[oneWayPreRandomList[0]]['exits']):
+								deadEndOneWayPreRandomList.append(oneWayPreRandomList[0])
+								del oneWayPreRandomList[0]
+							else:
+								isGoodCheck = True
+					else:
+						if len(twoWayPreRandomList) == 0:
+							isGoodCheck = True
+						else:
+							#If all a mirror's exits are already randomized, move it to the dead end list.
+							for x in mirrors[twoWayPreRandomList[0]]['exits']:
+								if x in alreadyRandomized:
+									alreadyCheck += 1
+							if alreadyCheck == len(mirrors[twoWayPreRandomList[0]]['exits']):
+								deadEndTwoWayPreRandomList.append(twoWayPreRandomList[0])
+								del twoWayPreRandomList[0]
+							else:
+								isGoodCheck = True
+				
+				if not currentPick in alreadyRandomized:
+					alreadyRandomized.append(currentPick)
+					if mirrors[currentPick]['type'][0] == 0:
+						if len(oneWayPreRandomList) > 0:
+							for x in mirrors[oneWayPreRandomList[0]]['exits']:
+								if not x in alreadyRandomized:
+									queueList.append(x)
+							mirrorlistRandomized[currentPickId] = oneWayPreRandomList[0]
+							del oneWayPreRandomList[0]
+						else:
+							mirrorlistRandomized[currentPickId] = deadEndOneWayPreRandomList[0]
+							del deadEndOneWayPreRandomList[0]
+					else:
+						#Do some more tests as to whether or not the possible pair is a dead end or not.
+						deadendTest = False
+						while deadendTest == False:
+							if len(twoWayPreRandomList) == 0:
+								deadendTest = True
+							else:
+								deadEndCount = 0
+								for x in mirrors[twoWayPreRandomList[0]]['exits']:
+									if x in alreadyRandomized:
+										deadEndCount += 1
+								if deadEndCount == len(mirrors[twoWayPreRandomList[0]]['exits']):
+									deadEndTwoWayPreRandomList.append(twoWayPreRandomList[0])
+									del twoWayPreRandomList[0]
+								else:
+									deadendTest = True
+							
+						if len(twoWayPreRandomList) > 0:
+							while twoWayPreRandomList[0] == findLinkedMirror(currentPick):
+								random.shuffle(twoWayPreRandomList)
+							for x in mirrors[twoWayPreRandomList[0]]['exits']:
+								if not x in alreadyRandomized:
+									queueList.append(x)
+							mirrorlistRandomized[currentPickId] = twoWayPreRandomList[0]
+							mirrorlistRandomized[mirrorlist.index(findLinkedMirror(twoWayPreRandomList[0]))] = findLinkedMirror(currentPick)
+							alreadyRandomized.append(mirrorlist[mirrorlist.index(findLinkedMirror(twoWayPreRandomList[0]))])
+							if findLinkedMirror(currentPick) in twoWayPreRandomList:
+								twoWayPreRandomList.remove(findLinkedMirror(currentPick))
+							else:
+								deadEndTwoWayPreRandomList.remove(findLinkedMirror(currentPick))
+							del twoWayPreRandomList[0]
+						else:
+							while deadEndTwoWayPreRandomList[0] == findLinkedMirror(currentPick):
+								random.shuffle(deadEndTwoWayPreRandomList)
+							mirrorlistRandomized[currentPickId] = deadEndTwoWayPreRandomList[0]
+							mirrorlistRandomized[mirrorlist.index(findLinkedMirror(deadEndTwoWayPreRandomList[0]))] = findLinkedMirror(currentPick)
+							alreadyRandomized.append(mirrorlist[mirrorlist.index(findLinkedMirror(deadEndTwoWayPreRandomList[0]))])
+							
+							deadEndTwoWayPreRandomList.remove(findLinkedMirror(currentPick))
+							del deadEndTwoWayPreRandomList[0]
+			#This means the exit isn't scheduled to be randomized. Mark it as already randomized, but don't do anything with mirrorlistRandomized.
+			else:
+				if not currentPick in alreadyRandomized:
+					devNotRandomized.append(currentPick)
+					alreadyRandomized.append(currentPick)
+					for x in mirrors[currentPick]['exits']:
+						if not x in alreadyRandomized:
+							queueList.append(x)
+
+			queueList.remove(currentPick)
+			
+			if len(queueList) == 0:
+				for x in range(len(mirrorlistRandomized)):
+					if mirrorlistRandomized[x] == "NULL":
+						if mirrorlist[x] in alreadyRandomized:
+							alreadyRandomized.remove(mirrorlist[x])
+						queueList.append(mirrorlist[x])
+
+	print("Writing mirrors to ROM...")
+	for x in range(len(mirrorlist)):
+		#Location warps in Amazing Mirror have two places in the ROM to change, else it softlocks.
+		#We need to change both of them, and there could be any number of addresses to write to
+		#to change just one warp.
+		location = removeBrackets(mirrors[mirrorlistRandomized[x]]['location'])
+		for y in mirrors[mirrorlist[x]]['eightrom']:
+			writeValueToRom(romFile,y,location,4)
+		for z in mirrors[mirrorlist[x]]['ninerom']:
+			writeValueToRom(romFile,z,location,4)
 #==================================================
 if __name__ == '__main__':
 	#Make sure we have our arguments and validation and whatever.
