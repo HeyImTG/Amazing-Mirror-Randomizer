@@ -323,9 +323,9 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 		#to change just one warp.
 		location = removeBrackets(mirrors[mirrorlistRandomized[x]]['location'])
 		for y in mirrors[mirrorlist[x]]['eightrom']:
-			writeValueToRom(romFile,y,location,4)
+			writeValueToRom(romFile,y,location,5)
 		for z in mirrors[mirrorlist[x]]['ninerom']:
-			writeValueToRom(romFile,z,location,4)
+			writeValueToRom(romFile,z,(location >> 8),4)
 #==================================================
 if __name__ == '__main__':
 	#Make sure we have our arguments and validation and whatever.

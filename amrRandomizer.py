@@ -110,24 +110,34 @@ def generateROM(originalrom,randomizedrom):
 	
 	os.system('copy "%s" "%s"' % (originalrom,randomizedrom))
 	katamrom = open(randomizedrom,'rb+')
+	
+	#We're going to use this a lot so that players can race the same seed if they don't want to play with a certain option on.
 	random.seed(optionSeedNumber)
-
+	
 	#Randomize the items?
 	if optionMirrors == 1:
 		randomizeMirrors(katamrom,optionMirrorsDontRandomizeHub,optionMirrorsTotalRandom)
+	
+	random.seed(optionSeedNumber)
 	
 	#Randomize the items?
 	if optionItems == 1:
 		randomizeItems(katamrom)
 	
+	random.seed(optionSeedNumber)
+	
 	#Randomize the ability stands?
 	if optionAbilityStands == 1:
 		randomizeStands(katamrom)
+	
+	random.seed(optionSeedNumber)
 	
 	#Randomize the spray palettes?
 	if optionColours == 1:
 		randomizeSpray(katamrom)
 
+	random.seed(optionSeedNumber)
+		
 	#Randomize the music?
 	if optionMusic == 1:
 		randomizeMusic(katamrom)
@@ -226,6 +236,6 @@ generate_button.grid(row=0, pady=6)
 warning_label = Label(frame_generate_rom, text="Please view the readme for info about the different settings.")
 warning_label.grid(row=1)
 
-Label(frame_generate_rom, text="KatAM Randomizer V.05-17-2019").grid(row=2)
+Label(frame_generate_rom, text="KatAM Randomizer V.05-28-2019").grid(row=2)
 
 randomizer_window.mainloop()
