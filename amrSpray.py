@@ -29,9 +29,9 @@ def randomizePalette():
 	colourlist.append((round(randr) << 10) + (round(randg) << 5) + round(randb))
 
 	for x in range(6):
-		randr *= 0.9
-		randg *= 0.9
-		randb *= 0.9
+		randr *= 0.8
+		randg *= 0.8
+		randb *= 0.8
 		colourlist.append((round(randr) << 10) + (round(randg) << 5) + round(randb))
 		
 	seemsgood = False
