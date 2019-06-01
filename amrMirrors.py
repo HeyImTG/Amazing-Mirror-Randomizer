@@ -26,7 +26,7 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 	mirrorlist.remove("Car19_Reset") #Cause it's fucking aggrivating
 	 
 	#Don't randomize the hub mirrors?
-	if hubMirrors == 1:
+	if hubMirrors == 0:
 		mirrorlist.remove("Rbr1_Rbr27")
 		mirrorlist.remove("Rbr27_Rbr1")
 		mirrorlist.remove("Rbr1_Can10")
@@ -167,8 +167,11 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 						for x in mirrors[mirrorPreRandomList[0]]['exits']:
 							if x in alreadyRandomized:
 								alreadyCheck += 1
+							elif x in queueList:
+								alreadyCheck += 1
 						if alreadyCheck == len(mirrors[mirrorPreRandomList[0]]['exits']):
 							deadEndPreRandomList.append(mirrorPreRandomList[0])
+							random.shuffle(deadEndPreRandomList)
 							del mirrorPreRandomList[0]
 						else:
 							isGoodCheck = True
@@ -227,8 +230,11 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 							for x in mirrors[oneWayPreRandomList[0]]['exits']:
 								if x in alreadyRandomized:
 									alreadyCheck += 1
+								elif x in queueList:
+									alreadyCheck += 1
 							if alreadyCheck == len(mirrors[oneWayPreRandomList[0]]['exits']):
 								deadEndOneWayPreRandomList.append(oneWayPreRandomList[0])
+								random.shuffle(deadEndOneWayPreRandomList)
 								del oneWayPreRandomList[0]
 							else:
 								isGoodCheck = True
@@ -240,8 +246,11 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 							for x in mirrors[twoWayPreRandomList[0]]['exits']:
 								if x in alreadyRandomized:
 									alreadyCheck += 1
+								elif x in queueList:
+									alreadyCheck += 1
 							if alreadyCheck == len(mirrors[twoWayPreRandomList[0]]['exits']):
 								deadEndTwoWayPreRandomList.append(twoWayPreRandomList[0])
+								random.shuffle(deadEndTwoWayPreRandomList)
 								del twoWayPreRandomList[0]
 							else:
 								isGoodCheck = True
