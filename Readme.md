@@ -22,6 +22,20 @@ Currently you're able to randomize these settings:
 
 Once you've checked off what you want to randomize, hit the Generate button, and play your ROM!
 
+# Gameplay Tips
+Randomized mirrors:
+- General tips:
+  - Unsure whether you've gone through a mirror before? Mirrors you've never entered have a glow around their star.
+  - Abilities like Rock, Burning, and Smash are great to have on hand because you'll never know when you'll need to break a wooden peg or a metal block.
+  - The anger of finding a goal mirror can be offset by pressing A+B+Start+Select and trying on a new spray paint.
+- Normal Mode:
+  - Two-way mirrors have a big star, whereas one-way mirrors have a small star. If you're hunting for hub mirrors, you'll find them through two-ways. Looking to find bosses? Hunt for one-ways.
+  - Try to not rush ahead. Comb over each area you've been to so you don't miss anything and later forget about it.
+    - If you hit a hub mirror, go back the way you came and check if you've missed anything before continuing on.
+
+Randomized items:
+- Looking for chests? Use your map screen. Areas that have chests in them don't glow until they've all been opened (even if you don't have the area map).
+
 # In Closing...
 If you enounter any problems running the randomizer, please please please report it to the Randomizer GitHub page (either the master branch if you're using a release version, or the test-branch if you're testing out one of the new features slated for next release). It can't be fixed if I don't know about it!
 
