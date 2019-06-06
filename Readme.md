@@ -39,4 +39,6 @@ Randomized items:
 # In Closing...
 If you enounter any problems running the randomizer, please please please report it to the Randomizer GitHub page (either the master branch if you're using a release version, or the test-branch if you're testing out one of the new features slated for next release). It can't be fixed if I don't know about it!
 
+If you wish to contact me, you can do so by hitting me up on Discord (TG#7181) or on Twitter (@ThatGuy4878) for a question or comment. I also share a lot of my progress on the Kirby Speedrunning discord in the #romhacks channel there (https://discord.gg/H46jaZY).
+
 I hope you have fun playing!
