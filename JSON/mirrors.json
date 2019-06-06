@@ -4,3849 +4,4399 @@
 		"eightrom": [8664540],
 		"ninerom": [9441168],
 		"type": [0],
-		"exits": ["Rbr2_Rbr3"]
+		"exits": ["Rbr2_Rbr3"],
+		"desc": ["First Mirror"]
 	},
 	"Rbr1_AbilityRoom": {
 		"location": [867634710016],
 		"eightrom": [8663668],
 		"ninerom": [9441176],
 		"type": [1],
-		"exits": ["AbilityRoom_Rbr1"]
+		"exits": ["AbilityRoom_Rbr1"],
+		"desc": ["Ability Room"]
 	},
 	"Rbr1_Rbr27": {
 		"location": [335041529856],
 		"eightrom": [8663736],
 		"ninerom": [9441184],
 		"type": [1],
-		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"]
+		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"],
+		"desc": ["Rainbow North Switch"]
 	},
 	"Rbr1_Can10": {
 		"location": [1005039650816],
 		"eightrom": [8663804],
 		"ninerom": [9441192],
 		"type": [1],
-		"exits": ["Can10_Can6", "Can10_Can11", "Can10_Rbr1"]
+		"exits": ["Can10_Can6", "Can10_Can11", "Can10_Rbr1"],
+		"desc": ["Candy Switch"]
 	},
 	"Rbr1_Pep5": {
 		"location": [146046518016],
 		"eightrom": [8664196],
 		"ninerom": [9441200],
 		"type": [1],
-		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"]
+		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"],
+		"desc": ["Peppermint Switch"]
 	},
 	"Rbr1_Mnl4": {
 		"location": [94540202752],
 		"eightrom": [8664372],
 		"ninerom": [9441208],
 		"type": [1],
-		"exits": ["Mnl4_Mnl3", "Mnl4_Mnl5", "Mnl4_Rbr1"]
+		"exits": ["Mnl4_Mnl3", "Mnl4_Mnl5", "Mnl4_Rbr1"],
+		"desc": ["Moonlight Switch"]
 	},
 	"Rbr1_Rbr21": {
 		"location": [824634573568],
 		"eightrom": [8664440],
 		"ninerom": [9441216],
 		"type": [1],
-		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"]
+		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"],
+		"desc": ["Rainbow West Switch"]
 	},
 	"Rbr1_Rbr8": {
 		"location": [816044376832],
 		"eightrom": [8664508],
 		"ninerom": [9441224],
 		"type": [1],
-		"exits": ["Rbr8_Rbr9", "Rbr8_Rbr36", "Rbr8_Rbr1"]
+		"exits": ["Rbr8_Rbr9", "Rbr8_Rbr36", "Rbr8_Rbr1"],
+		"desc": ["Rainbow East Switch"]
 	},
 	"Rbr1_Cab8": {
 		"location": [343631528704],
 		"eightrom": [8664860],
 		"ninerom": [9441232],
 		"type": [1],
-		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"]
+		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"],
+		"desc": ["Cabbage West Switch"]
 	},
 	"Rbr1_Cab19": {
 		"location": [820339344128],
 		"eightrom": [8664982],
 		"ninerom": [9441240],
 		"type": [1],
-		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"]
+		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"],
+		"desc": ["Cabbage East Switch"]
 	},
 	"Rbr1_Rbr15": {
 		"location": [833224246016],
 		"eightrom": [8665050],
 		"ninerom": [9441248],
 		"type": [1],
-		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"]
+		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"],
+		"desc": ["Rainbow South Switch"]
 	},
 	"Int1_Int2": {
 		"location": [154669286656],
 		"eightrom": [8665244],
 		"ninerom": [9441268],
 		"type": [0],
-		"exits": ["Int2_Int3"]
+		"exits": ["Int2_Int3"],
+		"desc": ["One-Way"]
 	},
 	"Int2_Int3": {
 		"location": [158964385537],
 		"eightrom": [8665472],
 		"ninerom": [9441288],
 		"type": [1],
-		"exits": ["Int3_Int2"]
+		"exits": ["Int3_Int2"],
+		"desc": ["Two-Way"]
 	},
 	"Int3_Int2": {
 		"location": [154672825090],
 		"eightrom": [8666288],
 		"ninerom": [9441316],
 		"type": [1],
-		"exits": ["Int2_Int3"]
+		"exits": ["Int2_Int3"],
+		"desc": ["Two-Way"]
 	},
 	"Rbr24_Rbr49": {
 		"location": [592708372226],
 		"eightrom": [8672528],
 		"ninerom": [9441440],
 		"type": [1],
-		"exits": ["Rbr49_Rbr24", "Rbr49_Rbr50"]
+		"exits": ["Rbr49_Rbr24", "Rbr49_Rbr50"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Rbr24_Rbr25": {
 		"location": [253436823809],
 		"eightrom": [8672542],
 		"ninerom": [9441448],
 		"type": [1],
-		"exits": ["Rbr25_Rbr26", "Rbr25_Rbr24"]
+		"exits": ["Rbr25_Rbr26", "Rbr25_Rbr24"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Rbr24_Rbr23": {
 		"location": [597002289920],
 		"eightrom": [8673438],
 		"ninerom": [9441456],
 		"type": [1],
-		"exits": ["Rbr23_Rbr24", "Rbr23_Rbr22"]
+		"exits": ["Rbr23_Rbr24", "Rbr23_Rbr22"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Rbr28_Mus8": {
 		"location": [231945275649],
 		"eightrom": [8674016],
 		"ninerom": [9441476],
 		"type": [1],
-		"exits": ["Mus8_Rbr28"]
+		"exits": ["Mus8_Rbr28"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Rbr28_Rbr27": {
 		"location": [335041922818],
 		"eightrom": [8674246],
 		"ninerom": [9441484],
 		"type": [1],
-		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"]
+		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Rbr28_Rbr29": {
 		"location": [98818131457],
 		"eightrom": [8674260],
 		"ninerom": [9441492],
 		"type": [1],
-		"exits": ["Rbr29_Rbr28", "Rbr29_Rbr30"]
+		"exits": ["Rbr29_Rbr28", "Rbr29_Rbr30"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Rbr28_Mus1": {
 		"location": [90230427906],
 		"eightrom": [8673822],
 		"ninerom": [9441500],
 		"type": [1],
-		"exits": ["Mus1_Mus3", "Mus1_Mus2", "Mus1_Rbr28"]
+		"exits": ["Mus1_Mus3", "Mus1_Mus2", "Mus1_Rbr28"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Rbr29_Rbr28": {
 		"location": [94526903042],
 		"eightrom": [8674472],
 		"ninerom": [9441520],
 		"type": [1],
-		"exits": ["Rbr28_Mus8", "Rbr28_Rbr27", "Rbr28_Rbr29", "Rbr28_Mus1"]
+		"exits": ["Rbr28_Mus8", "Rbr28_Rbr27", "Rbr28_Rbr29", "Rbr28_Mus1"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Rbr29_Rbr30": {
 		"location": [111703164929],
 		"eightrom": [8674702],
 		"ninerom": [9441528],
 		"type": [1],
-		"exits": ["Rbr30_Mus9", "Rbr30_Rbr29", "Rbr30_Rbr31", "Rbr30_Rbr33"]
+		"exits": ["Rbr30_Mus9", "Rbr30_Rbr29", "Rbr30_Rbr31", "Rbr30_Rbr33"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Rbr32_Rbr31": {
 		"location": [107407935744],
 		"eightrom": [8675032],
 		"ninerom": [9441548],
 		"type": [1],
-		"exits": ["Rbr31_Rbr30", "Rbr31_Rbr32"]
+		"exits": ["Rbr31_Rbr30", "Rbr31_Rbr32"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr32_Rbr33": {
 		"location": [128883229185],
 		"eightrom": [8675046],
 		"ninerom": [9441556],
 		"type": [1],
-		"exits": ["Rbr33_Rbr30", "Rbr33_Rbr34", "Rbr33_Rbr32"]
+		"exits": ["Rbr33_Rbr30", "Rbr33_Rbr34", "Rbr33_Rbr32"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr31_Rbr30": {
 		"location": [111702903809],
 		"eightrom": [8675196],
 		"ninerom": [9441584],
 		"type": [1],
-		"exits": ["Rbr30_Mus9", "Rbr30_Rbr31"]
+		"exits": ["Rbr30_Mus9", "Rbr30_Rbr31"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr31_Rbr32": {
 		"location": [103114081026],
 		"eightrom": [8675282],
 		"ninerom": [9441592],
 		"type": [1],
-		"exits": ["Rbr32_Rbr31", "Rbr32_Rbr33"]
+		"exits": ["Rbr32_Rbr31", "Rbr32_Rbr33"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr30_Mus9": {
 		"location": [115997868801],
 		"eightrom": [8675532],
 		"ninerom": [9441612],
 		"type": [1],
-		"exits": ["Mus9_Rbr30", "Mus9_Mus10", "Mus9_Mus9Bombar"]
+		"exits": ["Mus9_Rbr30", "Mus9_Mus10", "Mus9_Mus9Bombar"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr30_Rbr29": {
 		"location": [98820365314],
 		"eightrom": [8675546],
 		"ninerom": [9441620],
 		"type": [1],
-		"exits": ["Rbr29_Rbr28", "Rbr29_Rbr30"]
+		"exits": ["Rbr29_Rbr28", "Rbr29_Rbr30"],
+		"desc": ["Top Two-Way"]
 	},
 	"Rbr30_Rbr31": {
 		"location": [107410621186],
 		"eightrom": [8675776],
 		"ninerom": [9441628],
 		"type": [1],
-		"exits": ["Rbr31_Rbr30", "Rbr31_Rbr32"]
+		"exits": ["Rbr31_Rbr30", "Rbr31_Rbr32"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr30_Rbr33": {
 		"location": [128883951873],
 		"eightrom": [8676186],
 		"ninerom": [9441636],
 		"type": [1],
-		"exits": ["Rbr33_Rbr30", "Rbr33_Rbr34", "Rbr33_Rbr32"]
+		"exits": ["Rbr33_Rbr30", "Rbr33_Rbr34", "Rbr33_Rbr32"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Rbr33_Rbr30": {
 		"location": [111703692032],
 		"eightrom": [8677154],
 		"ninerom": [9441656],
 		"type": [1],
-		"exits": ["Rbr30_Mus9", "Rbr30_Rbr29", "Rbr30_Rbr31", "Rbr30_Rbr33"]
+		"exits": ["Rbr30_Mus9", "Rbr30_Rbr29", "Rbr30_Rbr31", "Rbr30_Rbr33"],
+		"desc": ["Middle Two-Way"]
 	},
 	"Rbr33_Rbr34": {
 		"location": [133177738497],
 		"eightrom": [8677366],
 		"ninerom": [9441664],
 		"type": [1],
-		"exits": ["Rbr34_Rbr33", "Rbr34_Rbr35"]
+		"exits": ["Rbr34_Rbr33", "Rbr34_Rbr35"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr33_Rbr32": {
 		"location": [103115525633],
 		"eightrom": [8677050],
 		"ninerom": [9441672],
 		"type": [1],
-		"exits": ["Rbr32_Rbr31", "Rbr32_Rbr33"]
+		"exits": ["Rbr32_Rbr31", "Rbr32_Rbr33"],
+		"desc": ["Left Two-way"]
 	},
 	"Rbr34_Rbr33": {
 		"location": [128884675074],
 		"eightrom": [8677652],
 		"ninerom": [9441692],
 		"type": [1],
-		"exits": ["Rbr33_Rbr30", "Rbr33_Rbr34", "Rbr33_Rbr32"]
+		"exits": ["Rbr33_Rbr30", "Rbr33_Rbr34", "Rbr33_Rbr32"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr34_Rbr35": {
 		"location": [605590588929],
 		"eightrom": [8677738],
 		"ninerom": [9441700],
 		"type": [1],
-		"exits": ["Rbr35_Rbr34", "Rbr35_Rbr36", "Rbr35_Mus14a", "Rbr35_Mnl21"]
+		"exits": ["Rbr35_Rbr34", "Rbr35_Rbr36", "Rbr35_Mus14a", "Rbr35_Mnl21"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr26_Rbr27": {
 		"location": [335041201921],
 		"eightrom": [8679018],
 		"ninerom": [9441728],
 		"type": [1],
-		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"]
+		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr26_Rbr25": {
 		"location": [253441148418],
 		"eightrom": [8679914],
 		"ninerom": [9441736],
 		"type": [1],
-		"exits": ["Rbr25_Rbr26", "Rbr25_Rbr24"]
+		"exits": ["Rbr25_Rbr26", "Rbr25_Rbr24"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr25_Rbr26": {
 		"location": [249141856513],
 		"eightrom": [8681276],
 		"ninerom": [9441756],
 		"type": [1],
-		"exits": ["Rbr26_Rbr27", "Rbr26_Rbr25"]
+		"exits": ["Rbr26_Rbr27", "Rbr26_Rbr25"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr25_Rbr24": {
 		"location": [85934736642],
 		"eightrom": [8681290],
 		"ninerom": [9441764],
 		"type": [1],
-		"exits": ["Rbr24_Rbr49", "Rbr24_Rbr25", "Rbr24_Rbr23"]
+		"exits": ["Rbr24_Rbr49", "Rbr24_Rbr25", "Rbr24_Rbr23"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr27_Rbr26": {
 		"location": [249146508546],
 		"eightrom": [8681422],
 		"ninerom": [9441784],
 		"type": [1],
-		"exits": ["Rbr26_Rbr27", "Rbr26_Rbr25"]
+		"exits": ["Rbr26_Rbr27", "Rbr26_Rbr25"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr27_Rbr28": {
 		"location": [94523036417],
 		"eightrom": [8681436],
 		"ninerom": [9441792],
 		"type": [1],
-		"exits": ["Rbr28_Mus8", "Rbr28_Rbr27", "Rbr28_Rbr29", "Rbr28_Mus1"]
+		"exits": ["Rbr28_Mus8", "Rbr28_Rbr27", "Rbr28_Rbr29", "Rbr28_Mus1"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr27_Mus12": {
 		"location": [575542921216],
 		"eightrom": [8681408],
 		"ninerom": [9441800],
 		"type": [1],
-		"exits": ["Mus12_Mus13", "Mus12_Mus11", "Mus12_Rbr27"]
+		"exits": ["Mus12_Mus13", "Mus12_Mus11", "Mus12_Rbr27"],
+		"desc": ["Mustard Switch"]
 	},
 	"Rbr27_Rbr1": {
 		"location": [141785236480],
 		"eightrom": [8681468],
 		"ninerom": [9441808],
 		"type": [1],
-		"exits": ["Rbr1_Rbr2"]
+		"exits": ["Rbr1_Rbr2"],
+		"desc": ["Hub"]
 	},
 	"Rbr2_Rbr3": {
 		"location": [455266666752],
 		"eightrom": [8681624],
 		"ninerom": [9441828],
 		"type": [0],
-		"exits": ["Rbr3_Rbr4Top", "Rbr3_Rbr4Bottom"]
+		"exits": ["Rbr3_Rbr4Top", "Rbr3_Rbr4Bottom"],
+		"desc": ["One-Way"]
 	},
 	"Rbr6_Rbr7": {
 		"location": [609885688577],
 		"eightrom": [8681894],
 		"ninerom": [9441848],
 		"type": [0],
-		"exits": ["WARPSTAR1"]
+		"exits": ["WARPSTAR1"],
+		"desc": ["One-Way"]
 	},
 	"Rbr5_Rbr6": {
 		"location": [442381772545],
 		"eightrom": [8682264],
 		"ninerom": [9441868],
 		"type": [0],
-		"exits": ["Rbr6_Rbr7"]
+		"exits": ["Rbr6_Rbr7"],
+		"desc": ["One-Way"]
 	},
 	"Rbr3_Rbr4Top": {
 		"location": [459561763841],
 		"eightrom": [8682496],
 		"ninerom": [9441896],
 		"type": [0],
-		"exits": ["Rbr4Top_Rbr5"]
+		"exits": ["Rbr4Top_Rbr5"],
+		"desc": ["Top One-Way"]
 	},
 	"Rbr3_Rbr4Bottom": {
 		"location": [459561765121],
 		"eightrom": [8682510],
 		"ninerom": [9441904],
 		"type": [0],
-		"exits": ["Rbr4Bottom_Rbr10Top"]
+		"exits": ["Rbr4Bottom_Rbr10Top"],
+		"desc": ["Bottom One-Way"]
 	},
 	"Rbr4Top_Rbr5": {
 		"location": [446676732161],
 		"eightrom": [8682904],
 		"ninerom": [9441924],
 		"type": [0],
-		"exits": ["Rbr5_Rbr6"]
+		"exits": ["Rbr5_Rbr6"],
+		"desc": ["One-Way"]
 	},
 	"Rbr4Bottom_Rbr10Top": {
 		"location": [463856601088],
 		"eightrom": [8683062],
 		"ninerom": [9441932],
 		"type": [0],
-		"exits": ["Rbr10Top_Rbr6"]
+		"exits": ["Rbr10Top_Rbr6"],
+		"desc": ["One-Way"]
 	},
 	"Rbr12_Rbr11": {
 		"location": [472446682369],
 		"eightrom": [8700148],
 		"ninerom": [9442452],
 		"type": [1],
-		"exits": ["Rbr11_Rbr10", "Rbr11_Rbr12", "Rbr11_Rbr37"]
+		"exits": ["Rbr11_Rbr10", "Rbr11_Rbr12", "Rbr11_Rbr37"],
+		"desc": ["Top Two-Way"]
 	},
 	"Rbr12_Rbr13": {
 		"location": [1078057894658],
 		"eightrom": [8700720],
 		"ninerom": [9442460],
 		"type": [1],
-		"exits": ["Rbr13_Rbr12", "Rbr13_Rbr14", "Rbr13_Cab13"]
+		"exits": ["Rbr13_Rbr12", "Rbr13_Rbr14", "Rbr13_Cab13"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Rbr10Top_Rbr6": {
 		"location": [442381772545],
 		"eightrom": [8683440],
 		"ninerom": [9441960],
 		"type": [0],
-		"exits": ["Rbr6_Rbr7"]
+		"exits": ["Rbr6_Rbr7"],
+		"desc": ["Top Right One-Way"]
 	},
 	"Rbr10_Rbr9": {
 		"location": [601295620353],
 		"eightrom": [8683778],
 		"ninerom": [9441968],
 		"type": [1],
-		"exits": ["Rbr9_Rbr10", "Rbr9_Rbr8"]
+		"exits": ["Rbr9_Rbr10", "Rbr9_Rbr8"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr10_Rbr11": {
 		"location": [472446863360],
 		"eightrom": [8685070],
 		"ninerom": [9441976],
 		"type": [1],
-		"exits": ["Rbr11_Rbr10", "Rbr11_Rbr12", "Rbr11_Rbr37"]
+		"exits": ["Rbr11_Rbr10", "Rbr11_Rbr12", "Rbr11_Rbr37"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr11_Rbr10": {
 		"location": [463858701056],
 		"eightrom": [8685840],
 		"ninerom": [9441996],
 		"type": [1],
-		"exits": ["Rbr10_Rbr9", "Rbr10_Rbr11", "Rbr10Top_Rbr6"]
+		"exits": ["Rbr10_Rbr9", "Rbr10_Rbr11", "Rbr10Top_Rbr6"],
+		"desc": ["Top Two-Way"]
 	},
 	"Rbr11_Rbr12": {
 		"location": [1060874158848],
 		"eightrom": [8687816],
 		"ninerom": [9442004],
 		"type": [1],
-		"exits": ["Rbr12_Rbr11", "Rbr12_Rbr13"]
+		"exits": ["Rbr12_Rbr11", "Rbr12_Rbr13"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr11_Rbr37": {
 		"location": [180422444033],
 		"eightrom": [8687830],
 		"ninerom": [9442012],
 		"type": [1],
-		"exits": ["Rbr37_Rbr11", "Rbr37_Rbr38"]
+		"exits": ["Rbr37_Rbr11", "Rbr37_Rbr38"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr9_Rbr10": {
 		"location": [463860272130],
 		"eightrom": [8688016],
 		"ninerom": [9442032],
 		"type": [1],
-		"exits": ["Rbr10_Rbr9", "Rbr10_Rbr11", "Rbr10Top_Rbr6"]
+		"exits": ["Rbr10_Rbr9", "Rbr10_Rbr11", "Rbr10Top_Rbr6"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr9_Rbr8": {
 		"location": [816043985152],
 		"eightrom": [8688030],
 		"ninerom": [9442040],
 		"type": [1],
-		"exits": ["Rbr8_Rbr9", "Rbr8_Rbr36"]
+		"exits": ["Rbr8_Rbr9", "Rbr8_Rbr36"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr35_Rbr34": {
 		"location": [133180426498],
 		"eightrom": [8689188],
 		"ninerom": [9442060],
 		"type": [1],
-		"exits": ["Rbr34_Rbr33", "Rbr34_Rbr35"]
+		"exits": ["Rbr34_Rbr33", "Rbr34_Rbr35"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Rbr35_Rbr36": {
 		"location": [614180520704],
 		"eightrom": [8689724],
 		"ninerom": [9442068],
 		"type": [1],
-		"exits": ["Rbr36_Rbr35", "Rbr36_Mnl22", "Rbr36_Rbr8"]
+		"exits": ["Rbr36_Rbr35", "Rbr36_Mnl22", "Rbr36_Rbr8"],
+		"desc": ["Bottom Right Two-way"]
 	},
 	"Rbr35_Mus14a": {
 		"location": [141767747329],
 		"eightrom": [8688656],
 		"ninerom": [9442076],
 		"type": [1],
-		"exits": ["Mus14a_Rbr35", "Mus14a_Mus14b"]
+		"exits": ["Mus14a_Rbr35", "Mus14a_Mus14b"],
+		"desc": ["Top Left Mirra"]
 	},
 	"Rbr35_Mnl21": {
 		"location": [618475553793],
 		"eightrom": [8689066],
 		"ninerom": [9442084],
 		"type": [1],
-		"exits": ["Mnl21_Rbr35", "Mnl21_Mnl23"]
+		"exits": ["Mnl21_Rbr35", "Mnl21_Mnl23"],
+		"desc": ["Top Right Mirra"]
 	},
 	"Rbr36_Rbr35": {
 		"location": [605593211648],
 		"eightrom": [8690156],
 		"ninerom": [9442116],
 		"type": [1],
-		"exits": ["Rbr35_Rbr34", "Rbr35_Rbr36", "Rbr35_Mus14a", "Rbr35_Mnl21"]
+		"exits": ["Rbr35_Rbr34", "Rbr35_Rbr36", "Rbr35_Mus14a", "Rbr35_Mnl21"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Rbr36_Mnl22": {
 		"location": [622770456321],
 		"eightrom": [8690188],
 		"ninerom": [9442124],
 		"type": [1],
-		"exits": ["Mnl22_Rbr36", "Mnl22_Mnl23"]
+		"exits": ["Mnl22_Rbr36", "Mnl22_Mnl23"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Rbr36_Rbr8": {
 		"location": [816044706050],
 		"eightrom": [8691192],
 		"ninerom": [9442132],
 		"type": [1],
-		"exits": ["Rbr8_Rbr9", "Rbr8_Rbr36"]
+		"exits": ["Rbr8_Rbr9", "Rbr8_Rbr36"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Rbr8_Rbr9": {
 		"location": [601298241794],
 		"eightrom": [8691320],
 		"ninerom": [9442160],
 		"type": [1],
-		"exits": ["Rbr9_Rbr10", "Rbr9_Rbr8"]
+		"exits": ["Rbr9_Rbr10", "Rbr9_Rbr8"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr8_Rbr36": {
 		"location": [614180524801],
 		"eightrom": [8691334],
 		"ninerom": [9442168],
 		"type": [1],
-		"exits": ["Rbr36_Rbr35", "Rbr36_Mnl22", "Rbr36_Rbr8"]
+		"exits": ["Rbr36_Rbr35", "Rbr36_Mnl22", "Rbr36_Rbr8"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr8_Rbr1": {
 		"location": [141785828354],
 		"eightrom": [8691306],
 		"ninerom": [9442176],
 		"type": [1],
-		"exits": ["Rbr1_Rbr2"]
+		"exits": ["Rbr1_Rbr2"],
+		"desc": ["Hub"]
 	},
 	"Rbr16_Rbr15": {
 		"location": [833223853824],
 		"eightrom": [8692156],
 		"ninerom": [9442196],
 		"type": [1],
-		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"]
+		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr16_Rbr17": {
 		"location": [1065169533186],
 		"eightrom": [8692170],
 		"ninerom": [9442204],
 		"type": [1],
-		"exits": ["Rbr17_Rbr18", "Rbr17_Rbr16", "Rbr17_Rbr43"]
+		"exits": ["Rbr17_Rbr18", "Rbr17_Rbr16", "Rbr17_Rbr43"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr16_Cab2": {
 		"location": [1086644881409],
 		"eightrom": [8692220],
 		"ninerom": [9442212],
 		"type": [1],
-		"exits": ["Cab2_Rbr16", "Cab2_Cab3", "Cab2_Cab1"]
+		"exits": ["Cab2_Rbr16", "Cab2_Cab3", "Cab2_Cab1"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Rbr41_Rbr42": {
 		"location": [541166017536],
 		"eightrom": [8692620],
 		"ninerom": [9442232],
 		"type": [0],
-		"exits": ["CANON1"]
+		"exits": ["CANON1"],
+		"desc": ["One-Way"]
 	},
 	"Rbr14_Rbr41": {
 		"location": [584118377218],
 		"eightrom": [8693312],
 		"ninerom": [9442252],
 		"type": [0],
-		"exits": ["Rbr41_Rbr42"]
+		"exits": ["Rbr41_Rbr42"],
+		"desc": ["Top One-Way"]
 	},
 	"Rbr14_Rbr15": {
 		"location": [833224574722],
 		"eightrom": [8694748],
 		"ninerom": [9442260],
 		"type": [1],
-		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"]
+		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr14_Rbr13": {
 		"location": [1078053833472],
 		"eightrom": [8694798],
 		"ninerom": [9442268],
 		"type": [1],
-		"exits": ["Rbr13_Rbr12", "Rbr13_Rbr14", "Rbr13_Cab13"]
+		"exits": ["Rbr13_Rbr12", "Rbr13_Rbr14", "Rbr13_Cab13"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr15_Rbr16": {
 		"location": [545463733250],
 		"eightrom": [8694912],
 		"ninerom": [9442288],
 		"type": [1],
-		"exits": ["Rbr16_Rbr15", "Rbr16_Rbr17", "Rbr16_Cab2"]
+		"exits": ["Rbr16_Rbr15", "Rbr16_Rbr17", "Rbr16_Cab2"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr15_Rbr14": {
 		"location": [588410720769],
 		"eightrom": [8694926],
 		"ninerom": [9442296],
 		"type": [1],
-		"exits": ["Rbr14_Rbr41", "Rbr14_Rbr15", "Rbr14_Rbr13"]
+		"exits": ["Rbr14_Rbr41", "Rbr14_Rbr15", "Rbr14_Rbr13"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr15_Rbr1": {
 		"location": [141785240064],
 		"eightrom": [8694898],
 		"ninerom": [9442304],
 		"type": [1],
-		"exits": ["Rbr1_Rbr2"]
+		"exits": ["Rbr1_Rbr2"],
+		"desc": ["Hub"]
 	},
 	"Rbr15_Cab17": {
 		"location": [339336561408],
 		"eightrom": [8694958],
 		"ninerom": [9442312],
 		"type": [1],
-		"exits": ["Cab17_Cab18", "Cab17_Cab16", "Cab17_Rbr15"]
+		"exits": ["Cab17_Cab18", "Cab17_Cab16", "Cab17_Rbr15"],
+		"desc": ["Cabbage Switch"]
 	},
 	"Rbr17_Rbr18": {
 		"location": [511101967618],
 		"eightrom": [8695368],
 		"ninerom": [9442332],
 		"type": [1],
-		"exits": ["Rbr18_Rbr19", "Rbr18_Rbr17"]
+		"exits": ["Rbr18_Rbr19", "Rbr18_Rbr17"],
+		"desc": ["Top Two-Way"]
 	},
 	"Rbr17_Rbr16": {
 		"location": [545461046785],
 		"eightrom": [8695630],
 		"ninerom": [9442340],
 		"type": [1],
-		"exits": ["Rbr16_Rbr15", "Rbr16_Rbr17", "Rbr16_Cab2"]
+		"exits": ["Rbr16_Rbr15", "Rbr16_Rbr17", "Rbr16_Cab2"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Rbr17_Rbr43": {
 		"location": [747328179714],
 		"eightrom": [8695400],
 		"ninerom": [9442348],
 		"type": [1],
-		"exits": ["Rbr43_Rbr44Top", "Rbr43_Rbr17", "Rbr43_Rbr44Bottom"]
+		"exits": ["Rbr43_Rbr44Top", "Rbr43_Rbr17", "Rbr43_Rbr44Bottom"],
+		"desc": ["Middle Two-Way"]
 	},
 	"Rbr13_Rbr12": {
 		"location": [1060874629122],
 		"eightrom": [8695952],
 		"ninerom": [9442368],
 		"type": [1],
-		"exits": ["Rbr12_Rbr11", "Rbr12_Rbr13"]
+		"exits": ["Rbr12_Rbr11", "Rbr12_Rbr13"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr13_Rbr14": {
 		"location": [588414784256],
 		"eightrom": [8696092],
 		"ninerom": [9442376],
 		"type": [1],
-		"exits": ["Rbr14_Rbr41", "Rbr14_Rbr15", "Rbr14_Rbr13"]
+		"exits": ["Rbr14_Rbr41", "Rbr14_Rbr15", "Rbr14_Rbr13"],
+		"desc": ["Left-Two Way"]
 	},
 	"Rbr13_Cab13": {
 		"location": [33818369],
 		"eightrom": [8696106],
 		"ninerom": [9442384],
 		"type": [1],
-		"exits": ["Cab13_Rbr13", "Cab13_Cab14"]
+		"exits": ["Cab13_Rbr13", "Cab13_Cab14"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Rbr37_Rbr11": {
 		"location": [472447337729],
 		"eightrom": [8696528],
 		"ninerom": [9442404],
 		"type": [1],
-		"exits": ["Rbr11_Rbr10", "Rbr11_Rbr12", "Rbr11_Rbr37"]
+		"exits": ["Rbr11_Rbr10", "Rbr11_Rbr12", "Rbr11_Rbr37"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr37_Rbr38": {
 		"location": [184717673216],
 		"eightrom": [8696992],
 		"ninerom": [9442412],
 		"type": [0],
-		"exits": ["Rbr38_Rbr39"]
+		"exits": ["Rbr38_Rbr39"],
+		"desc": ["Right One-Way"]
 	},
 	"Rbr38_Rbr39": {
 		"location": [189012248065],
 		"eightrom": [8699778],
 		"ninerom": [9442432],
 		"type": [0],
-		"exits": ["Rbr39_Rbr40"]
+		"exits": ["Rbr39_Rbr40"],
+		"desc": ["One-Way"]
 	},
 	"Rbr39_Rbr40": {
 		"location": [193307215105],
 		"eightrom": [8701104],
 		"ninerom": [9442480],
 		"type": [0],
-		"exits": ["Rbr40_Goal"]
+		"exits": ["Rbr40_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Rbr22_Rbr23": {
 		"location": [597000655616],
 		"eightrom": [8706364],
 		"ninerom": [9442540],
 		"type": [1],
-		"exits": ["Rbr23_Rbr24", "Rbr23_Rbr22"]
+		"exits": ["Rbr23_Rbr24", "Rbr23_Rbr22"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr22_Rbr21": {
 		"location": [824634640640],
 		"eightrom": [8706378],
 		"ninerom": [9442548],
 		"type": [1],
-		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"]
+		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr20_Rbr21": {
 		"location": [824633919744],
 		"eightrom": [8706656],
 		"ninerom": [9442568],
 		"type": [1],
-		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"]
+		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Rbr20_Rbr19": {
 		"location": [506806338816],
 		"eightrom": [8706882],
 		"ninerom": [9442576],
 		"type": [1],
-		"exits": ["Rbr19_Rbr20", "Rbr19_Rbr18"]
+		"exits": ["Rbr19_Rbr20", "Rbr19_Rbr18"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr20_Car1": {
 		"location": [515397917954],
 		"eightrom": [8706796],
 		"ninerom": [9442584],
 		"type": [1],
-		"exits": ["Car1_Car3", "Car1_Car2", "Car1_Rbr20"]
+		"exits": ["Car1_Car3", "Car1_Car2", "Car1_Rbr20"],
+		"desc": ["Mirra"]
 	},
 	"Rbr19_Rbr20": {
 		"location": [502513993984],
 		"eightrom": [8707280],
 		"ninerom": [9442604],
 		"type": [1],
-		"exits": ["Rbr20_Rbr21", "Rbr20_Rbr19", "Rbr20_Car1"]
+		"exits": ["Rbr20_Rbr21", "Rbr20_Rbr19", "Rbr20_Car1"],
+		"desc": ["Top Two-Way"]
 	},
 	"Rbr19_Rbr18": {
 		"location": [511101305856],
 		"eightrom": [8710462],
 		"ninerom": [9442612],
 		"type": [1],
-		"exits": ["Rbr18_Rbr19", "Rbr18_Rbr17"]
+		"exits": ["Rbr18_Rbr19", "Rbr18_Rbr17"],
+		"desc": ["Bottom Two-way"]
 	},
 	"Rbr18_Rbr19": {
 		"location": [506807002882],
 		"eightrom": [8710940],
 		"ninerom": [9442632],
 		"type": [1],
-		"exits": ["Rbr19_Rbr20", "Rbr19_Rbr18"]
+		"exits": ["Rbr19_Rbr20", "Rbr19_Rbr18"],
+		"desc": ["Top Two-Way"]
 	},
 	"Rbr18_Rbr17": {
 		"location": [1065168929537],
 		"eightrom": [8712430],
 		"ninerom": [9442640],
 		"type": [1],
-		"exits": ["Rbr17_Rbr18", "Rbr17_Rbr16", "Rbr17_Rbr43"]
+		"exits": ["Rbr17_Rbr18", "Rbr17_Rbr16", "Rbr17_Rbr43"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Rbr49_Rbr24": {
 		"location": [85933163521],
 		"eightrom": [8712760],
 		"ninerom": [9442668],
 		"type": [1],
-		"exits": ["Rbr24_Rbr49", "Rbr24_Rbr25", "Rbr24_Rbr23"]
+		"exits": ["Rbr24_Rbr49", "Rbr24_Rbr25", "Rbr24_Rbr23"],
+		"desc": ["Two-Way"]
 	},
 	"Rbr49_Rbr50": {
 		"location": [764510079234],
 		"eightrom": [8713638],
 		"ninerom": [9442676],
 		"type": [0],
-		"exits": ["Rbr50_Rbr51"]
+		"exits": ["Rbr50_Rbr51"],
+		"desc": ["One-Way"]
 	},
 	"Rbr23_Rbr24": {
 		"location": [85933563136],
 		"eightrom": [8713976],
 		"ninerom": [9442696],
 		"type": [1],
-		"exits": ["Rbr24_Rbr49", "Rbr24_Rbr25", "Rbr24_Rbr23"]
+		"exits": ["Rbr24_Rbr49", "Rbr24_Rbr25", "Rbr24_Rbr23"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Rbr23_Rbr22": {
 		"location": [493926024448],
 		"eightrom": [8713990],
 		"ninerom": [9442704],
 		"type": [1],
-		"exits": ["Rbr22_Rbr23", "Rbr22_Rbr21"]
+		"exits": ["Rbr22_Rbr23", "Rbr22_Rbr21"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Rbr48_Car2": {
 		"location": [523986798594],
 		"eightrom": [8714324],
 		"ninerom": [9442724],
 		"type": [1],
-		"exits": ["Car2_Car5", "Car2_Car3", "Car2_Rbr48"]
+		"exits": ["Car2_Car5", "Car2_Car3", "Car2_Rbr48"],
+		"desc": ["Top Two-Way"]
 	},
 	"Rbr48_Rbr47": {
 		"location": [738734769409],
 		"eightrom": [8716102],
 		"ninerom": [9442732],
 		"type": [1],
-		"exits": ["Rbr47_Rbr48", "Rbr47_Rbr44"]
+		"exits": ["Rbr47_Rbr48", "Rbr47_Rbr44"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Rbr47_Rbr48": {
 		"location": [734440208386],
 		"eightrom": [8716450],
 		"ninerom": [9442752],
 		"type": [1],
-		"exits": ["Rbr48_Car2", "Rbr48_Rbr47"]
+		"exits": ["Rbr48_Car2", "Rbr48_Rbr47"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr47_Rbr44": {
 		"location": [743029541121],
 		"eightrom": [8716500],
 		"ninerom": [9442760],
 		"type": [1],
-		"exits": ["Rbr44_Rbr47", "Rbr44_Cab1", "Rbr44_Rbr45"]
+		"exits": ["Rbr44_Rbr47", "Rbr44_Cab1", "Rbr44_Rbr45"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr44_Rbr47": {
 		"location": [738740209922],
 		"eightrom": [8716824],
 		"ninerom": [9442788],
 		"type": [1],
-		"exits": ["Rbr47_Rbr48", "Rbr47_Rbr44"]
+		"exits": ["Rbr47_Rbr48", "Rbr47_Rbr44"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Rbr44_Cab1": {
 		"location": [1082348668161],
 		"eightrom": [8716964],
 		"ninerom": [9442796],
 		"type": [0],
-		"exits": ["Cab1_Cab4", "Cab1_Cab2"]
+		"exits": ["Cab1_Cab4", "Cab1_Cab2"],
+		"desc": ["Bottom Right One-Way"]
 	},
 	"Rbr44_Rbr45": {
 		"location": [751624979970],
 		"eightrom": [8716978],
 		"ninerom": [9442804],
 		"type": [0],
-		"exits": ["Rbr45_Rbr46Top", "Rbr45_Rbr46Bottom"]
+		"exits": ["Rbr45_Rbr46Top", "Rbr45_Rbr46Bottom"],
+		"desc": ["Bottom Left One-Way"]
 	},
 	"Rbr43_Rbr44Top": {
 		"location": [743031311106],
 		"eightrom": [8717310],
 		"ninerom": [9442824],
 		"type": [0],
-		"exits": ["Rbr44_Rbr47", "Rbr44_Cab1", "Rbr44_Rbr45"]
+		"exits": ["Rbr44_Rbr47", "Rbr44_Cab1", "Rbr44_Rbr45"],
+		"desc": ["Top Left One-Way"]
 	},
 	"Rbr43_Rbr17": {
 		"location": [1065168933633],
 		"eightrom": [8717324],
 		"ninerom": [9442832],
 		"type": [1],
-		"exits": ["Rbr17_Rbr18", "Rbr17_Rbr16", "Rbr17_Rbr43"]
+		"exits": ["Rbr17_Rbr18", "Rbr17_Rbr16", "Rbr17_Rbr43"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr43_Rbr44Bottom": {
 		"location": [743031312386],
 		"eightrom": [8717338],
 		"ninerom": [9442840],
 		"type": [0],
-		"exits": ["Rbr44_Rbr45", "Rbr44_Cab1"]
+		"exits": ["Rbr44_Rbr45", "Rbr44_Cab1"],
+		"desc": ["Bottom Left One-Way"]
 	},
 	"Rbr45_Rbr46Top": {
 		"location": [755916145410],
 		"eightrom": [8719048],
 		"ninerom": [9442860],
 		"type": [0],
-		"exits": ["Rbr46_Goal"]
+		"exits": ["Rbr46_Goal"],
+		"desc": ["Top One-Way"]
 	},
 	"Rbr45_Rbr46Bottom": {
 		"location": [755916146946],
 		"eightrom": [8720754],
 		"ninerom": [9442868],
 		"type": [0],
-		"exits": ["Rbr46_Goal"]
+		"exits": ["Rbr46_Goal"],
+		"desc": ["Mirra"]
 	},
 	"Rbr50_Rbr51": {
 		"location": [760212161538],
 		"eightrom": [8725198],
 		"ninerom": [9442944],
 		"type": [0],
-		"exits": ["Rbr51_Goal"]
+		"exits": ["Rbr51_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Rbr21_Rbr20": {
 		"location": [502511960833],
 		"eightrom": [8725340],
 		"ninerom": [9442964],
 		"type": [1],
-		"exits": ["Rbr20_Rbr21", "Rbr20_Rbr19", "Rbr20_Car1"]
+		"exits": ["Rbr20_Rbr21", "Rbr20_Rbr19", "Rbr20_Car1"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rbr21_Rbr22": {
 		"location": [493921568769],
 		"eightrom": [8725354],
 		"ninerom": [9442972],
 		"type": [1],
-		"exits": ["Rbr22_Rbr23", "Rbr22_Rbr21"]
+		"exits": ["Rbr22_Rbr23", "Rbr22_Rbr21"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rbr21_Car5": {
 		"location": [828929278722],
 		"eightrom": [8725294],
 		"ninerom": [9442980],
 		"type": [1],
-		"exits": ["Car5_Car6", "Car5_Car2", "Car5_Rbr21"]
+		"exits": ["Car5_Car6", "Car5_Car2", "Car5_Rbr21"],
+		"desc": ["Carrot"]
 	},
 	"Rbr21_Rbr1": {
 		"location": [141784779777],
 		"eightrom": [8725326],
 		"ninerom": [9442988],
 		"type": [1],
-		"exits": ["Rbr1_Rbr2"]
+		"exits": ["Rbr1_Rbr2"],
+		"desc": ["Hub"]
 	},
 	"Mnl21_Rbr35": {
 		"location": [605593209090],
 		"eightrom": [8725648],
 		"ninerom": [9443008],
 		"type": [1],
-		"exits": ["Rbr35_Rbr34", "Rbr35_Rbr36", "Rbr35_Mus14a", "Rbr35_Mnl21"]
+		"exits": ["Rbr35_Rbr34", "Rbr35_Rbr36", "Rbr35_Mus14a", "Rbr35_Mnl21"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mnl21_Mnl23": {
 		"location": [627065488641],
 		"eightrom": [8725662],
 		"ninerom": [9443016],
 		"type": [1],
-		"exits": ["Mnl23_Mnl21", "Mnl23_Mnl24", "Mnl23_Mnl22", "Mnl23_Mnl25"]
+		"exits": ["Mnl23_Mnl21", "Mnl23_Mnl24", "Mnl23_Mnl22", "Mnl23_Mnl25"],
+		"desc": ["Right Two-Way"]
 	},
 	"Mnl22_Rbr36": {
 		"location": [614182094082],
 		"eightrom": [8726092],
 		"ninerom": [9443044],
 		"type": [1],
-		"exits": ["Rbr36_Rbr35", "Rbr36_Mnl22", "Rbr36_Rbr8"]
+		"exits": ["Rbr36_Rbr35", "Rbr36_Mnl22", "Rbr36_Rbr8"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mnl22_Mnl23": {
 		"location": [627065489665],
 		"eightrom": [8726250],
 		"ninerom": [9443052],
 		"type": [1],
-		"exits": ["Mnl23_Mnl21", "Mnl23_Mnl24", "Mnl23_Mnl22", "Mnl23_Mnl25"]
+		"exits": ["Mnl23_Mnl21", "Mnl23_Mnl24", "Mnl23_Mnl22", "Mnl23_Mnl25"],
+		"desc": ["Right Two-Way"]
 	},
 	"Mnl23_Mnl21": {
 		"location": [618480145154],
 		"eightrom": [8726352],
 		"ninerom": [9443072],
 		"type": [1],
-		"exits": ["Mnl21_Rbr35", "Mnl21_Mnl23"]
+		"exits": ["Mnl21_Rbr35", "Mnl21_Mnl23"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Mnl23_Mnl24": {
 		"location": [631360393985],
 		"eightrom": [8726366],
 		"ninerom": [9443080],
 		"type": [0],
-		"exits": ["Mnl24_Mnl25"]
+		"exits": ["Mnl24_Mnl25"],
+		"desc": ["Top Right One-Way"]
 	},
 	"Mnl23_Mnl22": {
 		"location": [622775109890],
 		"eightrom": [8726380],
 		"ninerom": [9443088],
 		"type": [1],
-		"exits": ["Mnl22_Rbr36", "Mnl22_Mnl23"]
+		"exits": ["Mnl22_Rbr36", "Mnl22_Mnl23"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Mnl23_Mnl25": {
 		"location": [635655357953],
 		"eightrom": [8726394],
 		"ninerom": [9443096],
 		"type": [1],
-		"exits": ["Mnl25_Mnl23"]
+		"exits": ["Mnl25_Mnl23"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Mnl24_Mnl25": {
 		"location": [635656406529],
 		"eightrom": [8727166],
 		"ninerom": [9443116],
 		"type": [0],
-		"exits": ["Mnl25_Mnl26"]
+		"exits": ["Mnl25_Mnl26"],
+		"desc": ["One-Way"]
 	},
 	"Mnl25_Mnl26": {
 		"location": [639950260737],
 		"eightrom": [8727510],
 		"ninerom": [9443160],
 		"type": [0],
-		"exits": ["Mnl26_Mnl1", "Mnl26_Mnl25", "Mnl26_Mnl25Water"]
+		"exits": ["Mnl26_Mnl1", "Mnl26_Mnl25", "Mnl26_Mnl25Water"],
+		"desc": ["One-Way"]
 	},
 	"Mnl26_Mnl1": {
 		"location": [837518821633],
 		"eightrom": [8728436],
 		"ninerom": [9443196],
 		"type": [0],
-		"exits": ["Mnl1_Mnl2"]
+		"exits": ["Mnl1_Mnl2"],
+		"desc": ["Right One-Way"]
 	},
 	"Mnl26_Mnl25": {
 		"location": [635659029762],
 		"eightrom": [8728504],
 		"ninerom": [9443204],
 		"type": [0],
-		"exits": ["Mnl25_Goal"]
+		"exits": ["Mnl25_Goal"],
+		"desc": ["One-Way Above Waterway"]
 	},
 	"Mnl26_Mnl25Water": {
 		"location": [635659096834],
 		"eightrom": [8728680, 8728694, 8728708, 8728722, 8728736, 8728750, 8728764, 8728778],
 		"ninerom": [9443212],
 		"type": [0],
-		"exits": ["Mnl25_Goal"]
+		"exits": ["Mnl25_Goal"],
+		"desc": ["Waterway"]
 	},
 	"Mnl1_Mnl2": {
 		"location": [841847347201],
 		"eightrom": [8728832],
 		"ninerom": [9443240],
 		"type": [0],
-		"exits": ["Mnl2_Mnl3", "Mnl2_Mnl5Bottom", "Mnl2_Mnl12L", "Mnl2_Mnl12R"]
+		"exits": ["Mnl2_Mnl3", "Mnl2_Mnl5Bottom", "Mnl2_Mnl12L", "Mnl2_Mnl12R"],
+		"desc": ["One-Way"]
 	},
 	"Mnl10_BigGolem": {
 		"location": [850437408129],
 		"eightrom": [8728936],
 		"ninerom": [9443260],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Mnl8_Mnl9": {
 		"location": [854732244481],
 		"eightrom": [8729612],
 		"ninerom": [9443280],
 		"type": [0],
-		"exits": ["Mnl9_Mnl10", "Rbr1_Rbr8"]
+		"exits": ["Mnl9_Mnl10", "Rbr1_Rbr8"],
+		"desc": ["Right One-Way"]
 	},
 	"Mnl8_Mnl7TopRight": {
 		"location": [846143030272],
 		"eightrom": [8729580],
 		"ninerom": [9443288],
 		"type": [1],
-		"exits": ["Mnl7TopRight_Mnl8"]
+		"exits": ["Mnl7TopRight_Mnl8"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mnl5_Mnl4": {
 		"location": [94540531970],
 		"eightrom": [8730248],
 		"ninerom": [9443320],
 		"type": [1],
-		"exits": ["Mnl14_Mnl7Bottom", "Mnl14_Mnl5Bottom", "Mnl14_Mnl15"]
+		"exits": ["Mnl14_Mnl7Bottom", "Mnl14_Mnl5Bottom", "Mnl14_Mnl15"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Mnl5Bottom_Mnl2": {
 		"location": [841849963266],
 		"eightrom": [8730370],
 		"ninerom": [9443328],
 		"type": [1],
-		"exits": ["Mnl2_Mnl3", "Mnl2_Mnl5Bottom", "Mnl2_Mnl12L", "Mnl2_Mnl12R"]
+		"exits": ["Mnl2_Mnl3", "Mnl2_Mnl5Bottom", "Mnl2_Mnl12L", "Mnl2_Mnl12R"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mnl5Bottom_Mnl14": {
 		"location": [816077605889],
 		"eightrom": [8730384],
 		"ninerom": [9443336],
 		"type": [1],
-		"exits": ["Mnl14_Mnl7Bottom", "Mnl14_Mnl5Bottom", "Mnl14_Mnl15"]
+		"exits": ["Mnl14_Mnl7Bottom", "Mnl14_Mnl5Bottom", "Mnl14_Mnl15"],
+		"desc": ["Right Two-Way"]
 	},
 	"Mnl5_Mnl6": {
 		"location": [837552310785],
 		"eightrom": [8730398],
 		"ninerom": [9443344],
 		"type": [0],
-		"exits": ["Mnl6_Mnl17", "Mnl6_Mnl7TopLeft", "Mnl6_Mnl8"]
+		"exits": ["Mnl6_Mnl17", "Mnl6_Mnl7TopLeft", "Mnl6_Mnl8"],
+		"desc": ["Right One-Way"]
 	},
 	"Mnl6_Mnl17": {
 		"location": [859027152129],
 		"eightrom": [8730760],
 		"ninerom": [9443364],
 		"type": [0],
-		"exits": ["Mnl17_Mnl18"]
+		"exits": ["Mnl17_Mnl18"],
+		"desc": ["Top Right One-Way"]
 	},
 	"Mnl6_Mnl7TopLeft": {
 		"location": [846142309377],
 		"eightrom": [8731224],
 		"ninerom": [9443372],
 		"type": [1],
-		"exits": ["Mnl7TopLeft_Mnl6"]
+		"exits": ["Mnl7TopLeft_Mnl6"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mnl6_Mnl8": {
 		"location": [824667408385],
 		"eightrom": [8731544],
 		"ninerom": [9443380],
 		"type": [0],
-		"exits": ["Mnl8_Mnl9", "Mnl8_Mnl7TopRight"]
+		"exits": ["Mnl8_Mnl9", "Mnl8_Mnl7TopRight"],
+		"desc": ["Bottom Right One-Way"]
 	},
 	"Mnl2_Mnl3": {
 		"location": [979286296833],
 		"eightrom": [8732152],
 		"ninerom": [9443400],
 		"type": [1],
-		"exits": ["Mnl3_Mnl4", "Mnl3_Mnl2"]
+		"exits": ["Mnl3_Mnl4", "Mnl3_Mnl2"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Mnl2_Mnl5Bottom": {
 		"location": [833257411329],
 		"eightrom": [8732166],
 		"ninerom": [9443408],
 		"type": [1],
-		"exits": ["Mnl5Bottom_Mnl2", "Mnl5Bottom_Mnl14"]
+		"exits": ["Mnl5Bottom_Mnl2", "Mnl5Bottom_Mnl14"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Mnl7TopLeft_Mnl6": {
 		"location": [837552967169],
 		"eightrom": [8733200],
 		"ninerom": [9443452],
 		"type": [1],
-		"exits": ["Mnl6_Mnl17", "Mnl6_Mnl7TopLeft", "Mnl6_Mnl8"]
+		"exits": ["Mnl6_Mnl17", "Mnl6_Mnl7TopLeft", "Mnl6_Mnl8"],
+		"desc": ["Two-Way"]
 	},
 	"Mnl7TopRight_Mnl8": {
 		"location": [824668327680],
 		"eightrom": [8733214],
 		"ninerom": [9443460],
 		"type": [1],
-		"exits": ["Mnl8_Mnl9", "Mnl8_Mnl7TopRight"]
+		"exits": ["Mnl8_Mnl9", "Mnl8_Mnl7TopRight"],
+		"desc": ["Two-Way"]
 	},
 	"Mnl7Bottom_Mnl14": {
 		"location": [816080160002],
 		"eightrom": [8733228],
 		"ninerom": [9443468],
 		"type": [1],
-		"exits": ["Mnl14_Mnl7Bottom", "Mnl14_Mnl5Bottom", "Mnl14_Mnl15"]
+		"exits": ["Mnl14_Mnl7Bottom", "Mnl14_Mnl5Bottom", "Mnl14_Mnl15"],
+		"desc": ["Two-Way"]
 	},
 	"Mnl9_Mnl10": {
 		"location": [807487604993],
 		"eightrom": [8734348],
 		"ninerom": [9443500],
 		"type": [0],
-		"exits": ["Mnl10_BigGolem"]
+		"exits": ["Mnl10_BigGolem"],
+		"desc": ["One-Way"]
 	},
 	"Mnl17_Mnl18": {
 		"location": [983581337345],
 		"eightrom": [8734676],
 		"ninerom": [9443520],
 		"type": [0],
-		"exits": ["Mnl18_Mnl19"]
+		"exits": ["Mnl18_Mnl19"],
+		"desc": ["One-Way"]
 	},
 	"Mnl3_Mnl4": {
 		"location": [94539811073],
 		"eightrom": [8735230],
 		"ninerom": [9443540],
 		"type": [1],
-		"exits": ["Mnl4_Mnl3", "Mnl4_Mnl5", "Mnl4_Rbr1"]
+		"exits": ["Mnl4_Mnl3", "Mnl4_Mnl5", "Mnl4_Rbr1"],
+		"desc": ["Right Two-Way"]
 	},
 	"Mnl3_Mnl2": {
 		"location": [841849242370],
 		"eightrom": [8735244],
 		"ninerom": [9443548],
 		"type": [1],
-		"exits": ["Mnl2_Mnl3", "Mnl2_Mnl5Bottom", "Mnl2_Mnl12L", "Mnl2_Mnl12R"]
+		"exits": ["Mnl2_Mnl3", "Mnl2_Mnl5Bottom", "Mnl2_Mnl12L", "Mnl2_Mnl12R"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mnl18Fire_Mnl19": {
 		"location": [987877279744],
 		"eightrom": [8735708],
 		"ninerom": [9443568],
 		"type": [0],
-		"exits": ["Mnl19_Mnl20", "Mnl19_Mnl18Fire"]
+		"exits": ["Mnl19_Mnl20", "Mnl19_Mnl18Fire"],
+		"desc": ["One-Way"]
 	},
 	"Mnl18_Mnl19": {
 		"location": [987878006016],
 		"eightrom": [8736118],
 		"ninerom": [9443576],
 		"type": [0],
-		"exits": ["Mnl19_Mnl20", "Mnl19_Mnl18Fire"]
+		"exits": ["Mnl19_Mnl20", "Mnl19_Mnl18Fire"],
+		"desc": ["One-Way"]
 	},
 	"Mnl19_Mnl20": {
 		"location": [828962514688],
 		"eightrom": [8738012],
 		"ninerom": [9443604],
 		"type": [0],
-		"exits": ["WARPSTAR2"]
+		"exits": ["WARPSTAR2"],
+		"desc": ["Top One-Way"]
 	},
 	"Mnl19_Mnl18Fire": {
 		"location": [983581788160],
 		"eightrom": [8738530],
 		"ninerom": [9443612],
 		"type": [0],
-		"exits": ["Mnl18Fire_Mnl19"]
+		"exits": ["Mnl18Fire_Mnl19"],
+		"desc": ["Bottom One-Way"]
 	},
 	"Mnl4_Mnl3": {
 		"location": [979288983042],
 		"eightrom": [8738784],
 		"ninerom": [9443632],
 		"type": [1],
-		"exits": ["Mnl3_Mnl4", "Mnl3_Mnl2"]
+		"exits": ["Mnl3_Mnl4", "Mnl3_Mnl2"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mnl4_Mnl5": {
 		"location": [833257472769],
 		"eightrom": [8738798],
 		"ninerom": [9443640],
 		"type": [1],
-		"exits": ["Mnl5_Mnl4", "Mnl5_Mnl6"]
+		"exits": ["Mnl5_Mnl4", "Mnl5_Mnl6"],
+		"desc": ["Right Two-Way"]
 	},
 	"Mnl4_Rbr1": {
 		"location": [141786090242],
 		"eightrom": [8738770],
 		"ninerom": [9443648],
 		"type": [1],
-		"exits": ["Rbr1_Rbr2"]
+		"exits": ["Rbr1_Rbr2"],
+		"desc": ["Hub"]
 	},
 	"Mnl14_Mnl7Bottom": {
 		"location": [846142310656],
 		"eightrom": [8739950],
 		"ninerom": [9443668],
 		"type": [1],
-		"exits": ["Mnl7Bottom_Mnl14"]
+		"exits": ["Mnl7Bottom_Mnl14"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Mnl14_Mnl5Bottom": {
 		"location": [833258853122],
 		"eightrom": [8739964],
 		"ninerom": [9443676],
 		"type": [1],
-		"exits": ["Mnl5Bottom_Mnl2", "Mnl5Bottom_Mnl14"]
+		"exits": ["Mnl5Bottom_Mnl2", "Mnl5Bottom_Mnl14"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mnl14_Mnl15": {
 		"location": [996466098944],
 		"eightrom": [8739978],
 		"ninerom": [9443684],
 		"type": [0],
-		"exits": ["Mnl15_Mnl16"]
+		"exits": ["Mnl15_Mnl16"],
+		"desc": ["Bottom Right One-Way"]
 	},
 	"Mnl15_Mnl16": {
 		"location": [1000761393921],
 		"eightrom": [8743956],
 		"ninerom": [9443748],
 		"type": [0],
-		"exits": ["Mnl16_Goal"]
+		"exits": ["Mnl16_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Pep21_Wiz": {
 		"location": [940598102401],
 		"eightrom": [8744248],
 		"ninerom": [9443788],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Pep2_Pep3": {
 		"location": [893353530113],
 		"eightrom": [8744648],
 		"ninerom": [9443824],
 		"type": [1],
-		"exits": ["Pep3_Pep5", "Pep3_Pep2Fish", "Pep3_Pep4", "Pep3_Pep2"]
+		"exits": ["Pep3_Pep5", "Pep3_Pep2Fish", "Pep3_Pep4", "Pep3_Pep2"],
+		"desc": ["Top Two-Way"]
 	},
 	"Pep2_Pep1": {
 		"location": [906238362369],
 		"eightrom": [8744712],
 		"ninerom": [9443840],
 		"type": [1],
-		"exits": ["Pep1_Pep2", "Pep1_Car4"]
+		"exits": ["Pep1_Pep2", "Pep1_Car4"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Pep2Fish_Pep3": {
 		"location": [893354447616],
 		"eightrom": [8744662],
 		"ninerom": [9443832],
 		"type": [1],
-		"exits": ["Pep3_Pep5", "Pep3_Pep2Fish", "Pep3_Pep4", "Pep3_Pep2"]
+		"exits": ["Pep3_Pep5", "Pep3_Pep2Fish", "Pep3_Pep4", "Pep3_Pep2"],
+		"desc": ["Two-Way"]
 	},
 	"Pep9_Pep8": {
 		"location": [880468493057],
 		"eightrom": [8745244],
 		"ninerom": [9443860],
 		"type": [1],
-		"exits": ["Pep8_Pep9", "Pep8_Pep27", "Pep8_Pep4", "Pep8_Pep6", "Pep8_Pep25"]
+		"exits": ["Pep8_Pep9", "Pep8_Pep27", "Pep8_Pep4", "Pep8_Pep6", "Pep8_Pep25"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep9_Pep10": {
 		"location": [876178113538],
 		"eightrom": [8745366],
 		"ninerom": [9443868],
 		"type": [1],
-		"exits": ["Pep10_Pep9", "Pep10_Pep11", "Pep10_Pep7", "Pep10_Pep7Stake"]
+		"exits": ["Pep10_Pep9", "Pep10_Pep11", "Pep10_Pep7", "Pep10_Pep7Stake"],
+		"desc": ["Left Two-Way"]
 	},
 	"Pep10_Pep9": {
 		"location": [871878562561],
 		"eightrom": [8745576],
 		"ninerom": [9443888],
 		"type": [1],
-		"exits": ["Pep9_Pep8", "Pep9_Pep10"]
+		"exits": ["Pep9_Pep8", "Pep9_Pep10"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep10_Pep11": {
 		"location": [944896673026],
 		"eightrom": [8745716],
 		"ninerom": [9443896],
 		"type": [1],
-		"exits": ["Pep11_Pep12", "Pep11_Pep10", "Pep11_Pep12Water"]
+		"exits": ["Pep11_Pep12", "Pep11_Pep10", "Pep11_Pep12Water"],
+		"desc": ["Left Two-Way"]
 	},
 	"Pep10_Pep7": {
 		"location": [974958756609],
 		"eightrom": [8745730],
 		"ninerom": [9443904],
 		"type": [1],
-		"exits": ["Pep7_Pep10", "Pep7_Pep6"]
+		"exits": ["Pep7_Pep10", "Pep7_Pep6"],
+		"desc": ["Two-Way Near Stake"]
 	},
 	"Pep10_Pep7Stake": {
 		"location": [974959346177],
 		"eightrom": [8745744],
 		"ninerom": [9443912],
 		"type": [0],
-		"exits": ["Pep7_Pep10", "Pep7_Pep6"]
+		"exits": ["Pep7_Pep10", "Pep7_Pep6"],
+		"desc": ["Stake One-Way"]
 	},
 	"Pep8_Pep9": {
 		"location": [871882228994],
 		"eightrom": [8746124],
 		"ninerom": [9443932],
 		"type": [1],
-		"exits": ["Pep9_Pep8", "Pep9_Pep10"]
+		"exits": ["Pep9_Pep8", "Pep9_Pep10"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Pep8_Pep27": {
 		"location": [979254254850],
 		"eightrom": [8746138],
 		"ninerom": [9443940],
 		"type": [0],
-		"exits": ["Pep27_Pep28Left", "Pep27_Pep28Middle", "Pep27_Pep28Right"]
+		"exits": ["Pep27_Pep28Left", "Pep27_Pep28Middle", "Pep27_Pep28Right"],
+		"desc": ["Top Right One-Way"]
 	},
 	"Pep8_Pep4": {
 		"location": [897648886528],
 		"eightrom": [8746440],
 		"ninerom": [9443948],
 		"type": [1],
-		"exits": ["Pep4_Pep8", "Pep4_Pep6"]
+		"exits": ["Pep4_Pep8", "Pep4_Pep6"],
+		"desc": ["Bottom Middle Two-Way"]
 	},
 	"Pep8_Pep6": {
 		"location": [901944247041],
 		"eightrom": [8746454],
 		"ninerom": [9443956],
 		"type": [1],
-		"exits": ["Pep6_Pep8", "Pep6_Pep7", "Pep6_Pep5", "Pep6_Pep4", "Pep6_Pep7Boxer"]
+		"exits": ["Pep6_Pep8", "Pep6_Pep7", "Pep6_Pep5", "Pep6_Pep4", "Pep6_Pep7Boxer"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Pep8_Pep25": {
 		"location": [884763527425],
 		"eightrom": [8746468],
 		"ninerom": [9443964],
 		"type": [0],
-		"exits": ["Pep25_Pep26"]
+		"exits": ["Pep25_Pep26"],
+		"desc": ["Bottom Right One-Way"]
 	},
 	"Pep25_Pep26": {
 		"location": [919123133441],
 		"eightrom": [8749456],
 		"ninerom": [9443992],
 		"type": [0],
-		"exits": ["Pep26_Goal"]
+		"exits": ["Pep26_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Pep3_Pep5": {
 		"location": [146046585090],
 		"eightrom": [8749752],
 		"ninerom": [9444012],
 		"type": [1],
-		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"]
+		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Pep3_Pep2Fish": {
 		"location": [867585688834],
 		"eightrom": [8749794],
 		"ninerom": [9444036],
 		"type": [1],
-		"exits": ["Pep2Fish_Pep3"]
+		"exits": ["Pep2Fish_Pep3"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Pep3_Pep4": {
 		"location": [897648371456],
 		"eightrom": [8749766],
 		"ninerom": [9444020],
 		"type": [1],
-		"exits": ["Pep4_Pep3"]
+		"exits": ["Pep4_Pep3"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Pep3_Pep2": {
 		"location": [867583591425],
 		"eightrom": [8749780],
 		"ninerom": [9444028],
 		"type": [1],
-		"exits": ["Pep2_Pep3", "Pep2_Pep1"]
+		"exits": ["Pep2_Pep3", "Pep2_Pep1"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Pep4_Pep8": {
 		"location": [880470200834],
 		"eightrom": [8750440],
 		"ninerom": [9444080],
 		"type": [1],
-		"exits": ["Pep8_Pep9", "Pep8_Pep27", "Pep8_Pep4", "Pep8_Pep6", "Pep8_Pep25"]
+		"exits": ["Pep8_Pep9", "Pep8_Pep27", "Pep8_Pep4", "Pep8_Pep6", "Pep8_Pep25"],
+		"desc": ["Top Two-Way"]
 	},
 	"Pep4_Pep3": {
 		"location": [893355099138],
 		"eightrom": [8752012],
 		"ninerom": [9444096],
 		"type": [1],
-		"exits": ["Pep3_Pep5", "Pep3_Pep2Fish", "Pep3_Pep4", "Pep3_Pep2"]
+		"exits": ["Pep3_Pep5", "Pep3_Pep2Fish", "Pep3_Pep4", "Pep3_Pep2"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Pep4_Pep6Mirra": {
 		"location": [901945104386],
 		"eightrom": [8750472],
 		"ninerom": [9444104],
 		"type": [0],
-		"exits": ["Pep6Mirra_Pep4"]
+		"exits": ["Pep6Mirra_Pep4"],
+		"desc": ["Mirra"]
 	},
 	"Pep6_Pep8": {
 		"location": [880468955906],
 		"eightrom": [8752652],
 		"ninerom": [9444132],
 		"type": [1],
-		"exits": ["Pep8_Pep9", "Pep8_Pep27", "Pep8_Pep4", "Pep8_Pep6", "Pep8_Pep25"]
+		"exits": ["Pep8_Pep9", "Pep8_Pep27", "Pep8_Pep4", "Pep8_Pep6", "Pep8_Pep25"],
+		"desc": ["Top Two-Way"]
 	},
 	"Pep6_Pep7": {
 		"location": [974961381632],
 		"eightrom": [8752802],
 		"ninerom": [9444140],
 		"type": [1],
-		"exits": ["Pep7_Pep10", "Pep7_Pep6"]
+		"exits": ["Pep7_Pep10", "Pep7_Pep6"],
+		"desc": ["Left Two-Way"]
 	},
 	"Pep6Mirra_Pep4": {
 		"location": [897648301057],
 		"eightrom": [8752816],
 		"ninerom": [9444148],
 		"type": [0],
-		"exits": ["Pep4_Pep3", "Pep4_Pep6Mirra", "Pep4_Pep6"]
+		"exits": ["Pep4_Pep3", "Pep4_Pep6Mirra", "Pep4_Pep6"],
+		"desc": ["One-Way"]
 	},
 	"Pep6_Pep5": {
 		"location": [146045864193],
 		"eightrom": [8752848],
 		"ninerom": [9444156],
 		"type": [1],
-		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"]
+		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Pep6_Pep7Boxer": {
 		"location": [974961445376],
 		"eightrom": [8752756],
 		"ninerom": [9444164],
 		"type": [0],
-		"exits": ["Pep7_Pep10", "Pep7_Pep6"]
+		"exits": ["Pep7_Pep10", "Pep7_Pep6"],
+		"desc": ["Left Miniboss One-Way"]
 	},
 	"Pep6_Pep4": {
 		"location": [897648298240],
 		"eightrom": [8752788],
 		"ninerom": [9444172],
 		"type": [0],
-		"exits": ["Pep4_Pep8", "Pep4_Pep3", "Pep4_Pep6Mirra", "Pep4_Pep6"]
+		"exits": ["Pep4_Pep8", "Pep4_Pep3", "Pep4_Pep6Mirra", "Pep4_Pep6"],
+		"desc": ["Right Miniboss One-Way"]
 	},
 	"Pep1_Pep2": {
 		"location": [867583725313],
 		"eightrom": [8753376],
 		"ninerom": [9444192],
 		"type": [1],
-		"exits": ["Pep2_Pep3", "Pep2_Pep1"]
+		"exits": ["Pep2_Pep3", "Pep2_Pep1"],
+		"desc": ["Top Two-Way"]
 	},
 	"Pep1_Car4": {
 		"location": [970663397378],
 		"eightrom": [8754200],
 		"ninerom": [9444200],
 		"type": [1],
-		"exits": ["Car4_Pep1", "Car4_Pep23", "Car4_Car3"]
+		"exits": ["Car4_Pep1", "Car4_Pep23", "Car4_Car3"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Pep11_Pep12": {
 		"location": [996441195778],
 		"eightrom": [8757648],
 		"ninerom": [9444248],
 		"type": [1],
-		"exits": ["Pep12_Pep11", "Pep12_Pep19", "Pep12_Pep13", "Pep12_PepBombar"]
+		"exits": ["Pep12_Pep11", "Pep12_Pep19", "Pep12_Pep13", "Pep12_PepBombar"],
+		"desc": ["Left Two-Way"]
 	},
 	"Pep11_Pep10": {
 		"location": [876173527041],
 		"eightrom": [8757662],
 		"ninerom": [9444256],
 		"type": [1],
-		"exits": ["Pep11_Pep12", "Pep11_Pep10", "Pep11_Pep12Water"]
+		"exits": ["Pep11_Pep12", "Pep11_Pep10", "Pep11_Pep12Water"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep11_Pep12Water": {
 		"location": [996441261824],
 		"eightrom": [8757676, 8757690, 8757704, 8757718],
 		"ninerom": [9444264],
 		"type": [0],
-		"exits": ["Pep12_Pep11", "Pep12_Pep19", "Pep12_Pep13", "Pep12_PepBombar"]
+		"exits": ["Pep12_Pep11", "Pep12_Pep19", "Pep12_Pep13", "Pep12_PepBombar"],
+		"desc": ["Waterway"]
 	},
 	"Car4_Pep1": {
 		"location": [906238630145],
 		"eightrom": [8757780, 8757794],
 		"ninerom": [9444284],
 		"type": [1],
-		"exits": ["Pep1_Pep2", "Pep1_Car4"]
+		"exits": ["Pep1_Pep2", "Pep1_Car4"],
+		"desc": ["Palace"]
 	},
 	"Car4_Pep23": {
 		"location": [953489490690],
 		"eightrom": [8757808],
 		"ninerom": [9444292],
 		"type": [1],
-		"exits": ["Pep23_Pep24", "Pep23_Car4"]
+		"exits": ["Pep23_Pep24", "Pep23_Car4"],
+		"desc": ["Left Two-Way"]
 	},
 	"Car4_Car3": {
 		"location": [519691306241],
 		"eightrom": [8757822],
 		"ninerom": [9444300],
 		"type": [1],
-		"exits": ["Car3_Car4", "Car3_Car2"]
+		"exits": ["Car3_Car4", "Car3_Car2"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep7_Pep10": {
 		"location": [876177000704],
 		"eightrom": [8758436],
 		"ninerom": [9444344],
 		"type": [1],
-		"exits": ["Pep10_Pep9", "Pep10_Pep11", "Pep10_Pep7", "Pep10_Pep7Stake"]
+		"exits": ["Pep10_Pep9", "Pep10_Pep11", "Pep10_Pep7", "Pep10_Pep7Stake"],
+		"desc": ["Left Two-Way"]
 	},
 	"Pep7_Pep6": {
 		"location": [901943334912],
 		"eightrom": [8758810],
 		"ninerom": [9444352],
 		"type": [1],
-		"exits": ["Pep6_Pep8", "Pep6_Pep7", "Pep6_Pep5", "Pep6_Pep7Boxer", "Pep6_Pep4"]
+		"exits": ["Pep6_Pep8", "Pep6_Pep7", "Pep6_Pep5", "Pep6_Pep7Boxer", "Pep6_Pep4"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep27_Pep28Left": {
 		"location": [983548632322],
 		"eightrom": [8759688],
 		"ninerom": [9444388],
 		"type": [0],
-		"exits": ["Pep28_Pep29"]
+		"exits": ["Pep28_Pep29"],
+		"desc": ["Left One-Way"]
 	},
 	"Pep27_Pep28Middle": {
 		"location": [983549025537],
 		"eightrom": [8759702],
 		"ninerom": [9444396],
 		"type": [0],
-		"exits": ["Pep28_Pep29"]
+		"exits": ["Pep28_Pep29"],
+		"desc": ["Middle One-Way"]
 	},
 	"Pep27_Pep28Right": {
 		"location": [983549418753],
 		"eightrom": [8759734],
 		"ninerom": [9444404],
 		"type": [0],
-		"exits": ["Pep28_Pep29"]
+		"exits": ["Pep28_Pep29"],
+		"desc": ["Right One-Way"]
 	},
 	"Pep28_Pep29": {
 		"location": [987843990274],
 		"eightrom": [8761324],
 		"ninerom": [9444448],
 		"type": [0],
-		"exits": ["WARPSTAR3"]
+		"exits": ["WARPSTAR3"],
+		"desc": ["One-Way"]
 	},
 	"Pep13_Pep14": {
 		"location": [923419869954],
 		"eightrom": [8763064],
 		"ninerom": [9444480],
 		"type": [0],
-		"exits": ["Pep14_Pep15", "Pep14_Pep24"]
+		"exits": ["Pep14_Pep15", "Pep14_Pep24"],
+		"desc": ["One-Way"]
 	},
 	"Pep12_Pep11": {
 		"location": [944894051585],
 		"eightrom": [8763786],
 		"ninerom": [9444508],
 		"type": [1],
-		"exits": ["Pep11_Pep12", "Pep11_Pep10", "Pep11_Pep12Water"]
+		"exits": ["Pep11_Pep12", "Pep11_Pep10", "Pep11_Pep12Water"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep12_Pep19": {
 		"location": [966368495362],
 		"eightrom": [8763800],
 		"ninerom": [9444516],
 		"type": [1],
-		"exits": ["Pep19_Pep12", "Pep19_Pep18"]
+		"exits": ["Pep19_Pep12", "Pep19_Pep18"],
+		"desc": ["Left Two-Way"]
 	},
 	"PepBombar_Pep12": {
 		"location": [996437460482],
 		"eightrom": [8763814],
 		"ninerom": [9444524],
 		"type": [0],
-		"exits": ["Pep12_Pep11", "Pep12_Pep19", "Pep12_Pep13", "Pep12_PepBombar"]
+		"exits": ["Pep12_Pep11", "Pep12_Pep19", "Pep12_Pep13", "Pep12_PepBombar"],
+		"desc": ["One-Way"]
 	},
 	"Pep12_Pep13": {
 		"location": [992138101248],
 		"eightrom": [8763828, 8763884, 8763940, 8763996, 8763842, 8763898, 8763954, 8764010, 8763856, 8763912, 8763968, 8764024, 8763870, 8763926, 8763982, 8764038],
 		"ninerom": [9444532, 9444540, 9444548, 9444556],
 		"type": [0],
-		"exits": ["Pep13_Pep14"]
+		"exits": ["Pep13_Pep14"],
+		"desc": ["Waterfall"]
 	},
 	"Pep12_PepBombar": {
 		"location": [996433987842],
 		"eightrom": [8763736],
 		"ninerom": [9444564],
 		"type": [0],
-		"exits": ["PepBombar_Pep12"]
+		"exits": ["PepBombar_Pep12"],
+		"desc": ["Middle One-Way"]
 	},
 	"Pep5_Pep6": {
 		"location": [901944914178],
 		"eightrom": [8764180],
 		"ninerom": [9444584],
 		"type": [1],
-		"exits": ["Pep6_Pep8", "Pep6_Pep7", "Pep6_Pep5", "Pep6_Pep7Boxer", "Pep6_Pep4"]
+		"exits": ["Pep6_Pep8", "Pep6_Pep7", "Pep6_Pep5", "Pep6_Pep7Boxer", "Pep6_Pep4"],
+		"desc": ["Left Two-Way"]
 	},
 	"Pep5_Pep3": {
 		"location": [893354181377],
 		"eightrom": [8764194],
 		"ninerom": [9444592],
 		"type": [1],
-		"exits": ["Pep3_Pep5", "Pep3_Pep2Fish", "Pep3_Pep4", "Pep3_Pep2"]
+		"exits": ["Pep3_Pep5", "Pep3_Pep2Fish", "Pep3_Pep4", "Pep3_Pep2"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep5_Pep24": {
 		"location": [150341223170],
 		"eightrom": [8764134],
 		"ninerom": [9444600],
 		"type": [1],
-		"exits": ["Pep24_Pep14", "Pep24_Pep23", "Pep24_Pep5"]
+		"exits": ["Pep24_Pep14", "Pep24_Pep23", "Pep24_Pep5"],
+		"desc": ["Second Peppermint Switch"]
 	},
 	"Pep5_Rbr1": {
 		"location": [141784517377],
 		"eightrom": [8764166],
 		"ninerom": [9444608],
 		"type": [1],
-		"exits": ["Rbr1_Rbr2"]
+		"exits": ["Rbr1_Rbr2"],
+		"desc": ["Hub"]
 	},
 	"Pep15_Pep16": {
 		"location": [927715824130],
 		"eightrom": [8764656],
 		"ninerom": [9444628],
 		"type": [1],
-		"exits": ["Pep16_Pep15", "Pep16_Pep17"]
+		"exits": ["Pep16_Pep15", "Pep16_Pep17"],
+		"desc": ["Left Two-Way"]
 	},
 	"Pep15_Pep14": {
 		"location": [923418166017],
 		"eightrom": [8764760],
 		"ninerom": [9444636],
 		"type": [1],
-		"exits": ["Pep14_Pep15", "Pep14_Pep24"]
+		"exits": ["Pep14_Pep15", "Pep14_Pep24"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep14_Pep15": {
 		"location": [910537918722],
 		"eightrom": [8765172],
 		"ninerom": [9444656],
 		"type": [1],
-		"exits": ["Pep15_Pep16", "Pep15_Pep14"]
+		"exits": ["Pep15_Pep16", "Pep15_Pep14"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Pep14_Pep24": {
 		"location": [150340831489],
 		"eightrom": [8765186],
 		"ninerom": [9444664],
 		"type": [1],
-		"exits": ["Pep24_Pep14", "Pep24_Pep23", "Pep24_Pep5"]
+		"exits": ["Pep24_Pep14", "Pep24_Pep23", "Pep24_Pep5"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Pep16_Pep15": {
 		"location": [910533264129],
 		"eightrom": [8765700],
 		"ninerom": [9444692],
 		"type": [1],
-		"exits": ["Pep15_Pep16", "Pep15_Pep14"]
+		"exits": ["Pep15_Pep16", "Pep15_Pep14"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep16_Pep17": {
 		"location": [932008823042],
 		"eightrom": [8765714],
 		"ninerom": [9444700],
 		"type": [1],
-		"exits": ["Pep17_Pep18", "Pep17_Pep16", "Pep17_Pep30"]
+		"exits": ["Pep17_Pep18", "Pep17_Pep16", "Pep17_Pep30"],
+		"desc": ["Left Two-Way"]
 	},
 	"Pep17_Pep18": {
 		"location": [949191512834],
 		"eightrom": [8765920],
 		"ninerom": [9444720],
 		"type": [1],
-		"exits": ["Pep18_Pep20", "Pep18_Pep19", "Pep18_Pep17"]
+		"exits": ["Pep18_Pep20", "Pep18_Pep19", "Pep18_Pep17"],
+		"desc": ["Top Left One-Way"]
 	},
 	"Pep17_Pep16": {
 		"location": [927713137409],
 		"eightrom": [8766056],
 		"ninerom": [9444736],
 		"type": [1],
-		"exits": ["Pep16_Pep15", "Pep16_Pep17"]
+		"exits": ["Pep16_Pep15", "Pep16_Pep17"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep17_Pep30": {
 		"location": [957781574914],
 		"eightrom": [8766042],
 		"ninerom": [9444728],
 		"type": [0],
-		"exits": ["Pep30_Pep31"]
+		"exits": ["Pep30_Pep31"],
+		"desc": ["Bottom Left One-Way"]
 	},
 	"Pep20_Pep21": {
 		"location": [858996148482],
 		"eightrom": [8766818],
 		"ninerom": [9444756],
 		"type": [0],
-		"exits": ["Pep21_Wiz"]
+		"exits": ["Pep21_Wiz"],
+		"desc": ["One-Way"]
 	},
 	"Pep18_Pep20": {
 		"location": [936303854338],
 		"eightrom": [8767680],
 		"ninerom": [9444796],
 		"type": [0],
-		"exits": ["Pep20_Pep21"]
+		"exits": ["Pep20_Pep21"],
+		"desc": ["Left One-Way"]
 	},
 	"Pep18_Pep19": {
 		"location": [966368057601],
 		"eightrom": [8767874],
 		"ninerom": [9444804],
 		"type": [1],
-		"exits": ["Pep19_Pep12", "Pep19_Pep18"]
+		"exits": ["Pep19_Pep12", "Pep19_Pep18"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Pep18_Pep17": {
 		"location": [932008100865],
 		"eightrom": [8769364],
 		"ninerom": [9444812],
 		"type": [1],
-		"exits": ["Pep17_Pep18", "Pep17_Pep16", "Pep17_Pep30"]
+		"exits": ["Pep17_Pep18", "Pep17_Pep16", "Pep17_Pep30"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Pep23_Pep24": {
 		"location": [150341552386],
 		"eightrom": [8770300],
 		"ninerom": [9444832],
 		"type": [1],
-		"exits": ["Pep24_Pep14", "Pep24_Pep23", "Pep24_Pep5"]
+		"exits": ["Pep24_Pep14", "Pep24_Pep23", "Pep24_Pep5"],
+		"desc": ["Left Two-Way"]
 	},
 	"Pep23_Car4": {
 		"location": [970662807809],
 		"eightrom": [8770314],
 		"ninerom": [9444840],
 		"type": [1],
-		"exits": ["Car4_Pep1", "Car4_Pep23", "Car4_Car3"]
+		"exits": ["Car4_Pep1", "Car4_Pep23", "Car4_Car3"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep30_Pep31": {
 		"location": [962081523970],
 		"eightrom": [8770784],
 		"ninerom": [9444860],
 		"type": [0],
-		"exits": ["Pep31_Goal"]
+		"exits": ["Pep31_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Pep19_Pep12": {
 		"location": [996434708225],
 		"eightrom": [8773372],
 		"ninerom": [9444908],
 		"type": [1],
-		"exits": ["Pep12_Pep11", "Pep12_Pep19", "Pep12_Pep13", "Pep12_PepBombar"]
+		"exits": ["Pep12_Pep11", "Pep12_Pep19", "Pep12_Pep13", "Pep12_PepBombar"],
+		"desc": ["Top Two-Way"]
 	},
 	"Pep19_Pep18": {
 		"location": [949191574786],
 		"eightrom": [8773386],
 		"ninerom": [9444916],
 		"type": [1],
-		"exits": ["Pep18_Pep20", "Pep18_Pep19", "Pep18_Pep17"]
+		"exits": ["Pep18_Pep20", "Pep18_Pep19", "Pep18_Pep17"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Pep24_Pep14": {
 		"location": [923419745538],
 		"eightrom": [8773496],
 		"ninerom": [9444936],
 		"type": [1],
-		"exits": ["Pep14_Pep15", "Pep14_Pep24"]
+		"exits": ["Pep14_Pep15", "Pep14_Pep24"],
+		"desc": ["Left Two-Way"]
 	},
 	"Pep24_Pep23": {
 		"location": [953483854593],
 		"eightrom": [8773510],
 		"ninerom": [9444944],
 		"type": [1],
-		"exits": ["Pep23_Pep24", "Pep23_Car4"]
+		"exits": ["Pep23_Pep24", "Pep23_Car4"],
+		"desc": ["Right Two-Way"]
 	},
 	"Pep24_Pep5": {
 		"location": [146045928193],
 		"eightrom": [8773482],
 		"ninerom": [9444952],
 		"type": [1],
-		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"]
+		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"],
+		"desc": ["First Peppermint Switch"]
 	},
 	"Mus1_Mus3": {
 		"location": [262010118657],
 		"eightrom": [8773930],
 		"ninerom": [9444972],
 		"type": [0],
-		"exits": ["Mus3_Mus4"]
+		"exits": ["Mus3_Mus4"],
+		"desc": ["Top Right One-Way"]
 	},
 	"Mus1_Mus2": {
 		"location": [296369787904],
 		"eightrom": [8773944],
 		"ninerom": [9444980],
 		"type": [0],
-		"exits": ["Mus2_Mus3"]
+		"exits": ["Mus2_Mus3"],
+		"desc": ["Top Left One-Way"]
 	},
 	"Mus1_Rbr28": {
 		"location": [94523163905],
 		"eightrom": [8774516],
 		"ninerom": [9444988],
 		"type": [1],
-		"exits": ["Rbr28_Mus8", "Rbr28_Rbr27", "Rbr28_Rbr29", "Rbr28_Mus1"]
+		"exits": ["Rbr28_Mus8", "Rbr28_Rbr27", "Rbr28_Rbr29", "Rbr28_Mus1"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Mus9_Rbr30": {
 		"location": [111704539906],
 		"eightrom": [8774948],
 		"ninerom": [9445008],
 		"type": [1],
-		"exits": ["Rbr30_Mus9", "Rbr30_Rbr31"]
+		"exits": ["Rbr30_Mus9", "Rbr30_Rbr31"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mus9_Mus10": {
 		"location": [120292845313],
 		"eightrom": [8774962],
 		"ninerom": [9445016],
 		"type": [1],
-		"exits": ["Mus10_Mus11", "Mus10_Mus9"]
+		"exits": ["Mus10_Mus11", "Mus10_Mus9"],
+		"desc": ["Right Two-Way"]
 	},
 	"Mus9Bombar_Mus9": {
 		"location": [115999769345],
 		"eightrom": [8774976],
 		"ninerom": [9445024],
 		"type": [0],
-		"exits": ["Mus9_Rbr30", "Mus9_Mus10", "Mus9_Mus9Bombar"]
+		"exits": ["Mus9_Rbr30", "Mus9_Mus10", "Mus9_Mus9Bombar"],
+		"desc": ["One-Way"]
 	},
 	"Mus9_Mus9Bombar": {
 		"location": [116004422656],
 		"eightrom": [8775170],
 		"ninerom": [9445032],
 		"type": [0],
-		"exits": ["Mus9Bombar_Mus9"]
+		"exits": ["Mus9Bombar_Mus9"],
+		"desc": ["Middle One-Way"]
 	},
 	"Mus10_Mus11": {
 		"location": [124591346432],
 		"eightrom": [8775532],
 		"ninerom": [9445052],
 		"type": [1],
-		"exits": ["Mus11_Mus12", "Mus11_Mus10"]
+		"exits": ["Mus11_Mus12", "Mus11_Mus10"],
+		"desc": ["Top Two-Way"]
 	},
 	"Mus10_Mus9": {
 		"location": [116003767041],
 		"eightrom": [8776122],
 		"ninerom": [9445060],
 		"type": [1],
-		"exits": ["Mus9_Rbr30", "Mus9_Mus10", "Mus9_Mus9Bombar"]
+		"exits": ["Mus9_Rbr30", "Mus9_Mus10", "Mus9_Mus9Bombar"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Mus11_Mus12": {
 		"location": [575543313922],
 		"eightrom": [8776500],
 		"ninerom": [9445080],
 		"type": [1],
-		"exits": ["Mus12_Mus13", "Mus12_Mus11", "Mus12_Rbr27"]
+		"exits": ["Mus12_Mus13", "Mus12_Mus11", "Mus12_Rbr27"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Mus11_Mus10": {
 		"location": [120292901632],
 		"eightrom": [8777504],
 		"ninerom": [9445088],
 		"type": [1],
-		"exits": ["Mus10_Mus11", "Mus10_Mus9"]
+		"exits": ["Mus10_Mus11", "Mus10_Mus9"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Mus18_Rbr34": {
 		"location": [133179572738],
 		"eightrom": [8778864],
 		"ninerom": [9445108],
 		"type": [0],
-		"exits": ["Rbr34_Rbr33", "Rbr34_Rbr35"]
+		"exits": ["Rbr34_Rbr33", "Rbr34_Rbr35"],
+		"desc": ["One-Way"]
 	},
 	"Mus14a_Rbr35": {
 		"location": [605592617986],
 		"eightrom": [8779370],
 		"ninerom": [9445128],
 		"type": [1],
-		"exits": ["Rbr35_Rbr34", "Rbr35_Rbr36", "Rbr35_Mus14a", "Rbr35_Mnl21"]
+		"exits": ["Rbr35_Rbr34", "Rbr35_Rbr36", "Rbr35_Mus14a", "Rbr35_Mnl21"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mus14b_Mus15Left": {
 		"location": [146062855936],
 		"eightrom": [8779274],
 		"ninerom": [9445136],
 		"type": [0],
-		"exits": ["Mus15_Mus17", "Mus15_Mus16"]
+		"exits": ["Mus15_Mus17", "Mus15_Mus16"],
+		"desc": ["Left One-Way"]
 	},
 	"Mus14b_Mus15Right": {
 		"location": [146063183616],
 		"eightrom": [8779306],
 		"ninerom": [9445144],
 		"type": [0],
-		"exits": ["Mus15_Mus17", "Mus15_Mus16"]
+		"exits": ["Mus15_Mus17", "Mus15_Mus16"],
+		"desc": ["Right One-Way"]
 	},
 	"Mus14a_Mus14b": {
 		"location": [141767743233],
 		"eightrom": [8779356],
 		"ninerom": [9445152],
 		"type": [0],
-		"exits": ["Mus14b_Mus15Left", "Mus14b_Mus15Right"]
+		"exits": ["Mus14b_Mus15Left", "Mus14b_Mus15Right"],
+		"desc": ["Right One-Way"]
 	},
 	"Mus15_Mus17": {
 		"location": [279191622402],
 		"eightrom": [8779844],
 		"ninerom": [9445172],
 		"type": [0],
-		"exits": ["Mus17_Mus19Left", "Mus17_Mus19Right", "Mus17_Mus18"]
+		"exits": ["Mus17_Mus19Left", "Mus17_Mus19Right", "Mus17_Mus18"],
+		"desc": ["Left One-Way"]
 	},
 	"Mus15_Mus16": {
 		"location": [150357541633],
 		"eightrom": [8779858],
 		"ninerom": [9445180],
 		"type": [0],
-		"exits": ["Mus16_Goal"]
+		"exits": ["Mus16_Goal"],
+		"desc": ["Right One-Way"]
 	},
 	"Mus24L_Kracko": {
 		"location": [292074820480],
 		"eightrom": [8780448],
 		"ninerom": [9445220],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Mus24R_Kracko": {
 		"location": [292075279232],
 		"eightrom": [8780462],
 		"ninerom": [9445228],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Mus13_Mus17": {
 		"location": [279189788161],
 		"eightrom": [8780966],
 		"ninerom": [9445248],
 		"type": [0],
-		"exits": ["Mus17_Mus19Left", "Mus17_Mus19Right", "Mus17_Mus18"]
+		"exits": ["Mus17_Mus19Left", "Mus17_Mus19Right", "Mus17_Mus18"],
+		"desc": ["Top One-Way"]
 	},
 	"Mus13_Mus12": {
 		"location": [575542593025],
 		"eightrom": [8781070],
 		"ninerom": [9445256],
 		"type": [1],
-		"exits": ["Mus12_Mus13", "Mus12_Mus11", "Mus12_Rbr27"]
+		"exits": ["Mus12_Mus13", "Mus12_Mus11", "Mus12_Rbr27"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Mus19_Mus20": {
 		"location": [257718748162],
 		"eightrom": [8781600],
 		"ninerom": [9445276],
 		"type": [0],
-		"exits": ["Mus20_Mus21"]
+		"exits": ["Mus20_Mus21"],
+		"desc": ["One-Way"]
 	},
 	"Mus8_Rbr28": {
 		"location": [94526899714],
 		"eightrom": [8782738],
 		"ninerom": [9445304],
 		"type": [1],
-		"exits": ["Rbr28_Mus8", "Rbr28_Rbr27", "Rbr28_Rbr29", "Rbr28_Mus1"]
+		"exits": ["Rbr28_Mus8", "Rbr28_Rbr27", "Rbr28_Rbr29", "Rbr28_Mus1"],
+		"desc": ["Two-Way"]
 	},
 	"Mus4_Mus5": {
 		"location": [244830046977],
 		"eightrom": [8783494],
 		"ninerom": [9445324],
 		"type": [0],
-		"exits": ["Mus5_Mus6"]
+		"exits": ["Mus5_Mus6"],
+		"desc": ["Left One-Way"]
 	},
 	"Mus4_Mus7": {
 		"location": [266304956161],
 		"eightrom": [8783508],
 		"ninerom": [9445332],
 		"type": [0],
-		"exits": ["WARPSTAR4"]
+		"exits": ["WARPSTAR4"],
+		"desc": ["Right One-Way"]
 	},
 	"Mus5_Mus6": {
 		"location": [300664553984],
 		"eightrom": [8784024, 8784038, 8784052, 8784066, 8784080, 8784094, 8784108, 8784122, 8784136, 8784150, 8784236, 8784250, 8784264, 8784278, 8784418, 8784432, 8784518, 8784532, 8784582, 8784596, 8784664, 8784678],
 		"ninerom": [9445352],
 		"type": [0],
-		"exits": ["Mus6_Goal"]
+		"exits": ["Mus6_Goal"],
+		"desc": ["Wind Tunnel"]
 	},
 	"Mus22_Mus23L": {
 		"location": [287780447234],
 		"eightrom": [8785610],
 		"ninerom": [9445372],
 		"type": [0],
-		"exits": ["CANON2"]
+		"exits": ["CANON2"],
+		"desc": ["Top Left One-Way"]
 	},
 	"Mus22_Mus23R": {
 		"location": [287781562114],
 		"eightrom": [8785660],
 		"ninerom": [9445380],
 		"type": [0],
-		"exits": ["Mus23R_Mus24R"]
+		"exits": ["Mus23R_Mus24R"],
+		"desc": ["Bottom Left One-Way"]
 	},
 	"Mus20_Mus21": {
 		"location": [283486782466],
 		"eightrom": [8786122],
 		"ninerom": [9445408],
 		"type": [0],
-		"exits": ["Mus21_Mus22"]
+		"exits": ["Mus21_Mus22"],
+		"desc": ["One-Way"]
 	},
 	"Mus3_Mus4": {
 		"location": [240539800066],
 		"eightrom": [8786648],
 		"ninerom": [9445428],
 		"type": [0],
-		"exits": ["Mus4_Mus5", "Mus4_Mus7"]
+		"exits": ["Mus4_Mus5", "Mus4_Mus7"],
+		"desc": ["One-Way"]
 	},
 	"Mus17_Mus19Left": {
 		"location": [223357639936],
 		"eightrom": [8787960],
 		"ninerom": [9445468],
 		"type": [0],
-		"exits": ["Mus19_Mus20"]
+		"exits": ["Mus19_Mus20"],
+		"desc": ["Top Left One-Way"]
 	},
 	"Mus17_Mus19Right": {
 		"location": [223357902080],
 		"eightrom": [8787974],
 		"ninerom": [9445476],
 		"type": [0],
-		"exits": ["Mus19_Mus20"]
+		"exits": ["Mus19_Mus20"],
+		"desc": ["Top Right One-Way"]
 	},
 	"Mus17_Mus18": {
 		"location": [137472705025],
 		"eightrom": [8788204],
 		"ninerom": [9445484],
 		"type": [0],
-		"exits": ["Mus18_Rbr34"]
+		"exits": ["Mus18_Rbr34"],
+		"desc": ["Bottom One-Way"]
 	},
 	"Mus21_Mus22": {
 		"location": [253422735874],
 		"eightrom": [8788778],
 		"ninerom": [9445512],
 		"type": [0],
-		"exits": ["Mus22_Mus23L", "Mus22_Mus23R"]
+		"exits": ["Mus22_Mus23L", "Mus22_Mus23R"],
+		"desc": ["One-Way"]
 	},
 	"Mus23R_Mus24R": {
 		"location": [188996194816],
 		"eightrom": [8789420],
 		"ninerom": [9445532],
 		"type": [0],
-		"exits": ["Mus24R_Kracko"]
+		"exits": ["Mus24R_Kracko"],
+		"desc": ["One-Way"]
 	},
 	"Mus2_Mus3": {
 		"location": [262009983745],
 		"eightrom": [8792024],
 		"ninerom": [9445564],
 		"type": [0],
-		"exits": ["Mus3_Mus4"]
+		"exits": ["Mus3_Mus4"],
+		"desc": ["One-Way"]
 	},
 	"Mus12_Mus13": {
 		"location": [206177052418],
 		"eightrom": [8793478],
 		"ninerom": [9445612],
 		"type": [1],
-		"exits": ["Mus13_Mus17", "Mus13_Mus12"]
+		"exits": ["Mus13_Mus17", "Mus13_Mus12"],
+		"desc": ["Left Two-Way"]
 	},
 	"Mus12_Mus11": {
 		"location": [124587934977],
 		"eightrom": [8793492],
 		"ninerom": [9445620],
 		"type": [1],
-		"exits": ["Mus11_Mus12", "Mus11_Mus10"]
+		"exits": ["Mus11_Mus12", "Mus11_Mus10"],
+		"desc": ["Right Two-Way"]
 	},
 	"Mus12_Rbr27": {
 		"location": [335041594112],
 		"eightrom": [8793524],
 		"ninerom": [9445628],
 		"type": [1],
-		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"]
+		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"],
+		"desc": ["Rainbow North Switch"]
 	},
 	"Can27_CrazyHand": {
 		"location": [691506710401],
 		"eightrom": [8793628],
 		"ninerom": [9445648],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Can7_Can9": {
 		"location": [652852003841],
 		"eightrom": [8794532],
 		"ninerom": [9445668],
 		"type": [1],
-		"exits": ["Can9_Can7", "Can9_Can1"]
+		"exits": ["Can9_Can7", "Can9_Can1"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Can7_Can6": {
 		"location": [648559529218],
 		"eightrom": [8795464],
 		"ninerom": [9445676],
 		"type": [1],
-		"exits": ["Can6_Can10", "Can6_Can7", "Can6_Can4"]
+		"exits": ["Can6_Can10", "Can6_Can7", "Can6_Can4"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Can7_Can8": {
 		"location": [644262332418],
 		"eightrom": [8795478],
 		"ninerom": [9445684],
 		"type": [1],
-		"exits": ["Can8_Can7"]
+		"exits": ["Can8_Can7"],
+		"desc": ["Stake Two-Way"]
 	},
 	"Can16_Can17A": {
 		"location": [700096644097],
 		"eightrom": [8796594],
 		"ninerom": [9445712],
 		"type": [0],
-		"exits": ["Can17A_Can20"]
+		"exits": ["Can17A_Can20"],
+		"desc": ["Top Right One-Way"]
 	},
 	"Can16_Can17B": {
 		"location": [700096646913],
 		"eightrom": [8798210],
 		"ninerom": [9445720],
 		"type": [0],
-		"exits": ["Can17B_Can18"]
+		"exits": ["Can17B_Can18"],
+		"desc": ["Bottom Right One-Way"]
 	},
-	"Can5Vitality_Can12": {
+	"Can3_Can12": {
 		"location": [639967103489],
 		"eightrom": [8798436],
 		"ninerom": [9445756],
 		"type": [1],
-		"exits": ["Can12_Can11", "Can12_Can5Vitality"]
+		"exits": ["Can12_Can11", "Can12_Can3"],
+		"desc": ["Two-Way"]
 	},
 	"Can5Carbon_Can4": {
 		"location": [635673314561],
 		"eightrom": [8798450],
 		"ninerom": [9445764],
 		"type": [1],
-		"exits": ["Can4_Can6", "Can4_Can2", "Can4_Can5Carbon"]
+		"exits": ["Can4_Can6", "Can4_Can2", "Can4_Can5Carbon"],
+		"desc": ["Two-Way"]
 	},
 	"Can4_Can6": {
 		"location": [648557107969],
 		"eightrom": [8799228],
 		"ninerom": [9445784],
 		"type": [1],
-		"exits": ["Can6_Can7", "Can6_Can4"]
+		"exits": ["Can6_Can7", "Can6_Can4"],
+		"desc": ["Right Two-Way"]
 	},
 	"Can4_Can2": {
 		"location": [734458938626],
 		"eightrom": [8799242],
 		"ninerom": [9445792],
 		"type": [1],
-		"exits": ["Can2_Can1", "Can2_Can4", "Can2_Can3"]
+		"exits": ["Can2_Can1", "Can2_Can4", "Can2_Can3"],
+		"desc": ["Left Two-Way"]
 	},
 	"Can4_Can5Carbon": {
 		"location": [631377430785],
 		"eightrom": [8798800],
 		"ninerom": [9445800],
 		"type": [1],
-		"exits": ["Can5Carbon_Can4"]
+		"exits": ["Can5Carbon_Can4"],
+		"desc": ["Middle Two-Way"]
 	},
 	"Can12_Can11": {
 		"location": [665736906753],
 		"eightrom": [8800950],
 		"ninerom": [9445820],
 		"type": [1],
-		"exits": ["Can11_Can13", "Can11_Can10", "Can11_Can12"]
+		"exits": ["Can11_Can13", "Can11_Can10", "Can11_Can12"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Can12_Can5Vitality": {
 		"location": [631380575234],
 		"eightrom": [8800964],
 		"ninerom": [9445828],
 		"type": [1],
-		"exits": ["Can5Vitality_Can12"]
+		"exits": ["Can5Vitality_Can12"],
+		"desc": ["Two-Way"]
 	},
 	"Can8_Can7": {
 		"location": [622788882690],
 		"eightrom": [8801616],
 		"ninerom": [9445856],
 		"type": [1],
-		"exits": ["Can7_Can9", "Can7_Can6", "Can7_Can8"]
+		"exits": ["Can7_Can9", "Can7_Can6", "Can7_Can8"],
+		"desc": ["Two-Way"]
 	},
 	"Can6_Can10": {
 		"location": [1005039322625],
 		"eightrom": [8802148],
 		"ninerom": [9445876],
 		"type": [1],
-		"exits": ["Can10_Can6", "Can10_Can11", "Can10_Rbr1"]
+		"exits": ["Can10_Can6", "Can10_Can11", "Can10_Rbr1"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Can6_Can7": {
 		"location": [622787244289],
 		"eightrom": [8802558],
 		"ninerom": [9445884],
 		"type": [1],
-		"exits": ["Can7_Can9", "Can7_Can6", "Can7_Can8"]
+		"exits": ["Can7_Can9", "Can7_Can6", "Can7_Can8"],
+		"desc": ["Right Two-Way"]
 	},
 	"Can6_Can4": {
 		"location": [635677771778],
 		"eightrom": [8803454],
 		"ninerom": [9445892],
 		"type": [1],
-		"exits": ["Can4_Can6", "Can4_Can2", "Can4_Can5Carbon"]
+		"exits": ["Can4_Can6", "Can4_Can2", "Can4_Can5Carbon"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Can9_Can7": {
 		"location": [622788871170],
 		"eightrom": [8804184],
 		"ninerom": [9445912],
 		"type": [1],
-		"exits": ["Can7_Can9", "Can7_Can6", "Can7_Can8"]
+		"exits": ["Can7_Can9", "Can7_Can6", "Can7_Can8"],
+		"desc": ["Right Two-Way"]
 	},
 	"Can9_Can1": {
 		"location": [657146971393],
 		"eightrom": [8804342],
 		"ninerom": [9445920],
 		"type": [1],
-		"exits": ["Can1_Can9", "Can1_Can2"]
+		"exits": ["Can1_Can9", "Can1_Can2"],
+		"desc": ["Left Two-Way"]
 	},
 	"Can1_Can9": {
 		"location": [652856659970],
 		"eightrom": [8804886],
 		"ninerom": [9445940],
 		"type": [1],
-		"exits": ["Can9_Can7", "Can9_Can1"]
+		"exits": ["Can9_Can7", "Can9_Can1"],
+		"desc": ["Left Two-Way"]
 	},
 	"Can1_Can2": {
 		"location": [734456382721],
 		"eightrom": [8804900],
 		"ninerom": [9445948],
 		"type": [1],
-		"exits": ["Can2_Can1", "Can2_Can4", "Can2_Can3"]
+		"exits": ["Can2_Can1", "Can2_Can4", "Can2_Can3"],
+		"desc": ["Right Two-Way"]
 	},
 	"Can11_Can13": {
 		"location": [695801677057],
 		"eightrom": [8805436],
 		"ninerom": [9445968],
 		"type": [1],
-		"exits": ["Can13_Can16", "Can13_Can11", "Can13_Can14"]
+		"exits": ["Can13_Can16", "Can13_Can11", "Can13_Can14"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Can11_Can10": {
 		"location": [1005040043522],
 		"eightrom": [8805536],
 		"ninerom": [9445976],
 		"type": [1],
-		"exits": ["Can10_Can6", "Can10_Can11", "Can10_Rbr1"]
+		"exits": ["Can10_Can6", "Can10_Can11", "Can10_Rbr1"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Can11_Can12": {
 		"location": [639971756290],
 		"eightrom": [8805468],
 		"ninerom": [9445984],
 		"type": [1],
-		"exits": ["Can12_Can11", "Can12_Can5Vitality"]
+		"exits": ["Can12_Can11", "Can12_Can5Vitality"],
+		"desc": ["Stake Two-Way"]
 	},
 	"Can14_Can15": {
 		"location": [674329531138],
 		"eightrom": [8811156],
 		"ninerom": [9446036],
 		"type": [0],
-		"exits": ["Can15_Goal"]
+		"exits": ["Can15_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Can21_Can22": {
 		"location": [712981546241],
 		"eightrom": [8814796],
 		"ninerom": [9446056],
 		"type": [0],
-		"exits": ["Can22_Can24", "Can22_Can23"]
+		"exits": ["Can22_Can24", "Can22_Can23"],
+		"desc": ["One-Way"]
 	},
 	"Can26_Can27": {
 		"location": [618492533505],
 		"eightrom": [8816576],
 		"ninerom": [9446076],
 		"type": [0],
-		"exits": ["Can27_CrazyHand"]
+		"exits": ["Can27_CrazyHand"],
+		"desc": ["One-Way"]
 	},
 	"Can13_Can14": {
 		"location": [678626464258],
 		"eightrom": [8819026],
 		"ninerom": [9446116],
 		"type": [0],
-		"exits": ["Can14_Can15"]
+		"exits": ["Can14_Can15"],
+		"desc": ["Top Path One-Way"]
 	},
 	"Can13_Can16": {
 		"location": [627082265601],
 		"eightrom": [8819040],
 		"ninerom": [9446124],
 		"type": [0],
-		"exits": ["Can16_Can17A", "Can16_Can17B"]
+		"exits": ["Can16_Can17A", "Can16_Can17B"],
+		"desc": ["Bottom Path One-Way"]
 	},
 	"Can13_Can11": {
 		"location": [665738544898],
 		"eightrom": [8819054],
 		"ninerom": [9446132],
 		"type": [1],
-		"exits": ["Can11_Can13", "Can11_Can10", "Can11_Can12"]
+		"exits": ["Can11_Can13", "Can11_Can10", "Can11_Can12"],
+		"desc": ["Left Two-Way"]
 	},
 	"Can17A_Can20": {
 		"location": [670031813889],
 		"eightrom": [8821076],
 		"ninerom": [9446152],
 		"type": [0],
-		"exits": ["WARPSTAR5"]
+		"exits": ["WARPSTAR5"],
+		"desc": ["One-Way"]
 	},
 	"Can17B_Can18": {
 		"location": [730161546241],
 		"eightrom": [8821990],
 		"ninerom": [9446160],
 		"type": [0],
-		"exits": ["Can18_Can19"]
+		"exits": ["Can18_Can19"],
+		"desc": ["One-Way"]
 	},
 	"Can25_Can26": {
 		"location": [687212093441],
 		"eightrom": [8823230],
 		"ninerom": [9446200],
 		"type": [0],
-		"exits": ["Can26_Can27"]
+		"exits": ["Can26_Can27"],
+		"desc": ["One-Way"]
 	},
 	"Can22_Can24": {
 		"location": [717276514561],
 		"eightrom": [8824706],
 		"ninerom": [9446220],
 		"type": [0],
-		"exits": ["Can24_Can25"]
+		"exits": ["Can24_Can25"],
+		"desc": ["Right One-Way"]
 	},
 	"Can22_Can23": {
 		"location": [721571547137],
 		"eightrom": [8825350],
 		"ninerom": [9446228],
 		"type": [1],
-		"exits": ["Can23_Can22"]
+		"exits": ["Can23_Can22"],
+		"desc": ["Middle Two-Way"]
 	},
 	"Cab2_Rbr16": {
 		"location": [545461637633],
 		"eightrom": [8830044],
 		"ninerom": [9446488],
 		"type": [1],
-		"exits": ["Rbr16_Rbr15", "Rbr16_Rbr17", "Rbr16_Cab2"]
+		"exits": ["Rbr16_Rbr15", "Rbr16_Rbr17", "Rbr16_Cab2"],
+		"desc": ["Middle Two-Way"]
 	},
 	"Can24_Can25": {
 		"location": [708686578945],
 		"eightrom": [8826244],
 		"ninerom": [9446248],
 		"type": [0],
-		"exits": ["Can25_Can26"]
+		"exits": ["Can25_Can26"],
+		"desc": ["One-Way"]
 	},
 	"Can23_Can22": {
 		"location": [712984233985],
 		"eightrom": [8826748],
 		"ninerom": [9446276],
 		"type": [1],
-		"exits": ["Can22_Can24", "Can22_Can23"]
+		"exits": ["Can22_Can24", "Can22_Can23"],
+		"desc": ["Two-Way"]
 	},
 	"Can3_Can2": {
 		"location": [734459007746],
 		"eightrom": [8827148],
 		"ninerom": [9446304],
 		"type": [1],
-		"exits": ["Can2_Can1", "Can2_Can4", "Can2_Can3"]
+		"exits": ["Can2_Can1", "Can2_Can4", "Can2_Can3"],
+		"desc": ["Two-Way"]
 	},
 	"Can18_Can19": {
 		"location": [704391615233],
 		"eightrom": [8827476],
 		"ninerom": [9446332],
 		"type": [0],
-		"exits": ["Can19_Goal"]
+		"exits": ["Can19_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Can2_Can1": {
 		"location": [657154573570],
 		"eightrom": [8828114],
 		"ninerom": [9446360],
 		"type": [1],
-		"exits": ["Can1_Can9", "Can1_Can2"]
+		"exits": ["Can1_Can9", "Can1_Can2"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Can2_Can4": {
 		"location": [635672135937],
 		"eightrom": [8828128],
 		"ninerom": [9446368],
 		"type": [1],
-		"exits": ["Can4_Can6", "Can4_Can2", "Can4_Can5Carbon"]
+		"exits": ["Can4_Can6", "Can4_Can2", "Can4_Can5Carbon"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Oli13_Oli14": {
 		"location": [197619096833],
 		"eightrom": [8872194],
 		"ninerom": [9447652],
 		"type": [1],
-		"exits": ["Oli14_Oli27", "Oli14_Oli28", "Oli14_Oli13", "Oli14_Oli15"]
+		"exits": ["Oli14_Oli27", "Oli14_Oli28", "Oli14_Oli13", "Oli14_Oli15"],
+		"desc": ["Right Two-Way"]
 	},
 	"Can2_Can3": {
 		"location": [725866775809],
 		"eightrom": [8828250],
 		"ninerom": [9446376],
 		"type": [1],
-		"exits": ["Can3_Can2"]
+		"exits": ["Can3_Can2"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Can10_Can6": {
 		"location": [648557626369],
 		"eightrom": [8828350],
 		"ninerom": [9446396],
 		"type": [1],
-		"exits": ["Can6_Can10", "Can6_Can7", "Can6_Can4"]
+		"exits": ["Can6_Can10", "Can6_Can7", "Can6_Can4"],
+		"desc": ["Left Two-Way"]
 	},
 	"Can10_Can11": {
 		"location": [665736909569],
 		"eightrom": [8828364],
 		"ninerom": [9446404],
 		"type": [1],
-		"exits": ["Can11_Can13", "Can11_Can10", "Can11_Can12"]
+		"exits": ["Can11_Can13", "Can11_Can10", "Can11_Can12"],
+		"desc": ["Right Two-Way"]
 	},
 	"Can10_Rbr1": {
 		"location": [141786022914],
 		"eightrom": [8828396],
 		"ninerom": [9446412],
 		"type": [1],
-		"exits": ["Rbr1_Rbr2"]
+		"exits": ["Rbr1_Rbr2"],
+		"desc": ["Hub"]
 	},
 	"Cab11_Moley": {
 		"location": [17214407041],
 		"eightrom": [8828488],
 		"ninerom": [9446432],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Cab1_Cab4": {
 		"location": [68754475522],
 		"eightrom": [8829202],
 		"ninerom": [9446452],
 		"type": [0],
-		"exits": ["Cab4_Cab1"]
+		"exits": ["Cab4_Cab1"],
+		"desc": ["Left One-Way"]
 	},
 	"Cab1_Cab2": {
 		"location": [1086643770112],
 		"eightrom": [8829234],
 		"ninerom": [9446460],
 		"type": [1],
-		"exits": ["Cab2_Rbr16", "Cab2_Cab3", "Cab2_Cab1"]
+		"exits": ["Cab2_Rbr16", "Cab2_Cab3", "Cab2_Cab1"],
+		"desc": ["Right Two-Way"]
 	},
 	"Cab2_Cab3": {
 		"location": [1090938734081],
 		"eightrom": [8829760],
 		"ninerom": [9446480],
 		"type": [1],
-		"exits": ["Cab3_Cab2", "Cab3_Cab6"]
+		"exits": ["Cab3_Cab2", "Cab3_Cab6"],
+		"desc": ["Right Two-Way"]
 	},
 	"Cab2_Cab1": {
 		"location": [1082351361026],
 		"eightrom": [8830310],
 		"ninerom": [9446496],
 		"type": [1],
-		"exits": ["Cab1_Cab4", "Cab1_Cab2"]
+		"exits": ["Cab1_Cab4", "Cab1_Cab2"],
+		"desc": ["Left Two-Way"]
 	},
 	"Cab3_Cab2": {
 		"location": [1086646191104],
 		"eightrom": [8830620],
 		"ninerom": [9446524],
 		"type": [1],
-		"exits": ["Cab2_Rbr16", "Cab2_Cab3", "Cab2_Cab1"]
+		"exits": ["Cab2_Rbr16", "Cab2_Cab3", "Cab2_Cab1"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Cab3_Cab6": {
 		"location": [1052284683266],
 		"eightrom": [8833064],
 		"ninerom": [9446532],
 		"type": [1],
-		"exits": ["Cab2_Rbr16", "Cab2_Cab3", "Cab2_Cab1"]
+		"exits": ["Cab2_Rbr16", "Cab2_Cab3", "Cab2_Cab1"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Cab4_Cab1": {
 		"location": [1082351033344],
 		"eightrom": [8834112, 8834126, 8834140, 8834154, 8834168, 8834182, 8834196, 8834210],
 		"ninerom": [9446572],
 		"type": [0],
-		"exits": ["Cab1_Cab4", "Cab1_Cab2"]
+		"exits": ["Cab1_Cab4", "Cab1_Cab2"],
+		"desc": ["Waterway"]
 	},
 	"Cab4_Cab5": {
 		"location": [4328785409],
 		"eightrom": [8834368],
 		"ninerom": [9446580],
 		"type": [1],
-		"exits": ["Cab5_Cab2", "Cab5_Cab6", "Cab5_Cab4", "Cab5_Cab10"]
+		"exits": ["Cab5_Cab2", "Cab5_Cab6", "Cab5_Cab4", "Cab5_Cab10"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Cab4_Cab8": {
 		"location": [343631857410],
 		"eightrom": [8834382],
 		"ninerom": [9446588],
 		"type": [1],
-		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"]
+		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Cab4_Cab9": {
 		"location": [64458264833],
 		"eightrom": [8834396],
 		"ninerom": [9446596],
 		"type": [1],
-		"exits": ["Cab9_Cab10Lower", "Cab9_Cab4", "Cab9_Cab10Upper"]
+		"exits": ["Cab9_Cab10Lower", "Cab9_Cab4", "Cab9_Cab10Upper"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Cab6_Cab3": {
 		"location": [1090940050690],
 		"eightrom": [8834716],
 		"ninerom": [9446616],
 		"type": [1],
-		"exits": ["Cab3_Cab2", "Cab3_Cab6"]
+		"exits": ["Cab3_Cab2", "Cab3_Cab6"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Cab6_Cab7": {
 		"location": [8623686913],
 		"eightrom": [8834784],
 		"ninerom": [9446624],
 		"type": [1],
-		"exits": ["Cab7_Cab6", "Cab7_Cab18"]
+		"exits": ["Cab7_Cab6", "Cab7_Cab18"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Cab6_Cab5": {
 		"location": [4330292482],
 		"eightrom": [8835212],
 		"ninerom": [9446632],
 		"type": [1],
-		"exits": ["Cab5_Cab2", "Cab5_Cab6", "Cab5_Cab4", "Cab5_Cab10"]
+		"exits": ["Cab5_Cab2", "Cab5_Cab6", "Cab5_Cab4", "Cab5_Cab10"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Cab20_Cab21": {
 		"location": [81640424448],
 		"eightrom": [8835574],
 		"ninerom": [9446660],
 		"type": [0],
-		"exits": ["Cab21_Goal"]
+		"exits": ["Cab21_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Cab13_Rbr13": {
 		"location": [1078054490626],
 		"eightrom": [8836140],
 		"ninerom": [9446680],
 		"type": [1],
-		"exits": ["Rbr13_Rbr12", "Rbr13_Rbr14", "Rbr13_Cab13"]
+		"exits": ["Rbr13_Rbr12", "Rbr13_Rbr14", "Rbr13_Cab13"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Cab13B_Cab20": {
 		"location": [1095236388098],
 		"eightrom": [8836226],
 		"ninerom": [9446688],
 		"type": [0],
-		"exits": ["Cab20_Cab21"]
+		"exits": ["Cab20_Cab21"],
+		"desc": ["Top Left One-Way"]
 	},
 	"Cab13B_Cab14": {
 		"location": [73048457985],
 		"eightrom": [8836312],
 		"ninerom": [9446696],
 		"type": [1],
-		"exits": ["Cab14_Cab13B"]
+		"exits": ["Cab14_Cab13B"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Cab13_Cab14": {
 		"location": [73049572098],
 		"eightrom": [8836344],
 		"ninerom": [9446704],
 		"type": [1],
-		"exits": ["Cab14_Cab13B", "Cab14_Cab13", "Cab14_Cab15"]
+		"exits": ["Cab14_Cab13B", "Cab14_Cab13", "Cab14_Cab15"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Cab5_Cab2": {
 		"location": [1086646325504],
 		"eightrom": [8836588],
 		"ninerom": [9446724],
 		"type": [0],
-		"exits": ["Cab2_Rbr16", "Cab2_Cab3", "Cab2_Cab1"]
+		"exits": ["Cab2_Rbr16", "Cab2_Cab3", "Cab2_Cab1"],
+		"desc": ["Top One-Way"]
 	},
 	"Cab5_Cab6": {
 		"location": [1052284099841],
 		"eightrom": [8836602],
 		"ninerom": [9446732],
 		"type": [1],
-		"exits": ["Cab6_Cab3", "Cab6_Cab7", "Cab6_Cab5"]
+		"exits": ["Cab6_Cab3", "Cab6_Cab7", "Cab6_Cab5"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Cab5_Cab4": {
 		"location": [68754415616],
 		"eightrom": [8836616],
 		"ninerom": [9446740],
 		"type": [1],
-		"exits": ["Cab4_Cab1", "Cab4_Cab5", "Cab4_Cab8", "Cab4_Cab9"]
+		"exits": ["Cab4_Cab1", "Cab4_Cab5", "Cab4_Cab8", "Cab4_Cab9"],
+		"desc": ["Top Left Two-Way"]
 	},
-	"Cab10_Cab5": {
+	"Cab5_Cab10": {
 		"location": [12919243520],
 		"eightrom": [8837494],
 		"ninerom": [9446748],
 		"type": [1],
-		"exits": ["Cab5_Cab2", "Cab5_Cab6", "Cab5_Cab4", "Cab5_Cab10"]
+		"exits": ["Cab10_Cab5"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Cab7_Cab6": {
 		"location": [1052285602818],
 		"eightrom": [8837744],
 		"ninerom": [9446768],
 		"type": [1],
-		"exits": ["Cab6_Cab3", "Cab6_Cab7", "Cab6_Cab5"]
+		"exits": ["Cab6_Cab3", "Cab6_Cab7", "Cab6_Cab5"],
+		"desc": ["Top Two-Way"]
 	},
-	"Cab5_Cab10": {
+	"Cab10_Cab5": {
 		"location": [4330296064],
 		"eightrom": [8838244],
 		"ninerom": [9446804],
 		"type": [1],
-		"exits": ["Cab10_Cab5"]
+		"exits": ["Cab5_Cab2", "Cab5_Cab6", "Cab5_Cab4", "Cab5_Cab10"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Cab10_Cab11": {
 		"location": [1047988994561],
 		"eightrom": [8838780, 8838794, 8838808, 8838822, 8838836, 8838850, 8838864, 8838878],
 		"ninerom": [9446812],
 		"type": [0],
-		"exits": ["Cab11_Moley"]
+		"exits": ["Cab11_Moley"],
+		"desc": ["Wind Tunnel"]
 	},
 	"Cab18_Cab7": {
 		"location": [8625268480],
 		"eightrom": [8839320],
 		"ninerom": [9446840],
 		"type": [1],
-		"exits": ["Cab7_Cab6", "Cab7_Cab18"]
+		"exits": ["Cab7_Cab6", "Cab7_Cab18"],
+		"desc": ["Left Two-Way"]
 	},
 	"Cab18_Cab17": {
 		"location": [339336169728],
 		"eightrom": [8840288],
 		"ninerom": [9446848],
 		"type": [1],
-		"exits": ["Cab17_Cab18", "Cab17_Cab16", "Cab17_Rbr15"]
+		"exits": ["Cab17_Cab18", "Cab17_Cab16", "Cab17_Rbr15"],
+		"desc": ["Right Two-Way"]
 	},
 	"Cab15_Cab14": {
 		"location": [73048333569],
 		"eightrom": [8840588],
 		"ninerom": [9446868],
 		"type": [1],
-		"exits": ["Cab14_Cab13B", "Cab14_Cab13", "Cab14_Cab15"]
+		"exits": ["Cab14_Cab13B", "Cab14_Cab13", "Cab14_Cab15"],
+		"desc": ["Top Two-Way"]
 	},
 	"Cab15_Cab16": {
 		"location": [77345851650],
 		"eightrom": [8840602],
 		"ninerom": [9446876],
 		"type": [1],
-		"exits": ["Cab16_Cab15", "Cab16_Cab17"]
+		"exits": ["Cab16_Cab15", "Cab16_Cab17"],
+		"desc": ["Left Two-Way"]
 	},
 	"Cab15_Cab19": {
 		"location": [820338951937],
 		"eightrom": [8840616],
 		"ninerom": [9446884],
 		"type": [1],
-		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"]
+		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"],
+		"desc": ["Right Two-Way"]
 	},
 	"Cab9_Cab10Lower": {
 		"location": [12918588161],
 		"eightrom": [8841152],
 		"ninerom": [9446912],
 		"type": [0],
-		"exits": ["Cab10_Cab5", "Cab10_Cab11"]
+		"exits": ["Cab10_Cab5", "Cab10_Cab11"],
+		"desc": ["Stake One-Way"]
 	},
 	"Cab9_Cab4": {
 		"location": [68754485250],
 		"eightrom": [8841652],
 		"ninerom": [9446920],
 		"type": [1],
-		"exits": ["Cab4_Cab1", "Cab4_Cab5", "Cab4_Cab8", "Cab4_Cab9"]
+		"exits": ["Cab4_Cab1", "Cab4_Cab5", "Cab4_Cab8", "Cab4_Cab9"],
+		"desc": ["Left Two-Way"]
 	},
 	"Cab9_Cab10Upper": {
 		"location": [12918790144],
 		"eightrom": [8841900],
 		"ninerom": [9446928],
 		"type": [0],
-		"exits": ["Cab10_Cab5", "Cab10_Cab11"]
+		"exits": ["Cab10_Cab5", "Cab10_Cab11"],
+		"desc": ["Top Right One-Way"]
 	},
 	"Cab14_Cab13B": {
 		"location": [34214658],
 		"eightrom": [8842388],
 		"ninerom": [9446948],
 		"type": [1],
-		"exits": ["Cab13B_Cab20", "Cab13B_Cab14"]
+		"exits": ["Cab13B_Cab20", "Cab13B_Cab14"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Cab14_Cab13": {
 		"location": [35066626],
 		"eightrom": [8842402],
 		"ninerom": [9446956],
 		"type": [1],
-		"exits": ["Cab13_Rbr13", "Cab13_Cab14"]
+		"exits": ["Cab13_Rbr13", "Cab13_Cab14"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Cab14_Cab15": {
 		"location": [47279440641],
 		"eightrom": [8844234],
 		"ninerom": [9446964],
 		"type": [1],
-		"exits": ["Cab15_Cab14", "Cab15_Cab16", "Cab15_Cab19"]
+		"exits": ["Cab15_Cab14", "Cab15_Cab16", "Cab15_Cab19"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Cab16_Cab15": {
 		"location": [47278393856],
 		"eightrom": [8845650],
 		"ninerom": [9446984],
 		"type": [1],
-		"exits": ["Cab15_Cab14", "Cab15_Cab16", "Cab15_Cab19"]
+		"exits": ["Cab15_Cab14", "Cab15_Cab16", "Cab15_Cab19"],
+		"desc": ["Right Two-Way"]
 	},
 	"Cab16_Cab17": {
 		"location": [339336890626],
 		"eightrom": [8846582],
 		"ninerom": [9446992],
 		"type": [1],
-		"exits": ["Cab17_Cab18", "Cab17_Cab16", "Cab17_Rbr15"]
+		"exits": ["Cab17_Cab18", "Cab17_Cab16", "Cab17_Rbr15"],
+		"desc": ["Left Two-Way"]
 	},
 	"Cab17_Cab18": {
 		"location": [21511279362],
 		"eightrom": [8852184],
 		"ninerom": [9447048],
 		"type": [1],
-		"exits": ["Cab18_Cab7", "Cab18_Cab17"]
+		"exits": ["Cab18_Cab7", "Cab18_Cab17"],
+		"desc": ["Left Two-Way"]
 	},
 	"Cab17_Cab16": {
 		"location": [77343167233],
 		"eightrom": [8852198],
 		"ninerom": [9447056],
 		"type": [1],
-		"exits": ["Cab16_Cab15", "Cab16_Cab17"]
+		"exits": ["Cab16_Cab15", "Cab16_Cab17"],
+		"desc": ["Right Two-Way"]
 	},
 	"Cab17_Rbr15": {
 		"location": [833224181760],
 		"eightrom": [8852170],
 		"ninerom": [9447064],
 		"type": [1],
-		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"]
+		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"],
+		"desc": ["Rainbow South Switch"]
 	},
 	"Cab19_Cab15": {
 		"location": [47280952066],
 		"eightrom": [8852312],
 		"ninerom": [9447084],
 		"type": [1],
-		"exits": ["Cab15_Cab14", "Cab15_Cab16", "Cab15_Cab19"]
+		"exits": ["Cab15_Cab14", "Cab15_Cab16", "Cab15_Cab19"],
+		"desc": ["Left Two-Way"]
 	},
 	"Cab19_Oli1": {
 		"location": [558345947137],
 		"eightrom": [8852326],
 		"ninerom": [9447092],
 		"type": [1],
-		"exits": ["Oli1_Cab19", "Oli1_Oli2"]
+		"exits": ["Oli1_Cab19", "Oli1_Oli2"],
+		"desc": ["Right Two-Way"]
 	},
 	"Cab19_Rbr1": {
 		"location": [141785895170],
 		"eightrom": [8852298],
 		"ninerom": [9447100],
 		"type": [1],
-		"exits": ["Rbr1_Rbr2"]
+		"exits": ["Rbr1_Rbr2"],
+		"desc": ["Hub"]
 	},
 	"Cab19_Oli11": {
 		"location": [524036932352],
 		"eightrom": [8852358],
 		"ninerom": [9447108],
 		"type": [1],
-		"exits": ["Oli11_Oli10", "Oli11_Oli12", "Oli11_Cab19"]
+		"exits": ["Oli11_Oli10", "Oli11_Oli12", "Oli11_Cab19"],
+		"desc": ["Olive Switch"]
 	},
 	"Oli1_Cab19": {
 		"location": [820339672834],
 		"eightrom": [8852686],
 		"ninerom": [9447128],
 		"type": [1],
-		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"]
+		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"],
+		"desc": ["Left Two-Way"]
 	},
 	"Oli1_Oli2": {
 		"location": [562640913921],
 		"eightrom": [8852700],
 		"ninerom": [9447136],
 		"type": [1],
-		"exits": ["Oli2_Oli4", "Oli2_Oli1", "Oli2_Oli3"]
+		"exits": ["Oli2_Oli4", "Oli2_Oli1", "Oli2_Oli3"],
+		"desc": ["Right Two-Way"]
 	},
 	"Oli2_Oli4": {
 		"location": [566935883777],
 		"eightrom": [8852948],
 		"ninerom": [9447156],
 		"type": [0],
-		"exits": ["Oli4_Oli4Bottom", "Oli4_Oli5Top"]
+		"exits": ["Oli4_Oli4Bottom", "Oli4_Oli5Top"],
+		"desc": ["Right Two-Way"]
 	},
 	"Oli2_Oli1": {
 		"location": [558350469122],
 		"eightrom": [8853034],
 		"ninerom": [9447164],
 		"type": [1],
-		"exits": ["Oli1_Cab19", "Oli1_Oli2"]
+		"exits": ["Oli1_Cab19", "Oli1_Oli2"],
+		"desc": ["Left Two-Way"]
 	},
 	"Oli2_Oli3": {
 		"location": [249158697985],
 		"eightrom": [8853102],
 		"ninerom": [9447172],
 		"type": [1],
-		"exits": ["Oli3_Oli2"]
+		"exits": ["Oli3_Oli2"],
+		"desc": ["Middle Two-Way"]
 	},
 	"Oli4_Oli4Bottom": {
 		"location": [566938896897],
 		"eightrom": [8853432],
 		"ninerom": [9447192],
 		"type": [0],
-		"exits": ["Oli4Bottom_Oli5Bottom"]
+		"exits": ["Oli4Bottom_Oli5Bottom"],
+		"desc": ["Left One-Way"]
 	},
 	"Oli4_Oli5Top": {
 		"location": [571230782977],
 		"eightrom": [8853446],
 		"ninerom": [9447200],
 		"type": [0],
-		"exits": ["Oli5Top_Oli6"]
+		"exits": ["Oli5Top_Oli6"],
+		"desc": ["Right One-Way"]
 	},
 	"Oli4Bottom_Oli5Bottom": {
 		"location": [571230851585],
 		"eightrom": [8853460],
 		"ninerom": [9447208],
 		"type": [0],
-		"exits": ["Oli5Bottom_Oli8"]
+		"exits": ["Oli5Bottom_Oli8"],
+		"desc": ["One-Way"]
 	},
-	"Oli5Top_Oli6": {
+	"Oli5Bottom_Oli6": {
 		"location": [575525750529],
 		"eightrom": [8853724],
 		"ninerom": [9447228],
 		"type": [0],
-		"exits": ["Oli6_Oli7"]
+		"exits": ["Oli6_Oli7"],
+		"desc": ["One-Way"]
 	},
-	"Oli5Bottom_Oli8": {
+	"Oli5Top_Oli8": {
 		"location": [253453599745],
 		"eightrom": [8853738],
 		"ninerom": [9447236],
 		"type": [0],
-		"exits": ["Oli8_Oli9", "CANON3"]
+		"exits": ["Oli8_Oli9", "CANON3"],
+		"desc": ["One-Way"]
 	},
 	"Oli6_Oli7": {
 		"location": [579820717057],
 		"eightrom": [8854378],
 		"ninerom": [9447264],
 		"type": [0],
-		"exits": ["Oli7_Goal"]
+		"exits": ["Oli7_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Oli16_Oli17": {
 		"location": [201914124545],
 		"eightrom": [8856634],
 		"ninerom": [9447304],
 		"type": [0],
-		"exits": ["Oli17_Oli18"]
+		"exits": ["Oli17_Oli18"],
+		"desc": ["One-Way"]
 	},
 	"Oli18_Oli15": {
 		"location": [274928441601],
 		"eightrom": [8857886],
 		"ninerom": [9447332],
 		"type": [0],
-		"exits": ["Oli15_Oli14", "Oli15_Oli24"]
+		"exits": ["Oli15_Oli14", "Oli15_Oli24"],
+		"desc": ["One-Way"]
 	},
 	"Oli12_Oli11": {
 		"location": [524037261570],
 		"eightrom": [8859028],
 		"ninerom": [9447352],
 		"type": [1],
-		"exits": ["Oli11_Oli10", "Oli11_Oli12", "Oli11_Cab19"]
+		"exits": ["Oli11_Oli10", "Oli11_Oli12", "Oli11_Cab19"],
+		"desc": ["Left Two-Way"]
 	},
 	"Oli12_Oli13": {
 		"location": [262043534593],
 		"eightrom": [8859110],
 		"ninerom": [9447360],
 		"type": [1],
-		"exits": ["Oli13_Oli14", "Oli13_Oli12"]
+		"exits": ["Oli13_Oli14", "Oli13_Oli12"],
+		"desc": ["Right Two-Way"]
 	},
 	"Oli12_Oli19": {
 		"location": [266339090945],
 		"eightrom": [8859592],
 		"ninerom": [9447368],
 		"type": [0],
-		"exits": ["Oli19_Oli20"]
+		"exits": ["Oli19_Oli20"],
+		"desc": ["Bottom One-Way"]
 	},
 	"Oli12_Oli16": {
 		"location": [167537476609],
 		"eightrom": [8859078],
 		"ninerom": [9447376],
 		"type": [0],
-		"exits": ["Oli16_Oli17"]
+		"exits": ["Oli16_Oli17"],
+		"desc": ["Mirra"]
 	},
 	"Oli14_Oli27": {
 		"location": [240568764417],
 		"eightrom": [8860056],
 		"ninerom": [9447396],
 		"type": [1],
-		"exits": ["Oli27_Oli14", "Oli27_Mnl12L"]
+		"exits": ["Oli27_Oli14", "Oli27_Mnl12L"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Oli14_Oli28": {
 		"location": [270633472513],
 		"eightrom": [8860070],
 		"ninerom": [9447404],
 		"type": [0],
-		"exits": ["Oli28_Oli29"]
+		"exits": ["Oli28_Oli29"],
+		"desc": ["Top Right One-Way"]
 	},
 	"Oli14_Oli13": {
 		"location": [262049367554],
 		"eightrom": [8861218],
 		"ninerom": [9447412],
 		"type": [1],
-		"exits": ["Oli13_Oli14", "Oli13_Oli12"]
+		"exits": ["Oli13_Oli14", "Oli13_Oli12"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Oli14_Oli15": {
 		"location": [274929157121],
 		"eightrom": [8861484],
 		"ninerom": [9447420],
 		"type": [1],
-		"exits": ["Oli15_Oli14", "Oli15_Oli24"]
+		"exits": ["Oli15_Oli14", "Oli15_Oli24"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Oli17_Oli18": {
 		"location": [176127411200],
 		"eightrom": [8862286],
 		"ninerom": [9447448],
 		"type": [0],
-		"exits": ["Oli18_Oli15"]
+		"exits": ["Oli18_Oli15"],
+		"desc": ["One-Way"]
 	},
 	"Oli27_Oli14": {
 		"location": [197619024641],
 		"eightrom": [8865644],
 		"ninerom": [9447520],
 		"type": [1],
-		"exits": ["Oli14_Oli27", "Oli14_Oli28", "Oli14_Oli13", "Oli14_Oli15"]
+		"exits": ["Oli14_Oli27", "Oli14_Oli28", "Oli14_Oli13", "Oli14_Oli15"],
+		"desc": ["Left Two-Way"]
 	},
 	"Oli10_Oli11": {
 		"location": [524036540673],
 		"eightrom": [8865476],
 		"ninerom": [9447476],
 		"type": [1],
-		"exits": ["Oli11_Oli10", "Oli11_Oli12", "Oli11_Cab19"]
+		"exits": ["Oli11_Oli10", "Oli11_Oli12", "Oli11_Cab19"],
+		"desc": ["Right Two-Way"]
 	},
 	"Oli10_Oli9": {
 		"location": [257755121154],
 		"eightrom": [8865490],
 		"ninerom": [9447484],
 		"type": [1],
-		"exits": ["Oli9_Oli8", "Oli9_Oli10"]
+		"exits": ["Oli9_Oli8", "Oli9_Oli10"],
+		"desc": ["Left Two-Way"]
 	},
 	"Oli3_Oli2": {
 		"location": [562643077377],
 		"eightrom": [8866028],
 		"ninerom": [9447576],
 		"type": [1],
-		"exits": ["Oli2_Oli4", "Oli2_Oli1", "Oli2_Oli3"]
+		"exits": ["Oli2_Oli4", "Oli2_Oli1", "Oli2_Oli3"],
+		"desc": ["Two-Way"]
 	},
 	"Oli8_Oli9": {
 		"location": [257748567041],
 		"eightrom": [8870896],
 		"ninerom": [9447596],
 		"type": [1],
-		"exits": ["Oli9_Oli8", "Oli9_Oli10"]
+		"exits": ["Oli9_Oli8", "Oli9_Oli10"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Oli9_Oli8": {
 		"location": [253456227586],
 		"eightrom": [8871518],
 		"ninerom": [9447616],
 		"type": [1],
-		"exits": ["Oli8_Oli9"]
+		"exits": ["Oli8_Oli9"],
+		"desc": ["Left Two-Way"]
 	},
 	"Oli9_Oli10": {
 		"location": [236273802497],
 		"eightrom": [8871568],
 		"ninerom": [9447624],
 		"type": [1],
-		"exits": ["Oli10_Oli11", "Oli10_Oli9"]
+		"exits": ["Oli10_Oli11", "Oli10_Oli9"],
+		"desc": ["Right Two-Way"]
 	},
 	"Oli13_Oli12": {
 		"location": [184737662722],
 		"eightrom": [8871892],
 		"ninerom": [9447644],
 		"type": [1],
-		"exits": ["Oli12_Oli11", "Oli12_Oli13", "Oli12_Oli19", "Oli12_Oli16"]
+		"exits": ["Oli12_Oli11", "Oli12_Oli13", "Oli12_Oli19", "Oli12_Oli16"],
+		"desc": ["Left Two-Way"]
 	},
 	"Oli19_Oli20": {
 		"location": [180439155201],
 		"eightrom": [8872842],
 		"ninerom": [9447672],
 		"type": [0],
-		"exits": ["Oli20_Oli21"]
+		"exits": ["Oli20_Oli21"],
+		"desc": ["Right Two-Way"]
 	},
 	"Oli28_Oli29": {
 		"location": [244864652033],
 		"eightrom": [8873332],
 		"ninerom": [9447692],
 		"type": [0],
-		"exits": ["Oli29_Goal"]
+		"exits": ["Oli29_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Oli15_Oli14": {
 		"location": [197621718274],
 		"eightrom": [8874314],
 		"ninerom": [9447712],
 		"type": [1],
-		"exits": ["Oli14_Oli27", "Oli14_Oli28", "Oli14_Oli13", "Oli14_Oli15"]
+		"exits": ["Oli14_Oli27", "Oli14_Oli28", "Oli14_Oli13", "Oli14_Oli15"],
+		"desc": ["Top Two-Way"]
 	},
 	"Oli15_Oli24": {
 		"location": [227683729921],
 		"eightrom": [8874850],
 		"ninerom": [9447720],
 		"type": [0],
-		"exits": ["Oli24_Oli25"]
+		"exits": ["Oli24_Oli25"],
+		"desc": ["Bottom Right One-Way"]
 	},
 	"Oli11_Oli10": {
 		"location": [236276292610],
 		"eightrom": [8874960],
 		"ninerom": [9447740],
 		"type": [1],
-		"exits": ["Oli10_Oli11", "Oli10_Oli9"]
+		"exits": ["Oli10_Oli11", "Oli10_Oli9"],
+		"desc": ["Left Two-Way"]
 	},
 	"Oli11_Oli12": {
 		"location": [184734188545],
 		"eightrom": [8874974],
 		"ninerom": [9447748],
 		"type": [1],
-		"exits": ["Oli12_Oli11", "Oli12_Oli13", "Oli12_Oli19", "Oli12_Oli16"]
+		"exits": ["Oli12_Oli11", "Oli12_Oli13", "Oli12_Oli19", "Oli12_Oli16"],
+		"desc": ["Right Two-Way"]
 	},
 	"Oli11_Cab19": {
 		"location": [820339279872],
 		"eightrom": [8874946],
 		"ninerom": [9447756],
 		"type": [1],
-		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"]
+		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"],
+		"desc": ["Cabbage East Switch"]
 	},
 	"Oli25_Gobbler": {
 		"location": [231979352962],
 		"eightrom": [8875140],
 		"ninerom": [9447776],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Oli21_Oli22": {
 		"location": [206208893953],
 		"eightrom": [8877134, 8877148, 8877162, 8877176, 8877190, 8877204],
 		"ninerom": [9447796],
 		"type": [0],
-		"exits": ["Oli22_Oli23"]
+		"exits": ["Oli22_Oli23"],
+		"desc": ["One-Way"]
 	},
 	"Oli20_Oli21": {
 		"location": [146080072449],
 		"eightrom": [8877452],
 		"ninerom": [9447816],
 		"type": [0],
-		"exits": ["Oli21_Oli22"]
+		"exits": ["Oli21_Oli22"],
+		"desc": ["One-Way"]
 	},
 	"Oli22_Oli23": {
 		"location": [219093861633],
 		"eightrom": [8878158],
 		"ninerom": [9447844],
 		"type": [0],
-		"exits": ["Oli23_Oli24"]
+		"exits": ["Oli23_Oli24"],
+		"desc": ["One-Way"]
 	},
 	"Oli23_Oli24": {
 		"location": [227683730689],
 		"eightrom": [8880548],
 		"ninerom": [9447864],
 		"type": [0],
-		"exits": ["Oli24_Oli25"]
+		"exits": ["Oli24_Oli25"],
+		"desc": ["One-Way"]
 	},
 	"Oli24_Oli25": {
 		"location": [137489941505],
 		"eightrom": [8882032],
 		"ninerom": [9447884],
 		"type": [0],
-		"exits": ["Oli25_Gobbler"]
+		"exits": ["Oli25_Gobbler"],
+		"desc": ["One-Way"]
 	},
 	"Cab8_Rad1": {
 		"location": [463892908290],
 		"eightrom": [8882506],
 		"ninerom": [9447916],
 		"type": [1],
-		"exits": ["Rad1_Cab8", "Rad1_Rad2"]
+		"exits": ["Rad1_Cab8", "Rad1_Rad2"],
+		"desc": ["Left Two-Way"]
 	},
 	"Cab8_Cab4": {
 		"location": [68753305601],
 		"eightrom": [8882520],
 		"ninerom": [9447924],
 		"type": [1],
-		"exits": ["Cab4_Cab1", "Cab4_Cab5", "Cab4_Cab8", "Cab4_Cab9"]
+		"exits": ["Cab4_Cab1", "Cab4_Cab5", "Cab4_Cab8", "Cab4_Cab9"],
+		"desc": ["Right Two-Way"]
 	},
 	"Cab8_Rbr1": {
 		"location": [141784715521],
 		"eightrom": [8882492],
 		"ninerom": [9447932],
 		"type": [1],
-		"exits": ["Rbr1_Rbr2"]
+		"exits": ["Rbr1_Rbr2"],
+		"desc": ["Hub"]
 	},
 	"Cab8_Rad12": {
 		"location": [764538323712],
 		"eightrom": [8882552],
 		"ninerom": [9447940],
 		"type": [1],
-		"exits": ["Rad12_Rad13", "Rad12_Rad6", "Rad12_Cab8"]
+		"exits": ["Rad12_Rad13", "Rad12_Rad6", "Rad12_Cab8"],
+		"desc": ["Radish Switch"]
 	},
 	"Rad4_Rad6": {
 		"location": [425236891650],
 		"eightrom": [8883090, 8884054],
 		"ninerom": [9447960, 9447976],
 		"type": [1],
-		"exits": ["Rad6_Rad7", "Rad6_Rad4", "Rad6_Rad12"]
+		"exits": ["Rad6_Rad7", "Rad6_Rad4", "Rad6_Rad12"],
+		"desc": ["Either of the Left Two-Ways"]
 	},
 	"Rad4_Rad3Top": {
 		"location": [399465714177],
 		"eightrom": [8883140],
 		"ninerom": [9447968],
 		"type": [0],
-		"exits": ["Rad3Top_Rad9", "Rad3_Rad4", "Rad3_Rad10"]
+		"exits": ["Rad3Top_Rad9", "Rad3_Rad4", "Rad3_Rad10"],
+		"desc": ["Top Right One-Way"]
 	},
 	"Rad4_Rad3": {
 		"location": [399465781505],
 		"eightrom": [8884338],
 		"ninerom": [9447984],
 		"type": [1],
-		"exits": ["Rad3_Rad4", "Rad3_Rad10"]
+		"exits": ["Rad3_Rad4", "Rad3_Rad10"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Rad4_Rad5Chest": {
 		"location": [476775189505],
 		"eightrom": [8883040],
 		"ninerom": [9447992],
 		"type": [1],
-		"exits": ["Rad5Chest_Rad4"]
+		"exits": ["Rad5Chest_Rad4"],
+		"desc": ["Middle Two-Way"]
 	},
 	"Rad7_Rad8Top": {
 		"location": [395170809345],
 		"eightrom": [8884664],
 		"ninerom": [9448012],
 		"type": [1],
-		"exits": ["Rad8Top_Rad11", "Rad8Top_Rad7"]
+		"exits": ["Rad8Top_Rad11", "Rad8Top_Rad7"],
+		"desc": ["Top Two-Way"]
 	},
 	"Rad7_Rad6": {
 		"location": [425236432129],
 		"eightrom": [8885110],
 		"ninerom": [9448020],
 		"type": [1],
-		"exits": ["Rad6_Rad7", "Rad6_Rad4", "Rad6_Rad12"]
+		"exits": ["Rad6_Rad7", "Rad6_Rad4", "Rad6_Rad12"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Rad8Top_Rad11": {
 		"location": [472480158209],
 		"eightrom": [8886000],
 		"ninerom": [9448040],
 		"type": [0],
-		"exits": ["Rad11_Goal"]
+		"exits": ["Rad11_Goal"],
+		"desc": ["Right One-Way"]
 	},
 	"Rad8Top_Rad7": {
 		"location": [390876300290],
 		"eightrom": [8886230],
 		"ninerom": [9448048],
 		"type": [1],
-		"exits": ["Rad7_Rad8Top", "Rad7_Rad6"]
+		"exits": ["Rad7_Rad8Top", "Rad7_Rad6"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rad8Bottom_Rad9": {
 		"location": [403760743681],
 		"eightrom": [8886672],
 		"ninerom": [9448056],
 		"type": [1],
-		"exits": ["Rad9_Rad8Bottom", "Rad9_Rad3Top"]
+		"exits": ["Rad9_Rad8Bottom", "Rad9_Rad3Top"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rad8Bottom_Rad5": {
 		"location": [476775121665],
 		"eightrom": [8886388],
 		"ninerom": [9448064],
 		"type": [0],
-		"exits": ["Rad5_Rad9"]
+		"exits": ["Rad5_Rad9"],
+		"desc": ["Left One-Way"]
 	},
 	"Rad3Top_Rad9": {
 		"location": [403761540098],
 		"eightrom": [8887470],
 		"ninerom": [9448084],
 		"type": [1],
-		"exits": ["Rad9_Rad8Bottom", "Rad9_Rad3Top"]
+		"exits": ["Rad9_Rad8Bottom", "Rad9_Rad3Top"],
+		"desc": ["Top Two-Way"]
 	},
 	"Rad3_Rad4": {
 		"location": [382292986114],
 		"eightrom": [8888006],
 		"ninerom": [9448092],
 		"type": [1],
-		"exits": ["Rad4_Rad3", "Rad4_Rad6", "Rad4_Rad3Top", "Rad4_Rad5Chest"]
+		"exits": ["Rad4_Rad3", "Rad4_Rad6", "Rad4_Rad3Top", "Rad4_Rad5Chest"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Rad3_Rad10": {
 		"location": [420943102978],
 		"eightrom": [8888920],
 		"ninerom": [9448100],
 		"type": [0],
-		"exits": ["Rad10_Rad6"]
+		"exits": ["Rad10_Rad6"],
+		"desc": ["Stake One-Way"]
 	},
 	"Rad9_Rad8Bottom": {
 		"location": [395175659778],
 		"eightrom": [8889276],
 		"ninerom": [9448120],
 		"type": [1],
-		"exits": ["Rad8Bottom_Rad9", "Rad8Bottom_Rad5"]
+		"exits": ["Rad8Bottom_Rad9", "Rad8Bottom_Rad5"],
+		"desc": ["Top Two-Way"]
 	},
 	"Rad9_Rad3Top": {
 		"location": [399465976065],
 		"eightrom": [8889434],
 		"ninerom": [9448128],
 		"type": [1],
-		"exits": ["Rad3Top_Rad9", "Rad3_Rad4", "Rad3_Rad10"]
+		"exits": ["Rad3Top_Rad9", "Rad3_Rad4", "Rad3_Rad10"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Rad10_Rad6": {
 		"location": [425236239106],
 		"eightrom": [8889544],
 		"ninerom": [9448156],
 		"type": [0],
-		"exits": ["Rad6_Rad7", "Rad6_Rad4", "Rad6_Rad12"]
+		"exits": ["Rad6_Rad7", "Rad6_Rad4", "Rad6_Rad12"],
+		"desc": ["One-Way"]
 	},
 	"Rad6_Rad7": {
 		"location": [390875918593],
 		"eightrom": [8889704],
 		"ninerom": [9448176],
 		"type": [1],
-		"exits": ["Rad7_Rad8Top", "Rad7_Rad6"]
+		"exits": ["Rad7_Rad8Top", "Rad7_Rad6"],
+		"desc": ["Middle Two-Way"]
 	},
 	"Rad6_Rad4": {
 		"location": [382285908225],
 		"eightrom": [8889750],
 		"ninerom": [9448184],
 		"type": [1],
-		"exits": ["Rad4_Rad6", "Rad4_Rad3Top", "Rad4_Rad5Chest"]
+		"exits": ["Rad4_Rad6", "Rad4_Rad3Top", "Rad4_Rad5Chest"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rad6_Rad12": {
 		"location": [764538652930],
 		"eightrom": [8889736],
 		"ninerom": [9448192],
 		"type": [1],
-		"exits": ["Rad12_Rad13", "Rad12_Rad6", "Rad12_Cab8"]
+		"exits": ["Rad12_Rad13", "Rad12_Rad6", "Rad12_Cab8"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rad1_Cab8": {
 		"location": [343631136512],
 		"eightrom": [8893064],
 		"ninerom": [9448212],
 		"type": [1],
-		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"]
+		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rad1_Rad2": {
 		"location": [468189774594],
 		"eightrom": [8892892, 8892924],
 		"ninerom": [9448220],
 		"type": [0],
-		"exits": ["Rad2_Rad3"]
+		"exits": ["Rad2_Rad3"],
+		"desc": ["Ruins"]
 	},
 	"Rad2_Rad3": {
 		"location": [399468397826],
 		"eightrom": [8894588],
 		"ninerom": [9448240],
 		"type": [0],
-		"exits": ["Rad3_Rad4", "Rad3_Rad10"]
+		"exits": ["Rad3_Rad4", "Rad3_Rad10"],
+		"desc": ["One-Way"]
 	},
 	"Rad5_Rad9": {
 		"location": [403760618497],
 		"eightrom": [8895236],
 		"ninerom": [9448296],
 		"type": [0],
-		"exits": ["Rad9_Rad8Bottom", "Rad9_Rad3Top"]
+		"exits": ["Rad9_Rad8Bottom", "Rad9_Rad3Top"],
+		"desc": ["One-Way"]
 	},
 	"Rad5Chest_Rad4": {
 		"location": [382288792064],
 		"eightrom": [8895250],
 		"ninerom": [9448304],
 		"type": [1],
-		"exits": ["Rad4_Rad6", "Rad4_Rad3Top", "Rad4_Rad5Chest"]
+		"exits": ["Rad4_Rad6", "Rad4_Rad3Top", "Rad4_Rad5Chest"],
+		"desc": ["Two-Way"]
 	},
 	"Rad14_Rad15": {
 		"location": [459595843584],
 		"eightrom": [8895650],
 		"ninerom": [9448332],
 		"type": [1],
-		"exits": ["Rad15_Rad14", "Rad15_Car6"]
+		"exits": ["Rad15_Rad14", "Rad15_Car6"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Rad14_Rad16": {
 		"location": [433826110208],
 		"eightrom": [8895754],
 		"ninerom": [9448340],
 		"type": [0],
-		"exits": ["Rad16_Rad17", "Rad16_Rad24"]
+		"exits": ["Rad16_Rad17", "Rad16_Rad24"],
+		"desc": ["Left One-Way"]
 	},
 	"Rad14_Rad13": {
 		"location": [429530547456],
 		"eightrom": [8896092],
 		"ninerom": [9448348],
 		"type": [1],
-		"exits": ["Rad13_Rad14", "Rad13_Rad12"]
+		"exits": ["Rad13_Rad14", "Rad13_Rad12"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Rad17_Rad18": {
 		"location": [438123109634],
 		"eightrom": [8897378],
 		"ninerom": [9448368],
 		"type": [0],
-		"exits": ["Rad18_Rad19"]
+		"exits": ["Rad18_Rad19"],
+		"desc": ["One-Way"]
 	},
 	"Rad13_Rad14": {
 		"location": [412355138050],
 		"eightrom": [8900340],
 		"ninerom": [9448388],
 		"type": [1],
-		"exits": ["Rad14_Rad15", "Rad14_Rad16", "Rad14_Rad13"]
+		"exits": ["Rad14_Rad15", "Rad14_Rad16", "Rad14_Rad13"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rad13_Rad12": {
 		"location": [764537997569],
 		"eightrom": [8900354],
 		"ninerom": [9448396],
 		"type": [1],
-		"exits": ["Rad12_Rad13", "Rad12_Rad6", "Rad12_Cab8"]
+		"exits": ["Rad12_Rad13", "Rad12_Rad6", "Rad12_Cab8"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rad16_Rad17": {
 		"location": [416652133122],
 		"eightrom": [8901470],
 		"ninerom": [9448424],
 		"type": [0],
-		"exits": ["Rad17_Rad18"]
+		"exits": ["Rad17_Rad18"],
+		"desc": ["Bottom One-Way"]
 	},
 	"Rad16_Rad24": {
 		"location": [446712781570],
 		"eightrom": [8900682],
 		"ninerom": [9448416],
 		"type": [0],
-		"exits": ["Rad24_Rad25"]
+		"exits": ["Rad24_Rad25"],
+		"desc": ["Top One-Way"]
 	},
 	"Rad18_Rad19": {
 		"location": [455300632066],
 		"eightrom": [8901758],
 		"ninerom": [9448444],
 		"type": [0],
-		"exits": ["Rad19_Rad20"]
+		"exits": ["Rad19_Rad20"],
+		"desc": ["One-Way"]
 	},
 	"Rad24_Rad25": {
 		"location": [51573360641],
 		"eightrom": [8902124],
 		"ninerom": [9448464],
 		"type": [0],
-		"exits": ["Rad25_Rad26"]
+		"exits": ["Rad25_Rad26"],
+		"desc": ["One-Way"]
 	},
 	"Rad27_Rad26": {
 		"location": [1056582275329],
 		"eightrom": [8902532],
 		"ninerom": [9448492],
 		"type": [0],
-		"exits": ["Rad26_Rad28", "Rad26_Rad27"]
+		"exits": ["Rad26_Rad28", "Rad26_Rad27", "CANON4"],
+		"desc": ["One-Way"]
 	},
 	"Rad19_Rad20": {
 		"location": [485337138946],
 		"eightrom": [8903560],
 		"ninerom": [9448512],
 		"type": [0],
-		"exits": ["Rad20_Rad21"]
+		"exits": ["Rad20_Rad21"],
+		"desc": ["One-Way"]
 	},
 	"Rad15_Rad14": {
 		"location": [412355134465],
 		"eightrom": [8903716],
 		"ninerom": [9448548],
 		"type": [1],
-		"exits": ["Rad14_Rad15", "Rad14_Rad16", "Rad14_Rad13"]
+		"exits": ["Rad14_Rad15", "Rad14_Rad16", "Rad14_Rad13"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rad12_Rad13": {
 		"location": [429533105666],
 		"eightrom": [8903828],
 		"ninerom": [9448568],
 		"type": [1],
-		"exits": ["Rad13_Rad14", "Rad13_Rad12"]
+		"exits": ["Rad13_Rad14", "Rad13_Rad12"],
+		"desc": ["Left Two-Way"]
 	},
 	"Rad12_Rad6": {
 		"location": [425235581185],
 		"eightrom": [8903842],
 		"ninerom": [9448576],
 		"type": [1],
-		"exits": ["Rad6_Rad7", "Rad6_Rad4", "Rad6_Rad12"]
+		"exits": ["Rad6_Rad7", "Rad6_Rad4", "Rad6_Rad12"],
+		"desc": ["Right Two-Way"]
 	},
 	"Rad12_Cab8": {
 		"location": [343631464448],
 		"eightrom": [8903814],
 		"ninerom": [9448584],
 		"type": [1],
-		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"]
+		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"],
+		"desc": ["Cabbage West Switch"]
 	},
 	"Rad26_Rad28": {
 		"location": [55868265216],
 		"eightrom": [8904568],
 		"ninerom": [9448604],
 		"type": [0],
-		"exits": ["Rad28_Rad29", "CANON4"]
+		"exits": ["Rad28_Rad29"],
+		"desc": ["Right One-Way"]
 	},
 	"Rad26_Rad27": {
 		"location": [451005384961],
 		"eightrom": [8907624],
 		"ninerom": [9448612],
 		"type": [0],
-		"exits": ["Rad27_Rad26"]
+		"exits": ["Rad27_Rad26"],
+		"desc": ["Bottom One-Way"]
 	},
 	"Rad25_Rad26": {
 		"location": [1056578864897],
 		"eightrom": [8908322],
 		"ninerom": [9448632],
 		"type": [0],
-		"exits": ["Rad26_Rad28", "Rad26_Rad27"]
+		"exits": ["Rad26_Rad28", "Rad26_Rad27", "CANON4"],
+		"desc": ["One-Way"]
 	},
 	"Rad28_Rad29": {
 		"location": [60163360768],
 		"eightrom": [8908778],
 		"ninerom": [9448652],
 		"type": [0],
-		"exits": ["Rad29_Goal"]
+		"exits": ["Rad29_Goal"],
+		"desc": ["One-Way"]
 	},
 	"Rad21_Rad22": {
 		"location": [489627191298],
 		"eightrom": [8909416],
 		"ninerom": [9448708],
 		"type": [0],
-		"exits": ["Rad22_DarkMetaKnight"]
+		"exits": ["Rad22_DarkMetaKnight"],
+		"desc": ["One-Way"]
 	},
 	"Rad20_Rad21": {
 		"location": [438091515904],
 		"eightrom": [8910258],
 		"ninerom": [9448728],
 		"type": [0],
-		"exits": ["Rad21_Rad22"]
+		"exits": ["Rad21_Rad22"],
+		"desc": ["One-Way"]
 	},
 	"Rad22_DarkMetaKnight": {
 		"location": [554050912897],
 		"eightrom": [8910492],
 		"ninerom": [9448748],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Car1_Car3": {
 		"location": [519697860354],
 		"eightrom": [8910940],
 		"ninerom": [9448780],
 		"type": [0],
-		"exits": ["Car3_Car4", "Car3_Car2"]
+		"exits": ["Car3_Car4", "Car3_Car2"],
+		"desc": ["Right One-Way"]
 	},
 	"Car1_Car2": {
 		"location": [523992827906],
 		"eightrom": [8910954],
 		"ninerom": [9448788],
 		"type": [0],
-		"exits": ["Car2_Car5", "Car2_Car3", "Car2_Rbr48"]
+		"exits": ["Car2_Car5", "Car2_Car3", "Car2_Rbr48"],
+		"desc": ["Left One-Way"]
 	},
 	"Car1_Rbr20": {
 		"location": [502511372545],
 		"eightrom": [8910968],
 		"ninerom": [9448796],
 		"type": [1],
-		"exits": ["Rbr20_Rbr21", "Rbr20_Rbr19", "Rbr20_Car1"]
+		"exits": ["Rbr20_Rbr21", "Rbr20_Rbr19", "Rbr20_Car1"],
+		"desc": ["Right Two-Way"]
 	},
 	"Car3_Car4": {
 		"location": [970664511746],
 		"eightrom": [8911460],
 		"ninerom": [9448816],
 		"type": [1],
-		"exits": ["Car4_Pep1", "Car4_Pep23", "Car4_Car3"]
+		"exits": ["Car4_Pep1", "Car4_Pep23", "Car4_Car3"],
+		"desc": ["Top Two-Way"]
 	},
 	"Car3_Car2": {
 		"location": [523986273025],
 		"eightrom": [8911798],
 		"ninerom": [9448824],
 		"type": [1],
-		"exits": ["Car2_Car5", "Car2_Car3", "Car2_Rbr48"]
+		"exits": ["Car2_Car5", "Car2_Car3", "Car2_Rbr48"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Car2_Car5": {
 		"location": [828929607938],
 		"eightrom": [8912448],
 		"ninerom": [9448844],
 		"type": [1],
-		"exits": ["Car5_Car6", "Car5_Car2", "Car5_Rbr21"]
+		"exits": ["Car5_Car6", "Car5_Car2", "Car5_Rbr21"],
+		"desc": ["Bottom Left Two-way"]
 	},
 	"Car2_Car3": {
 		"location": [519691700481],
 		"eightrom": [8912182],
 		"ninerom": [9448852],
 		"type": [1],
-		"exits": ["Car3_Car4", "Car3_Car2"]
+		"exits": ["Car3_Car4", "Car3_Car2"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Car2_Rbr48": {
 		"location": [734439671041],
 		"eightrom": [8912498],
 		"ninerom": [9448860],
 		"type": [1],
-		"exits": ["Rbr48_Car2", "Rbr48_Rbr47"]
+		"exits": ["Rbr48_Car2", "Rbr48_Rbr47"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Car6_Car8W": {
 		"location": [889094610178],
 		"eightrom": [8912596, 8912610],
 		"ninerom": [9448888],
 		"type": [0],
-		"exits": ["Car8W_Car8E", "Car8W_Car9", "Car8W_Car16"]
+		"exits": ["Car8W_Car8E", "Car8W_Car9", "Car8W_Car16"],
+		"desc": ["Castle"]
 	},
 	"Car6_Car5": {
 		"location": [828928887041],
 		"eightrom": [8912692],
 		"ninerom": [9448904],
 		"type": [1],
-		"exits": ["Car5_Car6", "Car5_Car2", "Car5_Rbr21"]
+		"exits": ["Car5_Car6", "Car5_Car2", "Car5_Rbr21"],
+		"desc": ["Right Two-Way"]
 	},
 	"Car5_Car6": {
 		"location": [730147326210],
 		"eightrom": [8912804],
 		"ninerom": [9448924],
 		"type": [1],
-		"exits": ["Car6_Car8W", "Car6_Car5", "Car6_Rad15"]
+		"exits": ["Car6_Car8W", "Car6_Car5", "Car6_Rad15"],
+		"desc": ["Left Two-Way"]
 	},
 	"Car5_Car2": {
 		"location": [523986274305],
 		"eightrom": [8912818],
 		"ninerom": [9448932],
 		"type": [1],
-		"exits": ["Car2_Car5", "Car2_Car3", "Car2_Rbr48"]
+		"exits": ["Car2_Car5", "Car2_Car3", "Car2_Rbr48"],
+		"desc": ["Right Two-Way"]
 	},
 	"Car5_Rbr21": {
 		"location": [824633983745],
 		"eightrom": [8912790],
 		"ninerom": [9448940],
 		"type": [1],
-		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"]
+		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"],
+		"desc": ["Rainbow East Switch"]
 	},
 	"Car22_MegaTitan": {
 		"location": [970697082754],
 		"eightrom": [8912928],
 		"ninerom": [9448960],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Car16_Car18": {
 		"location": [957816440578],
 		"eightrom": [8913524],
 		"ninerom": [9448980],
 		"type": [0],
-		"exits": ["Car18_Car19"]
+		"exits": ["Car18_Car19"],
+		"desc": ["Right One-Way"]
 	},
 	"Car17_Car18": {
 		"location": [957816440578],
 		"eightrom": [8920270],
 		"ninerom": [9449144],
 		"type": [0],
-		"exits": ["Car18_Car19"]
+		"exits": ["Car18_Car19"],
+		"desc": ["Right One-Way"]
 	},
 	"Car16_Car16": {
 		"location": [867619832834],
 		"eightrom": [8913538],
 		"ninerom": [9448988],
 		"type": [0],
-		"exits": ["Car16_Car18", "Car16_Car16"]
+		"exits": ["Car16_Car18", "Car16_Car16"],
+		"desc": ["Left One-Way"]
 	},
 	"Car13_Car14": {
 		"location": [940632710402],
 		"eightrom": [8914180],
 		"ninerom": [9449008],
 		"type": [0],
-		"exits": ["Car14_Car15", "WARPSTAR6"]
+		"exits": ["Car14_Car15", "WARPSTAR6"],
+		"desc": ["One-Way"]
 	},
 	"Car12_Car13": {
 		"location": [876207812866],
 		"eightrom": [8918108],
 		"ninerom": [9449028],
 		"type": [0],
-		"exits": ["Car13_Car14"]
+		"exits": ["Car13_Car14"],
+		"desc": ["One-Way"]
 	},
 	"Car8E_Car10": {
 		"location": [893394552834],
 		"eightrom": [8918674],
 		"ninerom": [9449056],
 		"type": [0],
-		"exits": ["Car10_Car11A", "Car10_Car9"]
+		"exits": ["Car10_Car11A", "Car10_Car9"],
+		"desc": ["One-Way"]
 	},
 	"Car8W_Car8E": {
 		"location": [889093490945],
 		"eightrom": [8918706],
 		"ninerom": [9449064],
 		"type": [1],
-		"exits": ["Car8E_Car8W", "Car8E_Car10"]
+		"exits": ["Car8E_Car8W", "Car8E_Car10"],
+		"desc": ["Two-Way"]
 	},
 	"Car8E_Car8W": {
 		"location": [889093032194],
 		"eightrom": [8918720],
 		"ninerom": [9449072],
 		"type": [1],
-		"exits": ["Car8W_Car8E", "Car8W_Car9", "Car8W_Car16"]
+		"exits": ["Car8W_Car8E", "Car8W_Car9", "Car8W_Car16"],
+		"desc": ["Two-Way"]
 	},
 	"Car8W_Car9": {
 		"location": [953517149698],
 		"eightrom": [8919202],
 		"ninerom": [9449080],
 		"type": [1],
-		"exits": ["Car9_Car8W"]
+		"exits": ["Car9_Car8W"],
+		"desc": ["Left One-Way"]
 	},
 	"Car8W_Car16": {
 		"location": [867619767298],
 		"eightrom": [8919378],
 		"ninerom": [9449088],
 		"type": [0],
-		"exits": ["Car16_Car18", "Car16_Car16"]
+		"exits": ["Car16_Car18", "Car16_Car16"],
+		"desc": ["Mirra"]
 	},
 	"Car15_Car22": {
 		"location": [377993561090],
 		"eightrom": [8919584],
 		"ninerom": [9449116],
 		"type": [0],
-		"exits": ["Car22_MegaTitan"]
+		"exits": ["Car22_MegaTitan"],
+		"desc": ["One Way"]
 	},
 	"Car17_StupidassCar17": {
 		"location": [949223753729],
 		"eightrom": [8920284],
 		"ninerom": [9449152],
 		"type": [0],
-		"exits": ["Car17_Car18"]
+		"exits": ["Car17_Car18"],
+		"desc": ["Left One-Way"]
 	},
 	"Car9_Car8W": {
 		"location": [889092181761],
 		"eightrom": [8920446],
 		"ninerom": [9449196],
 		"type": [1],
-		"exits": ["Car8W_Car8E", "Car8W_Car9", "Car8W_Car16"]
+		"exits": ["Car8W_Car8E", "Car8W_Car9", "Car8W_Car16"],
+		"desc": ["One-Way"]
 	},
 	"Car9_Car10": {
 		"location": [893387474946],
 		"eightrom": [8920432],
 		"ninerom": [9449188],
 		"type": [0],
-		"exits": ["Car10_Car11A", "Car10_Car9"]
+		"exits": ["Car10_Car11A", "Car10_Car9"],
+		"desc": ["One-Way"]
 	},
 	"Car18_Car19": {
 		"location": [962107805442],
 		"eightrom": [8920600],
 		"ninerom": [9449216],
 		"type": [0],
-		"exits": ["Car19_N", "Car19_NE", "Car19_E", "Car19_SE", "Car19_S", "Car19_SW", "Car19_W", "Car19_NW"]
+		"exits": ["Car19_N", "Car19_NE", "Car19_E", "Car19_SE", "Car19_S", "Car19_SW", "Car19_W", "Car19_NW"],
+		"desc": ["One-Way"]
 	},
 	"Car19_Car21": {
 		"location": [966404081922],
 		"eightrom": [8921752],
 		"ninerom": [9449236],
 		"type": [0],
-		"exits": ["Car21_Car22"]
+		"exits": ["Car21_Car22"],
+		"desc": ["One-Way"]
 	},
 	"Car21_Car22": {
 		"location": [377993562370],
 		"eightrom": [8923816, 8927124],
 		"ninerom": [9449336],
 		"type": [0],
-		"exits": ["Car22_MegaTitan"]
+		"exits": ["Car22_MegaTitan"],
+		"desc": ["Cannons"]
 	},
 	"Car10_Car11A": {
 		"location": [936338326530],
 		"eightrom": [8927940],
 		"ninerom": [9449396],
 		"type": [0],
-		"exits": ["Car11A_Car11B", "Car11A_Car11G", "Car11A_Car11E"]
+		"exits": ["Car11A_Car11B", "Car11A_Car11G", "Car11A_Car11E"],
+		"desc": ["One-Way"]
 	},
 	"Car10_Car9": {
 		"location": [953517212930],
 		"eightrom": [8928314, 8928328, 8928342, 8928356, 8928370, 8928384, 8928398, 8928412, 8928426, 8928440, 8928454],
 		"ninerom": [9449404],
 		"type": [0],
-		"exits": ["Car9_Car10"]
+		"exits": ["Car9_Car10"],
+		"desc": ["The Pit"]
 	},
 	"Car11A_Car11B": {
 		"location": [936336691713],
 		"eightrom": [8929132, 8929146, 8929216, 8929230],
 		"ninerom": [9449424],
 		"type": [0],
-		"exits": ["Car11B_Car11C"]
+		"exits": ["Car11B_Car11C"],
+		"desc": ["Left Tunnel"]
 	},
 	"Car11A_Car11G": {
 		"location": [936337543937],
 		"eightrom": [8929160, 8929174, 8929244, 8929258],
 		"ninerom": [9449432],
 		"type": [0],
-		"exits": ["Car11G_Car11H"]
+		"exits": ["Car11G_Car11H"],
+		"desc": ["Right Tunnel"]
 	},
 	"Car11A_Car11E": {
 		"location": [936337677314],
 		"eightrom": [8929188, 8929202, 8929272, 8929286],
 		"ninerom": [9449440],
 		"type": [0],
-		"exits": ["Car11E_Car11F"]
+		"exits": ["Car11E_Car11F"],
+		"desc": ["Middle Tunnel"]
 	},
 	"Car11X_Car12": {
 		"location": [880506508034],
 		"eightrom": [8929758],
 		"ninerom": [9449448],
 		"type": [0],
-		"exits": ["Car12_Car13"]
+		"exits": ["Car12_Car13"],
+		"desc": ["One-Way"]
 	},
 	"Car11I_Car17": {
 		"location": [949221525505],
 		"eightrom": [8929772],
 		"ninerom": [9449456],
 		"type": [0],
-		"exits": ["Car17_Car18", "Car17_StupidassCar17"]
+		"exits": ["Car17_Car18", "Car17_StupidassCar17"],
+		"desc": ["One-Way"]
 	},
 	"Car11B_Car11C": {
 		"location": [936337545217],
 		"eightrom": [8929318],
 		"ninerom": [9449464],
 		"type": [0],
-		"exits": ["Car11C_Car11D"]
+		"exits": ["Car11C_Car11D"],
+		"desc": ["One-Way"]
 	},
 	"Car11C_Car11D": {
 		"location": [936336696065],
 		"eightrom": [8929350],
 		"ninerom": [9449472],
 		"type": [0],
-		"exits": ["Car11DF_Car11X"]
+		"exits": ["Car11DF_Car11X"],
+		"desc": ["One-Way"]
 	},
 	"Car11E_Car11F": {
 		"location": [936336697600],
 		"eightrom": [8929400],
 		"ninerom": [9449480],
 		"type": [0],
-		"exits": ["Car11DF_Car11X"]
+		"exits": ["Car11DF_Car11X"],
+		"desc": ["One-Way"]
 	},
 	"Car11G_Car11H": {
 		"location": [936338269442],
 		"eightrom": [8929450],
 		"ninerom": [9449488],
 		"type": [0],
-		"exits": ["Car11H_Car11I"]
+		"exits": ["Car11H_Car11I"],
+		"desc": ["One-Way"]
 	},
 	"Car11DF_Car11X": {
 		"location": [936337419778],
 		"eightrom": [8929568, 8929536],
 		"ninerom": [9449496],
 		"type": [0],
-		"exits": ["Car11X_Car12"]
+		"exits": ["Car11X_Car12"],
+		"desc": ["One-Way"]
 	},
 	"Car11H_Car11I": {
 		"location": [936337747457],
 		"eightrom": [8929600],
 		"ninerom": [9449504],
 		"type": [0],
-		"exits": ["Car11I_Car17"]
+		"exits": ["Car11I_Car17"],
+		"desc": ["One-Way"]
 	},
 	"Car14_Car15": {
 		"location": [944926622721],
 		"eightrom": [8930204],
 		"ninerom": [9449524],
 		"type": [0],
-		"exits": ["Car15_Car22"]
+		"exits": ["Car15_Car22"],
+		"desc": ["One-Way"]
 	},
 	"AbilityRoom_Rbr1": {
 		"location": [141784581121],
 		"eightrom": [8932428],
 		"ninerom": [9449736],
 		"type": [1],
-		"exits": ["Rbr1_Rbr2"]
+		"exits": ["Rbr1_Rbr2"],
+		"desc": ["Two-Way"]
 	},
 	"Cab7_Cab18": {
 		"location": [21508653825],
 		"eightrom": [8837830],
 		"ninerom": [9446776],
 		"type": [1],
-		"exits": ["Cab18_Cab7", "Cab18_Cab17"]
+		"exits": ["Cab18_Cab7", "Cab18_Cab17"],
+		"desc": ["Bottom Two-Way"]
 	},
 	"Car19_Car20": {
 		"location": [974991393793],
 		"eightrom": [8923078],
 		"ninerom": [9449316],
 		"type": [0],
-		"exits": ["Car19_Reset"]
+		"exits": ["Car19_Reset"],
+		"desc": ["Mini One-Way"]
 	},
 	"Car19_Reset": {
 		"location": [962107805184],
 		"eightrom": [8921892, 8922478, 8922700, 8922796, 8923036, 8923064, 8923092, 8927504],
 		"ninerom": [9449308, 9449376],
 		"type": [0],
-		"exits": ["Car19_N", "Car19_NE", "Car19_E", "Car19_SE", "Car19_S", "Car19_SW", "Car19_W", "Car19_NW"]
+		"exits": ["Car19_N", "Car19_NE", "Car19_E", "Car19_SE", "Car19_S", "Car19_SW", "Car19_W", "Car19_NW"],
+		"desc": ["One-Way"]
 	},
 	"Car19_N": {
 		"location": [962107410433],
 		"eightrom": [8922446],
 		"ninerom": [9449244],
 		"type": [0],
-		"exits": ["Car19_Reset"]
+		"exits": ["Car19_Reset"],
+		"desc": ["Top"]
 	},
 	"Car19_NE": {
 		"location": [962109113090],
 		"eightrom": [8922560],
 		"ninerom": [9449260],
 		"type": [0],
-		"exits": ["Car19_Reset"]
+		"exits": ["Car19_Reset"],
+		"desc": ["Top Right"]
 	},
 	"Car19_E": {
 		"location": [962108329729],
 		"eightrom": [8922764],
 		"ninerom": [9449276],
 		"type": [0],
-		"exits": ["Car19_Reset"]
+		"exits": ["Car19_Reset"],
+		"desc": ["Right"]
 	},
 	"Car19_SE": {
 		"location": [962109117954],
 		"eightrom": [8922950],
 		"ninerom": [9449292],
 		"type": [0],
-		"exits": ["Car19_Reset"]
+		"exits": ["Car19_Reset"],
+		"desc": ["Bottom Right"]
 	},
 	"Car19_S": {
 		"location": [962108266242],
 		"eightrom": [8923050],
 		"ninerom": [9449300],
 		"type": [0],
-		"exits": ["Car19_Reset", "Car19_Car20"]
+		"exits": ["Car19_Reset", "Car19_Car20"],
+		"desc": ["Bottom"]
 	},
 	"Car19_SW": {
 		"location": [962107153154],
 		"eightrom": [8922882],
 		"ninerom": [9449284],
 		"type": [0],
-		"exits": ["Car19_Reset"]
+		"exits": ["Car19_Reset"],
+		"desc": ["Bottom Left"]
 	},
 	"Car19_W": {
 		"location": [962107281154],
 		"eightrom": [8922714],
 		"ninerom": [9449268],
 		"type": [0],
-		"exits": ["Car19_Reset"]
+		"exits": ["Car19_Reset"],
+		"desc": ["Left"]
 	},
 	"Car19_NW": {
 		"location": [962107280130],
 		"eightrom": [8922492],
 		"ninerom": [9449252],
 		"type": [0],
-		"exits": ["Car19_Car21"]
+		"exits": ["Car19_Car21"],
+		"desc": ["Top Left"]
 	},
 	"Rbr40_Goal": {
 		"location": [910583613952],
 		"eightrom": [8702562, 8702576],
 		"ninerom": [9442508],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Rbr46_Goal": {
 		"location": [910583613952],
 		"eightrom": [8721428, 8721442],
 		"ninerom": [9442896],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Rbr51_Goal": {
 		"location": [910583613953],
 		"eightrom": [8722920, 8722934],
 		"ninerom": [9442924],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Mnl25_Goal": {
 		"location": [914878580993],
 		"eightrom": [8727704, 8727718],
 		"ninerom": [9443168],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Oli7_Goal": {
 		"location": [914878580993],
 		"eightrom": [8854970, 8854984],
 		"ninerom": [9447284],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Rad11_Goal": {
 		"location": [914878580993],
 		"eightrom": [8895090, 8895104],
 		"ninerom": [9448268],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Pep26_Goal": {
 		"location": [914878581249],
 		"eightrom": [8754716, 8754730],
 		"ninerom": [9444220],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Mus16_Goal": {
 		"location": [914878581249],
 		"eightrom": [8780288, 8780302],
 		"ninerom": [9445200],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Mus6_Goal": {
 		"location": [914878581249],
 		"eightrom": [8793364, 8793378],
 		"ninerom": [9445592],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Cab21_Goal": {
 		"location": [914878581249],
 		"eightrom": [8851806, 8851820],
 		"ninerom": [9447028],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Mnl16_Goal": {
 		"location": [919173548289],
 		"eightrom": [8744064, 8744078, 8744092],
 		"ninerom": [9443768],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Can15_Goal": {
 		"location": [919173548289],
 		"eightrom": [8810448, 8810462],
 		"ninerom": [9446016],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Oli29_Goal": {
 		"location": [919173548289],
 		"eightrom": [8865868, 8865882],
 		"ninerom": [9447548],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Rad29_Goal": {
 		"location": [919173548289],
 		"eightrom": [8909012, 8909026],
 		"ninerom": [9448672],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Pep31_Goal": {
 		"location": [919173548545],
 		"eightrom": [8771596, 8771610],
 		"ninerom": [9444888],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Can19_Goal": {
 		"location": [919173548545],
 		"eightrom": [8822256, 8822270],
 		"ninerom": [9446180],
 		"type": [0],
-		"exits": ["DEADEND"]
+		"exits": ["DEADEND"],
+		"desc": ["One-Way"]
 	},
 	"Mnl25_Mnl23": {
 		"location": [627066079490],
 		"eightrom": [8727496],
 		"ninerom": [9443152],
 		"type": [1],
-		"exits": ["Mnl23_Mnl21", "Mnl23_Mnl24", "Mnl23_Mnl22", "Mnl23_Mnl25"]
+		"exits": ["Mnl23_Mnl21", "Mnl23_Mnl24", "Mnl23_Mnl22", "Mnl23_Mnl25"],
+		"desc": ["Two-Way"]
 	},
 	"Mnl2_Mnl12L": {
 		"location": [992171393792],
 		"eightrom": [8732720],
 		"ninerom": [9443424],
 		"type": [1],
-		"exits": ["Mnl12L_Mnl2", "Mnl12L_Oli27", "Mnl12R_Mnl2"]
+		"exits": ["Mnl12L_Mnl2", "Mnl12L_Oli27", "Mnl12R_Mnl2"],
+		"desc": ["Bottom Left Two-Way"]
 	},
 	"Mnl12L_Mnl2": {
 		"location": [841848659202],
 		"eightrom": [8740412],
 		"ninerom": [9443712],
 		"type": [1],
-		"exits": ["Mnl2_Mnl3", "Mnl2_Mnl5Bottom", "Mnl2_Mnl12L", "Mnl2_Mnl12R"]
+		"exits": ["Mnl2_Mnl3", "Mnl2_Mnl5Bottom", "Mnl2_Mnl12L", "Mnl2_Mnl12R"],
+		"desc": ["Top Left Two-Way"]
 	},
 	"Mnl2_Mnl12R": {
 		"location": [992171787008],
 		"eightrom": [8732806],
 		"ninerom": [9443416],
 		"type": [1],
-		"exits": ["Mnl12R_Mnl2"]
+		"exits": ["Mnl12R_Mnl2"],
+		"desc": ["Bottom Right Two-Way"]
 	},
 	"Mnl12R_Mnl2": {
 		"location": [841849117953],
 		"eightrom": [8740426],
 		"ninerom": [9443720],
 		"type": [1],
-		"exits": ["Mnl2_Mnl3", "Mnl2_Mnl5Bottom", "Mnl2_Mnl12L", "Mnl2_Mnl12R"]
+		"exits": ["Mnl2_Mnl3", "Mnl2_Mnl5Bottom", "Mnl2_Mnl12L", "Mnl2_Mnl12R"],
+		"desc": ["Top Right Two-Way"]
 	},
 	"Pep4_Pep6": {
 		"location": [901945109506],
 		"eightrom": [8751998],
 		"ninerom": [9444088],
 		"type": [0],
-		"exits": ["Pep6_Pep8", "Pep6_Pep7", "Pep6_Pep5", "Pep6_Pep7Boxer", "Pep6_Pep4"]
+		"exits": ["Pep6_Pep8", "Pep6_Pep7", "Pep6_Pep5", "Pep6_Pep7Boxer", "Pep6_Pep4"],
+		"desc": ["Bottom Left One-Way"]
 	},
 	"Mnl12L_Oli27": {
 		"location": [901945109506],
 		"eightrom": [8740530],
 		"ninerom": [9443728],
 		"type": [1],
-		"exits": ["Oli27_Mnl12L"]
+		"exits": ["Oli27_Mnl12L"],
+		"desc": ["Lever Two-Way"]
 	},
 	"Oli27_Mnl12L": {
 		"location": [992171526145],
 		"eightrom": [8865630],
 		"ninerom": [9447512],
 		"type": [1],
-		"exits": ["Mnl12R_Mnl2", "Mnl12L_Oli27"]
+		"exits": ["Mnl12R_Mnl2", "Mnl12L_Oli27"],
+		"desc": ["Right Two-Way"]
 	},
 	"Car6_Rad15": {
 		"location": [459595318273],
 		"eightrom": [8912660],
 		"ninerom": [9448896],
 		"type": [1],
-		"exits": ["Rad15_Car6"]
+		"exits": ["Rad15_Car6"],
+		"desc": ["Lever Two-Way"]
 	},
 	"Rad15_Car6": {
 		"location": [730144639233],
 		"eightrom": [8903684],
 		"ninerom": [9448540],
 		"type": [1],
-		"exits": ["Car6_Car8W", "Car6_Car5", "Car6_Rad15"]
+		"exits": ["Car6_Car8W", "Car6_Car5", "Car6_Rad15"],
+		"desc": ["Left Two-Way"]
 	}
 }
