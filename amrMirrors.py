@@ -338,7 +338,7 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 	for x in range(len(mirrorList)):
 		compareA = mirrorList[x]
 		compareB = mirrorListRandomized[x]
-		if mirrorList.index(findLincompareB
+		if mirrorList.index(findLincompareB):
 			print("WARNING: FOUND TWO-WAY THAT DOES NOT LINK")
 #==================================================
 if __name__ == '__main__':
