@@ -73,7 +73,7 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 	#Randomize fused cannons.
 	print("Randomizing canons stars...")
 	cannonadds = [ 8951430, 8999618, 9033722, 9050022 ]
-	cannonvalues = [ [ 4179903404153243910, [ "Rbr26_Rbr27", "Rbr26_Rbr25" ] ], [ 3170817811668802562, [ "Mus24L_Kracko" ] ], [ 9583663305579299867, [ "Oli5Top_Oli6" ] ], [ 937313871469740802, [ "Rad28_Rad29" ] ] ]
+	cannonvalues = [ [ 4179903404153243910, [ "Rbr26_Rbr27", "Rbr26_Rbr25" ] ], [ 3170817811668802562, [ "Mus24L_Kracko" ] ], [ 9583663305579299867, [ "Oli5Bottom_Oli6" ] ], [ 937313871469740802, [ "Rad28_Rad29" ] ] ]
 
 	random.shuffle(cannonvalues)
 	for x in range(len(cannonadds)):
@@ -133,7 +133,7 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 	#Once an entrance is randomized, its exits are added to the queue.
 	queueList = [ "Rbr1_Rbr2" ] #Start with the first mirror.
 	alreadyRandomized = []
-	devNotRandomized = []
+	spoilerLogLists = []
 	mirrorlistRandomized = []
 	for x in range(len(mirrorlist)):
 		mirrorlistRandomized.append('NULL')
@@ -191,7 +191,6 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 			#This means the exit isn't scheduled to be randomized. Mark it as already randomized, but don't do anything with mirrorlistRandomized.
 			else:
 				if not currentPick in alreadyRandomized:
-					devNotRandomized.append(currentPick)
 					alreadyRandomized.append(currentPick)
 					for x in mirrors[currentPick]['exits']:
 						if not x in alreadyRandomized:
@@ -310,7 +309,6 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 			#This means the exit isn't scheduled to be randomized. Mark it as already randomized, but don't do anything with mirrorlistRandomized.
 			else:
 				if not currentPick in alreadyRandomized:
-					devNotRandomized.append(currentPick)
 					alreadyRandomized.append(currentPick)
 					for x in mirrors[currentPick]['exits']:
 						if not x in alreadyRandomized:
@@ -323,6 +321,7 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 					if mirrorlistRandomized[x] == "NULL":
 						if mirrorlist[x] in alreadyRandomized:
 							alreadyRandomized.remove(mirrorlist[x])
+							print("ERROR: FOUND NULL")
 						queueList.append(mirrorlist[x])
 
 	print("Writing mirrors to ROM...")
@@ -335,6 +334,12 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 			writeValueToRom(romFile,y,location,5)
 		for z in mirrors[mirrorlist[x]]['ninerom']:
 			writeValueToRom(romFile,z,(location >> 8),4)
+	
+	for x in range(len(mirrorList)):
+		compareA = mirrorList[x]
+		compareB = mirrorListRandomized[x]
+		if mirrorList.index(findLincompareB
+			print("WARNING: FOUND TWO-WAY THAT DOES NOT LINK")
 #==================================================
 if __name__ == '__main__':
 	#Make sure we have our arguments and validation and whatever.
