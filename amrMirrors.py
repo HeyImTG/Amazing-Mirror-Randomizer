@@ -334,12 +334,6 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 			writeValueToRom(romFile,y,location,5)
 		for z in mirrors[mirrorlist[x]]['ninerom']:
 			writeValueToRom(romFile,z,(location >> 8),4)
-	
-	for x in range(len(mirrorList)):
-		compareA = mirrorList[x]
-		compareB = mirrorListRandomized[x]
-		if mirrorList.index(findLincompareB):
-			print("WARNING: FOUND TWO-WAY THAT DOES NOT LINK")
 #==================================================
 if __name__ == '__main__':
 	#Make sure we have our arguments and validation and whatever.
