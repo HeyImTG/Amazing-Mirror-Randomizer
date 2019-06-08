@@ -116,7 +116,9 @@ def generateROM(originalrom,randomizedrom):
 	
 	#Randomize the items?
 	if optionMirrors == 1:
-		randomizeMirrors(katamrom,optionMirrorsDontRandomizeHub,optionMirrorsTotalRandom)
+		if not os.path.isdir("Spoiler Logs"):
+			os.system('mkdir "Spoiler Logs"')
+		randomizeMirrors(katamrom,optionMirrorsDontRandomizeHub,optionMirrorsTotalRandom,"Spoiler Logs\\Amazing Mirror " + str(optionSeedNumber) + ".txt")
 	
 	random.seed(optionSeedNumber)
 	
@@ -214,7 +216,7 @@ Label(frame_options, text="Mirror options:").grid(row=1,column=0,sticky=W)
 check_randomize_totalrandom = Checkbutton(frame_options, text="Total random mode.", variable=mirrortotalcheck, state=DISABLED)
 check_randomize_totalrandom.grid(row=2, column=0, sticky=W)
 
-check_randomize_hubmirrors = Checkbutton(frame_options, text="Don't randomize hub mirrors.", variable=mirrorhub, state=DISABLED)
+check_randomize_hubmirrors = Checkbutton(frame_options, text="Randomize hub mirrors.", variable=mirrorhub, state=DISABLED)
 check_randomize_hubmirrors.grid(row=3, column=0, sticky=W)
 
 check_randomize_items = Checkbutton(frame_options, text="Randomize chests and items.", variable=itemcheck)

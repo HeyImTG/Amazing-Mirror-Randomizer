@@ -16,10 +16,10 @@ def removeBrackets(value):
 	value = value.strip("]")
 	return int(value)
 
-def randomizeMirrors(romFile,hubMirrors,totalRandom):
+def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
 	mirrors = json.load(open('JSON\mirrors.json'))
 	mirrorlist = list(mirrors.keys())
-
+	
 	mirrorlist.remove("Int1_Int2")
 	mirrorlist.remove("Int2_Int3")
 	mirrorlist.remove("Int3_Int2")
@@ -99,7 +99,15 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 
 	print("Determining dead ends...")
 	for x in mirrorlist:
-		if mirrors[x]['type'][0] == 0:
+		if mirrors[x]['type'][0] == 1:
+			if totalRandom == 0:
+				if len(mirrors[x]['exits']) == 1:
+					deadEndTwoWayPreRandomList.append(x)
+				else:
+					twoWayPreRandomList.append(x)
+			else:
+				mirrorPreRandomList.append(x)
+		else:
 			if 'DEADEND' in mirrors[x]['exits']:
 				if totalRandom == 0:
 					deadEndOneWayPreRandomList.append(x)
@@ -110,14 +118,6 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 					oneWayPreRandomList.append(x)
 				else:
 					mirrorPreRandomList.append(x)
-		else:
-			if totalRandom == 0:
-				if mirrors[x]['type'][0] == 1 and len(mirrors[x]['exits']) == 1:
-					deadEndTwoWayPreRandomList.append(x)
-				else:
-					twoWayPreRandomList.append(x)
-			else:
-				mirrorPreRandomList.append(x)
 
 	print("Randomizing mirrors...")
 	if totalRandom == 0:
@@ -132,8 +132,8 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 	#The queue list. Once this runs out, the rest of the mirrors that aren't randomized get filled with dead ends.
 	#Once an entrance is randomized, its exits are added to the queue.
 	queueList = [ "Rbr1_Rbr2" ] #Start with the first mirror.
+	spoilerLogLists = [["Rbr1_Rbr2"]]
 	alreadyRandomized = []
-	spoilerLogLists = []
 	mirrorlistRandomized = []
 	for x in range(len(mirrorlist)):
 		mirrorlistRandomized.append('NULL')
@@ -141,18 +141,39 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 	if totalRandom == 1:
 		while len(queueList) > 0:
 			currentPick = random.choice(queueList)
-
+			
+			#Spoiler log stuff.
+			spoilerLogFirstExit = True #We only want to make a new list int he spoiler log if the path branches.
+			for x in spoilerLogLists:
+				if x[-1] == currentPick:
+					spoilerLogCurrentIndex = spoilerLogLists.index(x)
+					spoilerLogCurrentString = x.copy()
+			
 			#If the exit is a CANON or a WARPSTAR, add the exits for that warpstar or canon to the list and move on.
 			if currentPick.startswith("WARPSTAR") and not ( currentPick in alreadyRandomized ):
 				alreadyRandomized.append(currentPick)
 				for x in warpstarvalues[int(currentPick[8])-1][2]:
 					if not x in alreadyRandomized:
 						queueList.append(x)
+						#Spoiler Log Stuff
+						if spoilerLogFirstExit == True:
+							spoilerLogFirstExit = False
+							spoilerLogLists[spoilerLogCurrentIndex].append(x)
+						else:
+							spoilerLogLists.append(spoilerLogCurrentString.copy())
+							spoilerLogLists[-1].append(x)
 			elif currentPick.startswith("CANON") and not ( currentPick in alreadyRandomized ):
 				alreadyRandomized.append(currentPick)
 				for x in cannonvalues[int(currentPick[5])-1][1]:
 					if not x in alreadyRandomized:
 						queueList.append(x)
+						#Spoiler log stuff
+						if spoilerLogFirstExit == True:
+							spoilerLogFirstExit = False
+							spoilerLogLists[spoilerLogCurrentIndex].append(x)
+						else:
+							spoilerLogLists.append(spoilerLogCurrentString.copy())
+							spoilerLogLists[-1].append(x)
 
 			#If it's not a CANON or a WARPSTAR, then it's probably something we can work with?
 			elif currentPick in mirrorlist:
@@ -177,15 +198,26 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 							isGoodCheck = True
 				
 				if not currentPick in alreadyRandomized:
+					#Spoiler log stuff here.
 					alreadyRandomized.append(currentPick)
 					if len(mirrorPreRandomList) > 0:
 						for x in mirrors[mirrorPreRandomList[0]]['exits']:
 							if not x in alreadyRandomized:
 								queueList.append(x)
+								#Spoiler log stuff
+								if spoilerLogFirstExit == True:
+									spoilerLogFirstExit = False
+									spoilerLogLists[spoilerLogCurrentIndex].append(x)
+								else:
+									spoilerLogLists.append(spoilerLogCurrentString.copy())
+									spoilerLogLists[-1].append(x)
 						mirrorlistRandomized[currentPickId] = mirrorPreRandomList[0]
 						del mirrorPreRandomList[0]
 					else:
 						mirrorlistRandomized[currentPickId] = deadEndPreRandomList[0]
+						#Remove this string from the spoiler log list.
+						spoilerLogCurrentIndex = spoilerLogLists.index(spoilerLogCurrentString)
+						spoilerLogLists[spoilerLogCurrentIndex].append(deadEndPreRandomList[0])
 						del deadEndPreRandomList[0]
 
 			#This means the exit isn't scheduled to be randomized. Mark it as already randomized, but don't do anything with mirrorlistRandomized.
@@ -195,12 +227,27 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 					for x in mirrors[currentPick]['exits']:
 						if not x in alreadyRandomized:
 							queueList.append(x)
-
+							#Spoiler log stuff
+							if spoilerLogFirstExit == True:
+								spoilerLogFirstExit = False
+								spoilerLogLists[spoilerLogCurrentIndex].append(x)
+							else:
+								spoilerLogLists.append(spoilerLogCurrentString.copy())
+								spoilerLogLists[-1].append(x)
+			
 			queueList.remove(currentPick)
+
 	#Non-total random.
 	else:
 		while len(queueList) > 0:
 			currentPick = random.choice(queueList)
+		
+			#Spoiler log stuff.
+			spoilerLogFirstExit = True #We only want to make a new list int he spoiler log if the path branches.
+			for x in spoilerLogLists:
+				if x[-1] == currentPick:
+					spoilerLogCurrentIndex = spoilerLogLists.index(x)
+					spoilerLogCurrentString = x.copy()
 		
 			#If the exit is a CANON or a WARPSTAR, add the exits for that warpstar or canon to the list and move on.
 			if currentPick.startswith("WARPSTAR") and not ( currentPick in alreadyRandomized ):
@@ -208,11 +255,25 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 				for x in warpstarvalues[int(currentPick[8])-1][2]:
 					if not x in alreadyRandomized:
 						queueList.append(x)
+						#Spoiler Log Stuff
+						if spoilerLogFirstExit == True:
+							spoilerLogFirstExit = False
+							spoilerLogLists[spoilerLogCurrentIndex].append(x)
+						else:
+							spoilerLogLists.append(spoilerLogCurrentString.copy())
+							spoilerLogLists[-1].append(x)
 			elif currentPick.startswith("CANON") and not ( currentPick in alreadyRandomized ):
 				alreadyRandomized.append(currentPick)
 				for x in cannonvalues[int(currentPick[5])-1][1]:
 					if not x in alreadyRandomized:
 						queueList.append(x)
+						#Spoiler Log Stuff
+						if spoilerLogFirstExit == True:
+							spoilerLogFirstExit = False
+							spoilerLogLists[spoilerLogCurrentIndex].append(x)
+						else:
+							spoilerLogLists.append(spoilerLogCurrentString.copy())
+							spoilerLogLists[-1].append(x)
 
 			#If it's not a CANON or a WARPSTAR, then it's probably something we can work with?
 			elif currentPick in mirrorlist:
@@ -221,23 +282,7 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 				isGoodCheck = False
 				while isGoodCheck == False:
 					alreadyCheck = 0
-					if mirrors[currentPick]['type'][0] == 0:
-						if len(oneWayPreRandomList) == 0:
-							isGoodCheck = True
-						else:
-							#If all a mirror's exits are already randomized, move it to the dead end list.
-							for x in mirrors[oneWayPreRandomList[0]]['exits']:
-								if x in alreadyRandomized:
-									alreadyCheck += 1
-								elif x in queueList:
-									alreadyCheck += 1
-							if alreadyCheck == len(mirrors[oneWayPreRandomList[0]]['exits']):
-								deadEndOneWayPreRandomList.append(oneWayPreRandomList[0])
-								random.shuffle(deadEndOneWayPreRandomList)
-								del oneWayPreRandomList[0]
-							else:
-								isGoodCheck = True
-					else:
+					if mirrors[currentPick]['type'][0] == 1:
 						if len(twoWayPreRandomList) == 0:
 							isGoodCheck = True
 						else:
@@ -253,20 +298,26 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 								del twoWayPreRandomList[0]
 							else:
 								isGoodCheck = True
+					else:
+						if len(oneWayPreRandomList) == 0:
+							isGoodCheck = True
+						else:
+							#If all a mirror's exits are already randomized, move it to the dead end list.
+							for x in mirrors[oneWayPreRandomList[0]]['exits']:
+								if x in alreadyRandomized:
+									alreadyCheck += 1
+								elif x in queueList:
+									alreadyCheck += 1
+							if alreadyCheck == len(mirrors[oneWayPreRandomList[0]]['exits']):
+								deadEndOneWayPreRandomList.append(oneWayPreRandomList[0])
+								random.shuffle(deadEndOneWayPreRandomList)
+								del oneWayPreRandomList[0]
+							else:
+								isGoodCheck = True
 				
 				if not currentPick in alreadyRandomized:
 					alreadyRandomized.append(currentPick)
-					if mirrors[currentPick]['type'][0] == 0:
-						if len(oneWayPreRandomList) > 0:
-							for x in mirrors[oneWayPreRandomList[0]]['exits']:
-								if not x in alreadyRandomized:
-									queueList.append(x)
-							mirrorlistRandomized[currentPickId] = oneWayPreRandomList[0]
-							del oneWayPreRandomList[0]
-						else:
-							mirrorlistRandomized[currentPickId] = deadEndOneWayPreRandomList[0]
-							del deadEndOneWayPreRandomList[0]
-					else:
+					if mirrors[currentPick]['type'][0] == 1:
 						#Do some more tests as to whether or not the possible pair is a dead end or not.
 						deadendTest = False
 						while deadendTest == False:
@@ -289,6 +340,13 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 							for x in mirrors[twoWayPreRandomList[0]]['exits']:
 								if not x in alreadyRandomized:
 									queueList.append(x)
+									#Spoiler Log Stuff
+									if spoilerLogFirstExit == True:
+										spoilerLogFirstExit = False
+										spoilerLogLists[spoilerLogCurrentIndex].append(x)
+									else:
+										spoilerLogLists.append(spoilerLogCurrentString.copy())
+										spoilerLogLists[-1].append(x)
 							mirrorlistRandomized[currentPickId] = twoWayPreRandomList[0]
 							mirrorlistRandomized[mirrorlist.index(findLinkedMirror(twoWayPreRandomList[0]))] = findLinkedMirror(currentPick)
 							alreadyRandomized.append(mirrorlist[mirrorlist.index(findLinkedMirror(twoWayPreRandomList[0]))])
@@ -305,7 +363,31 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 							alreadyRandomized.append(mirrorlist[mirrorlist.index(findLinkedMirror(deadEndTwoWayPreRandomList[0]))])
 							
 							deadEndTwoWayPreRandomList.remove(findLinkedMirror(currentPick))
+							#Remove this string from the spoiler log list.
+							spoilerLogCurrentIndex = spoilerLogLists.index(spoilerLogCurrentString)
+							spoilerLogLists[spoilerLogCurrentIndex].append("END " + deadEndTwoWayPreRandomList[0])
 							del deadEndTwoWayPreRandomList[0]
+					else:
+						if len(oneWayPreRandomList) > 0:
+							for x in mirrors[oneWayPreRandomList[0]]['exits']:
+								if not x in alreadyRandomized:
+									queueList.append(x)
+									#Spoiler Log Stuff
+									if spoilerLogFirstExit == True:
+										spoilerLogFirstExit = False
+										spoilerLogLists[spoilerLogCurrentIndex].append(x)
+									else:
+										spoilerLogLists.append(spoilerLogCurrentString.copy())
+										spoilerLogLists[-1].append(x)
+							mirrorlistRandomized[currentPickId] = oneWayPreRandomList[0]
+							del oneWayPreRandomList[0]
+						else:
+							mirrorlistRandomized[currentPickId] = deadEndOneWayPreRandomList[0]
+							#Remove this string from the spoiler log list.
+							spoilerLogCurrentIndex = spoilerLogLists.index(spoilerLogCurrentString)
+							spoilerLogLists[spoilerLogCurrentIndex].append("END " + deadEndOneWayPreRandomList[0])
+							del deadEndOneWayPreRandomList[0]
+						
 			#This means the exit isn't scheduled to be randomized. Mark it as already randomized, but don't do anything with mirrorlistRandomized.
 			else:
 				if not currentPick in alreadyRandomized:
@@ -313,6 +395,13 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 					for x in mirrors[currentPick]['exits']:
 						if not x in alreadyRandomized:
 							queueList.append(x)
+							#Spoiler Log Stuff
+							if spoilerLogFirstExit == True:
+								spoilerLogFirstExit = False
+								spoilerLogLists[spoilerLogCurrentIndex].append(x)
+							else:
+								spoilerLogLists.append(spoilerLogCurrentString.copy())
+								spoilerLogLists[-1].append(x)
 
 			queueList.remove(currentPick)
 			
@@ -323,7 +412,68 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom):
 							alreadyRandomized.remove(mirrorlist[x])
 							print("ERROR: FOUND NULL")
 						queueList.append(mirrorlist[x])
+	
+	#Generate the spoiler log.
+	spoilerLogCompleted = []
+	spoilerBosList = []
+	for x in spoilerLogLists:
+		if not x[-1].startswith("WARPSTAR") and not x[-1].startswith("CANON") and x[-1].startswith("END "):
+			#The reason we're adding "END" to the end of the dead ends is so it doesn't add any goal mirrors that happen to be randomized where the vanilla entrances to bosses are.
+			if mirrors[x[-1][4:]]['type'][0] == 2:
+				spoilerLogCompleted.append(x.copy())
+				print(x[-1])
+	spoilerLogLists.clear()
 
+	#Create the text spoiler now.
+	spoilerTextFile = open(spoilerLogFileName,'w')
+	for x in range(len(spoilerLogCompleted)):
+		#Header
+		if spoilerLogCompleted[x][-1] == "END Mnl10_BigGolem":
+			spoilerTextFile.write("KING GOLEM")
+		elif spoilerLogCompleted[x][-1] == "END Cab11_Moley":
+			spoilerTextFile.write("MOLEY")
+		elif spoilerLogCompleted[x][-1] == "END Mus24L_Kracko":
+			spoilerTextFile.write("LEFT KRACKO ENTRANCE")
+		elif spoilerLogCompleted[x][-1] == "END Mus24R_Kracko":
+			spoilerTextFile.write("RIGHT KRACKO ENTRANCE")
+		elif spoilerLogCompleted[x][-1] == "END Car22_MegaTitan":
+			spoilerTextFile.write("MEGA TITAN")
+		elif spoilerLogCompleted[x][-1] == "END Oli25_Gobbler":
+			spoilerTextFile.write("GOBBLER")
+		elif spoilerLogCompleted[x][-1] == "END Pep21_Wiz":
+			spoilerTextFile.write("WIZ")
+		elif spoilerLogCompleted[x][-1] == "END Rad22_DarkMetaKnight":
+			spoilerTextFile.write("???")
+		elif spoilerLogCompleted[x][-1] == "END Can27_CrazyHand":
+			spoilerTextFile.write("CRAZY+MASTER HAND")
+
+		for y in range(len(spoilerLogCompleted[x])-1):
+			#The mirrors.json doesn't have entries for cannons or warpstars.
+			if spoilerLogCompleted[x][y] == 'CANON1':
+				spoilerTextFile.write("\nRbr42 > Fused Canon")
+			elif spoilerLogCompleted[x][y] == 'CANON2':
+				spoilerTextFile.write("\nMus23L > Fused Canon")
+			elif spoilerLogCompleted[x][y] == 'CANON3':
+				spoilerTextFile.write("\nOli8 > Fused Canon")
+			elif spoilerLogCompleted[x][y] == 'CANON4':
+				spoilerTextFile.write("\nRad26 > Fused Canon")
+			elif spoilerLogCompleted[x][y] == 'WARPSTAR1':
+				spoilerTextFile.write("\nRbr7 > Warpstar")
+			elif spoilerLogCompleted[x][y] == 'WARPSTAR2':
+				spoilerTextFile.write("\nMnl20 > Warpstar")
+			elif spoilerLogCompleted[x][y] == 'WARPSTAR3':
+				spoilerTextFile.write("\nPep29 > Warpstar")
+			elif spoilerLogCompleted[x][y] == 'WARPSTAR4':
+				spoilerTextFile.write("\nMus7 > Warpstar")
+			elif spoilerLogCompleted[x][y] == 'WARPSTAR5':
+				spoilerTextFile.write("\nCan20 > Warpstar")
+			elif spoilerLogCompleted[x][y] == 'WARPSTAR6':
+				spoilerTextFile.write("\nCar14 > Warpstar")
+			else:
+				spoilerTextFile.write("\n" + spoilerLogCompleted[x][y][0:spoilerLogCompleted[x][y].find('_')] + " > " + mirrors[spoilerLogCompleted[x][y]]['desc'][0])
+				
+		spoilerTextFile.write("\n\n")
+	
 	print("Writing mirrors to ROM...")
 	for x in range(len(mirrorlist)):
 		#Location warps in Amazing Mirror have two places in the ROM to change, else it softlocks.
@@ -352,11 +502,11 @@ if __name__ == '__main__':
 		print("Error: Random seed is not a number.")
 		sys.exit()
 
-	if sys.argv[3] != 0 or sys.argv[3] != 1:
-		print("Error: Don't random hub mirrors setting must be a 0 or a 1 for Off on On.")
+	if int(sys.argv[3]) < 0 and int(sys.argv[3]) > 1:
+		print("Error: Random hub mirrors setting must be a 0 or a 1 for Off on On.")
 		sys.exit()
 		
-	if sys.argv[4] != 0 or sys.argv[4] != 1:
+	if int(sys.argv[4]) < 0 and int(sys.argv[4]) > 1:
 		print("Error: Total random setting must be a 0 or a 1 for Off on On.")
 		sys.exit()
 
