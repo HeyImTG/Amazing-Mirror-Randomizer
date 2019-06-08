@@ -1091,7 +1091,7 @@
 		"location": [850437408129],
 		"eightrom": [8728936],
 		"ninerom": [9443260],
-		"type": [0],
+		"type": [2],
 		"exits": ["DEADEND"],
 		"desc": ["One-Way"]
 	},
@@ -1331,7 +1331,7 @@
 		"location": [940598102401],
 		"eightrom": [8744248],
 		"ninerom": [9443788],
-		"type": [0],
+		"type": [2],
 		"exits": ["DEADEND"],
 		"desc": ["One-Way"]
 	},
@@ -2067,7 +2067,7 @@
 		"location": [292074820480],
 		"eightrom": [8780448],
 		"ninerom": [9445220],
-		"type": [0],
+		"type": [2],
 		"exits": ["DEADEND"],
 		"desc": ["One-Way"]
 	},
@@ -2075,7 +2075,7 @@
 		"location": [292075279232],
 		"eightrom": [8780462],
 		"ninerom": [9445228],
-		"type": [0],
+		"type": [2],
 		"exits": ["DEADEND"],
 		"desc": ["One-Way"]
 	},
@@ -2243,7 +2243,7 @@
 		"location": [691506710401],
 		"eightrom": [8793628],
 		"ninerom": [9445648],
-		"type": [0],
+		"type": [2],
 		"exits": ["DEADEND"],
 		"desc": ["One-Way"]
 	},
@@ -2287,12 +2287,12 @@
 		"exits": ["Can17B_Can18"],
 		"desc": ["Bottom Right One-Way"]
 	},
-	"Can3_Can12": {
+	"Can5Vitality_Can12": {
 		"location": [639967103489],
 		"eightrom": [8798436],
 		"ninerom": [9445756],
 		"type": [1],
-		"exits": ["Can12_Can11", "Can12_Can3"],
+		"exits": ["Can12_Can11", "Can12_Can5Vitality"],
 		"desc": ["Two-Way"]
 	},
 	"Can5Carbon_Can4": {
@@ -2619,7 +2619,7 @@
 		"location": [17214407041],
 		"eightrom": [8828488],
 		"ninerom": [9446432],
-		"type": [0],
+		"type": [2],
 		"exits": ["DEADEND"],
 		"desc": ["One-Way"]
 	},
@@ -2813,7 +2813,7 @@
 		"ninerom": [9446804],
 		"type": [1],
 		"exits": ["Cab5_Cab2", "Cab5_Cab6", "Cab5_Cab4", "Cab5_Cab10"],
-		"desc": ["Bottom Right Two-Way"]
+		"desc": ["Top Two-Way"]
 	},
 	"Cab10_Cab11": {
 		"location": [1047988994561],
@@ -3036,7 +3036,7 @@
 		"eightrom": [8853446],
 		"ninerom": [9447200],
 		"type": [0],
-		"exits": ["Oli5Top_Oli6"],
+		"exits": ["Oli5Top_Oli8"],
 		"desc": ["Right One-Way"]
 	},
 	"Oli4Bottom_Oli5Bottom": {
@@ -3044,7 +3044,7 @@
 		"eightrom": [8853460],
 		"ninerom": [9447208],
 		"type": [0],
-		"exits": ["Oli5Bottom_Oli8"],
+		"exits": ["Oli5Bottom_Oli6"],
 		"desc": ["One-Way"]
 	},
 	"Oli5Bottom_Oli6": {
@@ -3229,7 +3229,7 @@
 		"ninerom": [9447672],
 		"type": [0],
 		"exits": ["Oli20_Oli21"],
-		"desc": ["Right Two-Way"]
+		"desc": ["One-Way"]
 	},
 	"Oli28_Oli29": {
 		"location": [244864652033],
@@ -3283,7 +3283,7 @@
 		"location": [231979352962],
 		"eightrom": [8875140],
 		"ninerom": [9447776],
-		"type": [0],
+		"type": [2],
 		"exits": ["DEADEND"],
 		"desc": ["One-Way"]
 	},
@@ -3731,7 +3731,7 @@
 		"location": [554050912897],
 		"eightrom": [8910492],
 		"ninerom": [9448748],
-		"type": [0],
+		"type": [2],
 		"exits": ["DEADEND"],
 		"desc": ["One-Way"]
 	},
@@ -3843,7 +3843,7 @@
 		"location": [970697082754],
 		"eightrom": [8912928],
 		"ninerom": [9448960],
-		"type": [0],
+		"type": [2],
 		"exits": ["DEADEND"],
 		"desc": ["One-Way"]
 	},
@@ -4013,7 +4013,7 @@
 		"ninerom": [9449432],
 		"type": [0],
 		"exits": ["Car11G_Car11H"],
-		"desc": ["Right Tunnel"]
+		"desc": ["Middle Tunnel"]
 	},
 	"Car11A_Car11E": {
 		"location": [936337677314],
@@ -4021,7 +4021,7 @@
 		"ninerom": [9449440],
 		"type": [0],
 		"exits": ["Car11E_Car11F"],
-		"desc": ["Middle Tunnel"]
+		"desc": ["Right Tunnel"]
 	},
 	"Car11X_Car12": {
 		"location": [880506508034],
