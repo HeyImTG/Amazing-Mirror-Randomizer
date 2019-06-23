@@ -2,9 +2,7 @@
 import random
 import os
 import json
-import sys
-
-from amrShared import writeValueToRom, removeBrackets
+from amrShared import *
 #==================================================
 def findLinkedMirror(string):
 	underscore = string.find("_")
@@ -16,50 +14,53 @@ def removeBrackets(value):
 	value = value.strip("]")
 	return int(value)
 
-def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
+def randomizeMirrors(romFile,spoilerLogEnable,totalRandom,spoilerLogFileName):
 	mirrors = json.load(open('JSON\mirrors.json'))
 	mirrorlist = list(mirrors.keys())
 	
+	mirrorlist.remove("Rbr1_AbilityRoom")
+	mirrorlist.remove("AbilityRoom_Rbr1")
 	mirrorlist.remove("Int1_Int2")
 	mirrorlist.remove("Int2_Int3")
 	mirrorlist.remove("Int3_Int2")
 	mirrorlist.remove("Car19_Reset") #Cause it's fucking aggrivating
-	 
-	#Don't randomize the hub mirrors?
-	if hubMirrors == 0:
-		mirrorlist.remove("Rbr1_Rbr27")
-		mirrorlist.remove("Rbr27_Rbr1")
-		mirrorlist.remove("Rbr1_Can10")
-		mirrorlist.remove("Can10_Rbr1")
-		mirrorlist.remove("Rbr1_Cab8")
-		mirrorlist.remove("Cab8_Rbr1")
-		mirrorlist.remove("Rbr1_Pep5")
-		mirrorlist.remove("Pep5_Rbr1")
-		mirrorlist.remove("Rbr1_Mnl4")
-		mirrorlist.remove("Mnl4_Rbr1")
-		mirrorlist.remove("Rbr1_Rbr21")
-		mirrorlist.remove("Rbr21_Rbr1")
-		mirrorlist.remove("Rbr1_Rbr8")
-		mirrorlist.remove("Rbr8_Rbr1")
-		mirrorlist.remove("Rbr1_Cab19")
-		mirrorlist.remove("Cab19_Rbr1")
-		mirrorlist.remove("Rbr1_Rbr15")
-		mirrorlist.remove("Rbr15_Rbr1")
-		mirrorlist.remove("Rbr1_AbilityRoom")
-		mirrorlist.remove("AbilityRoom_Rbr1")
-		mirrorlist.remove("Rbr27_Mus12")
-		mirrorlist.remove("Mus12_Rbr27")
-		mirrorlist.remove("Rbr15_Cab17")
-		mirrorlist.remove("Cab17_Rbr15")
-		mirrorlist.remove("Rbr21_Car5")
-		mirrorlist.remove("Car5_Rbr21")
-		mirrorlist.remove("Cab19_Oli11")
-		mirrorlist.remove("Oli11_Cab19")
-		mirrorlist.remove("Cab8_Rad12")
-		mirrorlist.remove("Rad12_Cab8")
-		mirrorlist.remove("Pep5_Pep24")
-		mirrorlist.remove("Pep24_Pep5")
 
+	#I've removed the option to randomize hub mirrors. It's not fun, and it just caused problems I'm too lazy to fix.
+	mirrorlist.remove("Rbr1_Rbr27")
+	mirrorlist.remove("Rbr27_Rbr1")
+	mirrorlist.remove("Rbr1_Can10")
+	mirrorlist.remove("Can10_Rbr1")
+	mirrorlist.remove("Rbr1_Cab8")
+	mirrorlist.remove("Cab8_Rbr1")
+	mirrorlist.remove("Rbr1_Pep5")
+	mirrorlist.remove("Pep5_Rbr1")
+	mirrorlist.remove("Rbr1_Mnl4")
+	mirrorlist.remove("Mnl4_Rbr1")
+	mirrorlist.remove("Rbr1_Rbr21")
+	mirrorlist.remove("Rbr21_Rbr1")
+	mirrorlist.remove("Rbr1_Rbr8")
+	mirrorlist.remove("Rbr8_Rbr1")
+	mirrorlist.remove("Rbr1_Cab19")
+	mirrorlist.remove("Cab19_Rbr1")
+	mirrorlist.remove("Rbr1_Rbr15")
+	mirrorlist.remove("Rbr15_Rbr1")
+	mirrorlist.remove("Rbr27_Mus12")
+	mirrorlist.remove("Mus12_Rbr27")
+	mirrorlist.remove("Rbr15_Cab17")
+	mirrorlist.remove("Cab17_Rbr15")
+	mirrorlist.remove("Rbr21_Car5")
+	mirrorlist.remove("Car5_Rbr21")
+	mirrorlist.remove("Cab19_Oli11")
+	mirrorlist.remove("Oli11_Cab19")
+	mirrorlist.remove("Cab8_Rad12")
+	mirrorlist.remove("Rad12_Cab8")
+	mirrorlist.remove("Pep5_Pep24")
+	mirrorlist.remove("Pep24_Pep5")
+
+	#If we're generating a spoiler log, edit the random seed so that people can't cheat during races or something.
+	if spoilerLogEnable == 1:
+		random.seed(random.randint(0,999999))
+	
 	#Randomize warp stars.
 	print("Randomizing warp stars...")
 	warpstaradds = [ [ 8944554, 8944566 ], [ 8964698, 8964710 ], [ 8981034, 8981046 ], [ 8998010, 8998022 ], [ 9006434, 9006446 ], [ 9065234, 9065246 ] ]
@@ -88,7 +89,7 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
 		mirrorListRandomized.append('NULL')
 		
 	#Please note that these are the "Pre" random lists.
-	if totalRandom == 0:
+	if totalRandom == "Normal Mode":
 		twoWayPreRandomList = []
 		oneWayPreRandomList = []
 		deadEndTwoWayPreRandomList = []
@@ -100,7 +101,7 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
 	print("Determining dead ends...")
 	for x in mirrorlist:
 		if mirrors[x]['type'][0] == 1:
-			if totalRandom == 0:
+			if totalRandom == "Normal Mode":
 				if len(mirrors[x]['exits']) == 1:
 					deadEndTwoWayPreRandomList.append(x)
 				else:
@@ -109,18 +110,18 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
 				mirrorPreRandomList.append(x)
 		else:
 			if 'DEADEND' in mirrors[x]['exits']:
-				if totalRandom == 0:
+				if totalRandom == "Normal Mode":
 					deadEndOneWayPreRandomList.append(x)
 				else:
 					deadEndPreRandomList.append(x)
 			else:
-				if totalRandom == 0:
+				if totalRandom == "Normal Mode":
 					oneWayPreRandomList.append(x)
 				else:
 					mirrorPreRandomList.append(x)
 
 	print("Randomizing mirrors...")
-	if totalRandom == 0:
+	if totalRandom == "Normal Mode":
 		random.shuffle(twoWayPreRandomList)
 		random.shuffle(oneWayPreRandomList)
 		random.shuffle(deadEndTwoWayPreRandomList)
@@ -138,9 +139,9 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
 	for x in range(len(mirrorlist)):
 		mirrorlistRandomized.append('NULL')
 
-	if totalRandom == 1:
+	if totalRandom == "Total Random":
 		while len(queueList) > 0:
-			currentPick = random.choice(queueList)
+			currentPick = queueList[0]
 			
 			#Spoiler log stuff.
 			spoilerLogFirstExit = True #We only want to make a new list int he spoiler log if the path branches.
@@ -217,7 +218,7 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
 						mirrorlistRandomized[currentPickId] = deadEndPreRandomList[0]
 						#Remove this string from the spoiler log list.
 						spoilerLogCurrentIndex = spoilerLogLists.index(spoilerLogCurrentString)
-						spoilerLogLists[spoilerLogCurrentIndex].append(deadEndPreRandomList[0])
+						spoilerLogLists[spoilerLogCurrentIndex].append("END " + deadEndPreRandomList[0])
 						del deadEndPreRandomList[0]
 
 			#This means the exit isn't scheduled to be randomized. Mark it as already randomized, but don't do anything with mirrorlistRandomized.
@@ -236,11 +237,19 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
 								spoilerLogLists[-1].append(x)
 			
 			queueList.remove(currentPick)
+			
+			if len(queueList) == 0:
+				for x in range(len(mirrorlistRandomized)):
+					if mirrorlistRandomized[x] == "NULL":
+						if mirrorlist[x] in alreadyRandomized:
+							alreadyRandomized.remove(mirrorlist[x])
+							print("ERROR: FOUND NULL")
+						queueList.append(mirrorlist[x])
 
 	#Non-total random.
 	else:
 		while len(queueList) > 0:
-			currentPick = random.choice(queueList)
+			currentPick = queueList[0]
 		
 			#Spoiler log stuff.
 			spoilerLogFirstExit = True #We only want to make a new list int he spoiler log if the path branches.
@@ -363,9 +372,7 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
 							alreadyRandomized.append(mirrorlist[mirrorlist.index(findLinkedMirror(deadEndTwoWayPreRandomList[0]))])
 							
 							deadEndTwoWayPreRandomList.remove(findLinkedMirror(currentPick))
-							#Remove this string from the spoiler log list.
-							spoilerLogCurrentIndex = spoilerLogLists.index(spoilerLogCurrentString)
-							spoilerLogLists[spoilerLogCurrentIndex].append("END " + deadEndTwoWayPreRandomList[0])
+							#Don't bother adding this to the spoiler log cause we only care about one-way dead ends.
 							del deadEndTwoWayPreRandomList[0]
 					else:
 						if len(oneWayPreRandomList) > 0:
@@ -421,58 +428,59 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
 			#The reason we're adding "END" to the end of the dead ends is so it doesn't add any goal mirrors that happen to be randomized where the vanilla entrances to bosses are.
 			if mirrors[x[-1][4:]]['type'][0] == 2:
 				spoilerLogCompleted.append(x.copy())
-				print(x[-1])
+
 	spoilerLogLists.clear()
 
 	#Create the text spoiler now.
-	spoilerTextFile = open(spoilerLogFileName,'w')
-	for x in range(len(spoilerLogCompleted)):
-		#Header
-		if spoilerLogCompleted[x][-1] == "END Mnl10_BigGolem":
-			spoilerTextFile.write("KING GOLEM")
-		elif spoilerLogCompleted[x][-1] == "END Cab11_Moley":
-			spoilerTextFile.write("MOLEY")
-		elif spoilerLogCompleted[x][-1] == "END Mus24L_Kracko":
-			spoilerTextFile.write("LEFT KRACKO ENTRANCE")
-		elif spoilerLogCompleted[x][-1] == "END Mus24R_Kracko":
-			spoilerTextFile.write("RIGHT KRACKO ENTRANCE")
-		elif spoilerLogCompleted[x][-1] == "END Car22_MegaTitan":
-			spoilerTextFile.write("MEGA TITAN")
-		elif spoilerLogCompleted[x][-1] == "END Oli25_Gobbler":
-			spoilerTextFile.write("GOBBLER")
-		elif spoilerLogCompleted[x][-1] == "END Pep21_Wiz":
-			spoilerTextFile.write("WIZ")
-		elif spoilerLogCompleted[x][-1] == "END Rad22_DarkMetaKnight":
-			spoilerTextFile.write("???")
-		elif spoilerLogCompleted[x][-1] == "END Can27_CrazyHand":
-			spoilerTextFile.write("CRAZY+MASTER HAND")
+	if spoilerLogEnable == 1:
+		spoilerTextFile = open(spoilerLogFileName,'w')
+		for x in range(len(spoilerLogCompleted)):
+			#Header
+			if spoilerLogCompleted[x][-1] == "END Mnl10_BigGolem":
+				spoilerTextFile.write("KING GOLEM")
+			elif spoilerLogCompleted[x][-1] == "END Cab11_Moley":
+				spoilerTextFile.write("MOLEY")
+			elif spoilerLogCompleted[x][-1] == "END Mus24L_Kracko":
+				spoilerTextFile.write("LEFT KRACKO ENTRANCE")
+			elif spoilerLogCompleted[x][-1] == "END Mus24R_Kracko":
+				spoilerTextFile.write("RIGHT KRACKO ENTRANCE")
+			elif spoilerLogCompleted[x][-1] == "END Car22_MegaTitan":
+				spoilerTextFile.write("MEGA TITAN")
+			elif spoilerLogCompleted[x][-1] == "END Oli25_Gobbler":
+				spoilerTextFile.write("GOBBLER")
+			elif spoilerLogCompleted[x][-1] == "END Pep21_Wiz":
+				spoilerTextFile.write("WIZ")
+			elif spoilerLogCompleted[x][-1] == "END Rad22_DarkMetaKnight":
+				spoilerTextFile.write("???")
+			elif spoilerLogCompleted[x][-1] == "END Can27_CrazyHand":
+				spoilerTextFile.write("CRAZY+MASTER HAND")
 
-		for y in range(len(spoilerLogCompleted[x])-1):
-			#The mirrors.json doesn't have entries for cannons or warpstars.
-			if spoilerLogCompleted[x][y] == 'CANON1':
-				spoilerTextFile.write("\nRbr42 > Fused Canon")
-			elif spoilerLogCompleted[x][y] == 'CANON2':
-				spoilerTextFile.write("\nMus23L > Fused Canon")
-			elif spoilerLogCompleted[x][y] == 'CANON3':
-				spoilerTextFile.write("\nOli8 > Fused Canon")
-			elif spoilerLogCompleted[x][y] == 'CANON4':
-				spoilerTextFile.write("\nRad26 > Fused Canon")
-			elif spoilerLogCompleted[x][y] == 'WARPSTAR1':
-				spoilerTextFile.write("\nRbr7 > Warpstar")
-			elif spoilerLogCompleted[x][y] == 'WARPSTAR2':
-				spoilerTextFile.write("\nMnl20 > Warpstar")
-			elif spoilerLogCompleted[x][y] == 'WARPSTAR3':
-				spoilerTextFile.write("\nPep29 > Warpstar")
-			elif spoilerLogCompleted[x][y] == 'WARPSTAR4':
-				spoilerTextFile.write("\nMus7 > Warpstar")
-			elif spoilerLogCompleted[x][y] == 'WARPSTAR5':
-				spoilerTextFile.write("\nCan20 > Warpstar")
-			elif spoilerLogCompleted[x][y] == 'WARPSTAR6':
-				spoilerTextFile.write("\nCar14 > Warpstar")
-			else:
-				spoilerTextFile.write("\n" + spoilerLogCompleted[x][y][0:spoilerLogCompleted[x][y].find('_')] + " > " + mirrors[spoilerLogCompleted[x][y]]['desc'][0])
-				
-		spoilerTextFile.write("\n\n")
+			for y in range(len(spoilerLogCompleted[x])-1):
+				#The mirrors.json doesn't have entries for cannons or warpstars.
+				if spoilerLogCompleted[x][y] == 'CANON1':
+					spoilerTextFile.write("\nRbr42 > Fused Canon")
+				elif spoilerLogCompleted[x][y] == 'CANON2':
+					spoilerTextFile.write("\nMus23L > Fused Canon")
+				elif spoilerLogCompleted[x][y] == 'CANON3':
+					spoilerTextFile.write("\nOli8 > Fused Canon")
+				elif spoilerLogCompleted[x][y] == 'CANON4':
+					spoilerTextFile.write("\nRad26 > Fused Canon")
+				elif spoilerLogCompleted[x][y] == 'WARPSTAR1':
+					spoilerTextFile.write("\nRbr7 > Warpstar")
+				elif spoilerLogCompleted[x][y] == 'WARPSTAR2':
+					spoilerTextFile.write("\nMnl20 > Warpstar")
+				elif spoilerLogCompleted[x][y] == 'WARPSTAR3':
+					spoilerTextFile.write("\nPep29 > Warpstar")
+				elif spoilerLogCompleted[x][y] == 'WARPSTAR4':
+					spoilerTextFile.write("\nMus7 > Warpstar")
+				elif spoilerLogCompleted[x][y] == 'WARPSTAR5':
+					spoilerTextFile.write("\nCan20 > Warpstar")
+				elif spoilerLogCompleted[x][y] == 'WARPSTAR6':
+					spoilerTextFile.write("\nCar14 > Warpstar")
+				else:
+					spoilerTextFile.write("\n" + spoilerLogCompleted[x][y][0:spoilerLogCompleted[x][y].find('_')] + " > " + mirrors[spoilerLogCompleted[x][y]]['desc'][0])
+					
+			spoilerTextFile.write("\n\n")
 	
 	print("Writing mirrors to ROM...")
 	for x in range(len(mirrorlist)):
@@ -485,32 +493,3 @@ def randomizeMirrors(romFile,hubMirrors,totalRandom,spoilerLogFileName):
 		for z in mirrors[mirrorlist[x]]['ninerom']:
 			writeValueToRom(romFile,z,(location >> 8),4)
 #==================================================
-if __name__ == '__main__':
-	#Make sure we have our arguments and validation and whatever.
-	if len(sys.argv) < 5:
-		print("Error: invalid number of arguments. Usage: amrMusic.py \"[path to file]\" [seed number] [don't random hub mirrors (0/1)] [total random mode (0/1)]")
-		sys.exit()
-
-	romFile = sys.argv[1] #The first argument is the path to our randomized rom.
-	if os.path.isfile(romFile) == False:
-		print("Error: ROM file given does not exist. Did you surround the path in \"\" quotes?")
-		sys.exit()
-
-	try:
-		randomSeed = int(sys.argv[2]) #The second argument is the seed.
-	except ValueError:
-		print("Error: Random seed is not a number.")
-		sys.exit()
-
-	if int(sys.argv[3]) < 0 and int(sys.argv[3]) > 1:
-		print("Error: Random hub mirrors setting must be a 0 or a 1 for Off on On.")
-		sys.exit()
-		
-	if int(sys.argv[4]) < 0 and int(sys.argv[4]) > 1:
-		print("Error: Total random setting must be a 0 or a 1 for Off on On.")
-		sys.exit()
-
-	katamrom = open(romFile,'rb+')
-	random.seed(randomSeed)
-	randomizeMirrors(katamrom,sys.argv[3],sys.argv[4])
-	katamrom.close()

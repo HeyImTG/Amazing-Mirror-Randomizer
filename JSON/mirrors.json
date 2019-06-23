@@ -148,7 +148,7 @@
 		"eightrom": [8674246],
 		"ninerom": [9441484],
 		"type": [1],
-		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"],
+		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1", "Rbr1_Rbr27"],
 		"desc": ["Bottom Left Two-Way"]
 	},
 	"Rbr28_Rbr29": {
@@ -292,7 +292,7 @@
 		"eightrom": [8679018],
 		"ninerom": [9441728],
 		"type": [1],
-		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"],
+		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1", "Rbr1_Rbr27"],
 		"desc": ["Right Two-Way"]
 	},
 	"Rbr26_Rbr25": {
@@ -572,7 +572,7 @@
 		"eightrom": [8692156],
 		"ninerom": [9442196],
 		"type": [1],
-		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"],
+		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1", "Rbr1_Rbr15"],
 		"desc": ["Right Two-Way"]
 	},
 	"Rbr16_Rbr17": {
@@ -612,7 +612,7 @@
 		"eightrom": [8694748],
 		"ninerom": [9442260],
 		"type": [1],
-		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"],
+		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1", "Rbr1_Rbr15"],
 		"desc": ["Left Two-Way"]
 	},
 	"Rbr14_Rbr13": {
@@ -748,7 +748,7 @@
 		"eightrom": [8706378],
 		"ninerom": [9442548],
 		"type": [1],
-		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"],
+		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1", "Rbr1_Rbr21"],
 		"desc": ["Left Two-Way"]
 	},
 	"Rbr20_Rbr21": {
@@ -756,7 +756,7 @@
 		"eightrom": [8706656],
 		"ninerom": [9442568],
 		"type": [1],
-		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"],
+		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1", "Rbr1_Rbr21"],
 		"desc": ["Top Left Two-Way"]
 	},
 	"Rbr20_Rbr19": {
@@ -1116,7 +1116,7 @@
 		"eightrom": [8730248],
 		"ninerom": [9443320],
 		"type": [1],
-		"exits": ["Mnl14_Mnl7Bottom", "Mnl14_Mnl5Bottom", "Mnl14_Mnl15"],
+		"exits": ["Mnl14_Mnl7Bottom", "Mnl14_Mnl5Bottom", "Mnl14_Mnl15", "Rbr1_Mnl4"],
 		"desc": ["Top Left Two-Way"]
 	},
 	"Mnl5Bottom_Mnl2": {
@@ -1228,7 +1228,7 @@
 		"eightrom": [8735230],
 		"ninerom": [9443540],
 		"type": [1],
-		"exits": ["Mnl4_Mnl3", "Mnl4_Mnl5", "Mnl4_Rbr1"],
+		"exits": ["Mnl4_Mnl3", "Mnl4_Mnl5", "Mnl4_Rbr1", "Rbr1_Mnl4"],
 		"desc": ["Right Two-Way"]
 	},
 	"Mnl3_Mnl2": {
@@ -1460,7 +1460,7 @@
 		"eightrom": [8749752],
 		"ninerom": [9444012],
 		"type": [1],
-		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"],
+		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1", "Rbr1_Pep5"],
 		"desc": ["Top Left Two-Way"]
 	},
 	"Pep3_Pep2Fish": {
@@ -1540,7 +1540,7 @@
 		"eightrom": [8752848],
 		"ninerom": [9444156],
 		"type": [1],
-		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"],
+		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1", "Rbr1_Pep5"],
 		"desc": ["Bottom Two-Way"]
 	},
 	"Pep6_Pep7Boxer": {
@@ -1916,7 +1916,7 @@
 		"eightrom": [8773482],
 		"ninerom": [9444952],
 		"type": [1],
-		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1"],
+		"exits": ["Pep5_Pep6", "Pep5_Pep3", "Pep5_Rbr1", "Rbr1_Pep5"],
 		"desc": ["First Peppermint Switch"]
 	},
 	"Mus1_Mus3": {
@@ -2236,7 +2236,7 @@
 		"eightrom": [8793524],
 		"ninerom": [9445628],
 		"type": [1],
-		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1"],
+		"exits": ["Rbr27_Rbr26", "Rbr27_Rbr28", "Rbr27_Rbr1", "Rbr1_Rbr27"],
 		"desc": ["Rainbow North Switch"]
 	},
 	"Can27_CrazyHand": {
@@ -2356,7 +2356,7 @@
 		"eightrom": [8802148],
 		"ninerom": [9445876],
 		"type": [1],
-		"exits": ["Can10_Can6", "Can10_Can11", "Can10_Rbr1"],
+		"exits": ["Can10_Can6", "Can10_Can11", "Can10_Rbr1", "Rbr1_Can10"],
 		"desc": ["Top Left Two-Way"]
 	},
 	"Can6_Can7": {
@@ -2420,7 +2420,7 @@
 		"eightrom": [8805536],
 		"ninerom": [9445976],
 		"type": [1],
-		"exits": ["Can10_Can6", "Can10_Can11", "Can10_Rbr1"],
+		"exits": ["Can10_Can6", "Can10_Can11", "Can10_Rbr1", "Rbr1_Can10"],
 		"desc": ["Bottom Left Two-Way"]
 	},
 	"Can11_Can12": {
@@ -2692,7 +2692,7 @@
 		"eightrom": [8834382],
 		"ninerom": [9446588],
 		"type": [1],
-		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"],
+		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1", "Rbr1_Cab8"],
 		"desc": ["Bottom Left Two-Way"]
 	},
 	"Cab4_Cab9": {
@@ -2860,7 +2860,7 @@
 		"eightrom": [8840616],
 		"ninerom": [9446884],
 		"type": [1],
-		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"],
+		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1", "Rbr1_Cab19"],
 		"desc": ["Right Two-Way"]
 	},
 	"Cab9_Cab10Lower": {
@@ -2948,7 +2948,7 @@
 		"eightrom": [8852170],
 		"ninerom": [9447064],
 		"type": [1],
-		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1"],
+		"exits": ["Rbr15_Rbr16", "Rbr15_Rbr14", "Rbr15_Rbr1", "Rbr1_Rbr15"],
 		"desc": ["Rainbow South Switch"]
 	},
 	"Cab19_Cab15": {
@@ -2988,7 +2988,7 @@
 		"eightrom": [8852686],
 		"ninerom": [9447128],
 		"type": [1],
-		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"],
+		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1", "Rbr1_Cab19"],
 		"desc": ["Left Two-Way"]
 	},
 	"Oli1_Oli2": {
@@ -3276,7 +3276,7 @@
 		"eightrom": [8874946],
 		"ninerom": [9447756],
 		"type": [1],
-		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1"],
+		"exits": ["Cab19_Cab15", "Cab19_Oli1", "Cab19_Rbr1", "Rbr1_Cab19"],
 		"desc": ["Cabbage East Switch"]
 	},
 	"Oli25_Gobbler": {
@@ -3516,7 +3516,7 @@
 		"eightrom": [8893064],
 		"ninerom": [9448212],
 		"type": [1],
-		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"],
+		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1", "Rbr1_Cab8"],
 		"desc": ["Right Two-Way"]
 	},
 	"Rad1_Rad2": {
@@ -3676,7 +3676,7 @@
 		"eightrom": [8903814],
 		"ninerom": [9448584],
 		"type": [1],
-		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1"],
+		"exits": ["Cab8_Rad1", "Cab8_Cab4", "Cab8_Rbr1", "Rbr1_Cab8"],
 		"desc": ["Cabbage West Switch"]
 	},
 	"Rad26_Rad28": {
@@ -3836,7 +3836,7 @@
 		"eightrom": [8912790],
 		"ninerom": [9448940],
 		"type": [1],
-		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1"],
+		"exits": ["Rbr21_Rbr20", "Rbr21_Rbr22", "Rbr21_Rbr1", "Rbr1_Rbr21"],
 		"desc": ["Rainbow East Switch"]
 	},
 	"Car22_MegaTitan": {

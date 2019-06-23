@@ -62,13 +62,13 @@ def randomizePalette():
 	#Now we need to make the palette for the 1UP and HP HUD elements. We'll have to frankenstien colours from the previous colourstring.
 	colourstring = int.from_bytes(colourlist[1],'big')
 	colourstring = colourstring << 16
-	colourstring += int.from_bytes(colourlist[2],'big')
-	colourstring = colourstring << 16
 	colourstring += int.from_bytes(colourlist[3],'big')
+	colourstring = colourstring << 16
+	colourstring += int.from_bytes(colourlist[5],'big')
 	colourstring = colourstring << 16
 	colourstring += int.from_bytes(colourlist[8],'big')
 	colourstring = colourstring << 16
-	colourstring += int.from_bytes(colourlist[5],'big')
+	colourstring += int.from_bytes(colourlist[4],'big')
 	colourstring = colourstring << 16
 	colourstring += int.from_bytes(colourlist[6],'big')
 	colourpalettes.append(colourstring)
@@ -78,8 +78,8 @@ def randomizeSpray(romFile):
 	print("Randomizing spray colours...")
 	currentPalette = randomizePalette()
 	writeValueToRom(romFile,4846172,currentPalette[0]>>32,20) #Normal palette. We don't want to use the last two colours, since that's for UFO only. 
-	writeValueToRom(romFile,4849948,currentPalette[0],24)
-	writeValueToRom(romFile,3343094,currentPalette[1],12)
+	writeValueToRom(romFile,4849948,currentPalette[0],24) #UFO palette.
+	writeValueToRom(romFile,3343094,currentPalette[1],12) #HUD palettes (lives + vitality).
 	for x in range(13):
 		currentPalette = randomizePalette()
 		writeValueToRom(romFile,4846300+(x*32),currentPalette[0]>>32,20)

@@ -10,6 +10,7 @@ from amrItems import *
 from amrStands import *
 from amrSpray import *
 from amrMusic import *
+from amrMinibosses import *
 #==================================================
 #This gets around how py2exe handles included files.
 def resource_path(relative_path):
@@ -38,15 +39,12 @@ def openDirectory():
 		entry_path_to_output.insert(END,filepath)
 
 #Update the advanced "Random Mirror" settings checkboxes.
-def checkMirrorSettings():
-	if mirrorcheck.get() == 0:
-		check_randomize_totalrandom.deselect()
-		check_randomize_hubmirrors.deselect()
-		check_randomize_totalrandom.config(state=DISABLED)
-		check_randomize_hubmirrors.config(state=DISABLED)
+def checkMirrorSettings(mirrorSetting):
+	if mirrorSetting == "Don't Randomize":
+		check_randomize_spoilerlog.deselect()
+		check_randomize_spoilerlog.config(state=DISABLED)
 	else:
-		check_randomize_totalrandom.config(state=NORMAL)
-		check_randomize_hubmirrors.config(state=NORMAL)
+		check_randomize_spoilerlog.config(state=NORMAL)
 
 #Produce a random seed number.
 def getRandomSeed():
@@ -64,6 +62,10 @@ def validateSettings():
 	if os.path.isfile("JSON\mirrors.json") == False:
 		is_valid = False
 		warning_label.config(text="Error: mirrors.json not found!", fg="#FF0000")
+		
+	if os.path.isfile("JSON\minibosses.json") == False:
+		is_valid = False
+		warning_label.config(text="Error: minibosses.json not found!", fg="#FF0000")
 	
 	try:
 		optionSeedNumber = int(entry_seed_number.get())
@@ -101,9 +103,9 @@ def validateSettings():
 def generateROM(originalrom,randomizedrom):
 	optionSeedNumber = entry_seed_number.get()
 	optionMirrors = mirrorcheck.get()
-	optionMirrorsDontRandomizeHub = mirrorhub.get()
-	optionMirrorsTotalRandom = mirrortotalcheck.get()
+	optionMirrorsGenerateSpoilerLog = mirrorspoiler.get()
 	optionItems = itemcheck.get()
+	optionMinibosses = minibosscheck.get()
 	optionAbilityStands = abilitycheck.get()
 	optionMusic = musiccheck.get()
 	optionColours = palettecheck.get()
@@ -114,23 +116,35 @@ def generateROM(originalrom,randomizedrom):
 	#We're going to use this a lot so that players can race the same seed if they don't want to play with a certain option on.
 	random.seed(optionSeedNumber)
 	
-	#Randomize the items?
-	if optionMirrors == 1:
+	#Randomize the mirrors?
+	if optionMirrors != "Don't Randomize":
 		if not os.path.isdir("Spoiler Logs"):
 			os.system('mkdir "Spoiler Logs"')
-		randomizeMirrors(katamrom,optionMirrorsDontRandomizeHub,optionMirrorsTotalRandom,"Spoiler Logs\\Amazing Mirror " + str(optionSeedNumber) + ".txt")
+		randomizeMirrors(katamrom,optionMirrorsGenerateSpoilerLog,optionMirrors,"Spoiler Logs\\Amazing Mirror " + str(optionSeedNumber) + ".txt")
 	
 	random.seed(optionSeedNumber)
 	
 	#Randomize the items?
-	if optionItems == 1:
-		randomizeItems(katamrom)
+	if optionItems != "Don't Randomize":
+		randomizeItems(katamrom, itemcheck)
 	
+	random.seed(optionSeedNumber)
+	
+	#Randomize the minibosses?
+	if optionMinibosses != "Don't Randomize":
+		randomizeMinibosses(katamrom,0,optionMinibosses)
+	
+	random.seed(optionSeedNumber)
+		
+	#Randomize the music?
+	if optionMusic != "Don't Randomize":
+		randomizeMusic(katamrom, optionMusic)
+
 	random.seed(optionSeedNumber)
 	
 	#Randomize the ability stands?
-	if optionAbilityStands == 1:
-		randomizeStands(katamrom)
+	if optionAbilityStands != "Don't Randomize":
+		randomizeStands(katamrom, abilitycheck)
 	
 	random.seed(optionSeedNumber)
 	
@@ -141,8 +155,8 @@ def generateROM(originalrom,randomizedrom):
 	random.seed(optionSeedNumber)
 		
 	#Randomize the music?
-	if optionMusic == 1:
-		randomizeMusic(katamrom)
+	if optionMusic != "Don't Randomize":
+		randomizeMusic(katamrom, optionMusic)
 
 	print("Done.")
 	warning_label.config(text="ROM randomized. Enjoy your game!", fg="#000000")
@@ -159,20 +173,26 @@ randomizer_window.iconbitmap(resource_path("katamrando.ico"))
 randomizer_window["padx"] = 14
 randomizer_window["pady"] = 14
 
-abilitycheck = IntVar()
-itemcheck = IntVar()
-mirrorcheck = IntVar()
-mirrortotalcheck = IntVar()
-mirrorhub = IntVar()
-musiccheck = IntVar()
+mirrorcheck = StringVar()
+mirrorspoiler = IntVar()
+itemcheck = StringVar()
+minibosscheck = StringVar()
+abilitycheck = StringVar()
+musiccheck = StringVar()
 palettecheck = IntVar()
+
+mirrorcheck.set("Don't Randomize")
+itemcheck.set("Don't Randomize")
+minibosscheck.set("Don't Randomize")
+abilitycheck.set("Don't Randomize")
+musiccheck.set("Don't Randomize")
 
 #Set up our frames.
 frame_get_rom = Frame(randomizer_window)
 frame_get_rom.pack()
 frame_seed_number = Frame(randomizer_window)
 frame_seed_number.pack()
-frame_options = Frame(randomizer_window)
+frame_options = Frame(randomizer_window, borderwidth=2, relief=RIDGE, padx=4, pady=4)
 frame_options.pack()
 frame_generate_rom = Frame(randomizer_window)
 frame_generate_rom.pack()
@@ -208,28 +228,36 @@ random_seed_button = Button(frame_seed_number, text="?", command=getRandomSeed)
 random_seed_button.grid(row=0,column=2)
 
 #Options section.
-check_randomize_mirrors = Checkbutton(frame_options, text="Randomize mirrors.", variable=mirrorcheck, command=checkMirrorSettings)
-check_randomize_mirrors.grid(row=0, column=0, sticky=W)
+Label(frame_options, text="Mirrors:").grid(row=0, column=0, sticky=E)
+check_randomize_mirrors = OptionMenu(frame_options, mirrorcheck, "Don't Randomize", "Normal Mode", "Total Random", command=checkMirrorSettings)
+check_randomize_mirrors.configure(width=19)
+check_randomize_mirrors.grid(row=0, column=1, sticky=W)
 
-Label(frame_options, text="Mirror options:").grid(row=1,column=0,sticky=W)
+check_randomize_spoilerlog = Checkbutton(frame_options, text="Generate spoiler log.", variable=mirrorspoiler, state=DISABLED)
+check_randomize_spoilerlog.grid(row=1, column=0, columnspan=2)
 
-check_randomize_totalrandom = Checkbutton(frame_options, text="Total random mode.", variable=mirrortotalcheck, state=DISABLED)
-check_randomize_totalrandom.grid(row=2, column=0, sticky=W)
+Label(frame_options, text="Chests and items:").grid(row=2, column=0, sticky=E)
+check_randomize_items = OptionMenu(frame_options, itemcheck, "Don't Randomize", "Shuffle Items", "Randomize Items")
+check_randomize_items.configure(width=19)
+check_randomize_items.grid(row=2, column=1, sticky=W)
 
-check_randomize_hubmirrors = Checkbutton(frame_options, text="Randomize hub mirrors.", variable=mirrorhub, state=DISABLED)
-check_randomize_hubmirrors.grid(row=3, column=0, sticky=W)
+Label(frame_options, text="Minibosses:").grid(row=3, column=0, sticky=E)
+check_randomize_miniboss = OptionMenu(frame_options, minibosscheck, "Don't Randomize", "Shuffle Minibosses", "Randomize Minibosses")
+check_randomize_miniboss.configure(width=19)
+check_randomize_miniboss.grid(row=3, column=1, sticky=W)
 
-check_randomize_items = Checkbutton(frame_options, text="Randomize chests and items.", variable=itemcheck)
-check_randomize_items.grid(row=0, column=1, sticky=W)
+Label(frame_options, text="Ability stands:").grid(row=4, column=0, sticky=E)
+check_randomize_stands = OptionMenu(frame_options, abilitycheck, "Don't Randomize", "Shuffle Stands", "Randomize Stands")
+check_randomize_stands.configure(width=19)
+check_randomize_stands.grid(row=4, column=1, sticky=W)
 
-check_randomize_stands = Checkbutton(frame_options, text="Randomize ability stands.", variable=abilitycheck)
-check_randomize_stands.grid(row=1, column=1, sticky=W)
+check_randomize_palettes = Checkbutton(frame_options, text="Randomize spray palettes.", variable=palettecheck)
+check_randomize_palettes.grid(row=5, column=0, columnspan=2)
 
-check_randomize_music = Checkbutton(frame_options, text="Randomize spray palettes.", variable=palettecheck)
-check_randomize_music.grid(row=2, column=1, sticky=W)
-
-check_randomize_music = Checkbutton(frame_options, text="Randomize music.", variable=musiccheck)
-check_randomize_music.grid(row=3, column=1, sticky=W)
+Label(frame_options, text="Music:").grid(row=6, column=0, sticky=E)
+check_randomize_music = OptionMenu(frame_options, musiccheck, "Don't Randomize", "Shuffle Music", "Turn Music Off")
+check_randomize_music.configure(width=19)
+check_randomize_music.grid(row=6, column=1, sticky=W)
 
 #Generate ROM section.
 generate_button = Button(frame_generate_rom, text="Generate ROM",command=validateSettings)
@@ -238,6 +266,6 @@ generate_button.grid(row=0, pady=6)
 warning_label = Label(frame_generate_rom, text="Please view the readme for info about the different settings.")
 warning_label.grid(row=1)
 
-Label(frame_generate_rom, text="KatAM Randomizer V.05-28-2019").grid(row=2)
+Label(frame_generate_rom, text="KatAM Randomizer Test Branch").grid(row=2)
 
 randomizer_window.mainloop()

@@ -2,12 +2,10 @@
 #The data that keeps track of which rooms have treasures in them on the in-game map are intertwined with the mirror locations list.
 #If we're randomizing the chests, we need to essentially make our own list in order for everything to work squeaky clean.
 #It's ugly but it works.
-import sys
 import random
 import os
 import json
-
-from amrShared import writeValueToRom, removeBrackets
+from amrShared import *
 #==================================================
 def chestlistAppend(list,room,value):
 	if list[room][0] == 0:
@@ -15,7 +13,7 @@ def chestlistAppend(list,room,value):
 	else:
 		list[room].append(value)
 
-def randomizeItems(romFile):
+def randomizeItems(romFile,randomMode):
 	print("Randomizing chests and items...")
 	items = json.load(open('JSON\items.json'))
 	itemlist = []
@@ -24,83 +22,105 @@ def randomizeItems(romFile):
 	itemroom = []
 	chestlist = []
 	itemindex = 0
+	itemRandomDistribution = [104449309671424, 104449309671424, 104449309671424, 104449309671424, 105548821299200, 105548821299200, 105548821299200, 105548821299200, 106648332926976, 106648332926976, 106648332926976, 107747844554752, 107747844554752, 108847356182528, 108847356182528, 109946867810304, 111046379438080]
 	
 	for x in range(287):
 		chestlist.append([0])
 	
 	for x in items["BigChest"]["item"]:
-		itemlist.append(removeBrackets(x))
+		itemlist.append(x)
 	for x in items["BigChest"]["address"]:
-		itemadd.append(removeBrackets(x))
+		itemadd.append(x)
 	for x in items["BigChest"]["xy"]:
-		itemxy.append(removeBrackets(x))
+		itemxy.append(x)
 	for x in items["BigChest"]["room"]:
-		itemroom.append(removeBrackets(x))
+		itemroom.append(x)
 
 	for x in items["SmallChest"]["item"]:
-		itemlist.append(removeBrackets(x))
+		itemlist.append(x)
 	for x in items["SmallChest"]["address"]:
-		itemadd.append(removeBrackets(x))
+		itemadd.append(x)
 	for x in items["SmallChest"]["xy"]:
-		itemxy.append(removeBrackets(x))
+		itemxy.append(x)
 	for x in items["SmallChest"]["room"]:
-		itemroom.append(removeBrackets(x))
+		itemroom.append(x)
 		
 	for x in items["Cherry"]["address"]:
-		itemlist.append(removeBrackets(items["Cherry"]["item"]))
-		itemadd.append(removeBrackets(x))
+		if randomMode == "Shuffle Items":
+			itemlist.append(items["Cherry"]["item"][0])
+		else:
+			itemlist.append(random.choice(itemRandomDistribution))
+		itemadd.append(x)
 	for x in items["Cherry"]["xy"]:
-		itemxy.append(removeBrackets(x))
+		itemxy.append(x)
 	for x in items["Cherry"]["room"]:
-		itemroom.append(removeBrackets(x))
+		itemroom.append(x)
 		
 	for x in items["Drink"]["address"]:
-		itemlist.append(removeBrackets(items["Drink"]["item"]))
-		itemadd.append(removeBrackets(x))
+		if randomMode == "Shuffle Items":
+			itemlist.append(items["Drink"]["item"][0])
+		else:
+			itemlist.append(random.choice(itemRandomDistribution))
+		itemadd.append(x)
 	for x in items["Drink"]["xy"]:
-		itemxy.append(removeBrackets(x))
+		itemxy.append(x)
 	for x in items["Drink"]["room"]:
-		itemroom.append(removeBrackets(x))
+		itemroom.append(x)
 	
 	for x in items["Meat"]["address"]:
-		itemlist.append(removeBrackets(items["Meat"]["item"]))
-		itemadd.append(removeBrackets(x))
+		if randomMode == "Shuffle Items":
+			itemlist.append(items["Meat"]["item"][0])
+		else:
+			itemlist.append(random.choice(itemRandomDistribution))
+		itemadd.append(x)
 	for x in items["Meat"]["xy"]:
-		itemxy.append(removeBrackets(x))
+		itemxy.append(x)
 	for x in items["Meat"]["room"]:
-		itemroom.append(removeBrackets(x))
+		itemroom.append(x)
 		
 	for x in items["Tomato"]["address"]:
-		itemlist.append(removeBrackets(items["Tomato"]["item"]))
-		itemadd.append(removeBrackets(x))
+		if randomMode == "Shuffle Items":
+			itemlist.append(items["Tomato"]["item"][0])
+		else:
+			itemlist.append(random.choice(itemRandomDistribution))
+		itemadd.append(x)
 	for x in items["Tomato"]["xy"]:
-		itemxy.append(removeBrackets(x))
+		itemxy.append(x)
 	for x in items["Tomato"]["room"]:
-		itemroom.append(removeBrackets(x))
+		itemroom.append(x)
 		
 	for x in items["Battery"]["address"]:
-		itemlist.append(removeBrackets(items["Battery"]["item"]))
-		itemadd.append(removeBrackets(x))
+		if randomMode == "Shuffle Items":
+			itemlist.append(items["Battery"]["item"][0])
+		else:
+			itemlist.append(random.choice(itemRandomDistribution))
+		itemadd.append(x)
 	for x in items["Battery"]["xy"]:
-		itemxy.append(removeBrackets(x))
+		itemxy.append(x)
 	for x in items["Battery"]["room"]:
-		itemroom.append(removeBrackets(x))
+		itemroom.append(x)
 		
 	for x in items["1Up"]["address"]:
-		itemlist.append(removeBrackets(items["1Up"]["item"]))
-		itemadd.append(removeBrackets(x))
+		if randomMode == "Shuffle Items":
+			itemlist.append(items["1Up"]["item"][0])
+		else:
+			itemlist.append(random.choice(itemRandomDistribution))
+		itemadd.append(x)
 	for x in items["1Up"]["xy"]:
-		itemxy.append(removeBrackets(x))
+		itemxy.append(x)
 	for x in items["1Up"]["room"]:
-		itemroom.append(removeBrackets(x))
+		itemroom.append(x)
 		
 	for x in items["Candy"]["address"]:
-		itemlist.append(removeBrackets(items["Candy"]["item"]))
-		itemadd.append(removeBrackets(x))
+		if randomMode == "Shuffle Items":
+			itemlist.append(items["Candy"]["item"][0])
+		else:
+			itemlist.append(random.choice(itemRandomDistribution))
+		itemadd.append(x)
 	for x in items["Candy"]["xy"]:
-		itemxy.append(removeBrackets(x))
+		itemxy.append(x)
 	for x in items["Candy"]["room"]:
-		itemroom.append(removeBrackets(x))
+		itemroom.append(x)
 		
 	random.shuffle(itemlist)
 
@@ -204,28 +224,3 @@ def randomizeItems(romFile):
 			#Rangers lead the way.
 			eof = True
 #==================================================
-if __name__ == '__main__':
-	#Make sure we have our arguments and validation and whatever.
-	if len(sys.argv) < 5:
-		print("Error: invalid number of arguments. Usage: amrMusic.py \"[path to file]\" [seed number] [don't random hub mirrors (0/1)] [total random mode (0/1)]")
-		sys.exit()
-
-	romFile = sys.argv[1] #The first argument is the path to our randomized rom.
-	if os.path.isfile(romFile) == False:
-		print("Error: ROM file given does not exist. Did you surround the path in \"\" quotes?")
-		sys.exit()
-
-	try:
-		randomSeed = int(sys.argv[2]) #The second argument is the seed.
-	except ValueError:
-		print("Error: Random seed is not a number.")
-		sys.exit()
-
-	if os.path.isfile('JSON\items.json') == False:
-		print("Error: Could not find items.json in the JSON folder.")
-		sys.exit()
-
-	katamrom = open(romFile,'rb+')
-	random.seed(randomSeed)
-	randomizeMirrors(katamrom)
-	katamrom.close()

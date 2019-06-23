@@ -1,0 +1,290 @@
+{
+	"Rbr_Frosty": {
+		"address": 8968330,
+		"object": 56,
+		"groundxy": 2684372992,
+		"airxy": 436219904,
+		"groundcam": 7405512,
+		"aircam": 16187360,
+		"facing": 1
+	},
+	"Pep_Frosty": {
+		"address": 8981062,
+		"object": 56,
+		"groundxy": 3087132672,
+		"airxy": 3355566080,
+		"groundcam": 3735448,
+		"aircam": 2686880,
+		"facing": 0
+	},
+	"Oli_Frosty": {
+		"address": 9033090,
+		"object": 56,
+		"groundxy": 402745344,
+		"airxy": 2013349888,
+		"groundcam": 8978344,
+		"aircam": 1048520,
+		"facing": 0
+	},
+	"Pep_Bonkers": {
+		"address": 8969234,
+		"object": 57,
+		"groundxy": 1476446209,
+		"airxy": 536907777,
+		"groundcam": 13172632,
+		"aircam": 16777120,
+		"facing": 1
+	},
+	"Can_Bonkers": {
+		"address": 9011038,
+		"object": 57,
+		"groundxy": 3087132672,
+		"airxy": 3623987200,
+		"groundcam": 6881176,
+		"aircam": 4784088,
+		"facing": 0
+	},
+	"Cab_BonkersA": {
+		"address": 9011038,
+		"object": 57,
+		"groundxy": 3221336064,
+		"airxy": 3355541504,
+		"groundcam": 3211168,
+		"aircam": 2686920,
+		"facing": 0
+	},
+	"Cab_BonkersB": {
+		"address": 9015350,
+		"object": 57,
+		"groundxy": 2281777153,
+		"airxy": 3355570176,
+		"groundcam": 8978344,
+		"aircam": 4784096,
+		"facing": 0
+	},
+	"Rad_Bonkers": {
+		"address": 9019718,
+		"object": 57,
+		"groundxy": 536942594,
+		"airxy": 3087067137,
+		"groundcam": 9502632,
+		"aircam": 16318424,
+		"facing": 1
+	},
+	"Rbr_Batafire": {
+		"address": 8957922,
+		"object": 58,
+		"groundxy": 671096834,
+		"airxy": 671096834,
+		"groundcam": 14942149,
+		"aircam": 14942149,
+		"facing": 1
+	},
+	"Mnl_Batafire": {
+		"address": 8971714,
+		"object": 58,
+		"groundxy": 3758125056,
+		"airxy": 3758112768,
+		"groundcam": 2162576,
+		"aircam": 2162624,
+		"facing": 0
+	},
+	"Mus_Batafire": {
+		"address": 8999642,
+		"object": 58,
+		"groundxy": 3489761280,
+		"airxy": 3489767424,
+		"groundcam": 3211208,
+		"aircam": 3211184,
+		"facing": 0
+	},
+	"Cab_Batafire": {
+		"address": 9018994,
+		"object": 58,
+		"groundxy": 1073747970,
+		"airxy": 536877058,
+		"groundcam": 13696984,
+		"aircam": 15794136,
+		"facing": 1
+	},
+	"Pep_PhanPhan": {
+		"address": 8986878,
+		"object": 59,
+		"groundxy": 4026761216,
+		"airxy": 3624093696,
+		"groundcam": 13696912,
+		"aircam": 15269832,
+		"facing": 1
+	},
+	"Mus_PhanPhan": {
+		"address": 8997778,
+		"object": 59,
+		"groundxy": 3623878657,
+		"airxy": 2818623488,
+		"groundcam": 13172656,
+		"aircam": 16318440,
+		"facing": 1
+	},
+	"Can_PhanPhan": {
+		"address": 9003238,
+		"object": 59,
+		"groundxy": 2416082944,
+		"airxy": 1879195648,
+		"groundcam": 13172624,
+		"aircam": 15269840,
+		"facing": 1
+	},
+	"Car_PhanPhan": {
+		"address": 9061746,
+		"object": 59,
+		"groundxy": 1073790977,
+		"airxy": 402685953,
+		"groundcam": 13696944,
+		"aircam": 16318448,
+		"facing": 1
+	},
+	"Rbr_BoxBoxer": {
+		"address": 8958326,
+		"object": 60,
+		"groundxy": 939593729,
+		"airxy": 134338560,
+		"groundcam": 12124048,
+		"aircam": 15269832,
+		"facing": 1
+	},
+	"Pep_BoxBoxer": {
+		"address": 8976758,
+		"object": 60,
+		"groundxy": 939581440,
+		"airxy": 402696192,
+		"groundcam": 15269792,
+		"aircam": 16777176,
+		"facing": 0
+	},
+	"Mus_BoxBoxer": {
+		"address": 8998074,
+		"object": 60,
+		"groundxy": 2684375041,
+		"airxy": 3758102529,
+		"groundcam": 8454048,
+		"aircam": 4259800,
+		"facing": 0
+	},
+	"Can_BoxBoxer": {
+		"address": 9006894,
+		"object": 60,
+		"groundxy": 536979456,
+		"airxy": 402751488,
+		"groundcam": 13696952,
+		"aircam": 14221264,
+		"facing": 1
+	},
+	"Cab_BoxBoxer": {
+		"address": 9022522,
+		"object": 60,
+		"groundxy": 805335040,
+		"airxy": 134234112,
+		"groundcam": 14745504,
+		"aircam": 16777176,
+		"facing": 1
+	},
+	"Mnl_BoxyA": {
+		"address": 8962294,
+		"object": 61,
+		"groundxy": 3087077377,
+		"airxy": 2684477440,
+		"groundcam": 14221216,
+		"aircam": 14745536,
+		"facing": 1
+	},
+	"Mnl_BoxyB": {
+		"address": 8968106,
+		"object": 61,
+		"groundxy": 1342195713,
+		"airxy": 805310465,
+		"groundcam": 14745496,
+		"aircam": 192,
+		"facing": 1
+	},
+	"Mus_Boxy": {
+		"address": 8992770,
+		"object": 61,
+		"groundxy": 2013562880,
+		"airxy": 2550419456,
+		"groundcam": 5832616,
+		"aircam": 3735504,
+		"facing": 0
+	},
+	"Oli_Boxy": {
+		"address": 9033674,
+		"object": 61,
+		"groundxy": 3087073281,
+		"airxy": 3489781760,
+		"groundcam": 3735472,
+		"aircam": 1114072,
+		"facing": 0
+	},
+	"Rad_Boxy": {
+		"address": 9052798,
+		"object": 61,
+		"groundxy": 2416078848,
+		"airxy": 3221370880,
+		"groundcam": 5308304,
+		"aircam": 2162632,
+		"facing": 0
+	},
+	"Rbr_MasterHand": {
+		"address": 8951018,
+		"object": 62,
+		"groundxy": 2818637825,
+		"airxy": 3489728513,
+		"groundcam": 4784080,
+		"aircam": 2162632,
+		"facing": 0
+	},
+	"Can_MasterHand": {
+		"address": 9008238,
+		"object": 62,
+		"groundxy": 2952876032,
+		"airxy": 3489740800,
+		"groundcam": 4784040,
+		"aircam": 2162632,
+		"facing": 0
+	},
+	"Rad_MasterHand": {
+		"address": 9046450,
+		"object": 62,
+		"groundxy": 2013362176,
+		"airxy": 3221243904,
+		"groundcam": 1638296,
+		"aircam": 13696968,
+		"facing": 1
+	},
+	"Pep_Bombar": {
+		"address": 8982294,
+		"object": 63,
+		"groundxy": 2281713664,
+		"airxy": 2281713664,
+		"groundcam": 15269840,
+		"aircam": 15269840,
+		"facing": 1
+	},
+	"Mus_BombarA": {
+		"address": 8989350,
+		"object": 63,
+		"groundxy": 1074219008,
+		"airxy": 1074214912,
+		"groundcam": 1114048,
+		"aircam": 1114064,
+		"facing": 0
+	},
+	"Mus_BombarB": {
+		"address": 9000658,
+		"object": 63,
+		"groundxy": 2282043392,
+		"airxy": 2282043392,
+		"groundcam": 1638344,
+		"aircam": 1638344,
+		"facing": 0
+	}
+}
