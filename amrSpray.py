@@ -1,9 +1,7 @@
 #This script randomzies the colour palettes of each of the spray paints.
-import sys
 import random
 import os
-
-from amrShared import writeValueToRom, removeBrackets
+from amrShared import *
 #==================================================
 def randomizePalette():
 	#Kirby's palette is made up of 11 16-bit colours:
@@ -12,7 +10,11 @@ def randomizePalette():
 	#	3 colours for the feet.
 
 	colourlist = []
+	colourpalettes = []
 	colourstring = 0
+	
+	bodyShadingScale = random.randint(75,90) / 100
+	feetShadingScale = random.randint(70,85) / 100
 	
 	#To create more vibrant colours, lower "lowColourMax" and raise "highColourMin".
 	lowColourMax = 10
@@ -29,9 +31,9 @@ def randomizePalette():
 	colourlist.append((round(randr) << 10) + (round(randg) << 5) + round(randb))
 
 	for x in range(6):
-		randr *= 0.9
-		randg *= 0.9
-		randb *= 0.9
+		randr *= bodyShadingScale
+		randg *= bodyShadingScale
+		randb *= bodyShadingScale
 		colourlist.append((round(randr) << 10) + (round(randg) << 5) + round(randb))
 		
 	seemsgood = False
@@ -43,11 +45,11 @@ def randomizePalette():
 			seemsgood = True
 
 	colourlist.append((round(randr) << 10) + (round(randg) << 5) + round(randb))
-
-	for x in range(2):
-		randr *= 0.8
-		randg *= 0.8
-		randb *= 0.8
+	
+	for x in range(4):
+		randr *= feetShadingScale
+		randg *= feetShadingScale
+		randb *= feetShadingScale
 		colourlist.append((round(randr) << 10) + (round(randg) << 5) + round(randb))
 
 	for x in range(len(colourlist)):
@@ -55,31 +57,32 @@ def randomizePalette():
 		colourlist[x] = colourlist[x].to_bytes(2,'little')
 		colourstring += int.from_bytes(colourlist[x],'big')
 	
-	return colourstring
+	colourpalettes.append(colourstring)
+	
+	#Now we need to make the palette for the 1UP and HP HUD elements. We'll have to frankenstien colours from the previous colourstring.
+	colourstring = int.from_bytes(colourlist[1],'big')
+	colourstring = colourstring << 16
+	colourstring += int.from_bytes(colourlist[3],'big')
+	colourstring = colourstring << 16
+	colourstring += int.from_bytes(colourlist[5],'big')
+	colourstring = colourstring << 16
+	colourstring += int.from_bytes(colourlist[8],'big')
+	colourstring = colourstring << 16
+	colourstring += int.from_bytes(colourlist[4],'big')
+	colourstring = colourstring << 16
+	colourstring += int.from_bytes(colourlist[6],'big')
+	colourpalettes.append(colourstring)
+	return colourpalettes
 
 def randomizeSpray(romFile):
 	print("Randomizing spray colours...")
-	writeValueToRom(romFile,4846172,randomizePalette(),20)
+	currentPalette = randomizePalette()
+	writeValueToRom(romFile,4846172,currentPalette[0]>>32,20) #Normal palette. We don't want to use the last two colours, since that's for UFO only. 
+	writeValueToRom(romFile,4849948,currentPalette[0],24) #UFO palette.
+	writeValueToRom(romFile,3343094,currentPalette[1],12) #HUD palettes (lives + vitality).
 	for x in range(13):
-		writeValueToRom(romFile,4846300+(x*32),randomizePalette(),20)
+		currentPalette = randomizePalette()
+		writeValueToRom(romFile,4846300+(x*32),currentPalette[0]>>32,20)
+		writeValueToRom(romFile,4850076+(x*32),currentPalette[0],24)
+		writeValueToRom(romFile,3343126+(x*32),currentPalette[1],12)
 #==================================================
-if __name__ == '__main__':
-	#Make sure we have our arguments and validation and whatever.
-	if len(sys.argv) < 3:
-		print("Error: invalid number of arguments. Usage: amrSpray.py \"[path to file]\" [seed number]")
-		sys.exit()
-
-	romFile = sys.argv[1] #The first argument is the path to our randomized rom.
-	if os.path.isfile(romFile) == False:
-		print("Error: ROM file given does not exist. Did you surround the path in \"\" quotes?")
-		sys.exit()
-	try:
-		randomSeed = int(sys.argv[2]) #The second argument is the seed.
-	except ValueError:
-		print("Error: Random seed is not a number.")
-		sys.exit()
-
-	katamrom = open(romFile,'rb+')
-	random.seed(randomSeed)
-	randomizeSpray(katamrom)
-	katamrom.close()
