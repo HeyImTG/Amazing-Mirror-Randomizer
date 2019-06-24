@@ -18,7 +18,7 @@ Currently you're able to randomize these settings:
 - Randomize minibosses: Exactly what it says on the tin. Also has "shuffle" and "randomize" options.
 - Randomize ability stands: Feel like having wheel and smash in the first Peppermint Palace switch room? You might if you're lucky enough. Also has "shuffle" and "randomize" options.
 - Randomize spray palletes: This changes how each of the spray paint colours look. It can lead to some particularily...funky looks for Kirby.
-- Randomize music: Nothing screams "final boss showdown" lounder than the main menu loop. Or, you can turn the music off and listen to your own jams without having to mute the game.
+- Randomize music: Nothing screams "final boss showdown" louder than the main menu loop. Or, you can turn the music off and listen to your own jams without having to mute the game.
 
 Once you've checked off what you want to randomize, hit the Generate button, and play your ROM!
 
