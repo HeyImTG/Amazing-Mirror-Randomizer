@@ -11,6 +11,7 @@ from amrStands import *
 from amrSpray import *
 from amrMusic import *
 from amrMinibosses import *
+from amrAbilities import *
 #==================================================
 #This gets around how py2exe handles included files.
 def resource_path(relative_path):
@@ -109,6 +110,7 @@ def generateROM(originalrom,randomizedrom):
 	optionAbilityStands = abilitycheck.get()
 	optionMusic = musiccheck.get()
 	optionColours = palettecheck.get()
+	optionEnemies = enemycheck.get()
 	
 	os.system('copy "%s" "%s"' % (originalrom,randomizedrom))
 	katamrom = open(randomizedrom,'rb+')
@@ -132,7 +134,7 @@ def generateROM(originalrom,randomizedrom):
 	
 	#Randomize the minibosses?
 	if optionMinibosses != "Don't Randomize":
-		randomizeMinibosses(katamrom,0,optionMinibosses)
+		randomizeMinibosses(katamrom,1,optionMinibosses)
 	
 	random.seed(optionSeedNumber)
 		
@@ -157,6 +159,12 @@ def generateROM(originalrom,randomizedrom):
 	#Randomize the music?
 	if optionMusic != "Don't Randomize":
 		randomizeMusic(katamrom, optionMusic)
+	
+	random.seed(optionSeedNumber)
+	
+	#Randomize enemy abilities?
+	if optionEnemies != "Don't Randomize":
+		 randomizeAbilities(katamrom, optionMusic)
 
 	print("Done.")
 	warning_label.config(text="ROM randomized. Enjoy your game!", fg="#000000")
@@ -180,12 +188,14 @@ minibosscheck = StringVar()
 abilitycheck = StringVar()
 musiccheck = StringVar()
 palettecheck = IntVar()
+enemycheck = StringVar()
 
 mirrorcheck.set("Don't Randomize")
 itemcheck.set("Don't Randomize")
 minibosscheck.set("Don't Randomize")
 abilitycheck.set("Don't Randomize")
 musiccheck.set("Don't Randomize")
+enemycheck.set("Don't Randomize")
 
 #Set up our frames.
 frame_get_rom = Frame(randomizer_window)
@@ -241,23 +251,28 @@ check_randomize_items = OptionMenu(frame_options, itemcheck, "Don't Randomize", 
 check_randomize_items.configure(width=19)
 check_randomize_items.grid(row=2, column=1, sticky=W)
 
-Label(frame_options, text="Minibosses:").grid(row=3, column=0, sticky=E)
+Label(frame_options, text="Copy abilities:").grid(row=3, column=0, sticky=E)
+check_randomize_items = OptionMenu(frame_options, enemycheck, "Don't Randomize", "Shuffle Abilities", "Randomize Abilities")
+check_randomize_items.configure(width=19)
+check_randomize_items.grid(row=3, column=1, sticky=W)
+
+Label(frame_options, text="Minibosses:").grid(row=4, column=0, sticky=E)
 check_randomize_miniboss = OptionMenu(frame_options, minibosscheck, "Don't Randomize", "Shuffle Minibosses", "Randomize Minibosses")
 check_randomize_miniboss.configure(width=19)
-check_randomize_miniboss.grid(row=3, column=1, sticky=W)
+check_randomize_miniboss.grid(row=4, column=1, sticky=W)
 
-Label(frame_options, text="Ability stands:").grid(row=4, column=0, sticky=E)
+Label(frame_options, text="Ability stands:").grid(row=5, column=0, sticky=E)
 check_randomize_stands = OptionMenu(frame_options, abilitycheck, "Don't Randomize", "Shuffle Stands", "Randomize Stands")
 check_randomize_stands.configure(width=19)
-check_randomize_stands.grid(row=4, column=1, sticky=W)
+check_randomize_stands.grid(row=5, column=1, sticky=W)
 
 check_randomize_palettes = Checkbutton(frame_options, text="Randomize spray palettes.", variable=palettecheck)
-check_randomize_palettes.grid(row=5, column=0, columnspan=2)
+check_randomize_palettes.grid(row=6, column=0, columnspan=2)
 
-Label(frame_options, text="Music:").grid(row=6, column=0, sticky=E)
+Label(frame_options, text="Music:").grid(row=7, column=0, sticky=E)
 check_randomize_music = OptionMenu(frame_options, musiccheck, "Don't Randomize", "Shuffle Music", "Turn Music Off")
 check_randomize_music.configure(width=19)
-check_randomize_music.grid(row=6, column=1, sticky=W)
+check_randomize_music.grid(row=7, column=1, sticky=W)
 
 #Generate ROM section.
 generate_button = Button(frame_generate_rom, text="Generate ROM",command=validateSettings)
